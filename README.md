@@ -1,5 +1,15 @@
 # MAGA Operations - Political Intelligence Hub
 
+**IMPORTANT NOTE: Active Development & User Responsibility**
+
+This application is under **active and rapid development**. Updates may occur frequently (potentially hourly/daily). While we strive for stability, you may encounter bugs, incomplete features, or require adjustments after pulling updates.
+
+Users are expected to leverage **[Cursor IDE's](https://cursor.sh/) AI capabilities** to assist with potential setup issues, understanding recent code changes, or adapting parts of the application as needed.
+
+**By using this application, you acknowledge its developmental nature and accept all risks and responsibilities associated with its use.** The developers provide this tool as-is, without warranties. Please ensure you regularly pull the latest changes from the GitHub repository (`git pull origin main`) before starting work.
+
+---
+
 ## Core Purpose
 
 The primary goal of MAGA Operations is to serve as an **AI-driven political intelligence hub**. It focuses on identifying, tracking, and **analyzing the relationships and interactions between key political figures (Politicians) and online commentators/public figures (Influencers)**. The application aims to synthesize data related to:
