@@ -100,6 +100,57 @@ python scripts/db/initialize_db.py
 npm run dev
 ```
 
+## Quick Setup for Beginners (Windows)
+
+This section provides a simplified setup process for users on Windows who may be less familiar with development tools. This uses an automated script.
+
+**Prerequisites:**
+
+1.  **Git:** You need Git installed to download the project code. If you don't have it, download and install it from [git-scm.com](https://git-scm.com/download/win). During installation, accept the default settings.
+2.  **Internet Connection:** Required to download dependencies.
+
+**Steps:**
+
+1.  **Download the Code:**
+    *   Open **Git Bash** (which should have been installed with Git). You can find it in your Start Menu.
+    *   Navigate to where you want to store the project (e.g., your Documents folder). You can use the `cd` command (e.g., `cd Documents`).
+    *   Run the following command to download the project:
+        ```bash
+        git clone https://github.com/meeeeeooooowwwwwww/MAGA_Operations.git
+        ```
+    *   A folder named `MAGA_Operations` will be created. Close Git Bash.
+
+2.  **Run the Setup Script:**
+    *   Open File Explorer and navigate into the `MAGA_Operations` folder you just downloaded.
+    *   Find the file named `setup.bat`.
+    *   **Double-click `setup.bat`** to run it.
+    *   A command prompt window will appear and show the progress. It will check for Python and Node.js, install all necessary software components (dependencies), and set up the initial database.
+    *   **Important:** If the script asks for permission to install software or shows security warnings, you may need to approve them.
+    *   The script will tell you if Python or Node.js are missing and provide links to install them. If this happens, install the missing software (accepting default settings is usually fine), then **run `setup.bat` again**.
+    *   Wait for the script to finish. It will say "Setup Complete!" and pause.
+You can close the window after reviewing any messages.
+
+3.  **Configure API Keys (Optional but Recommended):**
+    *   Inside the `MAGA_Operations` folder, find the file `.env.example`.
+    *   Make a **copy** of this file and **rename the copy** to `.env` (just `.env`, with no file extension shown sometimes).
+    *   Open the new `.env` file with a text editor (like Notepad).
+    *   Follow the instructions inside the file to replace `"YOUR_GOOGLE_AI_API_KEY"` and `"YOUR_TWITTER_BEARER_TOKEN"` with your actual API keys. You need these for AI analysis and fetching recent tweets.
+    *   Save and close the file.
+
+4.  **Run the Application:**
+    *   In the `MAGA_Operations` folder, find the file named `Run MAGA Ops` (this might be created by `npm start` or you might need to create a shortcut later - for now, use the command line if comfortable).
+    *   *Alternatively, for now:* Open a Command Prompt (search for `cmd` in the Start Menu), navigate to the `MAGA_Operations` folder using `cd MAGA_Operations`, and run:
+        ```bash
+        npm start
+        ```
+    *   The application should launch.
+
+**Troubleshooting:**
+
+*   If the setup script fails, read the error messages carefully. They often indicate the problem (e.g., missing Python/Node, internet connection issue).
+*   Ensure you have Python and Node.js added to your system's PATH environment variable if you installed them manually.
+The installers usually offer an option to do this automatically.
+
 ## Utility Modules
 
 The project includes several utility modules to streamline development:
