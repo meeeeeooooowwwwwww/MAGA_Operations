@@ -22,13 +22,21 @@ This project is built to work best with an AI-powered code editor called Cursor.
 *   Download and install Cursor from: https://cursor.sh/
 *   Follow the installation instructions on their website.
 
-**Step 2: Open This Project in Cursor**
+**Step 2: Download the Project Code**
+
+*   Go to the project's GitHub page: https://github.com/meeeeeooooowwwwwww/MAGA_Operations
+*   Click the green **`< > Code`** button near the top right.
+*   In the dropdown menu that appears, click **"Download ZIP"**.
+*   Save the ZIP file to a location you can easily find (like your Desktop or Downloads folder).
+*   Find the downloaded ZIP file (it will likely be named `MAGA_Operations-main.zip`) and **unzip** it. Right-click the file and choose "Extract All..." or use a program like 7-Zip. This will create a folder named `MAGA_Operations-main` containing the project code.
+
+**Step 3: Open This Project in Cursor**
 
 *   Once Cursor is installed, open it.
 *   Go to "File" > "Open Folder..." (or similar option).
-*   Navigate to and select the `MAGA_Operations` folder where you downloaded this project.
+*   Navigate to and select the **`MAGA_Operations-main` folder** that you just unzipped.
 
-**Step 3: Ask Cursor AI for Help!**
+**Step 4: Ask Cursor AI for Help!**
 
 Now that the project is open in Cursor, you can use its AI chat to finish the setup.
 
@@ -39,11 +47,13 @@ Now that the project is open in Cursor, you can use its AI chat to finish the se
 
 *   The AI will read the project files (`setup.bat`, `README.md`, `.env.example`) and walk you through the remaining steps, often automating commands for you.
 
-**Step 4: API Keys**
+**Step 5: API Keys**
 
 *   The AI assistant (or the `README.md` / `setup.bat` instructions) will mention needing API keys (like for Google AI and Twitter) for certain features.
 *   You'll need to create a `.env` file (by copying `.env.example`) and paste your keys into it. The AI can help you with this process too.
 
 **That's it!** By using Cursor's AI, you leverage the detailed setup instructions already prepared in `setup.bat` and `README.md` without needing to manually run every command yourself.
+
+**Keeping Updated:** Since you downloaded a ZIP, you won't automatically get updates. To get the latest version later, you'll need to download the ZIP file again or ask the Cursor AI to help you set up Git to pull updates.
 
 Good luck! 
