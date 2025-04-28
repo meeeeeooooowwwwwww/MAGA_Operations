@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="500" height="100" viewBox="0 0 500 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with camo pattern -->
+  <defs>
+    <pattern id="camouflagePattern" patternUnits="userSpaceOnUse" width="100" height="100">
+      <path d="M30,10 Q45,30 30,50 Q15,70 30,90 L10,90 Q0,70 10,50 Q20,30 10,10 Z" fill="#4a6d51" opacity="0.7"/>
+      <path d="M80,10 Q95,30 80,50 Q65,70 80,90 L60,90 Q50,70 60,50 Q70,30 60,10 Z" fill="#62725d" opacity="0.5"/>
+      <path d="M55,10 Q70,30 55,50 Q40,70 55,90 L35,90 Q25,70 35,50 Q45,30 35,10 Z" fill="#8c6e4a" opacity="0.4"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background rectangle with pattern -->
+  <rect width="500" height="100" fill="#ffd1e0"/>
+  <rect width="500" height="100" fill="url(#camouflagePattern)" opacity="0.3"/>
+  
+  <!-- Border elements -->
+  <rect x="0" y="0" width="500" height="10" fill="#ff6b9d"/>
+  <rect x="0" y="90" width="500" height="10" fill="#ff6b9d"/>
+  
+  <!-- Stars -->
+  <polygon points="20,20 25,30 15,30" fill="#ff6b9d"/>
+  <polygon points="480,20 485,30 475,30" fill="#ff6b9d"/>
+  <polygon points="20,80 25,70 15,70" fill="#ff6b9d"/>
+  <polygon points="480,80 485,70 475,70" fill="#ff6b9d"/>
+  
+  <!-- Main title -->
+  <text x="250" y="40" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#d94a7a" text-transform="uppercase">POLITICIAN FINDER</text>
+  
+  <!-- Subtitle with military styling -->
+  <text x="250" y="65" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#4a6d51">TACTICAL INTELLIGENCE SYSTEM</text>
+  
+  <!-- Decorative elements -->
+  <line x1="100" y1="50" x2="400" y2="50" stroke="#ff6b9d" stroke-width="2" stroke-dasharray="5,3"/>
+  
+  <!-- Military insignia elements -->
+  <circle cx="70" cy="50" r="15" fill="none" stroke="#4a6d51" stroke-width="2"/>
+  <polygon points="70,40 73,47 81,47 74,52 77,59 70,54 63,59 66,52 59,47 67,47" fill="#ff6b9d"/>
+  
+  <circle cx="430" cy="50" r="15" fill="none" stroke="#4a6d51" stroke-width="2"/>
+  <polygon points="430,40 433,47 441,47 434,52 437,59 430,54 423,59 426,52 419,47 427,47" fill="#ff6b9d"/>
+</svg> 

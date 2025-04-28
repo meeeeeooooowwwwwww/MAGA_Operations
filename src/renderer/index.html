@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src https://fonts.gstatic.com https://cdnjs.cloudflare.com; connect-src 'self' http://localhost:*;">
+    <title>MAGA Operations</title>
+    <link rel="stylesheet" href="shared-styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Main app content -->
+        <div class="main-content">
+            <!-- Sidebar Navigation -->
+            <div class="sidebar">
+                <div class="sidebar-section">
+                    <h3 class="sidebar-title">Navigation</h3>
+                </div>
+                <div class="sidebar-actions">
+                    <button id="nav-home-btn" class="sidebar-btn active" data-tooltip="Go to main dashboard">
+                        <i class="fas fa-home"></i> Home
+                    </button>
+                    <button id="nav-resources-btn" class="sidebar-btn" data-tooltip="Access research resources and materials">
+                        <i class="fas fa-book"></i> Resources
+                    </button>
+                    <button id="nav-actions-btn" class="sidebar-btn" data-tooltip="View and manage current operations">
+                        <i class="fas fa-bullhorn"></i> Operations
+                    </button>
+                </div>
+
+                <div class="sidebar-divider"></div>
+                
+                <div class="sidebar-section">
+                    <h3 class="sidebar-title">Intelligence Tools</h3>
+                </div>
+                <div class="sidebar-actions">
+                    <button id="explore-politicians-btn" class="sidebar-btn" data-tooltip="Search and research political targets">
+                        <i class="fas fa-user-tie"></i> Political Targets
+                    </button>
+                    <button id="explore-influencers-btn" class="sidebar-btn" data-tooltip="Search and research media influencers">
+                        <i class="fas fa-broadcast-tower"></i> Media Targets
+                    </button>
+                    <button id="evaluate-claims-btn" class="sidebar-btn" data-tooltip="Analyze and evaluate statements for strategic response">
+                        <i class="fas fa-check-circle"></i> Claim Analysis
+                    </button>
+                    <button id="check-warroom-action-btn" class="sidebar-btn" data-tooltip="View current WarRoom campaigns and actions">
+                        <i class="fas fa-fire"></i> WarRoom Ops
+                    </button>
+                </div>
+                
+                <div class="sidebar-divider"></div>
+                
+                <div class="sidebar-section">
+                    <h3 class="sidebar-title">Message Generator</h3>
+                </div>
+                <div id="message-generator-actions" class="sidebar-actions">
+                    <button id="generate-social-btn" class="sidebar-btn" data-tooltip="Generate social media content for strategic communication">
+                        <i class="fas fa-hashtag"></i> Social Post
+                    </button>
+                    <button id="generate-email-btn" class="sidebar-btn" data-tooltip="Create targeted email communications to contacts">
+                        <i class="fas fa-envelope"></i> Email
+                    </button>
+                    <button id="generate-letter-btn" class="sidebar-btn" data-tooltip="Generate formal letters to officials or organizations">
+                        <i class="fas fa-file-alt"></i> Letter
+                    </button>
+                    <button id="generate-press-release-btn" class="sidebar-btn" data-tooltip="Create professional press releases for media distribution">
+                        <i class="fas fa-newspaper"></i> Press Release
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Content Area -->
+            <div class="content-area">
+                <!-- Welcome View with Politician Search -->
+                <div id="welcome-view" class="view active">
+                    <h1>MAGA Operations Center</h1>
+                    <p>Welcome to the MAGA Operations Center. Use the tools below to research targets, evaluate claims, and organize operations.</p>
+                    
+                    <div id="politicians-container">
+                        <h2>Target Research</h2>
+                        <div id="politician-search-container">
+                            <input type="text" id="politician-search-input" placeholder="Search targets by name, state, or party...">
+                            <div id="politician-search-indicator"></div>
+                            <i class="fas fa-search search-icon"></i>
+                        </div>
+                        <ul id="politicians-list"></ul>
+                    </div>
+                </div>
+                
+                <!-- Politician Detail View -->
+                <div id="politician-detail" class="view">
+                    <div class="detail-header">
+                        <div class="back-button" id="back-button">
+                            <i class="fas fa-arrow-left"></i> Back to list
+                        </div>
+                    </div>
+                    
+                    <!-- Entity Tabs -->
+                    <div class="entity-tabs">
+                        <button class="tab-button active" data-tab="profile" data-tooltip="View basic information about this target">
+                            <i class="fas fa-user"></i> Target Profile
+                        </button>
+                        <button class="tab-button" data-tab="activity" data-tooltip="View recent activity and data analysis">
+                            <i class="fas fa-chart-line"></i> Intel
+                        </button>
+                        <button class="tab-button" data-tab="contacts" data-tooltip="Access contact methods and generate communications">
+                            <i class="fas fa-address-book"></i> Contact Ops
+                        </button>
+                    </div>
+                    
+                    <!-- Tab Content Containers -->
+                    <div id="profile-tab" class="tab-content active">
+                        <div id="detail-content">
+                            <!-- Profile content will be populated dynamically -->
+                        </div>
+                    </div>
+                    
+                    <div id="activity-tab" class="tab-content">
+                        <div class="section-title">Recent Activity</div>
+                        <div class="activity-timeline">
+                            <div class="empty-state">
+                                <i class="fas fa-info-circle"></i>
+                                <p>No recent activity data available</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div id="contacts-tab" class="tab-content">
+                        <div class="section-title">Contact Information</div>
+                        <div id="contact-details">
+                            <!-- Contact information will be populated dynamically -->
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Claim Evaluation View -->
+                <div id="claim-evaluation-view" class="view">
+                    <h1>Claim Evaluation</h1>
+                    <p>Input a claim to evaluate its validity and generate appropriate responses.</p>
+                    <!-- Claim evaluation content will go here -->
+                </div>
+                
+                <!-- Resources View -->
+                <div id="resources-view" class="view">
+                    <h1>Resources</h1>
+                    <p>Access important information and resources for your campaign.</p>
+                    <!-- Resources content will go here -->
+                </div>
+                
+                <!-- Actions View -->
+                <div id="actions-view" class="view">
+                    <h1>Daily Actions</h1>
+                    <p>Organize and track action items from WarRoom command briefs and more.</p>
+                    <!-- Actions content will go here -->
+                </div>
+
+                <!-- Influencer View -->
+                <div id="influencer-view" class="view">
+                    <h1>Media Target Research</h1>
+                    <p>Research and analyze media influencers for strategic communications.</p>
+                    
+                    <div id="influencers-container">
+                        <h2>Media Target Research</h2>
+                        <div id="influencer-search-container">
+                            <input type="text" id="influencer-search-input" placeholder="Search media targets by name, platform, or outlet...">
+                            <div id="influencer-search-indicator"></div>
+                            <i class="fas fa-search search-icon"></i>
+                        </div>
+                        <ul id="influencers-list"></ul>
+                    </div>
+                </div>
+
+                <!-- Influencer Detail View -->
+                <div id="influencer-detail" class="view">
+                    <div class="detail-header">
+                        <div class="back-button" id="influencer-back-button">
+                            <i class="fas fa-arrow-left"></i> Back to list
+                        </div>
+                    </div>
+                    
+                    <!-- Entity Tabs -->
+                    <div class="entity-tabs">
+                        <button class="tab-button active" data-tab="profile" data-tooltip="View basic information about this media target">
+                            <i class="fas fa-user"></i> Target Profile
+                        </button>
+                        <button class="tab-button" data-tab="activity" data-tooltip="View recent activity and media analysis">
+                            <i class="fas fa-chart-line"></i> Intel
+                        </button>
+                        <button class="tab-button" data-tab="contacts" data-tooltip="Access contact methods and generate communications">
+                            <i class="fas fa-address-book"></i> Contact Ops
+                        </button>
+                    </div>
+                    
+                    <!-- Tab Content Containers -->
+                    <div id="influencer-profile-tab" class="tab-content active">
+                        <div id="influencer-detail-content">
+                            <!-- Profile content will be populated dynamically -->
+                        </div>
+                    </div>
+                    
+                    <div id="influencer-activity-tab" class="tab-content">
+                        <div class="section-title">Recent Activity</div>
+                        <div class="activity-timeline">
+                            <div class="empty-state">
+                                <i class="fas fa-info-circle"></i>
+                                <p>No recent activity data available</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div id="influencer-contacts-tab" class="tab-content">
+                        <div class="section-title">Contact Information</div>
+                        <div id="influencer-contact-details">
+                            <!-- Contact information will be populated dynamically -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal for outputting messages -->
+    <div id="output-modal-overlay" class="modal-overlay">
+        <div id="output-modal" class="modal">
+            <div class="modal-header">
+                <h3 id="modal-title">Modal Title</h3>
+                <button class="modal-close-btn">&times;</button>
+            </div>
+            <div id="modal-content" class="modal-content">
+                <!-- Modal content will be populated dynamically -->
+            </div>
+        </div>
+    </div>
+    
+    <!-- Scripts -->
+    <script src="./appUtils.js"></script>
+    <script src="./politician-view.js"></script>
+    <script src="./influencer-view.js"></script>
+    <script src="./main.js"></script>
+    <script>
+        // Initialize the app when the DOM is ready
+        document.addEventListener('DOMContentLoaded', function() {
+            init();
+        });
+    </script>
+</body>
+</html> 

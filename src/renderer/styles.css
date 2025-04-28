@@ -1,0 +1,1045 @@
+/* Main Content Layout */
+.main-content {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+}
+
+/* Party-specific styles */
+.party-republican {
+    color: var(--republican-color);
+}
+
+.party-democrat {
+    color: var(--democrat-color);
+}
+
+.party-independent {
+    color: var(--independent-color);
+}
+
+/* WarRoom Action Prompt styles */
+.warroom-action-prompt {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn-large {
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+/* Button Styles */
+.btn i {
+  margin-right: 8px;
+  font-size: 1.1em; /* Make icons slightly larger relative to button text */
+}
+
+/* Content area styles */
+.content-area {
+  flex: 1;
+  padding: 25px;
+  overflow-y: auto;
+  background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white */
+}
+
+/* Sidebar Styles (Restored) */
+.sidebar {
+    width: 240px; /* Fixed width */
+    background-color: var(--white);
+    height: 100%; /* Fill height within main-content */
+    overflow-y: auto;
+    border-right: 1px solid var(--border-color-light);
+    padding: 15px 0; 
+    box-shadow: 1px 0 4px var(--shadow-color-soft);
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+}
+
+.sidebar-section {
+    /* Wrapper for title + actions */
+}
+
+.sidebar-title {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--dark-gray); /* Use theme variable */
+    padding: 5px 20px 8px 20px; 
+    margin: 0;
+    font-weight: 600;
+}
+
+.sidebar-divider {
+    height: 1px;
+    background-color: var(--border-color-light);
+    margin: 15px 20px;
+}
+
+.sidebar-actions {
+    padding: 0 15px; 
+    display: flex;
+    flex-direction: column;
+    gap: 6px; 
+}
+
+.sidebar-btn {
+    display: flex; 
+    align-items: center;
+    justify-content: flex-start; 
+    gap: 12px; 
+    text-align: left;
+    padding: 10px 15px; 
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    color: var(--dark-gray); /* Use theme variable */
+    font-weight: 500;
+    font-size: 0.95rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.sidebar-btn i {
+    width: 18px; 
+    text-align: center;
+    color: var(--gray); /* Use theme variable */
+    transition: color 0.2s;
+}
+
+.sidebar-btn:hover {
+    background-color: var(--light-pink);
+    color: var(--maga-red);
+}
+
+.sidebar-btn:hover i {
+    color: var(--maga-red);
+}
+
+/* Style for the active sidebar button */
+.sidebar-btn.active {
+    background-color: var(--maga-red);
+    color: var(--white);
+    font-weight: 600;
+}
+
+.sidebar-btn.active i {
+     color: var(--white);
+}
+
+.sidebar-btn:disabled {
+    color: var(--gray);
+    opacity: 0.6;
+    cursor: not-allowed;
+    background-color: transparent;
+}
+
+.sidebar-btn:disabled:hover {
+    background-color: transparent;
+    color: var(--gray);
+}
+
+/* Landing Page Specific Styles */
+.landing-actions {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* Responsive grid */
+    gap: 20px;
+    margin-top: 30px; /* Space below subtitle */
+    padding: 0 10px; /* Add some horizontal padding if needed */
+}
+
+.landing-action-btn {
+    display: flex;
+    flex-direction: column; /* Stack icon and text */
+    align-items: center;
+    justify-content: center;
+    padding: 25px 15px; /* Generous padding */
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+    color: var(--maga-red);
+    background-color: var(--white);
+    border: 1px solid var(--border-color-light, #FAD1D8); /* Use variable or fallback */
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.landing-action-btn i {
+    font-size: 2.5rem; /* Larger icons */
+    margin-bottom: 15px;
+    color: var(--maga-red);
+}
+
+.landing-action-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(233, 29, 14, 0.15); /* MAGA Red shadow */
+    border-color: var(--maga-red);
+    background-color: #fff7f8; /* Very subtle pink tint on hover */
+}
+
+.landing-action-btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 3px 8px rgba(233, 29, 14, 0.1);
+}
+
+/* Politicians List Styling */
+#politicians-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    max-height: 70vh;
+    overflow-y: auto;
+    border: 1px solid var(--gray);
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.politician-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    margin-bottom: 8px;
+    background-color: var(--white);
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: var(--shadow-sm);
+}
+
+.politician-item:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.politician-item.no-results {
+    cursor: default;
+    color: var(--dark-gray);
+    justify-content: center;
+    padding: 24px;
+}
+
+.politician-item.no-results:hover {
+    transform: none;
+    box-shadow: var(--shadow-sm);
+}
+
+.politician-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.politician-name {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 4px;
+    color: var(--black);
+}
+
+.politician-details {
+    display: flex;
+    font-size: 14px;
+    color: var(--dark-gray);
+}
+
+.politician-title {
+    margin-right: 8px;
+}
+
+.politician-title:after {
+    content: '•';
+    margin-left: 8px;
+}
+
+.politician-party {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+}
+
+.politician-party.republican {
+    background-color: var(--republican-color);
+}
+
+.politician-party.democrat {
+    background-color: var(--democrat-color);
+}
+
+.politician-party.independent {
+    background-color: var(--independent-color);
+}
+
+/* Search Input and Indicator */
+#politician-search-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#politician-search-input {
+    width: 100%;
+    padding: 12px 40px 12px 16px;
+    font-size: 16px;
+    border: 2px solid var(--light-gray);
+    border-radius: var(--radius-md);
+    background-color: var(--white);
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+#politician-search-input:focus {
+    border-color: var(--maga-red);
+    box-shadow: 0 0 0 3px rgba(233, 29, 14, 0.2);
+    outline: none;
+}
+
+#politician-search-indicator {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--maga-red);
+    display: none;
+}
+
+.search-icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--gray);
+    pointer-events: none;
+}
+
+#politician-search-input:focus + #politician-search-indicator + .search-icon {
+    color: var(--maga-red);
+}
+
+/* Show the spinner and hide the search icon when searching */
+#politician-search-indicator.visible {
+    display: block;
+}
+
+#politician-search-indicator.visible + .search-icon {
+    display: none;
+}
+
+/* Welcome View */
+#welcome-view {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#welcome-view h1 {
+    color: var(--maga-red);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#welcome-view p {
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--dark-gray);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#politicians-container {
+    background-color: var(--white);
+    border-radius: var(--radius-md);
+    padding: 20px;
+    box-shadow: var(--shadow-md);
+    margin-bottom: 30px;
+}
+
+#politicians-container h2 {
+    color: var(--maga-red);
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.view {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.view.active {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Profile View */
+#profile-view {
+    padding: 20px;
+    display: none;
+}
+
+#politician-detail {
+    display: none;
+    flex-direction: column;
+    padding: 24px;
+    background-color: var(--white);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-md);
+}
+
+.detail-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.back-button {
+    cursor: pointer;
+    color: var(--maga-red);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: color 0.2s;
+}
+
+.back-button:hover {
+    color: var(--maga-red-dark);
+}
+
+.detail-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: var(--black);
+}
+
+.detail-subtitle {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    color: var(--dark-gray);
+    font-size: 16px;
+}
+
+.detail-party {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 30px;
+    color: white;
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+.detail-party.republican {
+    background-color: var(--republican-color);
+}
+
+.detail-party.democrat {
+    background-color: var(--democrat-color);
+}
+
+.detail-party.independent {
+    background-color: var(--independent-color);
+}
+
+.detail-section {
+    margin-bottom: 24px;
+}
+
+.section-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: var(--maga-red);
+    border-bottom: 2px solid var(--light-gray);
+    padding-bottom: 8px;
+}
+
+.section-content {
+    line-height: 1.6;
+}
+
+.section-content ul {
+    padding-left: 20px;
+}
+
+.section-content ul li {
+    margin-bottom: 8px;
+}
+
+.info-item {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.info-label {
+    font-weight: 600;
+    width: 160px;
+    color: var(--dark-gray);
+}
+
+.info-value {
+    flex: 1;
+}
+
+/* Container styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Modal styles */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s, visibility 0s linear 0.3s;
+}
+
+.modal-overlay.visible {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+.modal {
+    background-color: white;
+    width: 80%;
+    max-width: 600px;
+    max-height: 80vh;
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    box-shadow: var(--shadow-lg);
+    display: flex;
+    flex-direction: column;
+    transform: translateY(20px);
+    transition: transform 0.3s;
+}
+
+.modal-overlay.visible .modal {
+    transform: translateY(0);
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 20px;
+    background-color: var(--maga-red);
+    color: white;
+}
+
+.modal-header h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.modal-close-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.modal-content {
+    padding: 20px;
+    overflow-y: auto;
+    max-height: calc(80vh - 60px);
+}
+
+.detail-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 16px;
+    border-radius: var(--radius-sm);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn i {
+    font-size: 16px;
+}
+
+.btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.primary-btn {
+    background-color: var(--maga-red);
+    color: white;
+}
+
+.primary-btn:hover:not(:disabled) {
+    background-color: var(--maga-red-dark);
+}
+
+.primary-btn:active:not(:disabled) {
+    transform: translateY(1px);
+}
+
+.secondary-btn {
+    background-color: var(--light-gray);
+    color: var(--dark-gray);
+}
+
+.secondary-btn:hover:not(:disabled) {
+    background-color: var(--gray);
+    color: var(--black);
+}
+
+.secondary-btn:active:not(:disabled) {
+    transform: translateY(1px);
+}
+
+.error-message {
+    background-color: #ffebee;
+    border: 1px solid #ffcdd2;
+    border-left: 4px solid #f44336;
+    color: #b71c1c;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: var(--radius-md);
+    display: flex;
+    align-items: center;
+}
+
+.error-message i {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #f44336;
+}
+
+/* Entity Tabs */
+.entity-tabs {
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 2px solid var(--light-gray);
+    padding-bottom: 2px;
+}
+
+.tab-button {
+    background: none;
+    border: none;
+    padding: 10px 16px;
+    margin-right: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--dark-gray);
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.tab-button i {
+    font-size: 16px;
+}
+
+.tab-button:hover {
+    color: var(--maga-red);
+    background-color: var(--light-pink);
+    border-radius: var(--radius-sm) var(--radius-sm) 0 0;
+}
+
+.tab-button.active {
+    color: var(--maga-red);
+    border-bottom-color: var(--maga-red);
+}
+
+.tab-content {
+    display: none;
+    animation: fadeIn 0.3s ease;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Empty state styling */
+.empty-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: var(--light-gray);
+    border-radius: var(--radius-md);
+    color: var(--dark-gray);
+    text-align: center;
+}
+
+.empty-state i {
+    font-size: 40px;
+    margin-bottom: 16px;
+    color: var(--gray);
+}
+
+.empty-state p {
+    font-size: 16px;
+    max-width: 300px;
+}
+
+/* Contact items styling */
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-item {
+    display: flex;
+    background-color: var(--white);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+    padding: 16px;
+    transition: box-shadow 0.2s;
+}
+
+.contact-item:hover {
+    box-shadow: var(--shadow-md);
+}
+
+.contact-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--light-pink);
+    border-radius: 50%;
+    margin-right: 16px;
+    color: var(--maga-red);
+    font-size: 18px;
+}
+
+.contact-details {
+    flex: 1;
+}
+
+.contact-label {
+    font-size: 12px;
+    color: var(--dark-gray);
+    margin-bottom: 4px;
+}
+
+.contact-value {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+/* Social links styling */
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: var(--radius-md);
+    color: white;
+    text-decoration: none;
+    transition: transform 0.2s, opacity 0.2s;
+    font-size: 14px;
+}
+
+.social-link i {
+    margin-right: 8px;
+}
+
+.social-link:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+.social-link.twitter {
+    background-color: #1DA1F2;
+}
+
+.social-link.facebook {
+    background-color: #4267B2;
+}
+
+.social-link.youtube {
+    background-color: #FF0000;
+}
+
+/* Small button styles */
+.btn.small {
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+/* Smaller empty state */
+.empty-state.small {
+    padding: 16px;
+    margin-top: 0;
+}
+
+.empty-state.small i {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.empty-state.small p {
+    font-size: 14px;
+}
+
+/* Tooltip styling */
+[data-tooltip] {
+    position: relative;
+}
+
+[data-tooltip]:before {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%) translateY(-100%);
+    background-color: rgba(40, 40, 40, 0.9);
+    color: white;
+    padding: 8px 12px;
+    border-radius: var(--radius-sm);
+    font-size: 12px;
+    font-weight: normal;
+    white-space: nowrap;
+    z-index: 100;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s, visibility 0.2s;
+    box-shadow: var(--shadow-md);
+    pointer-events: none;
+    max-width: 250px;
+    width: max-content;
+    text-align: center;
+}
+
+/* Triangle pointer */
+[data-tooltip]:after {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgba(40, 40, 40, 0.9) transparent transparent transparent;
+    z-index: 100;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s, visibility 0.2s;
+    pointer-events: none;
+}
+
+/* Show the tooltip on hover */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Adjust sidebar button tooltips position */
+.sidebar-btn[data-tooltip]:before {
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+    margin-left: 15px;
+}
+
+.sidebar-btn[data-tooltip]:after {
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+    margin-left: 5px;
+    border-color: transparent rgba(40, 40, 40, 0.9) transparent transparent;
+}
+
+/* Tab button tooltip adjustment */
+.tab-button[data-tooltip]:before {
+    top: -5px;
+}
+
+/* Influencer Styles - Similar to politician styles */
+#influencer-view {
+    padding: 20px;
+}
+
+#influencers-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#influencer-search-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#influencer-search-input {
+    width: 100%;
+    padding: 10px 40px 10px 15px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#influencer-search-indicator {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: none;
+}
+
+.search-icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.5;
+}
+
+#influencers-list {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.influencer-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px;
+    border-bottom: 1px solid var(--border-color);
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.influencer-item:last-child {
+    border-bottom: none;
+}
+
+.influencer-item:hover {
+    background-color: var(--hover-bg);
+}
+
+.influencer-info {
+    flex: 1;
+}
+
+.influencer-name {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.influencer-details {
+    font-size: 14px;
+    color: var(--text-light);
+    display: flex;
+    gap: 10px;
+}
+
+.influencer-title {
+    font-weight: 500;
+}
+
+.influencer-type {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+}
+
+.influencer-type.journalist {
+    background-color: #4a6da7;
+}
+
+.influencer-type.television {
+    background-color: #e74c3c;
+}
+
+.influencer-type.social {
+    background-color: #3498db;
+}
+
+/* For error and no results states */
+.influencer-item.error,
+.influencer-item.no-results {
+    color: var(--text-light);
+    justify-content: center;
+    cursor: default;
+    padding: 20px;
+}
+
+.influencer-item.error i,
+.influencer-item.no-results i {
+    margin-right: 10px;
+}
+
+/* Influencer Detail View */
+#influencer-detail {
+    display: none;
+    flex-direction: column;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}

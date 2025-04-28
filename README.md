@@ -1,547 +1,469 @@
-congress-legislators
-====================
+# MAGA Operations - Political Intelligence Hub
 
-Members of the United States Congress (1789-Present), congressional committees (1973-Present), committee membership (current only), and presidents and vice presidents of the United States in YAML, JSON, and CSV format.
+## Core Purpose
 
-[![Build Status](https://circleci.com/gh/unitedstates/congress-legislators.svg?style=shield)](https://circleci.com/gh/unitedstates/congress-legislators)
+The primary goal of MAGA Operations is to serve as an **AI-driven political intelligence hub**. It focuses on identifying, tracking, and **analyzing the relationships and interactions between key political figures (Politicians) and online commentators/public figures (Influencers)**. The application aims to synthesize data related to:
 
-Overview
---------
+* Politician profiles, voting records, and public statements
+* Influencer content, engagement metrics, and political positions
+* Social media interactions between these entities
+* Campaign finance data and political donations
+* Voting patterns and legislative priorities
 
-This project provides the following data files:
+## Project Structure
 
-File | Download | Description
----- | -------- | -----------
-`legislators-current` | [YAML](https://unitedstates.github.io/congress-legislators/legislators-current.yaml) [JSON](https://unitedstates.github.io/congress-legislators/legislators-current.json) [CSV](https://unitedstates.github.io/congress-legislators/legislators-current.csv) | Currently serving Members of Congress.
-`legislators-historical` | [YAML](https://unitedstates.github.io/congress-legislators/legislators-historical.yaml) [JSON](https://unitedstates.github.io/congress-legislators/legislators-historical.json) [CSV](https://unitedstates.github.io/congress-legislators/legislators-historical.csv) | Historical Members of Congress (i.e. all Members of Congress except those in the current file).
-`legislators-social-media` | [YAML](https://unitedstates.github.io/congress-legislators/legislators-social-media.yaml) [JSON](https://unitedstates.github.io/congress-legislators/legislators-social-media.json) | Current social media accounts for Members of Congress. Official accounts only (no campaign or personal accounts).
-`committees-current` | [YAML](https://unitedstates.github.io/congress-legislators/committees-current.yaml) [JSON](https://unitedstates.github.io/congress-legislators/committees-current.json) | Current committees of the Congress, with subcommittees.
-`committee-membership-current` | [YAML](https://unitedstates.github.io/congress-legislators/committee-membership-current.yaml) [JSON](https://unitedstates.github.io/congress-legislators/committee-membership-current.json) | Current committee/subcommittee assignments.
-`committees-historical` | [YAML](https://unitedstates.github.io/congress-legislators/committees-historical.yaml) [JSON](https://unitedstates.github.io/congress-legislators/committees-historical.json) | Current and historical committees of the Congress, with subcommittees, from the 93rd Congress (1973) and on.
-`legislators-district-offices` | [YAML](https://unitedstates.github.io/congress-legislators/legislators-district-offices.yaml) [JSON](https://unitedstates.github.io/congress-legislators/legislators-district-offices.json) [CSV](https://unitedstates.github.io/congress-legislators/legislators-district-offices.csv) | District offices for current Members of Congress.
-`executive` | [YAML](https://unitedstates.github.io/congress-legislators/executive.yaml) [JSON](https://unitedstates.github.io/congress-legislators/executive.json) | Presidents and vice presidents.
-
-The data formats are documented below.
-
-The files are maintained in [YAML](http://www.yaml.org/) format in the main branch of this project. YAML is a serialization format similar in structure to JSON but typically written with one field per line. Like JSON, it allows for nested structure. Each level of nesting is indicated by indentation or a dash. CSV and JSON formatted files are also provided in the `gh-pages` branch --- they're linked above.
-
-This database is maintained through a combination of manual edits by volunteers (from [GovTrack](https://www.govtrack.us), [ProPublica](https://projects.propublica.org/represent/), [MapLight](https://maplight.org/), [FiveThirtyEight](https://fivethirtyeight.com/), and others) and automated imports from a variety of sources including:
-
-* GovTrack.us (http://www.govtrack.us).
-* The Congressional Biographical Directory (http://bioguide.congress.gov).
-* Congressional Committees, Historical Standing Committees data set by Garrison Nelson and Charles Stewart (http://web.mit.edu/17.251/www/data_page.html).
-* Martis’s “The Historical Atlas of Political Parties in the United States Congress”, via Rosenthal, Howard L., and Keith T. Poole. United States Congressional Roll Call Voting Records, 1789-1990 (http://voteview.com/dwnl.htm).
-* The Sunlight Labs Congress API (http://sunlightlabs.github.com/congress/).
-* The Library of Congress's THOMAS website (http://thomas.loc.gov).
-* C-SPAN's Congressional Chronicle (http://www.c-spanvideo.org/congress)
-
-Data Format Documentation
--------------------------
-
-### Legislators file structure overview
-
-`legislators-current.yaml` and `legislators-historical.yaml` contain biographical information on all Members of Congress that have ever served in Congress, that is, since 1789, as well as cross-walks into other databases.
-
-Each legislator record is grouped into four guaranteed parts: id's which relate the record to other databases, name information (first, last, etc.), biographical information (birthday, gender), and terms served in Congress. A typical record looks something like this:
-
-	- id:
-		bioguide: R000570
-		thomas: '01560'
-		govtrack: 400351
-		opensecrets: N00004357
-		votesmart: 26344
-		fec:
-		  - H8WI01024
-		cspan: 57970
-		wikipedia: Paul Ryan
-		ballotpedia: Paul Ryan
-		maplight: 445
-		house_history: 20785
-		icpsr: 29939
-	  name:
-		first: Paul
-		middle: D.
-		last: Ryan
-	  bio:
-		birthday: '1970-01-29'
-		gender: M
-	  terms:
-	  ...
-	  - type: rep
-		start: '2011-01-03'
-		end: '2013-01-03'
-	  ...
-	  - type: rep
-		start: '2013-01-03'
-		end: '2015-01-03'
-		state: WI
-		party: Republican
-		district: 1
-		url: http://paulryan.house.gov
-		address: 1233 Longworth HOB; Washington DC 20515-4901
-		phone: 202-225-3031
-		fax: 202-225-3393
-		contact_form: http://www.house.gov/ryan/email.htm
-		office: 1233 Longworth House Office Building
-
-Terms correspond to elections and are listed in chronological order. If a legislator is currently serving, the current term information will always be the last one. To check if a legislator is currently serving, check that the end date on the last term is in the future.
-
-The split between `legislators-current.yaml` and `legislators-historical.yaml` is somewhat arbitrary because these files may not be updated immediately when a legislator leaves office. If it matters to you, just load both files.
-
-A separate file `legislators-social-media.yaml` stores social media account information. Its structure is similar but includes different fields.
-
-### Data Dictionary
-
-The following fields are available in `legislators-current.yaml` and `legislators-historical.yaml`:
-
-* id
-	* bioguide: The alphanumeric ID for this legislator in http://bioguide.congress.gov. Note that at one time some legislators (women who had changed their name when they got married) had two entries on the bioguide website. Only one bioguide ID is included here. **This is the best field to use as a primary key.**
-	* thomas: The numeric ID for this legislator on http://thomas.gov and http://beta.congress.gov. The ID is stored as a string with leading zeros preserved.
-	* lis: The alphanumeric ID for this legislator found in Senate roll call votes (http://www.senate.gov/pagelayout/legislative/a_three_sections_with_teasers/votes.htm).
-	* fec: A *list* of IDs for this legislator in Federal Election Commission data. In the CSV format, the `fec_ids` column is comma-separated.
-	* govtrack: The numeric ID for this legislator on GovTrack.us (stored as an integer).
-	* opensecrets: The alphanumeric ID for this legislator on OpenSecrets.org.
-	* votesmart: The numeric ID for this legislator on VoteSmart.org (stored as an integer).
-	* icpsr: The numeric ID for this legislator in Keith Poole's VoteView.com website, originally based on an ID system by the Interuniversity Consortium for Political and Social Research (stored as an integer).
-	* cspan: The numeric ID for this legislator on C-SPAN's video website, e.g. http://www.c-spanvideo.org/person/1745 (stored as an integer).
-	* wikipedia: The Wikipedia page name for the person (spaces are given as spaces, not underscores).
-	* ballotpedia: The ballotpedia.org page name for the person (spaces are given as spaces, not underscores).
-	* maplight : The numeric ID for this legislator on maplight.org (stored as an integer).
-	* house_history: The numeric ID for this legislator on http://history.house.gov/People/Search/. The ID is present only for members who have served in the U.S. House.
-	* bioguide_previous: When bioguide.congress.gov mistakenly listed a legislator under multiple IDs, this field is a *list* of alternative IDs. (This often ocurred for women who changed their name.) The IDs in this list probably were removed from bioguide.congress.gov but might still be in use in the wild.
-	* pictorial: The numeric ID for this legislator on https://pictorial.gpo.gov/member-search/ (stored as an integer).
-
-* name
-	* first: The legislator's _recognizable_ first name. Many people go by a different name than their legal first name, often their legal middle name, and our approach is to ensure that our first + last name fields combine to a recognizable name of the legislator. Normally we'll follow the name as it appears on House.gov or Senate.gov (and bioguide.congress.gov), which follows the legislator's own preference for how they want to be named in official places. However, in some cases the legislator goes by a first name that is merely a common short or informal form of their legal first name (e.g. Chris vs Christopher), and while they may prefer the informal name, we may use their longer legal first name because they would be recognizable by their legal name. If they sign official documents (e.g. letters to agencies, FEC filings) using their longer legal first name, we would use their legal first name and put their preferred shorter name in the `nickname` field. When legislators go by a first initial and middle name, we set the `first` name field to the initial (one character plus a period).
-	* middle: The legislator's middle name or middle initial (with period). It is not recommended to display this field, unless the `first` name field is an initial (one character plus a period).
-	* last: The legislator's last name. Some names include non-ASCII characters. When building search systems, it is advised to index both the raw value as well as a value with extended characters replaced with their ASCII equivalents (in Python that's: u"".join(c for c in unicodedata.normalize('NFKD', lastname) if not unicodedata.combining(c))).
-	* suffix: A suffix on the legislator's name, such as "Jr." or "III", but only if they use it in official contexts, such as if it appears on House.gov or Senate.gov.
-	* nickname: The legislator's nick name when used as a common alternative to their first name. Usually displayed within quotes after the first name. If they are generally only known by a nickname, we would likely place the name in the `first` name field instead (see above).
-	* official_full: The full name of the legislator according to the House or Senate (usually first, middle initial, nickname, last, and suffix). Present for those serving on 2012-10-30 and later.
-
-* other_names, when present, lists other names the legislator has gone by officially. This is helpful in cases where a legislator's legal name has changed. These listings will only include the name attributes which differ from the current name, and a start or end date where applicable. Where multiple names exist, other names are listed chronologically by end date. An excerpted example:
-
-	- id:
-		bioguide: B001228
-		thomas: '01465'
-		govtrack: 400039
-		opensecrets: N00007068
-	  name:
-		first: Mary
-		middle: Whitaker
-		last: Bono Mack
-	  other_names:
-	  - last: Bono
-		end: '2007-12-17'
-	  ...
-
-* bio
-	* birthday: The legislator's birthday, in YYYY-MM-DD format.
-	* gender: The legislator's gender, either "M" or "F". (In historical data, we've worked backwards from [history.house.gov's Women in Congress feature](http://history.house.gov/People/Search?filter=6).)
-
-* terms (one entry for each election)
-	* type: The type of the term. Either "sen" for senators or "rep" for representatives and delegates to the House.
-	* start: The date legislative service began: the date the legislator was sworn in, if known, or else the beginning of the legislator's term. Since 1935 regularly elected terms begin on January 3 at noon on odd-numbered years, but when Congress does not first meet on January 3, term start dates might reflect that swearing-in occurred on a later date. (Prior to 1935, terms began on March 4 of odd-numbered years, see [here](https://github.com/unitedstates/congress-legislators/pull/305).) Formatted as YYYY-MM-DD.
-	* end: The date the term ended (because the Congress ended or the legislator died or resigned, etc.). End dates follow the Constitutional end of a term. Since 1935, terms begin and end on January 3 at noon in odd-numbered years, and thus a term end date may also be a term start date. Prior to 1935, terms began on March 4 and ended either on March 3 or March 4. The end date is the last date on which the legislator served this term. Unlike the start date, whether Congress was in session or not does not affect the value of this field.
-	* state: The two-letter, uppercase USPS abbreviation for the state that the legislator is serving from. See below.
-	* how: How the term came to be. This field is generally not present and is currently only set haphazardly in recent data. The field is set to "appointment" for [senators appointed to fill a vacancy](https://www.senate.gov/senators/AppointedSenators.htm). Senators and representatives elected by special election are indicated by `special-election`. For senators currently serving per an appointment, the field `end-type` may be set to `special-election`, in which case the `end` date of the term will reflect the expected special election date to replace the appointed senator. Once the special election occurs and the next senator is sworn in, ending the term of the appointed senator, the end date will be updated to reflect the actual end of service (which will follow the election date).
-	* district: For representatives, the district number they are serving from. At-large districts are district 0. In historical data, unknown district numbers are recorded as -1.
-	* class: For senators, their election class (1, 2, or 3). Note that this is unrelated to seniority.
-	* state_rank: For senators, whether they are the "junior" or "senior" senator (only valid if the term is current, otherwise the senator's rank at the time the term ended).
-	* party: The political party of the legislator. If the legislator changed parties, this is the most recent party held during the term and `party_affiliations` will be set. Values are typically "Democrat", "Independent", or "Republican". The value typically matches the political party of the legislator on the ballot in his or her last election, although for state affiliate parties such as "Democratic Farmer Labor" we will use the national party name ("Democrat") instead to keep the values of this field normalized.
-	* caucus: For independents, the party that the legislator caucuses with, using the same values as the `party` field--although not required for independents with no caucus. Omitted if the legislator caucuses with the party indicated in the party field. When in doubt about the difference between the `party` and `caucus` fields, the `party` field is what displays after the legislator's name (i.e. "(D)") but the `caucus` field is what normally determines committee seniority. This field was added starting with terms for the 113th Congress.
-	* party_affiliations: This field is present if the legislator changed party or caucus affiliation during the term. The value is a list of time periods, with `start` and `end` dates, each of which has a `party` field and a `caucus` field if applicable, with the same meanings as the main `party` and `caucus` fields. The time periods cover the entire term, so the first `start` will match the term `start`, the last `end` will match the term `end`, and the last `party` (and `caucus` if present) will match the term `party` (and `caucus`).
-	* url: The official website URL of the legislator (only valid if the term is current).
-	* address: The mailing address of the legislator's Washington, D.C. office (only valid if the term is current, otherwise the last known address).
-	* phone: The phone number of the legislator's Washington, D.C. office (only valid if the term is current, otherwise the last known number).
-	* fax: The fax number of the legislator's Washington, D.C. office (only valid if the term is current, otherwise the last known number).
-	* contact_form: The website URL of the contact page on the legislator's official website (only valid if the term is current, otherwise the last known URL).
-	* office: Similar to the address field, this is just the room and building number, suitable for display (only valid if the term is current, otherwise the last known office).
-	* rss_url The URL to the official website's RSS feed (only valid if the term is current, otherwise the last known URL).
-
-
-**Leadership roles**:
-
-```yaml
-leadership_roles:
-  - title: Minority Leader
-    chamber: senate
-    start: '2007-01-04'
-    end: '2009-01-06'
+```
+MAGA_Ops/
+├── config/                 # Configuration files
+├── data/                   # Data storage and processing
+├── scripts/                # Python scripts for data mining and processing
+│   ├── data-mining/        # Scripts for collecting data from various sources
+│   ├── db/                 # Database management scripts
+│   ├── utils/              # Utility modules for common operations
+│   │   ├── file_utils.py   # File operations and format handling
+│   │   ├── string_utils.py # String manipulation and processing
+│   │   ├── date_utils.py   # Date/time operations and formatting
+│   │   ├── db_utils.py     # Database connection and operations
+│   │   ├── config_utils.py # Configuration management
+│   │   └── logger.py       # Logging configuration and utilities
+├── src/                    # Electron application source code
+│   ├── main/               # Main process code
+│   ├── renderer/           # Renderer process code (UI)
+│   ├── assets/             # Static assets (images, icons)
+│   └── utils/              # Frontend utility functions
+└── venv/                   # Python virtual environment
 ```
 
-For members with top formal positions of leadership in each party in each chamber, a `leadership_roles` field will include an array of start/end dates and titles documenting when they held this role.
+## Requirements
 
-Leadership terms are not identical to legislative terms, and so start and end dates will be different than legislative term dates. However, leaders do need to be re-elected each legislative term, so their leadership terms should all be subsets of their legislative terms.
+* [Node.js](https://nodejs.org/) v16+ and npm
+* [Python](https://www.python.org/) 3.9+
+* [Cursor IDE](https://cursor.sh/) - Currently required for development
+* API keys for various services (Twitter, Google AI, etc.)
 
-Except where noted, fields are omitted when their value is empty or unknown. Any field may be unknown.
+## Setup Instructions
 
-Notes:
-In most cases, a legislator has a single term on any given date. In some cases a legislator resigned from one chamber and was sworn in in the other chamber on the same day.
-Terms for senators list each six-year term, so the terms span three Congresses. For representatives and delegates, each two-year term is listed, each corresponding to a single Congress. But Puerto Rico's Resident Commissioner serves four-year terms, and so the Resident Commissioner will have a single term covering two Congresses (this has not been updated in historical data).
+### 1. Development Environment
 
-Historically, some states sending at-large representatives actually sent multiple at-large representatives. Thus, state and district may not be a unique key.
+This project is currently under active development and requires the [Cursor IDE](https://cursor.sh/) for proper functionality. Cursor provides enhanced AI-assisted coding features that are integrated with this project.
 
-### Data on Official Social Media Accounts
+**[Download Cursor IDE here](https://cursor.sh/)**
 
-This dataset is designed to include accounts that are paid for with public funds and which represent official communications of their office. We rely on reasonable verification from the legislative office about the status of their accounts.
-
-Offices are supposed to maintain strict separation of official funds and campaign funds, and official funds are not supposed to be used to further things like re-election efforts.
-
-In practice, a campaign account may often look similar to an official account in terms of content, especially when expressing views on issues and legislations. However, there will be differences in what's appropriate for each account, and they will likely be maintained by different staff employed by different organizations.
-
-The social media file `legislators-social-media.yaml` stores current social media account information.
-
-Each record has two sections: `id` and `social`. The `id` section identifies the legislator using bioguide, thomas, and govtrack IDs (where available). The `social` section has social media account identifiers:
-
-* twitter: The current official Twitter handle of the legislator.
-* youtube: The current official YouTube username of the legislator.
-* youtube_id: The current official YouTube channel ID of the legislator.
-* instagram: The current official Instagram handle of the legislator.
-* instagram_id: The numeric ID of the current official Instagram handle of the legislator.
-* facebook: The username of the current official Facebook presence of the legislator.
-* mastodon: The current Mastodon handle (@username@instance) of the legislator.
-
-Several legislators do not have an assigned YouTube username.  In these cases, only the youtube_id field is populated.
-
-All values can be turned into URLs by preceding them with the domain name of the service in question (and in the case of YouTube channels, the path `/channel`):
-
-* `https://twitter.com/[twitter]`
-* `https://youtube.com/user/[youtube]`
-* `https://youtube.com/channel/[youtube_id]`
-* `https://instagram/[instagram]`
-* `https://facebook.com/[facebook]`
-
-Legislators are only present when they have one or more social media accounts known. Fields are omitted when the account is unknown.
-
-#### Updating social media accounts
-
-Available tasks with `scripts/social_media.py`:
-
-* `--sweep`: Given a `--service`, looks through current members for those missing an account on that service, and checks that member's official website's source code for mentions of that service. Uses a CSV at `data/social_media_blacklist.csv` to exclude known non-individual account names. A CSV of "leads" is produced for manual review.
-
-* `--update`: Given a `--service`, reads the CSV produced by --sweep back in and updates the YAML accordingly. **Note**: With small updates, for people already in the YAML, it's easiest to just update by hand.
-
-* `--clean`: Given a `--service`, removes legislators from the social media file who are no longer current.
-
-* `--resolvefb`: Uses Facebook usernames to look up graph IDs, and updates the YAML accordingly.
-
-* `--resolveyt` Uses YouTube usernames to look up any channel IDs, and updates the YAML accordingly.
-
-* `--resolveig` Uses Instagram user IDs to look up any usernames, and updates the YAML accordingly.
-
-Options used with the above tasks:
-
-* `--service`: Can be "twitter", "youtube", or "facebook".
-* `--bioguide`: Limit activity to a single member, by bioguide ID.
-* `--email`: In conjunction with `--sweep`, send an email if there are any new leads, using settings in scripts/email/config.yml (if it was created and filled out).
-
-
-### Committees Data Dictionary
-
-The `committees-current.yaml` file lists all current House, Senate, and Joint committees of the United States Congress. It includes metadata and cross-walks into other databases of committee information. It is based on data scraped from House.gov and Senate.gov.
-
-The `committees-historical.yaml` file is a possibly partial list of current and historical committees and subcommittees referred to in the unitedstates/congress project bill data, as scraped from THOMAS.gov. Only committees/subcommmittees that have had bills referred to them are included.
-
-The basic structure of a committee entry looks like the following:
-
-	- type: house
-	  name: House Committee on Agriculture
-	  url: http://agriculture.house.gov/
-	  thomas_id: HSAG
-	  house_committee_id: AG
-	  jurisdiction: The U.S. House Committee on Agriculture, or Agriculture Committee,
-	    is a standing committee of the ...
-	  jurisdiction_source: http://en.wikipedia.org/wiki/House_Committee_on_Agriculture
-	  subcommittees:
-	     (... subcommittee list ...)
-
-The two files are structured each as a list of committees, each entry an associative array of key/value pairs of committee metadata.
-
-The fields available in both files are as follows:
-
-* type: 'house', 'senate', or 'joint' indicating the type of commmittee
-* name: The current (or most recent) official name of the committee.
-* thomas_id: The four-letter code used for the committee on the THOMAS advanced search page.
-* senate_committee_id: For Senate and Joint committees, the four-letter code used on http://www.senate.gov/pagelayout/committees/b_three_sections_with_teasers/membership.htm. Currently the same as the thomas_id.
-* house_committee_id: For House committees, the two-letter code used on http://clerk.house.gov/committee_info/index.aspx. Currently always the same as the last two letters of the thomas_id.
-* jurisdiction: The committee's jurisdiction.
-* jurisdiction_source: The source for the jurisdiction text.
-* subcommittees: A list of subcommittees, with the following fields:
-	* name: The name of the subcommittee, excluding "Subcommittee on" that appears at the start of most subcommittee names. Some subcommittee names begin with a lowercase "the" so bear that in mind during display.
-	* thomas_id: The two-digit (zero-padded) code for the subcommittee as it appeared on THOMAS, and likely also the same code used on the House and Senate websites.
-
-Additional fields are present on current committee entries (that is, in `committees-current.yaml`):
-
-* url: The current website URL of the committee.
-* address: The mailing address for the committee.
-* phone: The phone number of the committee.
-* rss_url: The URL for the committee's RSS feed.
-* minority_rss_url: The URL for the committee's minority party website's RSS feed.
-* youtube_id: The YouTube channel ID of the committee (if it exists)
-
-Two additional fields are present on committees and subcommmittees in the `committees-historical.yaml` file:
-
-* congresses: A list of Congress numbers in which this committee appears on the THOMAS advanced search page. It is roughly an indication of the time period during which the committee was in use. However, if a committee was not referred any bills it may not appear on THOMAS's list and therefore would not appear here.
-* names: A list of past names for the committee. This is an associative array from a Congress number to the name of the committee. The name is that given on the THOMAS advanced search page for previous Congresses and does not always exactly match the official names of commmittees.
-
-
-### Committee Membership Data Dictionary
-
-The `committee-membership-current.yaml` file contains current committee assignments, as of the date of the last update of this file. The file is structured as a mapping from committee IDs to a list of committee members. The basic structure looks like this:
-
-	HSAG:
-	- name: Frank D. Lucas
-	  party: majority
-	  rank: 1
-	  title: Chair
-	  bioguide: L000491
-	- name: Bob Goodlatte
-	  party: majority
-	  rank: 2
-	(...snip...)
-	HSAG03:
-	- name: Jean Schmidt
-	  party: majority
-	  rank: 1
-	  title: Chair
-
-The committee IDs in this file are the thomas_id's from the `committees-current.yaml` file, or for subcommittees the concatentation of the thomas_id of the parent committee and the thomas_id of the subcommittee.
-
-Each committee/subcommittee entry is a list containing the members of the committee. Each member has the following fields:
-
-* name: The name of the Member of Congress. This field is intended for debugging. Instead, use the id fields.
-* bioguide id
-* party: Either "majority" or "minority." Committee work is divided strictly by party.
-* rank: The apparent rank of the member on the committee, within his or her party. This is based on the order of names on the House/Senate committee membership pages. Rank 1 is always for the committee chair or ranking member (the most senior minority party member). The rank is essentially approximate, because the House/Senate pages don't necessarily make a committment that the order on the page precisely indicates actual rank (if such a concept even applies). But if you want to preserve the order as displayed by the House and Senate, you can use this attribute.
-* title: The title of the member on the committee, e.g. Chair, Ranking Member, or Ex Officio. This field is not normalized, however, so be prepared to accept any string.
-* chamber: For joint committees only, the chamber that the representative is serving in, either `house` or `senate`.
-
-### District Offices Data Dictionary
-
-The `legistlators-district-offices.yaml` file lists district offices for all currently serving Members of Congress. This data is crowdsourced from members' official websites. It does not include Congressional offices in Washington, D.C.; these are listed in the `legislators-current.yaml` file.
-
-Each current Member of Congress has a listing in the file, comprised of two parts: ids and offices.
-
-The id section contains the fields bioguide, thomas, and govtrack, which correspond to fields with the same names in `legislators-current.yaml` as described above. The bioguide field is required, and used as the primary key for this file.
-
-The offices section is a list of the Member's district offices. Each listing contains the following fields:
-
-* address: The street address of the office, e.g. "123 Main St".
-* building: The name of the building containing the office, if applicable, e.g. "Dane County Courthouse".
-* city: The city containing the office. *required*
-* fax: The fax machine number of the office, e.g. 256-555-6043.
-* hours: Free-text field describing the days and hours the office is open.
-* phone: The main phone number of the office, .e.g. 256-555-6043
-* state: The two-letter state code of the state containing the office. *required*
-* suite: The suite or room number of the office, if applicable, e.g. "Suite 200"
-* zip: The 5-digit USPS zip code of the office, e.g. "35055".
-* latitude: The decimal latitude of the office's geocoded location, e.g. 34.181059.
-* longitude: The decimal longitude of the office's geocoded location, e.g. -86.840631.
-* id: An identifier for the office, consisting of the member's bioguide id and the city name, e.g. "X000055-seattle". *required*
-
-To qualify for inclusion in this file, an office must have at least an address or a phone number.
-
-### The Executive Branch
-
-Because of their role in the legislative process, we also include a file `executive.yaml` which contains terms served by U.S. presidents (who signed legislation) and U.S. vice presidents (who are nominally the president of the Senate and occassionally cast tie-breaking votes there).
-
-This file has a similar structure as the legislator files. The file contains a list, where each entry is a person. Each entry is a dict with id, name, bio, and terms fields.
-
-The id, bio, and name fields are the same as those listed above. Except:
-
-* icpsr_prez: The numeric ICPSR identifier used in voteview.com historical roll call data when indicating the position of the President on a roll call vote. If the person also served in Congress, he or she will also have a regular icpsr ID with a different value.
-
-Each term has the following fields:
-
-* type: either "prez" (a presidential term) or "viceprez" (a vice presidential term).
-* start: The start date of the term. In modern times, typically January 20 following an election year.
-* end: The end date of the term. In modern times, typically January 20 following an election year.
-* party: The political party from which the person was elected.
-* how: How the term came to be, either "election" (the normal case), "succession" (presidential succession), or "appointment" (the appointment by the president of a new vice president).
-
-Presidents and vice presidents that previously served in Congress will also be listed in one of the legislator files, but their Congressional terms will only appear in the legislator files and their executive-branch terms will only appear in `executive.yaml`.
-
-### State Abbreviations
-
-Although you can find the USPS abbreviations for the 50 states anywhere, non-voting delegates from territories --- including historical territories that no longer exist --- are included in this database. Here is a complete list of abbreviations:
-
-The 50 States:
-
-	AK Alaska
-	AL Alabama
-	AR Arkansas
-	AZ Arizona
-	CA California
-	CO Colorado
-	CT Connecticut
-	DE Delaware
-	FL Florida
-	GA Georgia
-	HI Hawaii
-	IA Iowa
-	ID Idaho
-	IL Illinois
-	IN Indiana
-	KS Kansas
-	KY Kentucky
-	LA Louisiana
-	MA Massachusetts
-	MD Maryland
-	ME Maine
-	MI Michigan
-	MN Minnesota
-	MO Missouri
-	MS Mississippi
-	MT Montana
-	NC North Carolina
-	ND North Dakota
-	NE Nebraska
-	NH New Hampshire
-	NJ New Jersey
-	NM New Mexico
-	NV Nevada
-	NY New York
-	OH Ohio
-	OK Oklahoma
-	OR Oregon
-	PA Pennsylvania
-	RI Rhode Island
-	SC South Carolina
-	SD South Dakota
-	TN Tennessee
-	TX Texas
-	UT Utah
-	VA Virginia
-	VT Vermont
-	WA Washington
-	WI Wisconsin
-	WV West Virginia
-	WY Wyoming
-
-Current Territories:
-
-Legislators serving in the House from these territories are called delegates, except for the so-called "Resident Commissioner" from Puerto Rico.
-
-	AS American Samoa
-	DC District of Columbia
-	GU Guam
-	MP Northern Mariana Islands
-	PR Puerto Rico
-	VI Virgin Islands
-
-Historical Territories:
-
-These territories no longer exist.
-
-	DK Dakota Territory
-	OL Territory of Orleans
-	PI Philippines Territory/Commonwealth
-
-Helping us maintain the data
-----------------------------
-
-You can just use the data directly without running any scripts. If you want to develop on and help maintain the data, our scripts are tested and developed on **Python 3.6**.
-
-(Recommended) First, create a virtualenv in the scripts directory:
+### 2. Clone the Repository
 
 ```bash
-cd scripts
-virtualenv virt
-source virt/bin/activate
+git clone https://github.com/meeeeeooooowwwwwww/MAGA_Ops.git
+cd MAGA_Ops
 ```
 
-Install the requirements:
+### 3. Set Up Python Environment
 
 ```bash
+# Create and activate virtual environment
+python -m venv venv
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+
+# Install dependencies
 pip install -r requirements.txt
 ```
 
-Try updating the House members contact information (mailing address, etc.):
+### 4. Set Up Node.js Environment
 
 ```bash
-python house_contacts.py
+npm install
 ```
 
-Check whether and how the data has changed:
+### 5. Configure Environment Variables
+
+Create a `.env` file in the project root with the following content:
+
+```
+GOOGLE_API_KEY=your_google_ai_api_key
+TWITTER_BEARER_TOKEN=your_twitter_bearer_token
+# Add other API keys as needed
+```
+
+### 6. Database Setup
+
+The application uses SQLite for data storage. The database is automatically created when the application runs, but you can initialize it manually:
 
 ```bash
-git diff ../*.yaml
+python scripts/db/initialize_db.py
 ```
 
-We run the following scripts periodically to scrape for new information and keep the data files up to date. The scripts do not take any command-line arguments.
+### 7. Start the Application (Development Mode)
 
-* `house_contacts.py`: Updates House members' contact information (address, office, and phone fields on their current term, and their official_full name field)
-* `house_websites.py`: Updates House members' current website URLs.
-* `senate_contacts.py`: Updates senator information (party, class, state_rank, address, office, phone, and contact_form fields on their current term, and their official_full name, bioguide ID, and lis ID fields)
-* `committee_membership.py`: Updates `committees-current.yaml` (name, address, and phone fields for House committees; name and url fields for Senate committees; creates new subcommittees when found with name and thomas_id fields) and writes out a whole new `committee-membership-current.yaml` file by scraping the House and Senate websites.
-* `historical_committees.py`: Updates `committees-historical.yaml` based on the committees listed on THOMAS.gov, which are committees to which bills have been referred since the 103rd Congress (1973).
-* `social_media.py`: Generates leads for Twitter, YouTube, and Facebook accounts for members of Congress by scraping their official websites. Uses a blacklist CSV and a whitelist CSV to manage false positives and negatives.
-* `influence_ids.py`: Grabs updated FEC and OpenSecrets IDs from the [Influence Explorer API](http://data.influenceexplorer.com/api). Will only work for members with a Bioguide ID.
+```bash
+npm run dev
+```
 
-The following script takes one required command line argument
+## Utility Modules
 
-* `icpsr_ids.py`: Updates ICPSR ID's for all members of the House and Senate in a given congress, based on roll call vote data files stored by Voteview.com. The script takes one command line argument:
---congress=congress_number
-where congress_number is the number of the Congress to be updated. As of July, 2013, the permanent URL for future roll call data is unclear, and as such, the script may need to be modified when it is run for the 114th congress.
+The project includes several utility modules to streamline development:
 
-* `pictorial_ids.py`: Updates [Pictorial](https://pictorial.gpo.gov/member-search/) ID's for all members of the House and Senate in a given congress, using on [Pictorial's API](https://pictorialapi.gpo.gov/api/). The script takes one command line argument:
---congress=congress_number
-where congress_number is the number of the Congress to be updated.
+### file_utils.py
+- File operations (read/write)
+- YAML, JSON, CSV handling
+- File path management
 
-The following script is run to create alternately formatted data files for the `gh-pages` branch. It takes no command-line arguments.
+### string_utils.py
+- String normalization
+- Text cleaning and formatting
+- Pattern matching utilities
 
-* `alternate_bulk_formats.py`: creates JSON files for all YAML files and CSV files for current legislators, historical legislators, and district offices. The CSV files do not include all fields from the legislator YAML files, and do include data from the social media YAML.
+### date_utils.py
+- Date parsing and formatting
+- Time zone handling
+- Date range operations
 
-Two scripts help maintain and validate district office data:
+### db_utils.py
+- SQLite database connections
+- Transaction management
+- Query execution utilities
 
-* `geocode_offices.py` : Derives latitude, longitude pairs for office addresses. It should be run whenever new offices are added. By default this script geocodes all offices with addresses that have not already been geocoded. It optionally takes bioguide IDs as arguments, and in this case will geocode just offices for the specified ids. This script uses the Google Maps API, and requires that a key be set in scripts/cache/google_maps_api_key.txt .
-* `office_validator.py` : Validates rules for district office data and reports errors and warnings. An optional `--skip-warnings` argument will suppress display of warnings. This script should be run whenever offices are added or modified. It is used by continuous integration testing, so errors here will cause the build to fail.
+### config_utils.py
+- Configuration loading from various sources
+- Environment variable management
+- Application settings handling
 
-Every script in `scripts/` should be safely import-able without executing code, beyond imports themselves. We typically do this with a `def run():` declaration after the imports, and putting this at the bottom of the script:
+### logger.py
+- Configurable logging setup
+- Log rotation and formatting
+- Console and file logging
+
+## Data Mining Framework
+
+The data mining system consists of:
+
+1. **Sources**: Modules that fetch data from external APIs and websites
+2. **Processors**: Modules that analyze and transform the collected data
+3. **Coordinator**: Central component managing the data mining workflow
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is proprietary and not licensed for public use.
+
+## Status and Next Steps
+
+Refer to [PROJECT_CONTEXT.md](./PROJECT_CONTEXT.md) for detailed information about the current status of the project, recent changes, and planned next steps.
+
+## Overview
+
+This project is an Electron-based desktop application designed to function as the MAGA Operations **AI-driven** political intelligence hub. It integrates data tracking for **Politicians** and **Influencers**, enabling users to explore individual profiles and, crucially, **analyze the connections and interplay between these groups and related data points like funding and media activity.**
+
+**The application leverages AI for two primary functions:**
+1.  **Intelligence Generation:** Creating reports, social media drafts, email alerts, and other content based on user prompts and the integrated data.
+2.  **Data Ecosystem Enhancement (Future Goal):** Assisting in the continuous improvement of the data foundation by identifying needs, suggesting schema/index changes, and potentially automating data acquisition from verified sources (FEC, official statements, etc.).
+
+It combines a Node.js/Electron frontend with Python scripts for data scraping, processing, AI interaction, and database management.
+
+## Recent Updates (Session Summary)
+
+This session focused on restructuring the Python backend and implementing core data fetching capabilities:
+
+1.  **Backend Restructure:**
+    *   Introduced `scripts/api_bridge.py` as a simple, secure pass-through from Electron's `main.js` to the core Python logic.
+    *   Centralized Python backend logic in `scripts/data-mining/coordinator.py`. This script now routes requests based on a `type` field in the JSON payload.
+2.  **Database Implementation:**
+    *   Created `scripts/db/database_manager.py` with a `DatabaseManager` class to handle SQLite interactions.
+    *   Implemented methods for: 
+        *   `search_entities(query)`: Searches `politicians` and `influencers` tables.
+        *   `get_entity_field(entity_type, entity_id, field)`: Fetches a specific field for an entity.
+        *   `update_entity_field(entity_type, entity_id, field, data)`: Updates a field, serializing list/dict to JSON.
+        *   `get_relevant_entities(entity_type, reference_id)`: Placeholder for background tasks.
+    *   The `coordinator.py` now imports and uses this real `DatabaseManager`, replacing previous dummy implementations.
+3.  **Voting Records Source:**
+    *   Added the `congress` library (`unitedstates/congress`) to `requirements.txt` to fetch official congressional data.
+    *   Created `scripts/data-mining/sources/voting_records.py`.
+    *   Implemented `fetch_recent_votes(entity_id, months_ago=24, max_votes=20)`: 
+        *   Uses `subprocess` to run the `congress` library's command-line tool (`congress.run votes`) to download/update vote data into the `data/` directory.
+        *   Parses the downloaded JSON vote files.
+        *   Filters votes for the specified legislator (using Bioguide ID).
+        *   Returns votes within the last `months_ago` (default 24) months, up to `max_votes`.
+    *   The `coordinator.py` now imports and uses this source for `'voting_record'` field requests.
+4.  **Search Functionality Integration:**
+    *   Identified that the frontend search (`influencer-search.js`) was sending a `'search'` command not handled by the backend.
+    *   Added routing for `'search'` in `coordinator.py` to call `handle_search_request`.
+    *   Implemented `handle_search_request` to use `database_manager.search_entities` for querying the database.
+
+## Features
+
+*   **Main UI:** (Located in `src/renderer/index.html`, `renderer.js`, `styles.css`) Provides an interface likely focused on US legislators, potentially including search, details view, and tweet analysis (based on IPC handlers in `main.js`).
+*   **Influencer Search UI:** (Located in `src/renderer/influencer-search.html`, `influencer-search.js`, `influencer-styles.css`) A dedicated interface for searching and exploring the influencer database. Features include:
+    *   Keyword search for influencers (**Now connected to backend DB search**).
+    *   Displaying top influencers (ranked by relevance).
+    *   Browsing influencers by category or affiliation.
+    *   Viewing detailed influencer profiles in a modal.
+    *   Displaying an ideological distribution (basic bar chart).
+*   **Entity Detail View:** (`src/renderer/entity-detail.html`, `.js`) Displays detailed information about a selected politician or influencer. Supports fetching and displaying:
+    *   Base profile information.
+    *   Politician Voting Records (**Now fetches last 24 months from official data**).
+    *   Politician Committee Assignments (Placeholder).
+    *   Influencer Metrics & Stances (Placeholders).
+    *   Social Media (Twitter evaluation via AI placeholder).
+    *   AI-driven content generation (email, post, reply drafts) based on context.
+*   **Data Scraping:** Includes a Python script (`scripts/extract_influencers_full.py`) using Selenium to scrape influencer names from YouTube video titles (specifically configured for Benny Johnson's channel in previous versions).
+*   **Python Backend Bridge:** An `api_bridge.py` script acts as an interface between the Electron frontend and the Python data logic (`coordinator.py`).
+*   **Data Mining Coordinator (`coordinator.py`):** Central hub dispatching tasks for fetching data (voting records), database interaction (search, get/update fields), and AI processing (placeholders).
+*   **Database Interaction (`database_manager.py`):** Manages connections and queries to the primary SQLite database (`maga_ops.db`).
+*   **AI-Powered Generation:** Sidebar and profile actions trigger AI requests (currently placeholders or basic implementations) to generate reports, summaries, social media posts, etc., using available data context.
+*   **AI-Driven Data Sourcing (Future Goal):** Planned capability for the AI to identify data needs, propose schema changes, and potentially manage data fetching/updates (as outlined in Future Enhancements).
+
+## Setup and Installation
+
+1.  **Clone the repository.**
+2.  **Install Node.js dependencies:**
+    ```bash
+    cd MAGA_Ops
+    npm install
+    ```
+3.  **Install Python dependencies:** Ensure you have Python 3 installed. Navigate to the `MAGA_Ops` directory and install required packages from `requirements.txt`:
+    ```bash
+    # Make sure you are in the MAGA_Ops directory
+    pip install -r requirements.txt 
+    ```
+4.  **Set up the Database (`maga_ops.db`):**
+    *   Ensure the SQLite database file exists in the project root.
+    *   Verify it contains `politicians` and `influencers` tables with appropriate columns (see `database_manager.py` for columns used in search).
+    *   *Note: The previous `setup-db.js` and `politicians.db` may be deprecated or need merging into `maga_ops.db`.*
+
+## Running the Application
+
+*   **Development Mode (with DevTools):**
+    ```bash
+    cd MAGA_Ops
+    npm run dev
+    ```
+*   **Standard Mode:**
+    ```bash
+    cd MAGA_Ops
+    npm start
+    ```
+
+## Directory Structure Overview
+
+```
+MAGA_Ops/
+├── .circleci/        
+├── cache/
+│   └── congress/     # Cache for unitedstates/congress tool downloads
+├── data/             # Contains downloaded data from sources (e.g., congress tool)
+├── node_modules/     
+├── scripts/          
+│   ├── api_bridge.py # Simple entry point calling coordinator.py
+│   ├── data-mining/  # Handles external data fetching, processing, and AI analysis
+│   │   ├── __init__.py
+│   │   ├── coordinator.py # Central dispatcher for data mining/evaluation tasks
+│   │   ├── sources/       # Modules for specific data sources
+│   │   │   ├── __init__.py
+│   │   │   ├── voting_records.py # Fetches votes via unitedstates/congress tool
+│   │   │   └── ... (twitter_profile.py, committees.py - placeholders)
+│   │   ├── processors/    # Modules for processing/analyzing data (AI)
+│   │   │   ├── __init__.py
+│   │   │   ├── post_evaluator.py # Placeholder/Dummy AI analysis
+│   │   │   └── ...
+│   │   └── utils/         # Shared utilities 
+│   │       └── logging_config.py 
+│   ├── db/           # Database interaction logic
+│   │   ├── __init__.py
+│   │   └── database_manager.py # Manages SQLite connection and queries
+│   └── ...           # Other utility scripts (e.g., old scraper)
+├── src/              # Source code for the Electron application
+│   ├── main/         
+│   │   └── main.js   # Main Electron process 
+│   ├── renderer/     # UI code (HTML, CSS, JS)
+│   │   └── ...
+│   ├── services/     # (Likely deprecated by python bridge)
+│   ├── utils/        
+│   └── preload.js    # Electron preload script
+├── test/             
+├── venv/             # Python virtual environment (if used)
+├── .env              # Environment variables (e.g., API keys - *KEEP SECRET*)
+├── .gitignore        
+├── .stylelintrc.json 
+├── console.log.txt   # Log file for main process output
+├── maga_ops.db       # Primary SQLite database
+├── package.json      
+├── package-lock.json 
+├── requirements.txt  # Python dependencies
+└── README.md         # This file
+```
+
+## Core Components & Data Flow
+
+*   **Electron (`src/main/main.js`, `src/preload.js`):** Manages the application window, lifecycle, and defines secure IPC channels (like `python-bridge`) exposed via `preload.js`.
+*   **Renderer UI (`src/renderer/`):** HTML, CSS, and JavaScript files defining the user interfaces. Uses `window.electronAPI.invoke('python-bridge', json_payload)` via the preload script to send requests to the main process.
+*   **IPC Handling (`main.js`):** The main process listens for IPC requests on the `python-bridge` channel. When a request is received, it spawns the `api_bridge.py` script, passing the JSON payload string as an argument.
+*   **Python Bridge (`scripts/api_bridge.py`):** Acts as a simple, secure entry point. It receives the JSON request string, executes the `coordinator.py` script with this argument using `subprocess`, captures the coordinator's standard output (which should be a JSON response string), and prints this response back to the main Electron process.
+*   **Data Mining Coordinator (`scripts/data-mining/coordinator.py`):** The central hub for Python operations. Parses the incoming JSON request, determines the action (`search`, `fetch`, `evaluate_latest_post`, `force_fetch`, `generate_intel`), calls appropriate functions in `sources/`, `processors/`, or `db/database_manager.py`, and formats the final JSON response.
+*   **Database Manager (`scripts/db/database_manager.py`):** Handles all SQLite interactions (connecting, searching, getting/setting fields).
+*   **Data Sources (`scripts/data-mining/sources/`):** Modules responsible for fetching data from external sources. `voting_records.py` uses the `unitedstates/congress` tool.
+*   **Data Processors (`scripts/data-mining/processors/`):** Modules responsible for analyzing or transforming data, often involving AI (currently placeholders).
+
+## Development Notes
+
+*   **Logging:** All `console.log`, `console.error`, uncaught exceptions, and unhandled rejections from the main process are logged to `MAGA_Ops/console.log.txt`. Python scripts use the standard `logging` module, configured via `utils/logging_config.py`.
+*   **Styling:** CSS is linted using Stylelint (`.stylelintrc.json`).
+*   **Database:** The primary database is now intended to be `maga_ops.db` in the project root.
+*   **Bioguide IDs:** Fetching voting records requires the legislator's Bioguide ID. Ensure this ID is available and passed correctly when requesting politician data.
+
+## Data Work / Jobs Tasks
+
+*   **Fetch Older Voting Records:** The current `voting_records.py` fetches data for the last ~24 months. A background process could be implemented later to run `congress.run votes --congress=<number>` for older Congresses to populate historical vote data.
+*   **Implement Remaining Data Sources:** Create real implementations for `committees.py`, `twitter_profile.py`, `fec_lookup.py`, `influencer_metrics.py`, `influencer_stances.py`, etc., replacing the current dummies.
+*   **Implement AI Processors:** Replace dummy AI functions in `post_evaluator.py` and for `generate_intel` with actual calls to AI models.
+*   **Database Schema/Migration:** Define and manage the schema for `maga_ops.db`, potentially merging data from older DBs.
+*   **Background Task Enrichment:** Fully implement the background task logic in `coordinator.py` and the `get_relevant_entities` method in `database_manager.py` for data enrichment.
+
+## Future Enhancements (Ideas)
+
+*   **Implement AI-Driven Data Sourcing:** Fully realize the system where the AI can:
+    *   Identify when requested data (e.g., specific connections, recent funding) is missing.
+    *   Log these "data needs".
+    *   Propose or automatically implement database schema changes (new tables/columns, indices).
+    *   Generate/run scraping/API scripts to fetch and populate the missing data from verified sources.
+    *   Update database documentation (e.g., a `data_sources.md` file) automatically.
+    *   Track the provenance and freshness of data.
+*   **Expand Generation Capabilities:** Add more sophisticated report types, allow complex multi-entity analysis prompts.
+*   **Refine Data:** Clean up noise and improve data quality in the influencer/politician databases.
+*   **Improve UI:** Enhance visualizations, improve modal details, add more robust error handling for AI interactions.
+
+## Database Schema and Entity Categorization
+
+### Overview
+
+MAGA_Ops uses a normalized SQLite database design to efficiently store and relate Politicians and Influencers while sharing common categorization types (party affiliation, ideology, Trump stance, etc.).
+
+The database follows these design principles:
+- **Entity-based architecture** with base entity table and specialized extensions
+- **Flexible categorization system** using a type-category-relation pattern
+- **Relationship tracking** between entities
+- **Proper indexing** for performance optimization
+- **View-based queries** for common data access patterns
+
+### Core Data Structure
+
+The database is organized around these primary concepts:
+
+1. **Entities**: Base table for all tracked individuals/organizations
+2. **Entity Types**: Politicians and Influencers extend the base entity
+3. **Categories**: Shared classification system (party, ideology, etc.)
+4. **Relationships**: Connections between entities
+5. **Content**: Social posts, voting records, and other entity-specific data
+
+### Schema Diagram
+
+```
+┌─────────────┐       ┌──────────────┐        ┌───────────────┐
+│   entities  │───1:1─┤  politicians │        │ category_types │
+├─────────────┤       ├──────────────┤        ├───────────────┤
+│ id          │       │ entity_id    │        │ id            │
+│ name        │       │ office       │        │ name          │
+│ bio         │       │ state        │        │ description   │
+│ entity_type │       │ district     │        │ is_multiple   │
+└──────┬──────┘       └──────────────┘        └───────┬───────┘
+       │                                              │
+       │              ┌──────────────┐                │
+       └──────1:1─────┤  influencers │                │
+       │              ├──────────────┤                │
+       │              │ entity_id    │                │
+       │              │ platform     │                │
+       │              │ audience_size│                │
+       │              └──────────────┘                │
+       │                                              │
+       │              ┌─────────────────┐             │
+       │              │entity_connections│             │
+       └──────M:N─────┼─────────────────┼───M:N───────┘
+       │              │ entity1_id      │             │
+       │              │ entity2_id      │             │
+       │              │ connection_type │             │
+       │              └─────────────────┘             │
+       │                                              │
+       │              ┌─────────────┐                 │
+       │              │  categories │                 │
+       └──────M:N─────┼─────────────┼────M:1──────────┘
+                      │ id          │
+                      │ category_type_id │
+                      │ code        │
+                      │ name        │
+                      └─────────────┘
+```
+
+### Entity Categories
+
+The categorization system is flexible and hierarchical:
+
+1. **Category Types**: Meta-categories like 'party', 'ideology', 'entity_type'
+2. **Categories**: Specific values within each type (e.g., 'REPUBLICAN', 'DEMOCRAT', 'MAGA')
+3. **Entity-Category Relations**: M:N relationships between entities and categories
+
+This design allows for:
+- Different entity types to share the same category values
+- Some categories to support multiple values per entity (e.g., ideologies)
+- Others to enforce single values (e.g., party affiliation)
+- AI-assigned confidence scores for each categorization
+
+### Entity Relationships
+
+The database tracks connections between entities with:
+- Directional relationships (entity1 → entity2)
+- Connection types (mentions, endorses, opposes)
+- Strength scores (0-1 scale)
+- Evidence sources
+
+### Setup and Migration
+
+The database setup process has been improved with:
+
+1. **Schema Creation**: Using `scripts/db/schema.sql` for table definitions
+2. **Data Migration**: `scripts/db/migrate_data.py` to move data from old to new schema
+3. **Initialization**: `scripts/db/initialize_db.py` to setup a new database or update existing
+
+To initialize or update the database:
+
+```bash
+# Create logs directory if it doesn't exist
+mkdir -p logs
+
+# Run the initialization script
+python scripts/db/initialize_db.py
+```
+
+### Database Access
+
+Database interactions are handled through the `DatabaseManager` class:
 
 ```python
-if __name__ == '__main__':
-  run()
+from scripts.db.database_manager import DatabaseManager
+
+# Create an instance
+db = DatabaseManager()
+
+# Search for entities
+results = db.search_entities("trump", entity_type="politician")
+
+# Get a specific entity with categories
+entity = db.get_entity(123)
+
+# Get entities by category
+maga_entities = db.get_entities_by_category("MAGA")
+
+# Update entity fields
+db.update_entity_field("politician", 123, "state", "Florida")
+
+# Add a category to entity
+db.update_entity_field("influencer", 456, "category_ideology", "MAGA")
 ```
 
-Every pull request will pass submitted scripts through an import, to catch exceptions, and through [pyflakes](https://pypi.python.org/pypi/pyflakes), to catch unused imports or local vars.
-
-To contribute updates for district offices, edit the `legislators-district-offices.yaml` file by hand and submit a pull request. Updates should pass validation as defined by `scripts/office_validator.py`.
-
-#### Other Scripts
-
-The `ballotpedia` field has been created using code from James Michael DuPont, using the code in [git@github.com:h4ck3rm1k3/rootstrikers-wikipedia.git](https://github.com/h4ck3rm1k3/rootstrikers-wikipedia) in the branch `ballotpedia`.
-
-## Related libraries
-
-* Karl Nicholas made a set of [Java classes](https://github.com/knicholas/congress-legislators) to easily filter the data.
-* TheWalkers maintain [congress-turk](https://github.com/TheWalkers/congress-turk) to do bulk collection of district office data using Amazon Mechanical Turk.
-
-
-## Who's Using This Data
-
-Ongoing projects making use of this data:
-
-* [GovTrack.us](https://www.govtrack.us)
-* [Sunlight Congress API](http://sunlightlabs.github.io/congress/)
-* [ProPublica Congress API](https://propublica.github.io/congress-api-docs/)
-* [Represent](https://projects.propublica.org/represent/)
-* [EveryPolitician.org](http://everypolitician.org)
-
-Stories written with this data:
-
-* http://swampland.time.com/2013/11/15/meet-the-39-democrats-who-voted-with-the-house-on-obamacare/
-* http://swampland.time.com/2013/10/28/liz-cheney-and-the-family-business-a-chart-of-all-congressional-dynasties/
-
-Other projects:
-
-* Margie Roswell's [committee map](http://mroswell.github.io/congressional-committee-maps/index.html)
-
-## Public domain
-
-This project is [dedicated to the public domain](LICENSE). As spelled out in [CONTRIBUTING](CONTRIBUTING.md):
-
-> The project is in the public domain within the United States, and copyright and related rights in the work worldwide are waived through the [CC0 1.0 Universal public domain dedication](http://creativecommons.org/publicdomain/zero/1.0/).
-
-> All contributions to this project will be released under the CC0 dedication. By submitting a pull request, you are agreeing to comply with this waiver of copyright interest.
+The manager provides methods for all common database operations.

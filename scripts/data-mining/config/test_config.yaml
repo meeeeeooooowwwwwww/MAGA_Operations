@@ -1,0 +1,40 @@
+database:
+  backup:
+    enabled: true
+    interval: 24
+    max_backups: 5
+  path: maga_ops.db
+  type: sqlite
+general:
+  debug: true
+  environment: testing
+  log_level: info
+new:
+  nested:
+    value: test
+output:
+  directory: data
+  file_prefix: maga_ops_
+  formats:
+  - json
+  - csv
+processing:
+  batch_size: 100
+  retry_attempts: 3
+  retry_delay: 5
+  threads: 8
+sources:
+  fec:
+    api_key: null
+    base_url: https://www.fec.gov/data/
+    cache_dir: cache/fec
+    rate_limit: 45
+  opensecrets:
+    api_key: null
+    base_url: https://www.opensecrets.org/api/
+    cache_dir: cache/opensecrets
+    rate_limit: 30
+  senate_disclosures:
+    base_url: https://efdsearch.senate.gov/search/
+    cache_dir: cache/senate_disclosures
+    rate_limit: 10

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAGA Ops - Influencers</title>
+    <!-- Shared Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Segoe+UI&display=swap" rel="stylesheet">
+    <!-- Shared Styles -->
+    <link rel="stylesheet" href="shared-styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Page-Specific Styles -->
+    <!-- <link rel="stylesheet" href="influencer-styles.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Shared Utilities -->
+    <script src="./utils.js" defer></script>
+    <!-- Specific JS for this view -->
+    <script src="./influencer-search.js" defer></script>
+</head>
+<body>
+    <!-- Standard Header -->
+    <header class="header">
+        <a href="landing.html" class="app-title">
+             <svg width="40" height="40" viewBox="0 0 60 60" style="margin-right: 8px;">
+                 <rect width="60" height="60" fill="#E91D0E"/>
+                 <text x="16" y="26" fill="white" font-family="Oswald, sans-serif" font-size="24" font-weight="bold">M</text>
+                 <text x="16" y="48" fill="white" font-family="Oswald, sans-serif" font-size="24" font-weight="bold">O</text>
+             </svg>
+             <span>MAGA Ops</span>
+        </a>
+        <nav class="header-nav">
+            <button class="nav-btn" title="Settings"><i class="fas fa-cog"></i></button>
+            <button class="nav-btn" title="Help"><i class="fas fa-question-circle"></i></button>
+        </nav>
+    </header>
+
+    <!-- Standard Main Content Layout -->
+    <div class="main-content">
+        <!-- Standard Sidebar -->
+        <aside class="sidebar">
+             <div class="sidebar-section">
+                 <h3 class="sidebar-title">Navigation</h3>
+                 <div class="sidebar-actions">
+                     <button class="sidebar-btn" id="nav-home"><i class="fas fa-home"></i> Home</button>
+                     <!-- Mark Explore as active/relevant -->
+                     <button class="sidebar-btn active" id="nav-explore"><i class="fas fa-search-dollar"></i> Explore Data</button> 
+                     <button class="sidebar-btn" id="nav-generate"><i class="fas fa-file-signature"></i> Generate Intel</button>
+                     <button class="sidebar-btn" id="nav-settings-sidebar"><i class="fas fa-cog"></i> Settings</button>
+                 </div>
+             </div>
+             <!-- Add influencer-specific sidebar actions if needed -->
+             <div class="sidebar-section">
+                 <h3 class="sidebar-title">Quick Actions</h3>
+                 <div class="sidebar-actions">
+                     <button class="sidebar-btn" id="top-influencers-btn"><i class="fas fa-trophy"></i> Top Influencers</button>
+                     <button class="sidebar-btn" id="browse-by-category-btn"><i class="fas fa-tags"></i> Browse Categories</button>
+                     <button class="sidebar-btn" id="browse-by-affiliation-btn"><i class="fas fa-landmark"></i> Browse Affiliations</button>
+                     <button class="sidebar-btn" id="ideology-map-btn"><i class="fas fa-map-marked-alt"></i> Ideology Map</button>
+                 </div>
+             </div>
+        </aside>
+
+        <!-- Standard Content Area -->
+        <main class="content-area">
+            <h1 class="page-title">Explore Influencers</h1>
+
+             <!-- Search Section -->
+             <div class="search-section">
+                 <div class="search-box">
+                     <input type="text" id="search-input" placeholder="Search by name, topic, or keyword (e.g., Trump, election, economy)">
+                     <button id="search-btn" title="Search Influencers"><i class="fas fa-search"></i></button>
+                 </div>
+                 <!-- Suggestions List -->
+                 <ul id="search-suggestions" class="suggestions-list" style="display: none;"></ul>
+             </div>
+
+             <!-- Results Area -->
+             <div class="results-container" id="results-container">
+                 <!-- Results will be shown here -->
+                 <p class="results-placeholder">Search for influencers or use Quick Actions in the sidebar.</p>
+             </div>
+
+             <!-- Hidden Panels for Browse Options -->
+             <div class="secondary-panels">
+                 <!-- Category selection panel -->
+                 <div class="panel" id="category-panel" style="display: none;">
+                     <h3>Select Category</h3>
+                     <div class="button-list" id="category-buttons"></div>
+                 </div>
+                 <!-- Affiliation selection panel -->
+                 <div class="panel" id="affiliation-panel" style="display: none;">
+                     <h3>Select Affiliation</h3>
+                     <div class="button-list" id="affiliation-buttons"></div>
+                 </div>
+                 <!-- Ideology map panel (placeholder) -->
+                 <div class="panel" id="ideology-panel" style="display: none;">
+                     <h3>Ideology Map (Placeholder)</h3>
+                     <p>Visualization of influencer ideological distribution will appear here.</p>
+                 </div>
+             </div>
+        </main>
+    </div>
+
+    <!-- Standard Footer -->
+    <footer class="footer">
+        <p>MAGA Operations &copy; 2025 | AI-Powered Intelligence</p>
+    </footer>
+
+    <!-- Loading Indicator (from shared-styles) -->
+    <div class="loading-indicator" id="loading-indicator">
+        <div class="spinner"></div>
+        <p>Loading results...</p>
+    </div>
+
+</body>
+</html> 

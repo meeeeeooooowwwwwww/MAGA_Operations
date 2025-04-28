@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAGA Ops - Politicians</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Segoe+UI&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="shared-styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Shared Utilities -->
+    <script src="./utils.js" defer></script>
+    <!-- Specific JS for this view -->
+    <script src="./politician-view.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <a href="landing.html" class="app-title">
+            <svg width="40" height="40" viewBox="0 0 60 60" style="margin-right: 8px;">
+                <rect width="60" height="60" fill="#E91D0E"/>
+                <text x="16" y="26" fill="white" font-family="Oswald, sans-serif" font-size="24" font-weight="bold">M</text>
+                <text x="16" y="48" fill="white" font-family="Oswald, sans-serif" font-size="24" font-weight="bold">O</text>
+            </svg>
+            <span>MAGA Ops</span>
+        </a>
+        <nav class="header-nav">
+            <button class="nav-btn" title="Settings"><i class="fas fa-cog"></i></button>
+            <button class="nav-btn" title="Help"><i class="fas fa-question-circle"></i></button>
+        </nav>
+    </header>
+
+    <div class="main-content">
+        <aside class="sidebar">
+            <div class="sidebar-section">
+                <h3 class="sidebar-title">Navigation</h3>
+                <div class="sidebar-actions">
+                    <button class="sidebar-btn" id="nav-home"><i class="fas fa-home"></i> Home</button>
+                    <button class="sidebar-btn active" id="nav-explore"><i class="fas fa-search-dollar"></i> Explore Data</button> 
+                    <button class="sidebar-btn" id="nav-generate"><i class="fas fa-file-signature"></i> Generate Intel</button>
+                    <button class="sidebar-btn" id="nav-settings-sidebar"><i class="fas fa-cog"></i> Settings</button>
+                </div>
+            </div>
+            <div class="sidebar-section">
+                 <h3 class="sidebar-title">Generate Content</h3>
+                 <div class="sidebar-actions" id="message-generator-actions">
+                    <button class="btn btn-secondary sidebar-btn" id="generate-social-btn">
+                        <i class="fas fa-share-alt"></i> Social Media Post
+                    </button>
+                    <button class="btn btn-secondary sidebar-btn" id="generate-email-btn">
+                        <i class="fas fa-envelope"></i> Email Draft
+                    </button>
+                     <button class="btn btn-secondary sidebar-btn" id="generate-press-release-btn">
+                         <i class="fas fa-bullhorn"></i> Press Release
+                     </button>
+                 </div>
+            </div>
+             <div class="sidebar-section">
+                 <h3 class="sidebar-title">Analyze Campaigns</h3>
+                 <div class="sidebar-actions" id="campaign-analysis-actions">
+                     <button class="btn btn-secondary sidebar-btn" disabled id="analyze-maga-btn">
+                         <i class="fas fa-chart-pie"></i> Analyze MAGA Messages
+                     </button>
+                     <button class="btn btn-secondary sidebar-btn" disabled id="analyze-democrat-btn">
+                         <i class="fas fa-chart-pie"></i> Analyze Democrat Messages
+                     </button>
+                 </div>
+            </div>
+        </aside>
+
+        <main class="content-area">
+            <div class="welcome-view" id="welcome-view">
+                <div class="search-container">
+                    <h1 class="page-title">Explore Politicians</h1>
+                    <div class="search-box main-search-box" id="politician-search-container">
+                        <input type="text" id="politician-search-input" placeholder="Search Politician by Name or State">
+                        <i class="fas fa-search search-icon"></i>
+                    </div>
+                    <div id="politician-search-indicator" style="display: none; text-align: center; margin-top: 10px;">
+                        <i class="fas fa-circle-notch fa-spin"></i> Searching...
+                    </div>
+                    <ul class="politicians-list" id="politicians-list" style="display: none;">
+                        <!-- Dynamically populated by JS -->
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Politician Detail View -->
+            <div id="politician-detail" class="view" style="display:none;">
+                <div class="detail-header">
+                    <div class="back-button" id="back-button">
+                        <i class="fas fa-arrow-left"></i> Back to list
+                    </div>
+                </div>
+
+                <!-- Entity Tabs -->
+                <div class="entity-tabs">
+                    <button class="tab-button active" data-tab="profile" data-tooltip="View basic information about this target">
+                        <i class="fas fa-user"></i> Target Profile
+                    </button>
+                    <button class="tab-button" data-tab="activity" data-tooltip="View recent activity and data analysis">
+                        <i class="fas fa-chart-line"></i> Intel
+                    </button>
+                    <button class="tab-button" data-tab="contacts" data-tooltip="Access contact methods and generate communications">
+                        <i class="fas fa-address-book"></i> Contact Ops
+                    </button>
+                </div>
+
+                <!-- Tab Content Containers -->
+                <div id="profile-tab" class="tab-content active">
+                    <div id="detail-content"><!-- Dynamic --></div>
+                </div>
+
+                <div id="activity-tab" class="tab-content">
+                    <div class="section-title">Recent Activity</div>
+                    <div class="activity-timeline">
+                        <div class="empty-state">
+                            <i class="fas fa-info-circle"></i>
+                            <p>No recent activity data available</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="contacts-tab" class="tab-content">
+                    <div class="section-title">Contact Information</div>
+                    <div id="contact-details"><!-- Dynamic --></div>
+                </div>
+            </div>
+
+            <!-- Optional Claim Evaluation View (Keep or Remove?) -->
+            <div class="claim-evaluation-view" id="claim-evaluation-view" style="display: none;">
+                <!-- ... content ... -->
+            </div>
+
+            <!-- Optional Resources View (Keep or Remove?) -->
+             <div class="resources-view" id="resources-view" style="display: none;">
+                <!-- ... content ... -->
+            </div>
+             <!-- Optional Actions View (Keep or Remove?) -->
+             <div class="actions-view" id="actions-view" style="display: none;">
+                 <!-- ... content ... -->
+             </div>
+
+        </main>
+    </div>
+
+    <footer class="footer">
+        <p>MAGA Operations &copy; 2025 | AI-Powered Intelligence</p>
+    </footer>
+
+     <!-- Loading Indicator -->
+     <div class="loading-indicator" id="loading-indicator" style="display: none;">
+         <!-- ... spinner ... -->
+     </div>
+
+     <!-- Output Modal (Keep for reports etc.) -->
+     <div class="modal-overlay" id="output-modal-overlay" style="visibility: hidden; opacity: 0;">
+         <!-- ... modal content ... -->
+     </div>
+
+</body>
+</html> 

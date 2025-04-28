@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAGA Ops - Home</title>
+    <!-- Link Shared Styles First -->
+    <link rel="stylesheet" href="shared-styles.css">
+    <!-- Link Main App Styles -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Add Font Awesome for icons (assuming it's available or add CDN link) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Oswald Font (if not globally included already in shared) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Segoe+UI&display=swap" rel="stylesheet">
+    <!-- Shared Utilities -->
+    <script src="./utils.js" defer></script>
+    <!-- Page Specific JS -->
+    <script src="./landing.js" defer></script>
+</head>
+<body>
+    <!-- Use structure from shared-styles.css -->
+    <header class="header">
+        <a href="landing.html" class="app-title">
+            <svg width="40" height="40" viewBox="0 0 60 60" style="margin-right: 8px;">
+                <rect width="60" height="60" fill="#E91D0E"/>
+                <text x="16" y="26" fill="white" font-family="Oswald, sans-serif" font-size="24" font-weight="bold">M</text>
+                <text x="16" y="48" fill="white" font-family="Oswald, sans-serif" font-size="24" font-weight="bold">O</text>
+            </svg>
+            <span>MAGA Ops</span>
+        </a>
+        <!-- Add other header elements like nav if needed -->
+        <nav class="header-nav">
+            <!-- Example nav buttons -->
+            <button class="nav-btn" title="Settings"><i class="fas fa-cog"></i></button>
+            <button class="nav-btn" title="Help"><i class="fas fa-question-circle"></i></button>
+        </nav>
+    </header>
+
+    <div class="main-content">
+        <aside class="sidebar">
+            <!-- Basic Sidebar Structure -->
+            <div class="sidebar-section">
+                <h3 class="sidebar-title">Navigation</h3>
+                <div class="sidebar-actions">
+                    <button class="sidebar-btn active" id="nav-home"><i class="fas fa-home"></i> Home</button>
+                    <button class="sidebar-btn" id="nav-explore"><i class="fas fa-search-dollar"></i> Explore Data</button>
+                    <button class="sidebar-btn" id="nav-generate"><i class="fas fa-file-signature"></i> Generate Intel</button>
+                    <button class="sidebar-btn" id="nav-settings-sidebar"><i class="fas fa-cog"></i> Settings</button>
+                </div>
+            </div>
+            <!-- Add more sections as needed -->
+        </aside>
+
+        <main class="content-area welcome-view"> <!-- Reuse welcome-view for centering -->
+            <div class="welcome-panel"> <!-- Reuse welcome-panel for styling -->
+                <h1 class="welcome-title">Welcome to MAGA Operations</h1>
+                <h2 class="welcome-subtitle">Analyze Relationships Between Politicians, Influencers, and Funding</h2>
+
+                <h3 class="landing-section-title">Explore Connections</h3>
+                <div class="landing-actions explore-actions">
+                    <button id="action-explore-politicians" class="landing-action-btn">
+                        <i class="fas fa-landmark"></i> Politicians & Legislation
+                    </button>
+                    <button id="action-explore-influencers" class="landing-action-btn">
+                        <i class="fas fa-bullhorn"></i> Influencers & Narratives
+                    </button>
+                     <button id="action-explore-funding" class="landing-action-btn">
+                        <i class="fas fa-hand-holding-usd"></i> Funding & Donors
+                    </button>
+                </div>
+
+                <h3 class="landing-section-title">Generate Intelligence</h3>
+                 <div class="landing-actions generate-actions">
+                    <button id="action-generate-report" class="landing-action-btn">
+                        <i class="fas fa-file-alt"></i> Generate Intel Brief
+                    </button>
+                    <button id="action-generate-post" class="landing-action-btn">
+                        <i class="fas fa-share-alt"></i> Draft Media Post
+                    </button>
+                    <button id="action-generate-email" class="landing-action-btn">
+                        <i class="fas fa-envelope"></i> Draft Email Alert
+                    </button>
+                 </div>
+            </div>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <p>MAGA Operations &copy; 2025 | AI-Powered Intelligence</p>
+    </footer>
+</body>
+</html> 

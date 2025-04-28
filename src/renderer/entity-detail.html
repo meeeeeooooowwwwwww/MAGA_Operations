@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAGA Ops - Entity Details</title>
+    <!-- Shared Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Segoe+UI&display=swap" rel="stylesheet">
+    <!-- Shared Styles -->
+    <link rel="stylesheet" href="shared-styles.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Include main layout styles -->
+    <!-- Page-Specific Styles (Optional - can add later if needed) -->
+    <!-- <link rel="stylesheet" href="entity-detail-styles.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Shared Utilities -->
+    <script src="./utils.js" defer></script>
+    <!-- Specific JS for this view -->
+    <script src="./entity-detail.js" defer></script>
+</head>
+<body>
+    <!-- Standard Header (Copied from politician-view/influencer-search) -->
+    <header class="header">
+        <a href="landing.html" class="app-title">
+             <svg width="40" height="40" viewBox="0 0 60 60" style="margin-right: 8px;">
+                 <rect width="60" height="60" fill="#E91D0E"/>
+                 <text x="16" y="26" fill="white" font-family="Oswald, sans-serif" font-size="24" font-weight="bold">M</text>
+                 <text x="16" y="48" fill="white" font-family="Oswald, sans-serif" font-size="24" font-weight="bold">O</text>
+             </svg>
+             <span>MAGA Ops</span>
+        </a>
+        <nav class="header-nav">
+            <button class="nav-btn" title="Settings"><i class="fas fa-cog"></i></button>
+            <button class="nav-btn" title="Help"><i class="fas fa-question-circle"></i></button>
+        </nav>
+    </header>
+
+    <!-- Standard Main Content Layout -->
+    <div class="main-content">
+        <!-- Standard Sidebar (Generic - JS might update active state later) -->
+        <aside class="sidebar">
+             <div class="sidebar-section">
+                 <h3 class="sidebar-title">Navigation</h3>
+                 <div class="sidebar-actions">
+                     <button class="sidebar-btn" id="nav-home"><i class="fas fa-home"></i> Home</button>
+                     <button class="sidebar-btn active" id="nav-explore"><i class="fas fa-search-dollar"></i> Explore Data</button> <!-- Assume active here -->
+                     <button class="sidebar-btn" id="nav-generate"><i class="fas fa-file-signature"></i> Generate Intel</button>
+                     <button class="sidebar-btn" id="nav-settings-sidebar"><i class="fas fa-cog"></i> Settings</button>
+                 </div>
+             </div>
+             <!-- Entity Specific Actions (Placeholder - JS can populate) -->
+             <div class="sidebar-section" id="entity-specific-actions" style="display: none;">
+                 <h3 class="sidebar-title">Actions</h3>
+                 <div class="sidebar-actions" id="entity-action-buttons">
+                     <!-- JS will populate actions like "Analyze Tweet", "View Voting Record" -->
+                 </div>
+             </div>
+        </aside>
+
+        <!-- Standard Content Area -->
+        <main class="content-area">
+             <!-- NEW: Error Display Area -->
+             <div id="error-display-area" class="error-message" style="display: none; margin-bottom: 15px;"></div>
+
+             <!-- Back Button (Generic) -->
+             <button class="btn btn-secondary btn-sm back-button" id="back-button" style="margin-bottom: 15px;">
+                 <i class="fas fa-arrow-left"></i> Back to List
+             </button>
+
+             <div class="profile-card" id="entity-profile-card"> <!-- Generic ID -->
+                 <div class="profile-header">
+                     <h2 class="profile-name" id="entity-name">Loading...</h2>
+                     <div class="profile-meta" id="entity-meta">
+                         <!-- Badges (Party, State, Type) will be added here by JS -->
+                     </div>
+                     <!-- Close button removed, use back button -->
+                 </div>
+
+                 <div class="card-tabs" id="entity-tabs">
+                     <!-- Common Tabs (JS adds more based on type) -->
+                     <div class="card-tab active" data-tab="info">Information</div>
+                     <div class="card-tab" data-tab="connections">Connections</div>
+                     <div class="card-tab" data-tab="social">Social Media</div>
+                     <!-- Politician specific tabs added by JS -->
+                     <!-- Influencer specific tabs added by JS -->
+                 </div>
+
+                 <div class="card-content">
+                     <!-- Common Tab Content -->
+                     <div class="tab-content active" id="info-tab-content">
+                         <div class="info-section">
+                             <h3 class="section-title"><i class="fas fa-id-card"></i> Contact Information</h3>
+                             <div class="contact-grid" id="contact-info">Loading...</div>
+                         </div>
+                         <div class="info-section">
+                             <h3 class="section-title"><i class="fas fa-star"></i> Biography/Description</h3>
+                             <p class="bio-text" id="entity-bio">Loading...</p>
+                         </div>
+                         <!-- Add other common info sections if applicable -->
+                     </div>
+
+                     <div class="tab-content" id="connections-tab-content">
+                          <div class="info-section">
+                             <h3 class="section-title"><i class="fas fa-link"></i> Associated Entities</h3>
+                             <p>Politicians, Influencers, Organizations, or PACs linked to this entity.</p>
+                             <ul class="connection-list" id="associated-entities-list">
+                                 <li>Loading connections...</li>
+                             </ul>
+                         </div>
+                         <div class="info-section">
+                             <h3 class="section-title"><i class="fas fa-hand-holding-usd"></i> Key Funding/Affiliations</h3>
+                             <p>Notable donors, PACs, affiliations, or funding sources.</p>
+                             <ul class="connection-list" id="key-funding-list">
+                                 <li>Loading funding info...</li>
+                             </ul>
+                         </div>
+                     </div>
+
+                     <div class="tab-content" id="social-tab-content">
+                         <h3 class="section-title"><i class="fab fa-twitter"></i> Recent Social Media Activity</h3>
+                         <div class="social-media-section" id="twitter-section" style="display: none;"> <!-- Hide initially -->
+                             <h4>Latest Tweet</h4>
+                             <div id="latest-tweet">
+                                 <p class="tweet-content">No Twitter account found or tweet not fetched.</p>
+                             </div>
+                             <!-- Button is hidden by default via style -->
+                             <button id="analyze-tweet-btn" class="btn btn-primary btn-sm" style="display: none; margin-top: 10px;">
+                                 <i class="fas fa-magic"></i> Evaluate Latest Tweet with AI
+                             </button>
+                             <div id="tweet-analysis-section" class="analysis-results" style="display: none; margin-top: 15px;">
+                                 <h4>AI Evaluation:</h4>
+                                 <ul id="analysis-list"> <!-- Display sentiment, topics, suggestions here -->
+                                     <li>Loading analysis...</li>
+                                 </ul>
+                                 <!-- NEW: Generation Action Buttons -->
+                                 <div class="generation-actions" style="margin-top: 10px;">
+                                     <h5 style="margin-bottom: 5px;">Generate based on this Tweet:</h5>
+                                     <button class="btn btn-secondary btn-sm generate-btn" data-format="email">Draft Email</button>
+                                     <button class="btn btn-secondary btn-sm generate-btn" data-format="post">Draft Social Post</button>
+                                     <button class="btn btn-secondary btn-sm generate-btn" data-format="reply">Draft Reply</button>
+                                     <!-- Add more formats as needed -->
+                                 </div>
+                             </div>
+                         </div>
+                         <div id="other-social-placeholder">
+                             <p>Other social media activity (e.g., YouTube) could be displayed here.</p>
+                         </div>
+                     </div>
+
+                     <!-- Placeholder for Politician Specific Content -->
+                     <div class="tab-content" id="politician-specific-content" style="display: none;">
+                         <!-- Voting Record Tab Content -->
+                         <div id="voting-tab-content">
+                            <h3 class="section-title"><i class="fas fa-check-double"></i> Voting Record</h3>
+                            <p>Voting record details will appear here.</p>
+                            <ul id="voting-record-list"><li>Loading voting record...</li></ul>
+                         </div>
+                         <!-- Committee Tab Content -->
+                          <div id="committees-tab-content">
+                            <h3 class="section-title"><i class="fas fa-users"></i> Committee Assignments</h3>
+                            <p>Committee details will appear here.</p>
+                            <ul id="committee-list"><li>Loading committees...</li></ul>
+                         </div>
+                     </div>
+
+                     <!-- Placeholder for Influencer Specific Content -->
+                     <div class="tab-content" id="influencer-specific-content" style="display: none;">
+                         <h3 class="section-title"><i class="fas fa-chart-line"></i> Key Metrics</h3>
+                         <p>Influencer-specific metrics (e.g., reach, engagement score) could appear here.</p>
+                         <ul id="influencer-metrics-list"><li>Loading metrics...</li></ul>
+
+                         <h3 class="section-title"><i class="fas fa-bullseye"></i> Stances & Narratives</h3>
+                         <p>Key topics, common narratives, and stated stances.</p>
+                         <ul id="influencer-stances-list"><li>Loading stances...</li></ul>
+                     </div>
+
+                      <!-- Placeholder for Reports Tab -->
+                     <div class="tab-content" id="reports-tab-content" style="display: none;">
+                          <h3 class="section-title"><i class="fas fa-file-alt"></i> Analysis & Reports</h3>
+                          <div id="analysis-actions">
+                                <button class="btn btn-secondary report-btn" data-report-type="summary_brief">Generate Summary Brief</button>
+                                <button class="btn btn-secondary report-btn" data-report-type="connection_map">Generate Connection Map</button>
+                                <!-- Add more report buttons -->
+                            </div>
+                            <div class="report-output-area" id="report-output-area" style="display: none; margin-top: 15px;">
+                                <pre id="report-output-content">Report output...</pre>
+                                <button class="btn btn-sm close-report-btn" id="close-report-btn"><i class="fas fa-times"></i> Close Report</button>
+                            </div>
+                     </div>
+                 </div>
+             </div>
+        </main>
+    </div>
+
+    <!-- Standard Footer -->
+    <footer class="footer">
+        <p>MAGA Operations &copy; 2025 | AI-Powered Intelligence</p>
+    </footer>
+
+    <!-- Loading Indicator (from shared-styles) -->
+    <div class="loading-indicator" id="loading-indicator">
+        <div class="spinner"></div>
+        <p>Loading...</p>
+    </div>
+
+    <!-- Modal Placeholder (If needed for other actions, but detail view replaces old modal) -->
+
+    <!-- NEW: Generation Output Modal -->
+    <div class="modal-overlay" id="generation-modal-overlay" style="display: none;">
+        <div class="modal-content" id="generation-modal-content">
+            <div class="modal-header">
+                <h3 id="generation-modal-title">Generated Content</h3>
+                <button class="close-btn" id="generation-modal-close-btn" title="Close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <textarea id="generation-modal-textarea" rows="15" readonly></textarea>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" id="generation-modal-copy-btn">Copy Text</button>
+                <button class="btn btn-primary" id="generation-modal-close-btn-footer">Close</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html> 

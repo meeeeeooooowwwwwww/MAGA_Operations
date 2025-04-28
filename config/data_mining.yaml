@@ -1,0 +1,104 @@
+# Configuration for MAGA Operations Data Mining
+# This file contains settings for all data mining operations
+
+# General settings
+general:
+  environment: "development"  # development, test, production
+  debug: true
+  log_level: "info"  # debug, info, warning, error, critical
+  max_threads: 4
+  cache_dir: "cache"
+
+# Database settings
+database:
+  connection_string: "sqlite:///maga_ops.db"
+  pool_size: 10
+  timeout: 30
+
+# API sources settings
+sources:
+  # Federal Election Commission 
+  fec:
+    enabled: true
+    api_key: ""  # Set via environment variable MAGA_SOURCES_FEC_API_KEY
+    base_url: "https://api.open.fec.gov/v1"
+    rate_limit: 120  # requests per minute
+    cache_ttl: 86400  # 24 hours in seconds
+    endpoints:
+      candidates: "/candidates"
+      committees: "/committees"
+      filings: "/filings"
+      schedules:
+        schedule_a: "/schedules/schedule_a"
+        schedule_b: "/schedules/schedule_b"
+        schedule_e: "/schedules/schedule_e"
+
+  # OpenSecrets
+  opensecrets:
+    enabled: true
+    api_key: ""  # Set via environment variable MAGA_SOURCES_OPENSECRETS_API_KEY
+    base_url: "https://www.opensecrets.org/api"
+    rate_limit: 60  # requests per minute
+    cache_ttl: 86400  # 24 hours in seconds
+
+  # Senate Disclosure
+  senate_disclosures:
+    enabled: true
+    base_url: "https://www.senate.gov/legislative/Public_Disclosure/LDA_reports.htm"
+    use_selenium: true
+    download_dir: "cache/senate_disclosures"
+    
+  # House Disclosure
+  house_disclosures:
+    enabled: true
+    base_url: "https://disclosures-clerk.house.gov/PublicDisclosure/FinancialDisclosure"
+    use_selenium: true
+    download_dir: "cache/house_disclosures"
+
+# Processing settings
+processing:
+  # General processing settings
+  batch_size: 100
+  timeout: 300  # seconds
+  max_retries: 3
+  retry_delay: 5  # seconds
+  
+  # Data cleansing settings
+  cleansing:
+    remove_duplicates: true
+    normalize_names: true
+    address_validation: false
+    
+  # Data enrichment settings
+  enrichment:
+    geocoding: true
+    entity_resolution: true
+    
+  # Data storage settings
+  storage:
+    format: "json"  # json, csv, sqlite
+    compress: true
+    backup_enabled: true
+    backup_interval: 86400  # 24 hours in seconds
+
+# Reporting settings
+reporting:
+  # Output formats
+  formats:
+    - json
+    - csv
+    - excel
+  
+  # Report scheduling
+  schedule:
+    enabled: false
+    interval: "daily"  # hourly, daily, weekly, monthly
+    
+  # Email notifications
+  email:
+    enabled: false
+    smtp_server: "smtp.gmail.com"
+    smtp_port: 587
+    username: ""  # Set via environment variable MAGA_REPORTING_EMAIL_USERNAME
+    password: ""  # Set via environment variable MAGA_REPORTING_EMAIL_PASSWORD
+    recipients: [] 

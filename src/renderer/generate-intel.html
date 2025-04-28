@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAGA Ops - Generate Intelligence</title>
+    <!-- Shared Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Segoe+UI&display=swap" rel="stylesheet">
+    <!-- Shared Styles -->
+    <link rel="stylesheet" href="shared-styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Shared Utilities -->
+    <script src="./utils.js" defer></script>
+    <!-- Specific JS for this view -->
+    <script src="./generate-intel.js" defer></script>
+</head>
+<body>
+    <!-- Standard Header -->
+    <header class="header">
+        <a href="landing.html" class="app-title">
+             <svg width="40" height="40" viewBox="0 0 60 60" style="margin-right: 8px;">
+                 <rect width="60" height="60" fill="#E91D0E"/>
+                 <text x="16" y="26" fill="white" font-family="Oswald, sans-serif" font-size="24" font-weight="bold">M</text>
+                 <text x="16" y="48" fill="white" font-family="Oswald, sans-serif" font-size="24" font-weight="bold">O</text>
+             </svg>
+             <span>MAGA Ops</span>
+        </a>
+        <nav class="header-nav">
+            <button class="nav-btn" title="Settings"><i class="fas fa-cog"></i></button>
+            <button class="nav-btn" title="Help"><i class="fas fa-question-circle"></i></button>
+        </nav>
+    </header>
+
+    <!-- Standard Main Content Layout -->
+    <div class="main-content">
+        <!-- Standard Sidebar -->
+        <aside class="sidebar">
+             <div class="sidebar-section">
+                 <h3 class="sidebar-title">Navigation</h3>
+                 <div class="sidebar-actions">
+                     <button class="sidebar-btn" id="nav-home"><i class="fas fa-home"></i> Home</button>
+                     <button class="sidebar-btn" id="nav-explore"><i class="fas fa-search-dollar"></i> Explore Data</button> 
+                     <button class="sidebar-btn active" id="nav-generate"><i class="fas fa-file-signature"></i> Generate Intel</button> <!-- Active -->
+                     <button class="sidebar-btn" id="nav-settings-sidebar"><i class="fas fa-cog"></i> Settings</button>
+                 </div>
+             </div>
+             <!-- Add generation-specific sidebar actions if needed -->
+             <div class="sidebar-section">
+                 <h3 class="sidebar-title">Output Type</h3>
+                 <div class="sidebar-actions">
+                     <button class="sidebar-btn generation-type-btn active" data-type="brief"><i class="fas fa-file-alt"></i> Intel Brief</button>
+                     <button class="sidebar-btn generation-type-btn" data-type="post"><i class="fas fa-share-alt"></i> Media Post</button>
+                     <button class="sidebar-btn generation-type-btn" data-type="email"><i class="fas fa-envelope"></i> Email Alert</button>
+                 </div>
+             </div>
+        </aside>
+
+        <!-- Standard Content Area -->
+        <main class="content-area">
+            <h1 class="page-title">Generate Intelligence</h1>
+            <p class="page-subtitle">Select targets and topics, then let the AI generate the requested output.</p>
+
+            <div class="generation-form">
+                <div class="form-section">
+                    <label for="target-politicians">Target Politicians:</label>
+                    <input type="text" id="target-politicians" placeholder="Search and add politicians (e.g., Trump, AOC)...">
+                    <div class="selected-targets" id="selected-politicians"></div>
+                </div>
+
+                <div class="form-section">
+                    <label for="target-influencers">Target Influencers:</label>
+                    <input type="text" id="target-influencers" placeholder="Search and add influencers (e.g., Musk, Shapiro)...">
+                    <div class="selected-targets" id="selected-influencers"></div>
+                </div>
+
+                <div class="form-section">
+                    <label for="key-topics">Key Topics / Themes:</label>
+                    <input type="text" id="key-topics" placeholder="Enter topics separated by commas (e.g., border security, economy, election integrity)...">
+                </div>
+                
+                <div class="form-section output-options" id="brief-options"> <!-- Options specific to briefs -->
+                     <label>Brief Options:</label>
+                     <label><input type="checkbox" id="brief-include-summary"> Include Executive Summary</label>
+                     <label><input type="checkbox" id="brief-include-funding"> Include Funding Connections</label>
+                     <label><input type="checkbox" id="brief-include-sources"> Include Data Sources</label>
+                </div>
+                
+                <div class="form-section output-options" id="post-options" style="display: none;"> <!-- Options specific to posts -->
+                     <label>Media Post Options:</label>
+                     <select id="post-platform">
+                         <option value="twitter">Twitter/X</option>
+                         <option value="facebook">Facebook</option>
+                         <option value="generic">Generic</option>
+                     </select>
+                     <select id="post-tone">
+                          <option value="neutral">Neutral</option>
+                          <option value="supportive">Supportive</option>
+                          <option value="critical">Critical</option>
+                          <option value="urgent">Urgent</option>
+                     </select>
+                </div>
+
+                 <div class="form-section output-options" id="email-options" style="display: none;"> <!-- Options specific to emails -->
+                     <label for="email-recipient">Recipient Type:</label>
+                     <input type="text" id="email-recipient" placeholder="e.g., Supporters, Undecided Voters, Media Contact">
+                 </div>
+
+                <button class="btn btn-primary btn-large" id="generate-btn">
+                    <i class="fas fa-magic"></i> Generate <span id="generate-type-label">Intel Brief</span>
+                </button>
+            </div>
+
+            <hr style="margin: 30px 0;">
+
+            <div class="generation-output" id="generation-output" style="display: none;">
+                <h2>Generated Output:</h2>
+                <textarea id="output-textarea" rows="15" readonly></textarea>
+                <div class="output-actions">
+                     <button class="btn btn-secondary" id="copy-output-btn"><i class="fas fa-copy"></i> Copy Output</button>
+                     <button class="btn btn-secondary" id="refine-output-btn" disabled><i class="fas fa-edit"></i> Refine (Future)</button>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <!-- Standard Footer -->
+    <footer class="footer">
+        <p>MAGA Operations &copy; 2025 | AI-Powered Intelligence</p>
+    </footer>
+
+</body>
+</html> 

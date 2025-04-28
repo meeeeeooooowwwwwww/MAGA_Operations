@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAGA Ops - Influencers & Narratives</title>
+    <link rel="stylesheet" href="shared-styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Shared Utilities -->
+    <script src="./utils.js" defer></script>
+    <!-- Influencer View Script -->
+    <script src="./influencer-view.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="main-content">
+            <aside class="sidebar">
+                <div class="sidebar-section">
+                    <h3 class="sidebar-title">Navigation</h3>
+                </div>
+                <div class="sidebar-actions">
+                    <button id="nav-home" class="sidebar-btn"><i class="fas fa-home"></i> Home</button>
+                    <button id="nav-explore" class="sidebar-btn active"><i class="fas fa-user-tie"></i> Media Targets</button>
+                    <button id="nav-generate" class="sidebar-btn"><i class="fas fa-file-signature"></i> Generate Intel</button>
+                    <button id="nav-settings-sidebar" class="sidebar-btn"><i class="fas fa-cog"></i> Settings</button>
+                </div>
+            </aside>
+            <main class="content-area">
+                <div id="influencer-view">
+                    <div id="influencers-container">
+                        <h2>Media Target Research</h2>
+                        <div id="influencer-search-container">
+                            <input type="text" id="influencer-search-input" placeholder="Search media targets by name, platform, or outlet...">
+                            <div id="influencer-search-indicator"></div>
+                            <i class="fas fa-search search-icon"></i>
+                        </div>
+                        <ul id="influencers-list"></ul>
+                    </div>
+                    <div id="influencer-detail" class="view" style="display:none;">
+                        <div class="detail-header">
+                            <div class="back-button" id="influencer-back-button">
+                                <i class="fas fa-arrow-left"></i> Back to list
+                            </div>
+                        </div>
+                        <div class="entity-tabs">
+                            <button class="tab-button active" data-tab="profile"><i class="fas fa-user"></i> Profile</button>
+                            <button class="tab-button" data-tab="activity"><i class="fas fa-chart-line"></i> Intel</button>
+                            <button class="tab-button" data-tab="contacts"><i class="fas fa-address-book"></i> Contacts</button>
+                        </div>
+                        <div id="profile-tab" class="tab-content active">
+                            <div id="influencer-detail-content"></div>
+                        </div>
+                        <div id="activity-tab" class="tab-content" style="display:none;">
+                            <div class="empty-state">
+                                <i class="fas fa-info-circle"></i>
+                                <p>No recent activity data available</p>
+                            </div>
+                        </div>
+                        <div id="contacts-tab" class="tab-content" style="display:none;">
+                            <div id="influencer-contact-details"></div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+</html> 
