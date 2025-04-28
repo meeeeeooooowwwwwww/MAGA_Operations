@@ -36,16 +36,16 @@ MAGA_Ops/
 
 ## Requirements
 
-* [Node.js](https://nodejs.org/) v16+ and npm
-* [Python](https://www.python.org/) 3.9+
-* [Cursor IDE](https://cursor.sh/) - Currently required for development
-* API keys for various services (Twitter, Google AI, etc.)
+*   **Cursor IDE (Highly Recommended):** This project is designed to work best with [Cursor](https://cursor.sh/), an AI-powered code editor. Using Cursor is **highly recommended** for both initial setup assistance and ongoing development work within this project. [Download Cursor here](https://cursor.sh/).
+*   [Node.js](https://nodejs.org/) v16+ and npm
+*   [Python](https://www.python.org/) 3.9+
+*   API keys for various services (Twitter, Google AI, etc.)
 
 ## Setup Instructions
 
 ### 1. Development Environment
 
-This project is currently under active development and requires the [Cursor IDE](https://cursor.sh/) for proper functionality. Cursor provides enhanced AI-assisted coding features that are integrated with this project.
+This project is currently under active development and **highly recommends** the [Cursor IDE](https://cursor.sh/) for proper functionality and development workflow. Cursor provides enhanced AI-assisted coding features that are integrated with this project.
 
 **[Download Cursor IDE here](https://cursor.sh/)**
 
@@ -103,6 +103,8 @@ npm run dev
 ## Quick Setup for Beginners (Windows)
 
 This section provides a simplified setup process for users on Windows who may be less familiar with development tools. This uses an automated script.
+
+**Important Note:** While this script automates installation, using the [Cursor IDE](https://cursor.sh/) is **highly recommended** for working with this project, as it can assist with setup, understanding the code, and making changes.
 
 **Prerequisites:**
 
