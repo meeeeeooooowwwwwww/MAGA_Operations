@@ -1,6 +1,6 @@
 # MAGA Ops - Project Context & Status
 
-**Last Updated:** May 1, 2025
+**Last Updated:** May 2, 2025
 
 **Objective:** To provide a snapshot of the current project architecture, recent changes, and immediate next steps, supplementing the main README.md.
 
@@ -31,41 +31,75 @@ We have significantly improved project documentation:
 - Enhanced inline code documentation with type hints and example usage
 - Standardized docstring format across all new utility modules
 
+### 4. Enhanced Data Processing & AI Integration
+
+Significant progress has been made in data handling and analysis:
+
+- **Database Schema Refinement:** The core database schema (`scripts/db/schema.sql`) has been substantially updated to accommodate diverse entity types (Politicians, Influencers), relationships, social media posts, stances, and AI-generated metadata. Key tables include `entities`, `entity_metadata`, `social_media_posts`, `political_stances`, `relationships`, `financial_disclosures`, and `ai_analysis_log`.
+- **AI-Powered Post Evaluation:** Implemented `scripts/data-mining/processors/post_evaluator.py` utilizing Google's Gemini API (`gemini-1.5-flash-latest`) for:
+    - Sentiment analysis (Positive, Negative, Neutral, Assertive, etc.) with justification.
+    - Extraction of key political/social topics.
+    - Suggestion of relevant local data points for contextual understanding.
+    - Robust error handling and structured JSON output.
+- **Data Mining Coordinator:** The `scripts/data-mining/coordinator.py` script acts as the central hub for Python backend operations, routing requests from the Electron frontend (via `scripts/api_bridge.py`) to appropriate data sources and processors. It handles request parsing, orchestrates data fetching (e.g., latest tweets via `scripts/data-mining/sources/twitter_profile.py`) and AI analysis, and manages basic threading for background tasks.
+- **New Data Sources & Scripts:** Added initial implementations or structures for various data sources (e.g., `fec_lookup.py`, `youtube_channel.py`, `committees.py`) and processing scripts (`entity_linker.py`, `sentiment_basic.py`, `generate_influencers.py`).
+- **Database Management:** Enhanced database utility scripts (`scripts/db/`) including `initialize_db.py`, `database_manager.py`, `import_entities.py`, and schema checking/migration tools.
+
+### 5. Frontend Refactoring: Generic Entity View
+
+Refactored the frontend to use a generic `entity-detail.html` and `entity-detail.js` for displaying information about any entity type, replacing separate views for politicians and influencers. This improves scalability and reduces code duplication.
+
 ## Current Architecture
 
 ```
 MAGA_Ops/
-├── config/                # Configuration files and settings
-├── data/                  # Local data storage
-├── scripts/               # Python backend scripts
-│   ├── data-mining/       # Data collection framework
-│   │   ├── sources/       # API integrations and web scrapers
-│   │   ├── processors/    # Data transformation and analysis
-│   │   └── utils/         # Data mining utilities
-│   ├── db/                # Database management
-│   └── utils/             # Core utility modules
-├── src/                   # Electron application
-│   ├── main/              # Main process
-│   └── renderer/          # User interface (React)
+├── config/                # Configuration files (data_mining.yaml, etc.)
+├── data/                  # Local data storage (cached files, potentially DB backups)
+├── logs/                  # Log files
+├── scripts/               # Python backend scripts & utilities
+│   ├── data-mining/       # Data collection & processing framework
+│   │   ├── sources/       # API integrations & web scrapers (Twitter, FEC, YouTube...)
+│   │   ├── processors/    # Data transformation & analysis (AI eval, linking...)
+│   │   └── utils/         # Shared utilities for data mining (API, cache, DB...)
+│   ├── db/                # Database management (schema, initialization, import...)
+│   ├── utils/             # Core shared utility modules (files, dates, strings...)
+│   └── api_bridge.py      # Interface between Electron main process and Python coordinator
+├── src/                   # Electron application source
+│   ├── main/              # Main process logic (main.js, preload.js)
+│   └── renderer/          # User interface (HTML, CSS, JS - React Planned)
+├── .env                   # Environment variables (API keys, etc.)
+├── maga_ops.db            # Main SQLite database file (IGNORED by git)
+└── ...                    # Other config files (.gitignore, package.json, etc.)
 ```
 
 ## Development Status
 
 ### Completed
-- ✅ Core utility module framework
-- ✅ Basic project structure
-- ✅ Documentation framework
+- ✅ Core utility module framework (`scripts/utils/`)
+- ✅ Basic project structure & configuration (`config/`, `.env`)
+- ✅ Documentation framework (`README.md`, `PROJECT_CONTEXT.md`)
+- ✅ Initial Database Schema (`scripts/db/schema.sql`) & setup scripts
+- ✅ Core Data Mining Coordinator (`scripts/data-mining/coordinator.py`)
+- ✅ Python-Electron Bridge (`scripts/api_bridge.py`, `main.js` integration)
+- ✅ Twitter Profile Fetching (`scripts/data-mining/sources/twitter_profile.py`)
+- ✅ AI Post Evaluation (`scripts/data-mining/processors/post_evaluator.py`)
+- ✅ Generic Entity Detail View (Frontend Refactor - `entity-detail.html`/`.js`)
+- ✅ Git repository setup and initial push
 
 ### In Progress
-- 🔄 Data mining integrations for primary sources
-- 🔄 Database schema refinement
-- 🔄 UI component development for entity visualization
+- 🔄 **Database Integration:** Replacing dummy DB calls in `coordinator.py` with actual `scripts/db/database_manager.py` interactions.
+- 🔄 **Frontend Implementation (`entity-detail.js`):** Fully implementing data display, tab functionality, and interaction logic for the generic view.
+- 🔄 **Data Source Implementation:** Adding robust fetching logic for FEC, Congress.gov, YouTube, etc. (`scripts/data-mining/sources/`).
+- 🔄 **Data Processor Implementation:** Developing entity linking, advanced sentiment/topic analysis (`scripts/data-mining/processors/`).
 
 ### Planned
-- 📋 AI integration for data analysis
-- 📋 Social media monitoring system
-- 📋 Campaign finance data integration
+- 📋 Robust background task/queue system (beyond basic threading)
+- 📋 Comprehensive Testing Framework (Unit, Integration)
+- 📋 UI component development for entity relationship visualization
+- 📋 Social media monitoring expansion (beyond single latest post)
+- 📋 Campaign finance data integration & analysis features
 - 📋 Reporting and dashboard features
+- 📋 Deployment Strategy & CI/CD Pipeline
 
 ## Technical Debt & Considerations
 
@@ -98,13 +132,15 @@ MAGA_Ops/
 
 ## Known Issues
 
-- SQLite may face performance limitations as the dataset grows
-- Some data sources have inconsistent field naming conventions
-- TwitterAPI v2 migration required for expanded capabilities
+- SQLite performance limitations with large datasets remain a concern.
+- Inconsistent field naming across some external data sources requires normalization.
+- Twitter API v2 migration may be needed for expanded features.
+- **Database interactions currently mocked in `coordinator.py`.**
+- **Background task handling in `coordinator.py` is basic (`threading`).**
 
 ## Final Notes
 
-The project is evolving rapidly with a focus on building a solid foundation. Our immediate priority is to complete the data collection framework and basic UI components before expanding AI capabilities.
+The project has made significant strides in establishing the core data processing pipeline, integrating AI analysis, and structuring the backend scripts. Current focus is on fully integrating the database with the coordinator and completing the frontend implementation for the generic entity view. Subsequent work will involve fleshing out data sources and processors.
 
 For detailed setup instructions, refer to the [README.md](./README.md) file.
 
