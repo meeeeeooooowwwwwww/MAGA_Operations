@@ -1,0 +1,39 @@
+MAGA Operations - Quickest Start Guide (for Beginners)
+====================================================
+
+Welcome! This guide helps you get the MAGA Operations application set up as easily as possible.
+
+**The #1 Recommended Tool: Cursor IDE**
+
+This project is built to work best with an AI-powered code editor called Cursor. It can help you understand the code and automate many setup steps.
+
+**Step 1: Get Cursor IDE**
+
+*   Download and install Cursor from: https://cursor.sh/
+*   Follow the installation instructions on their website.
+
+**Step 2: Open This Project in Cursor**
+
+*   Once Cursor is installed, open it.
+*   Go to "File" > "Open Folder..." (or similar option).
+*   Navigate to and select the `MAGA_Operations` folder where you downloaded this project.
+
+**Step 3: Ask Cursor AI for Help!**
+
+Now that the project is open in Cursor, you can use its AI chat to finish the setup.
+
+*   Open the AI Chat panel in Cursor (usually on the right or accessible via a shortcut like Ctrl+K or Cmd+K).
+*   **Ask the AI something like this:**
+
+    "Please guide me through setting up this MAGA_Operations project. Use the instructions in the `setup.bat` file and the `README.md` file (especially the 'Quick Setup for Beginners' section) as your primary guide. Help me install dependencies, set up the database, and configure the necessary API keys mentioned in `.env.example`."
+
+*   The AI will read the project files (`setup.bat`, `README.md`, `.env.example`) and walk you through the remaining steps, often automating commands for you.
+
+**Step 4: API Keys**
+
+*   The AI assistant (or the `README.md` / `setup.bat` instructions) will mention needing API keys (like for Google AI and Twitter) for certain features.
+*   You'll need to create a `.env` file (by copying `.env.example`) and paste your keys into it. The AI can help you with this process too.
+
+**That's it!** By using Cursor's AI, you leverage the detailed setup instructions already prepared in `setup.bat` and `README.md` without needing to manually run every command yourself.
+
+Good luck! 
