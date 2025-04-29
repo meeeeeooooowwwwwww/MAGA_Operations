@@ -1,0 +1,2004 @@
+2025-04-29 13:11:18,017 - INFO - Starting committee data migration
+2025-04-29 13:11:18,019 - INFO - Creating committees table...
+2025-04-29 13:11:18,026 - INFO - Creating committee_memberships table...
+2025-04-29 13:11:18,032 - INFO - Created new tables for committee data
+2025-04-29 13:11:18,032 - INFO - Loading YAML file: backups/migrated_data_files/committees-current.yaml
+2025-04-29 13:11:18,265 - INFO - Added committee: House Committee on Agriculture (ID: HSAG)
+2025-04-29 13:11:18,266 - INFO - Added committee: House Committee on Appropriations (ID: HSAP)
+2025-04-29 13:11:18,266 - INFO - Added committee: House Committee on Armed Services (ID: HSAS)
+2025-04-29 13:11:18,277 - INFO - Added committee: House Committee on Financial Services (ID: HSBA)
+2025-04-29 13:11:18,277 - INFO - Added committee: House Committee on the Budget (ID: HSBU)
+2025-04-29 13:11:18,277 - INFO - Added committee: House Committee on Education and Workforce (ID: HSED)
+2025-04-29 13:11:18,278 - INFO - Added committee: House Committee on Foreign Affairs (ID: HSFA)
+2025-04-29 13:11:18,278 - INFO - Added committee: House Committee on Oversight and Government Reform (ID: HSGO)
+2025-04-29 13:11:18,278 - INFO - Added committee: House Committee on House Administration (ID: HSHA)
+2025-04-29 13:11:18,279 - INFO - Added committee: House Committee on Homeland Security (ID: HSHM)
+2025-04-29 13:11:18,279 - INFO - Added committee: House Committee on Energy and Commerce (ID: HSIF)
+2025-04-29 13:11:18,280 - INFO - Added committee: House Committee on Natural Resources (ID: HSII)
+2025-04-29 13:11:18,280 - INFO - Added committee: House Permanent Select Committee on Intelligence (ID: HLIG)
+2025-04-29 13:11:18,280 - INFO - Added committee: House Committee on the Judiciary (ID: HSJU)
+2025-04-29 13:11:18,281 - INFO - Added committee: House Committee on Transportation and Infrastructure (ID: HSPW)
+2025-04-29 13:11:18,281 - INFO - Added committee: House Committee on Rules (ID: HSRU)
+2025-04-29 13:11:18,281 - INFO - Added committee: House Committee on Small Business (ID: HSSM)
+2025-04-29 13:11:18,281 - INFO - Added committee: House Committee on Ethics (ID: HSSO)
+2025-04-29 13:11:18,282 - INFO - Added committee: House Committee on Science, Space, and Technology (ID: HSSY)
+2025-04-29 13:11:18,282 - INFO - Added committee: House Committee on Veterans' Affairs (ID: HSVR)
+2025-04-29 13:11:18,283 - INFO - Added committee: House Committee on Ways and Means (ID: HSWM)
+2025-04-29 13:11:18,283 - INFO - Added committee: Commission on Security and Cooperation in Europe (ID: JCSE)
+2025-04-29 13:11:18,283 - INFO - Added committee: Joint Economic Committee (ID: JSEC)
+2025-04-29 13:11:18,283 - INFO - Added committee: Joint Committee on the Library (ID: JSLC)
+2025-04-29 13:11:18,284 - INFO - Added committee: Joint Committee on Printing (ID: JSPR)
+2025-04-29 13:11:18,284 - INFO - Added committee: Joint Committee on Taxation (ID: JSTX)
+2025-04-29 13:11:18,284 - INFO - Added committee: United States Senate Caucus on International Narcotics Control (ID: SCNC)
+2025-04-29 13:11:18,285 - INFO - Added committee: Senate Select Committee on Ethics (ID: SLET)
+2025-04-29 13:11:18,285 - INFO - Added committee: Senate Committee on Indian Affairs (ID: SLIA)
+2025-04-29 13:11:18,285 - INFO - Added committee: Senate Select Committee on Intelligence (ID: SLIN)
+2025-04-29 13:11:18,286 - INFO - Added committee: Senate Special Committee on Aging (ID: SPAG)
+2025-04-29 13:11:18,286 - INFO - Added committee: Senate Committee on Agriculture, Nutrition, and Forestry (ID: SSAF)
+2025-04-29 13:11:18,286 - INFO - Added committee: Senate Committee on Appropriations (ID: SSAP)
+2025-04-29 13:11:18,287 - INFO - Added committee: Senate Committee on Armed Services (ID: SSAS)
+2025-04-29 13:11:18,287 - INFO - Added committee: Senate Committee on Banking, Housing, and Urban Affairs (ID: SSBK)
+2025-04-29 13:11:18,288 - INFO - Added committee: Senate Committee on the Budget (ID: SSBU)
+2025-04-29 13:11:18,288 - INFO - Added committee: Senate Committee on Commerce, Science, and Transportation (ID: SSCM)
+2025-04-29 13:11:18,288 - INFO - Added committee: Senate Committee on Energy and Natural Resources (ID: SSEG)
+2025-04-29 13:11:18,289 - INFO - Added committee: Senate Committee on Environment and Public Works (ID: SSEV)
+2025-04-29 13:11:18,289 - INFO - Added committee: Senate Committee on Finance (ID: SSFI)
+2025-04-29 13:11:18,290 - INFO - Added committee: Senate Committee on Foreign Relations (ID: SSFR)
+2025-04-29 13:11:18,290 - INFO - Added committee: Senate Committee on Homeland Security and Governmental Affairs (ID: SSGA)
+2025-04-29 13:11:18,291 - INFO - Added committee: Senate Committee on Health, Education, Labor, and Pensions (ID: SSHR)
+2025-04-29 13:11:18,291 - INFO - Added committee: Senate Committee on the Judiciary (ID: SSJU)
+2025-04-29 13:11:18,292 - INFO - Added committee: Senate Committee on Rules and Administration (ID: SSRA)
+2025-04-29 13:11:18,292 - INFO - Added committee: Senate Committee on Small Business and Entrepreneurship (ID: SSSB)
+2025-04-29 13:11:18,292 - INFO - Added committee: Senate Committee on Veterans' Affairs (ID: SSVA)
+2025-04-29 13:11:18,293 - INFO - Added committee: House Select Subcommittee on the Coronavirus Pandemic (ID: HSVC)
+2025-04-29 13:11:18,293 - INFO - Added committee: House Select Subcommittee on the Weaponization of the Federal Government (ID: HSFD)
+2025-04-29 13:11:18,294 - INFO - Added committee: House Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party (ID: HSZS)
+2025-04-29 13:11:18,294 - INFO - Added committee: House Task Force on the Attempted Assassination of Donald J. Trump (ID: HSZT)
+2025-04-29 13:11:18,294 - INFO - Current Committees: Processed 51, Added 51, Updated 0
+2025-04-29 13:11:18,295 - INFO - Loading YAML file: backups/migrated_data_files/committees-historical.yaml
+2025-04-29 13:11:19,531 - INFO - Added committee: House Committee on Energy (Ad Hoc) (ID: HHAH)
+2025-04-29 13:11:19,532 - INFO - Added committee: House Committee on Committees (Select) (ID: HLCQ)
+2025-04-29 13:11:19,532 - INFO - Added committee: House Committee on Outer Continental Shelf (Select) (ID: HLOC)
+2025-04-29 13:11:19,532 - INFO - Added committee: House Committee on Joint Atomic Energy (ID: HSAT)
+2025-04-29 13:11:19,533 - INFO - Added committee: House Committee on District of Columbia (ID: HSDT)
+2025-04-29 13:11:19,533 - INFO - Added committee: House Select Committee on Energy Independence and Global Warming (ID: HSGW)
+2025-04-29 13:11:19,533 - INFO - Added committee: House Committee on Merchant Marine and Fisheries (ID: HSMM)
+2025-04-29 13:11:19,534 - INFO - Added committee: House Committee on Post Office and Civil Service (ID: HSPO)
+2025-04-29 13:11:19,534 - INFO - Updated committee: House Committee on Standards of Official Conduct (ID: HSSO)
+2025-04-29 13:11:19,534 - INFO - Added committee: House Committee on Internal Security (ID: HSUA)
+2025-04-29 13:11:19,534 - INFO - Added committee: Temporary Joint Committee on Deficit Reduction (ID: HTDE)
+2025-04-29 13:11:19,535 - INFO - Added committee: Senate Committee on POW/MIA Affairs (ID: SLPO)
+2025-04-29 13:11:19,535 - INFO - Added committee: Senate Committee on Impeachment (Special) (Hastings) (ID: SPIM)
+2025-04-29 13:11:19,535 - INFO - Added committee: Senate Committee on Official Conduct (Special) (ID: SPOC)
+2025-04-29 13:11:19,535 - INFO - Added committee: Senate Committee on Whitewater Dev Corp Investigation (Special) (ID: SPWW)
+2025-04-29 13:11:19,536 - INFO - Added committee: Senate Committee on Aeronautical and Space Sciences (ID: SSAE)
+2025-04-29 13:11:19,536 - INFO - Added committee: Senate Committee on District of Columbia (ID: SSDT)
+2025-04-29 13:11:19,536 - INFO - Added committee: Senate Committee on Post Office and Civil Service (ID: SSPO)
+2025-04-29 13:11:19,537 - INFO - Added committee: Joint Atomic Energy (ID: JSAT)
+2025-04-29 13:11:19,537 - INFO - Added committee: House Committee on Ethics (Select) (ID: HLET)
+2025-04-29 13:11:19,537 - INFO - Added committee: Temporary Joint Committee on Deficit Reduction (ID: JTDR)
+2025-04-29 13:11:19,538 - INFO - Updated committee: House Committee on Agriculture (ID: HSAG)
+2025-04-29 13:11:19,538 - INFO - Updated committee: House Committee on Appropriations (ID: HSAP)
+2025-04-29 13:11:19,539 - INFO - Updated committee: House Committee on Armed Services (ID: HSAS)
+2025-04-29 13:11:19,540 - INFO - Updated committee: House Committee on Banking and Currency (ID: HSBA)
+2025-04-29 13:11:19,540 - INFO - Updated committee: House Committee on Education and Labor (ID: HSED)
+2025-04-29 13:11:19,541 - INFO - Updated committee: House Committee on Foreign Affairs (ID: HSFA)
+2025-04-29 13:11:19,541 - INFO - Updated committee: House Committee on Government Operations (ID: HSGO)
+2025-04-29 13:11:19,542 - INFO - Updated committee: House Committee on House Administration (ID: HSHA)
+2025-04-29 13:11:19,542 - INFO - Updated committee: House Committee on Interior and Insular Affairs (ID: HSII)
+2025-04-29 13:11:19,543 - INFO - Updated committee: House Committee on Interstate and Foreign Commerce (ID: HSIF)
+2025-04-29 13:11:19,543 - INFO - Updated committee: House Committee on Judiciary (ID: HSJU)
+2025-04-29 13:11:19,544 - INFO - Updated committee: House Committee on Public Works (ID: HSPW)
+2025-04-29 13:11:19,544 - INFO - Updated committee: House Committee on Rules (ID: HSRU)
+2025-04-29 13:11:19,544 - INFO - Updated committee: House Committee on Science and Astronautics (ID: HSSY)
+2025-04-29 13:11:19,545 - INFO - Updated committee: House Committee on Veterans' Affairs (ID: HSVR)
+2025-04-29 13:11:19,545 - INFO - Updated committee: House Committee on Ways and Means (ID: HSWM)
+2025-04-29 13:11:19,546 - INFO - Updated committee: Senate Committee on Aging (Special) (ID: SPAG)
+2025-04-29 13:11:19,546 - INFO - Updated committee: Senate Committee on Agriculture and Forestry (ID: SSAF)
+2025-04-29 13:11:19,546 - INFO - Updated committee: Senate Committee on Appropriations (ID: SSAP)
+2025-04-29 13:11:19,547 - INFO - Updated committee: Senate Committee on Armed Services (ID: SSAS)
+2025-04-29 13:11:19,547 - INFO - Updated committee: Senate Committee on Banking, Housing, and Urban Affairs (ID: SSBK)
+2025-04-29 13:11:19,548 - INFO - Updated committee: Senate Committee on Budget (ID: SSBU)
+2025-04-29 13:11:19,548 - INFO - Updated committee: Senate Committee on Commerce (ID: SSCM)
+2025-04-29 13:11:19,548 - INFO - Updated committee: Senate Committee on Finance (ID: SSFI)
+2025-04-29 13:11:19,549 - INFO - Updated committee: Senate Committee on Foreign Relations (ID: SSFR)
+2025-04-29 13:11:19,549 - INFO - Updated committee: Senate Committee on Government Operations (ID: SSGA)
+2025-04-29 13:11:19,550 - INFO - Updated committee: Senate Committee on Interior and Insular Affairs (ID: SSEG)
+2025-04-29 13:11:19,550 - INFO - Updated committee: Senate Committee on Judiciary (ID: SSJU)
+2025-04-29 13:11:19,550 - INFO - Updated committee: Senate Committee on Labor and Public Welfare (ID: SSHR)
+2025-04-29 13:11:19,551 - INFO - Updated committee: Senate Committee on Public Works (ID: SSEV)
+2025-04-29 13:11:19,551 - INFO - Updated committee: Senate Committee on Rules and Administration (ID: SSRA)
+2025-04-29 13:11:19,552 - INFO - Updated committee: Senate Committee on Veterans' Affairs (ID: SSVA)
+2025-04-29 13:11:19,552 - INFO - Updated committee: House Committee on Budget (ID: HSBU)
+2025-04-29 13:11:19,552 - INFO - Updated committee: House Committee on Small Business (ID: HSSM)
+2025-04-29 13:11:19,553 - INFO - Updated committee: Senate Committee on Intelligence (Select) (ID: SLIN)
+2025-04-29 13:11:19,553 - INFO - Updated committee: Senate Committee on Standards and Conduct (Select) (ID: SLET)
+2025-04-29 13:11:19,553 - INFO - Updated committee: House Committee on Intelligence (Permanent Select) (ID: HLIG)
+2025-04-29 13:11:19,554 - INFO - Updated committee: Senate Committee on Indian Affairs (Select) (ID: SLIA)
+2025-04-29 13:11:19,554 - INFO - Updated committee: Senate Committee on Small Business (Select) (ID: SSSB)
+2025-04-29 13:11:19,554 - INFO - Updated committee: House Committee on Homeland Security (Select) (ID: HSHM)
+2025-04-29 13:11:19,555 - INFO - Added committee: House Select Committee on the Climate Crisis (ID: HSCN)
+2025-04-29 13:11:19,555 - INFO - Added committee: House Select Committee on Economic Disparity and Fairness in Growth (ID: HSEF)
+2025-04-29 13:11:19,555 - INFO - Added committee: House Select Committee on the Modernization of Congress (ID: HSMH)
+2025-04-29 13:11:19,556 - INFO - Added committee: House Select Committee to Investigate the January 6th Attack on the United States Capitol (ID: HSIJ)
+2025-04-29 13:11:19,557 - INFO - Updated committee: Commission on Security and Cooperation in Europe (Helsinki Commission) (ID: JCSE)
+2025-04-29 13:11:19,558 - INFO - Updated committee: Senate Committee on Caucus on International Narcotics Control (ID: SCNC)
+2025-04-29 13:11:19,558 - INFO - Historical Committees: Processed 67, Added 24, Updated 43
+2025-04-29 13:11:19,559 - INFO - Loading YAML file: backups/migrated_data_files/committee-membership-current.yaml
+2025-04-29 13:11:21,325 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,326 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,326 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,327 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,327 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,327 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,327 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,328 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,328 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,328 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,328 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,329 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,329 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,329 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,329 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,330 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,330 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,330 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,330 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,331 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,331 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,331 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,332 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,332 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,332 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,332 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,333 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,333 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,333 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,333 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,334 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,334 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,334 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,334 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,335 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,335 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,335 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,336 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,336 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,336 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,337 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,337 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,337 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,337 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,338 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,338 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,338 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,338 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,339 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,340 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,340 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,342 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,342 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,343 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,343 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,344 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,344 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,344 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,345 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,345 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,346 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,346 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,346 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,346 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,347 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,347 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,347 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,348 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,348 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,348 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,348 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,349 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,349 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,349 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,349 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,350 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,350 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,350 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,350 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,351 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,351 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,351 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,351 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,352 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,352 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,352 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,352 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,353 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,353 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,353 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,353 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,354 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,354 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,354 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,354 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,355 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,355 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,355 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,355 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,356 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,357 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,358 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,358 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,359 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,359 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,360 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,360 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,360 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,361 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,361 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,362 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,362 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,362 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,363 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,363 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,364 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,364 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,364 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,364 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,365 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,365 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,365 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,365 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,366 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,366 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,366 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,366 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,367 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,367 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,367 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,367 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,368 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,368 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,368 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,369 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,369 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,369 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,369 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,370 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,370 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,370 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,370 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,371 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,371 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,371 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,371 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,372 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,372 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,372 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,373 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,375 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,375 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,376 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,378 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,378 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,379 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,379 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,380 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,380 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,380 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,381 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,381 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,382 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,382 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,382 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,383 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,383 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,383 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,384 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,384 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,384 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,385 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,385 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,385 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,386 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,386 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,386 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,386 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,387 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,387 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,387 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,387 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,388 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,388 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,388 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,389 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,389 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,390 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,391 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,392 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,392 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,393 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,393 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,394 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,394 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,395 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,395 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,395 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,396 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,396 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,396 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,397 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,397 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,397 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,398 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,398 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,398 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,398 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,399 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,399 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,399 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,400 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,400 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,400 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,401 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,401 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,402 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,402 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,402 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,402 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,403 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,403 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,403 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,404 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,404 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,404 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,404 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,405 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,405 - WARNING - Membership missing committee ID, skipping
+2025-04-29 13:11:21,405 - INFO - Committee Memberships: Processed 229, Added 0, Updated 0, Missing politicians 0
+2025-04-29 13:11:21,412 - INFO - Committee data migration completed successfully
+2025-04-29 13:11:21,415 - INFO - Committee data migration completed
+2025-04-29 13:11:52,065 - INFO - Starting committee data migration
+2025-04-29 13:11:52,067 - INFO - Loading YAML file: backups/migrated_data_files/committees-current.yaml
+2025-04-29 13:11:52,245 - INFO - Updated committee: House Committee on Agriculture (ID: HSAG)
+2025-04-29 13:11:52,246 - INFO - Updated committee: House Committee on Appropriations (ID: HSAP)
+2025-04-29 13:11:52,247 - INFO - Updated committee: House Committee on Armed Services (ID: HSAS)
+2025-04-29 13:11:52,247 - INFO - Updated committee: House Committee on Financial Services (ID: HSBA)
+2025-04-29 13:11:52,248 - INFO - Updated committee: House Committee on the Budget (ID: HSBU)
+2025-04-29 13:11:52,248 - INFO - Updated committee: House Committee on Education and Workforce (ID: HSED)
+2025-04-29 13:11:52,249 - INFO - Updated committee: House Committee on Foreign Affairs (ID: HSFA)
+2025-04-29 13:11:52,249 - INFO - Updated committee: House Committee on Oversight and Government Reform (ID: HSGO)
+2025-04-29 13:11:52,249 - INFO - Updated committee: House Committee on House Administration (ID: HSHA)
+2025-04-29 13:11:52,250 - INFO - Updated committee: House Committee on Homeland Security (ID: HSHM)
+2025-04-29 13:11:52,250 - INFO - Updated committee: House Committee on Energy and Commerce (ID: HSIF)
+2025-04-29 13:11:52,250 - INFO - Updated committee: House Committee on Natural Resources (ID: HSII)
+2025-04-29 13:11:52,251 - INFO - Updated committee: House Permanent Select Committee on Intelligence (ID: HLIG)
+2025-04-29 13:11:52,251 - INFO - Updated committee: House Committee on the Judiciary (ID: HSJU)
+2025-04-29 13:11:52,252 - INFO - Updated committee: House Committee on Transportation and Infrastructure (ID: HSPW)
+2025-04-29 13:11:52,252 - INFO - Updated committee: House Committee on Rules (ID: HSRU)
+2025-04-29 13:11:52,253 - INFO - Updated committee: House Committee on Small Business (ID: HSSM)
+2025-04-29 13:11:52,253 - INFO - Updated committee: House Committee on Ethics (ID: HSSO)
+2025-04-29 13:11:52,253 - INFO - Updated committee: House Committee on Science, Space, and Technology (ID: HSSY)
+2025-04-29 13:11:52,254 - INFO - Updated committee: House Committee on Veterans' Affairs (ID: HSVR)
+2025-04-29 13:11:52,254 - INFO - Updated committee: House Committee on Ways and Means (ID: HSWM)
+2025-04-29 13:11:52,254 - INFO - Updated committee: Commission on Security and Cooperation in Europe (ID: JCSE)
+2025-04-29 13:11:52,255 - INFO - Updated committee: Joint Economic Committee (ID: JSEC)
+2025-04-29 13:11:52,255 - INFO - Updated committee: Joint Committee on the Library (ID: JSLC)
+2025-04-29 13:11:52,255 - INFO - Updated committee: Joint Committee on Printing (ID: JSPR)
+2025-04-29 13:11:52,255 - INFO - Updated committee: Joint Committee on Taxation (ID: JSTX)
+2025-04-29 13:11:52,256 - INFO - Updated committee: United States Senate Caucus on International Narcotics Control (ID: SCNC)
+2025-04-29 13:11:52,257 - INFO - Updated committee: Senate Select Committee on Ethics (ID: SLET)
+2025-04-29 13:11:52,257 - INFO - Updated committee: Senate Committee on Indian Affairs (ID: SLIA)
+2025-04-29 13:11:52,258 - INFO - Updated committee: Senate Select Committee on Intelligence (ID: SLIN)
+2025-04-29 13:11:52,258 - INFO - Updated committee: Senate Special Committee on Aging (ID: SPAG)
+2025-04-29 13:11:52,259 - INFO - Updated committee: Senate Committee on Agriculture, Nutrition, and Forestry (ID: SSAF)
+2025-04-29 13:11:52,259 - INFO - Updated committee: Senate Committee on Appropriations (ID: SSAP)
+2025-04-29 13:11:52,260 - INFO - Updated committee: Senate Committee on Armed Services (ID: SSAS)
+2025-04-29 13:11:52,260 - INFO - Updated committee: Senate Committee on Banking, Housing, and Urban Affairs (ID: SSBK)
+2025-04-29 13:11:52,261 - INFO - Updated committee: Senate Committee on the Budget (ID: SSBU)
+2025-04-29 13:11:52,261 - INFO - Updated committee: Senate Committee on Commerce, Science, and Transportation (ID: SSCM)
+2025-04-29 13:11:52,261 - INFO - Updated committee: Senate Committee on Energy and Natural Resources (ID: SSEG)
+2025-04-29 13:11:52,262 - INFO - Updated committee: Senate Committee on Environment and Public Works (ID: SSEV)
+2025-04-29 13:11:52,262 - INFO - Updated committee: Senate Committee on Finance (ID: SSFI)
+2025-04-29 13:11:52,262 - INFO - Updated committee: Senate Committee on Foreign Relations (ID: SSFR)
+2025-04-29 13:11:52,263 - INFO - Updated committee: Senate Committee on Homeland Security and Governmental Affairs (ID: SSGA)
+2025-04-29 13:11:52,263 - INFO - Updated committee: Senate Committee on Health, Education, Labor, and Pensions (ID: SSHR)
+2025-04-29 13:11:52,264 - INFO - Updated committee: Senate Committee on the Judiciary (ID: SSJU)
+2025-04-29 13:11:52,264 - INFO - Updated committee: Senate Committee on Rules and Administration (ID: SSRA)
+2025-04-29 13:11:52,264 - INFO - Updated committee: Senate Committee on Small Business and Entrepreneurship (ID: SSSB)
+2025-04-29 13:11:52,264 - INFO - Updated committee: Senate Committee on Veterans' Affairs (ID: SSVA)
+2025-04-29 13:11:52,265 - INFO - Updated committee: House Select Subcommittee on the Coronavirus Pandemic (ID: HSVC)
+2025-04-29 13:11:52,265 - INFO - Updated committee: House Select Subcommittee on the Weaponization of the Federal Government (ID: HSFD)
+2025-04-29 13:11:52,266 - INFO - Updated committee: House Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party (ID: HSZS)
+2025-04-29 13:11:52,266 - INFO - Updated committee: House Task Force on the Attempted Assassination of Donald J. Trump (ID: HSZT)
+2025-04-29 13:11:52,267 - INFO - Current Committees: Processed 51, Added 0, Updated 51
+2025-04-29 13:11:52,267 - INFO - Loading YAML file: backups/migrated_data_files/committees-historical.yaml
+2025-04-29 13:11:53,214 - INFO - Updated committee: House Committee on Energy (Ad Hoc) (ID: HHAH)
+2025-04-29 13:11:53,215 - INFO - Updated committee: House Committee on Committees (Select) (ID: HLCQ)
+2025-04-29 13:11:53,215 - INFO - Updated committee: House Committee on Outer Continental Shelf (Select) (ID: HLOC)
+2025-04-29 13:11:53,215 - INFO - Updated committee: House Committee on Joint Atomic Energy (ID: HSAT)
+2025-04-29 13:11:53,215 - INFO - Updated committee: House Committee on District of Columbia (ID: HSDT)
+2025-04-29 13:11:53,216 - INFO - Updated committee: House Select Committee on Energy Independence and Global Warming (ID: HSGW)
+2025-04-29 13:11:53,216 - INFO - Updated committee: House Committee on Merchant Marine and Fisheries (ID: HSMM)
+2025-04-29 13:11:53,216 - INFO - Updated committee: House Committee on Post Office and Civil Service (ID: HSPO)
+2025-04-29 13:11:53,217 - INFO - Updated committee: House Committee on Standards of Official Conduct (ID: HSSO)
+2025-04-29 13:11:53,217 - INFO - Updated committee: House Committee on Internal Security (ID: HSUA)
+2025-04-29 13:11:53,217 - INFO - Updated committee: Temporary Joint Committee on Deficit Reduction (ID: HTDE)
+2025-04-29 13:11:53,217 - INFO - Updated committee: Senate Committee on POW/MIA Affairs (ID: SLPO)
+2025-04-29 13:11:53,217 - INFO - Updated committee: Senate Committee on Impeachment (Special) (Hastings) (ID: SPIM)
+2025-04-29 13:11:53,218 - INFO - Updated committee: Senate Committee on Official Conduct (Special) (ID: SPOC)
+2025-04-29 13:11:53,218 - INFO - Updated committee: Senate Committee on Whitewater Dev Corp Investigation (Special) (ID: SPWW)
+2025-04-29 13:11:53,218 - INFO - Updated committee: Senate Committee on Aeronautical and Space Sciences (ID: SSAE)
+2025-04-29 13:11:53,219 - INFO - Updated committee: Senate Committee on District of Columbia (ID: SSDT)
+2025-04-29 13:11:53,219 - INFO - Updated committee: Senate Committee on Post Office and Civil Service (ID: SSPO)
+2025-04-29 13:11:53,219 - INFO - Updated committee: Joint Atomic Energy (ID: JSAT)
+2025-04-29 13:11:53,220 - INFO - Updated committee: House Committee on Ethics (Select) (ID: HLET)
+2025-04-29 13:11:53,220 - INFO - Updated committee: Temporary Joint Committee on Deficit Reduction (ID: JTDR)
+2025-04-29 13:11:53,221 - INFO - Updated committee: House Committee on Agriculture (ID: HSAG)
+2025-04-29 13:11:53,221 - INFO - Updated committee: House Committee on Appropriations (ID: HSAP)
+2025-04-29 13:11:53,222 - INFO - Updated committee: House Committee on Armed Services (ID: HSAS)
+2025-04-29 13:11:53,223 - INFO - Updated committee: House Committee on Banking and Currency (ID: HSBA)
+2025-04-29 13:11:53,224 - INFO - Updated committee: House Committee on Education and Labor (ID: HSED)
+2025-04-29 13:11:53,225 - INFO - Updated committee: House Committee on Foreign Affairs (ID: HSFA)
+2025-04-29 13:11:53,225 - INFO - Updated committee: House Committee on Government Operations (ID: HSGO)
+2025-04-29 13:11:53,226 - INFO - Updated committee: House Committee on House Administration (ID: HSHA)
+2025-04-29 13:11:53,227 - INFO - Updated committee: House Committee on Interior and Insular Affairs (ID: HSII)
+2025-04-29 13:11:53,227 - INFO - Updated committee: House Committee on Interstate and Foreign Commerce (ID: HSIF)
+2025-04-29 13:11:53,228 - INFO - Updated committee: House Committee on Judiciary (ID: HSJU)
+2025-04-29 13:11:53,228 - INFO - Updated committee: House Committee on Public Works (ID: HSPW)
+2025-04-29 13:11:53,229 - INFO - Updated committee: House Committee on Rules (ID: HSRU)
+2025-04-29 13:11:53,229 - INFO - Updated committee: House Committee on Science and Astronautics (ID: HSSY)
+2025-04-29 13:11:53,230 - INFO - Updated committee: House Committee on Veterans' Affairs (ID: HSVR)
+2025-04-29 13:11:53,230 - INFO - Updated committee: House Committee on Ways and Means (ID: HSWM)
+2025-04-29 13:11:53,231 - INFO - Updated committee: Senate Committee on Aging (Special) (ID: SPAG)
+2025-04-29 13:11:53,231 - INFO - Updated committee: Senate Committee on Agriculture and Forestry (ID: SSAF)
+2025-04-29 13:11:53,232 - INFO - Updated committee: Senate Committee on Appropriations (ID: SSAP)
+2025-04-29 13:11:53,233 - INFO - Updated committee: Senate Committee on Armed Services (ID: SSAS)
+2025-04-29 13:11:53,233 - INFO - Updated committee: Senate Committee on Banking, Housing, and Urban Affairs (ID: SSBK)
+2025-04-29 13:11:53,234 - INFO - Updated committee: Senate Committee on Budget (ID: SSBU)
+2025-04-29 13:11:53,234 - INFO - Updated committee: Senate Committee on Commerce (ID: SSCM)
+2025-04-29 13:11:53,235 - INFO - Updated committee: Senate Committee on Finance (ID: SSFI)
+2025-04-29 13:11:53,235 - INFO - Updated committee: Senate Committee on Foreign Relations (ID: SSFR)
+2025-04-29 13:11:53,236 - INFO - Updated committee: Senate Committee on Government Operations (ID: SSGA)
+2025-04-29 13:11:53,236 - INFO - Updated committee: Senate Committee on Interior and Insular Affairs (ID: SSEG)
+2025-04-29 13:11:53,237 - INFO - Updated committee: Senate Committee on Judiciary (ID: SSJU)
+2025-04-29 13:11:53,237 - INFO - Updated committee: Senate Committee on Labor and Public Welfare (ID: SSHR)
+2025-04-29 13:11:53,238 - INFO - Updated committee: Senate Committee on Public Works (ID: SSEV)
+2025-04-29 13:11:53,238 - INFO - Updated committee: Senate Committee on Rules and Administration (ID: SSRA)
+2025-04-29 13:11:53,238 - INFO - Updated committee: Senate Committee on Veterans' Affairs (ID: SSVA)
+2025-04-29 13:11:53,238 - INFO - Updated committee: House Committee on Budget (ID: HSBU)
+2025-04-29 13:11:53,239 - INFO - Updated committee: House Committee on Small Business (ID: HSSM)
+2025-04-29 13:11:53,240 - INFO - Updated committee: Senate Committee on Intelligence (Select) (ID: SLIN)
+2025-04-29 13:11:53,240 - INFO - Updated committee: Senate Committee on Standards and Conduct (Select) (ID: SLET)
+2025-04-29 13:11:53,242 - INFO - Updated committee: House Committee on Intelligence (Permanent Select) (ID: HLIG)
+2025-04-29 13:11:53,242 - INFO - Updated committee: Senate Committee on Indian Affairs (Select) (ID: SLIA)
+2025-04-29 13:11:53,243 - INFO - Updated committee: Senate Committee on Small Business (Select) (ID: SSSB)
+2025-04-29 13:11:53,244 - INFO - Updated committee: House Committee on Homeland Security (Select) (ID: HSHM)
+2025-04-29 13:11:53,245 - INFO - Updated committee: House Select Committee on the Climate Crisis (ID: HSCN)
+2025-04-29 13:11:53,245 - INFO - Updated committee: House Select Committee on Economic Disparity and Fairness in Growth (ID: HSEF)
+2025-04-29 13:11:53,246 - INFO - Updated committee: House Select Committee on the Modernization of Congress (ID: HSMH)
+2025-04-29 13:11:53,246 - INFO - Updated committee: House Select Committee to Investigate the January 6th Attack on the United States Capitol (ID: HSIJ)
+2025-04-29 13:11:53,247 - INFO - Updated committee: Commission on Security and Cooperation in Europe (Helsinki Commission) (ID: JCSE)
+2025-04-29 13:11:53,247 - INFO - Updated committee: Senate Committee on Caucus on International Narcotics Control (ID: SCNC)
+2025-04-29 13:11:53,248 - INFO - Historical Committees: Processed 67, Added 0, Updated 67
+2025-04-29 13:11:53,248 - INFO - Loading YAML file: backups/migrated_data_files/committee-membership-current.yaml
+2025-04-29 13:11:55,205 - INFO - Added membership: John Boozman in committee SSAF
+2025-04-29 13:11:55,206 - INFO - Added membership: Mitch McConnell in committee SSAF
+2025-04-29 13:11:55,207 - INFO - Added membership: John Hoeven in committee SSAF
+2025-04-29 13:11:55,208 - INFO - Added membership: Joni Ernst in committee SSAF
+2025-04-29 13:11:55,208 - INFO - Added membership: Cindy Hyde-Smith in committee SSAF
+2025-04-29 13:11:55,208 - INFO - Added membership: Roger Marshall in committee SSAF
+2025-04-29 13:11:55,209 - INFO - Added membership: Tommy Tuberville in committee SSAF
+2025-04-29 13:11:55,209 - INFO - Added membership: James C. Justice in committee SSAF
+2025-04-29 13:11:55,209 - INFO - Added membership: Chuck Grassley in committee SSAF
+2025-04-29 13:11:55,210 - INFO - Added membership: John Thune in committee SSAF
+2025-04-29 13:11:55,210 - INFO - Added membership: Deb Fischer in committee SSAF
+2025-04-29 13:11:55,210 - INFO - Added membership: Jerry Moran in committee SSAF
+2025-04-29 13:11:55,210 - INFO - Added membership: Amy Klobuchar in committee SSAF
+2025-04-29 13:11:55,211 - INFO - Added membership: Michael F. Bennet in committee SSAF
+2025-04-29 13:11:55,211 - INFO - Added membership: Tina Smith in committee SSAF
+2025-04-29 13:11:55,212 - INFO - Added membership: Richard J. Durbin in committee SSAF
+2025-04-29 13:11:55,212 - INFO - Added membership: Cory A. Booker in committee SSAF
+2025-04-29 13:11:55,212 - INFO - Added membership: Ben Ray Luján in committee SSAF
+2025-04-29 13:11:55,213 - INFO - Added membership: Raphael G. Warnock in committee SSAF
+2025-04-29 13:11:55,213 - INFO - Added membership: Peter Welch in committee SSAF
+2025-04-29 13:11:55,213 - INFO - Added membership: John Fetterman in committee SSAF
+2025-04-29 13:11:55,213 - INFO - Added membership: Adam B. Schiff in committee SSAF
+2025-04-29 13:11:55,214 - INFO - Added membership: Elissa Slotkin in committee SSAF
+2025-04-29 13:11:55,214 - WARNING - Committee with ID SSAF13 not found in database, skipping
+2025-04-29 13:11:55,214 - WARNING - Committee with ID SSAF14 not found in database, skipping
+2025-04-29 13:11:55,214 - WARNING - Committee with ID SSAF16 not found in database, skipping
+2025-04-29 13:11:55,215 - WARNING - Committee with ID SSAF17 not found in database, skipping
+2025-04-29 13:11:55,215 - WARNING - Committee with ID SSAF15 not found in database, skipping
+2025-04-29 13:11:55,215 - INFO - Added membership: Susan M. Collins in committee SSAP
+2025-04-29 13:11:55,216 - INFO - Added membership: Mitch McConnell in committee SSAP
+2025-04-29 13:11:55,216 - INFO - Added membership: Lisa Murkowski in committee SSAP
+2025-04-29 13:11:55,216 - INFO - Added membership: Lindsey Graham in committee SSAP
+2025-04-29 13:11:55,217 - INFO - Added membership: Jerry Moran in committee SSAP
+2025-04-29 13:11:55,217 - INFO - Added membership: John Hoeven in committee SSAP
+2025-04-29 13:11:55,217 - INFO - Added membership: John Boozman in committee SSAP
+2025-04-29 13:11:55,218 - INFO - Added membership: Shelley Moore Capito in committee SSAP
+2025-04-29 13:11:55,218 - INFO - Added membership: John Kennedy in committee SSAP
+2025-04-29 13:11:55,218 - INFO - Added membership: Cindy Hyde-Smith in committee SSAP
+2025-04-29 13:11:55,218 - INFO - Added membership: Bill Hagerty in committee SSAP
+2025-04-29 13:11:55,219 - INFO - Added membership: Katie Boyd Britt in committee SSAP
+2025-04-29 13:11:55,219 - INFO - Added membership: Markwayne Mullin in committee SSAP
+2025-04-29 13:11:55,219 - INFO - Added membership: Deb Fischer in committee SSAP
+2025-04-29 13:11:55,220 - INFO - Added membership: Mike Rounds in committee SSAP
+2025-04-29 13:11:55,220 - INFO - Added membership: Patty Murray in committee SSAP
+2025-04-29 13:11:55,220 - INFO - Added membership: Richard J. Durbin in committee SSAP
+2025-04-29 13:11:55,220 - INFO - Added membership: Jack Reed in committee SSAP
+2025-04-29 13:11:55,221 - INFO - Added membership: Jeanne Shaheen in committee SSAP
+2025-04-29 13:11:55,221 - INFO - Added membership: Jeff Merkley in committee SSAP
+2025-04-29 13:11:55,221 - INFO - Added membership: Christopher A. Coons in committee SSAP
+2025-04-29 13:11:55,222 - INFO - Added membership: Brian Schatz in committee SSAP
+2025-04-29 13:11:55,222 - INFO - Added membership: Tammy Baldwin in committee SSAP
+2025-04-29 13:11:55,223 - INFO - Added membership: Christopher Murphy in committee SSAP
+2025-04-29 13:11:55,224 - INFO - Added membership: Chris Van Hollen in committee SSAP
+2025-04-29 13:11:55,225 - INFO - Added membership: Martin Heinrich in committee SSAP
+2025-04-29 13:11:55,225 - INFO - Added membership: Gary C. Peters in committee SSAP
+2025-04-29 13:11:55,226 - INFO - Added membership: Kirsten E. Gillibrand in committee SSAP
+2025-04-29 13:11:55,226 - INFO - Added membership: Jon Ossoff in committee SSAP
+2025-04-29 13:11:55,227 - WARNING - Committee with ID SSAP01 not found in database, skipping
+2025-04-29 13:11:55,227 - WARNING - Committee with ID SSAP16 not found in database, skipping
+2025-04-29 13:11:55,227 - WARNING - Committee with ID SSAP02 not found in database, skipping
+2025-04-29 13:11:55,228 - WARNING - Committee with ID SSAP22 not found in database, skipping
+2025-04-29 13:11:55,228 - WARNING - Committee with ID SSAP23 not found in database, skipping
+2025-04-29 13:11:55,228 - WARNING - Committee with ID SSAP14 not found in database, skipping
+2025-04-29 13:11:55,229 - WARNING - Committee with ID SSAP17 not found in database, skipping
+2025-04-29 13:11:55,229 - WARNING - Committee with ID SSAP18 not found in database, skipping
+2025-04-29 13:11:55,229 - WARNING - Committee with ID SSAP08 not found in database, skipping
+2025-04-29 13:11:55,229 - WARNING - Committee with ID SSAP19 not found in database, skipping
+2025-04-29 13:11:55,230 - WARNING - Committee with ID SSAP20 not found in database, skipping
+2025-04-29 13:11:55,230 - WARNING - Committee with ID SSAP24 not found in database, skipping
+2025-04-29 13:11:55,230 - INFO - Added membership: Roger F. Wicker in committee SSAS
+2025-04-29 13:11:55,231 - INFO - Added membership: Deb Fischer in committee SSAS
+2025-04-29 13:11:55,231 - INFO - Added membership: Tom Cotton in committee SSAS
+2025-04-29 13:11:55,231 - INFO - Added membership: Mike Rounds in committee SSAS
+2025-04-29 13:11:55,232 - INFO - Added membership: Joni Ernst in committee SSAS
+2025-04-29 13:11:55,232 - INFO - Added membership: Dan Sullivan in committee SSAS
+2025-04-29 13:11:55,232 - INFO - Added membership: Kevin Cramer in committee SSAS
+2025-04-29 13:11:55,233 - INFO - Added membership: Rick Scott in committee SSAS
+2025-04-29 13:11:55,233 - INFO - Added membership: Tommy Tuberville in committee SSAS
+2025-04-29 13:11:55,233 - INFO - Added membership: Markwayne Mullin in committee SSAS
+2025-04-29 13:11:55,233 - INFO - Added membership: Ted Budd in committee SSAS
+2025-04-29 13:11:55,234 - INFO - Added membership: Eric Schmitt in committee SSAS
+2025-04-29 13:11:55,234 - INFO - Added membership: Jim Banks in committee SSAS
+2025-04-29 13:11:55,234 - INFO - Added membership: Tim Sheehy in committee SSAS
+2025-04-29 13:11:55,235 - INFO - Added membership: Jack Reed in committee SSAS
+2025-04-29 13:11:55,235 - INFO - Added membership: Jeanne Shaheen in committee SSAS
+2025-04-29 13:11:55,235 - INFO - Added membership: Kirsten E. Gillibrand in committee SSAS
+2025-04-29 13:11:55,236 - INFO - Added membership: Richard Blumenthal in committee SSAS
+2025-04-29 13:11:55,237 - INFO - Added membership: Mazie K. Hirono in committee SSAS
+2025-04-29 13:11:55,237 - INFO - Added membership: Tim Kaine in committee SSAS
+2025-04-29 13:11:55,237 - INFO - Added membership: Angus S. King, Jr. in committee SSAS
+2025-04-29 13:11:55,238 - INFO - Added membership: Elizabeth Warren in committee SSAS
+2025-04-29 13:11:55,238 - INFO - Added membership: Gary C. Peters in committee SSAS
+2025-04-29 13:11:55,238 - INFO - Added membership: Tammy Duckworth in committee SSAS
+2025-04-29 13:11:55,238 - INFO - Added membership: Jacky Rosen in committee SSAS
+2025-04-29 13:11:55,239 - INFO - Added membership: Mark Kelly in committee SSAS
+2025-04-29 13:11:55,239 - INFO - Added membership: Elissa Slotkin in committee SSAS
+2025-04-29 13:11:55,240 - WARNING - Committee with ID SSAS14 not found in database, skipping
+2025-04-29 13:11:55,241 - WARNING - Committee with ID SSAS21 not found in database, skipping
+2025-04-29 13:11:55,241 - WARNING - Committee with ID SSAS20 not found in database, skipping
+2025-04-29 13:11:55,252 - WARNING - Committee with ID SSAS17 not found in database, skipping
+2025-04-29 13:11:55,254 - WARNING - Committee with ID SSAS15 not found in database, skipping
+2025-04-29 13:11:55,266 - WARNING - Committee with ID SSAS13 not found in database, skipping
+2025-04-29 13:11:55,271 - WARNING - Committee with ID SSAS16 not found in database, skipping
+2025-04-29 13:11:55,276 - INFO - Added membership: Tim Scott in committee SSBK
+2025-04-29 13:11:55,278 - INFO - Added membership: Mike Crapo in committee SSBK
+2025-04-29 13:11:55,281 - INFO - Added membership: Mike Rounds in committee SSBK
+2025-04-29 13:11:55,282 - INFO - Added membership: Thom Tillis in committee SSBK
+2025-04-29 13:11:55,284 - INFO - Added membership: John Kennedy in committee SSBK
+2025-04-29 13:11:55,285 - INFO - Added membership: Bill Hagerty in committee SSBK
+2025-04-29 13:11:55,286 - INFO - Added membership: Cynthia M. Lummis in committee SSBK
+2025-04-29 13:11:55,288 - INFO - Added membership: Katie Boyd Britt in committee SSBK
+2025-04-29 13:11:55,298 - INFO - Added membership: Pete Ricketts in committee SSBK
+2025-04-29 13:11:55,304 - INFO - Added membership: Jim Banks in committee SSBK
+2025-04-29 13:11:55,314 - INFO - Added membership: Kevin Cramer in committee SSBK
+2025-04-29 13:11:55,319 - INFO - Added membership: Bernie Moreno in committee SSBK
+2025-04-29 13:11:55,321 - INFO - Added membership: David McCormick in committee SSBK
+2025-04-29 13:11:55,333 - INFO - Added membership: Elizabeth Warren in committee SSBK
+2025-04-29 13:11:55,335 - INFO - Added membership: Jack Reed in committee SSBK
+2025-04-29 13:11:55,336 - INFO - Added membership: Mark R. Warner in committee SSBK
+2025-04-29 13:11:55,337 - INFO - Added membership: Chris Van Hollen in committee SSBK
+2025-04-29 13:11:55,338 - INFO - Added membership: Catherine Cortez Masto in committee SSBK
+2025-04-29 13:11:55,348 - INFO - Added membership: Tina Smith in committee SSBK
+2025-04-29 13:11:55,352 - INFO - Added membership: Raphael G. Warnock in committee SSBK
+2025-04-29 13:11:55,354 - INFO - Added membership: Andy Kim in committee SSBK
+2025-04-29 13:11:55,360 - INFO - Added membership: Ruben Gallego in committee SSBK
+2025-04-29 13:11:55,361 - INFO - Added membership: Lisa Blunt Rochester in committee SSBK
+2025-04-29 13:11:55,368 - INFO - Added membership: Angela D. Alsobrooks in committee SSBK
+2025-04-29 13:11:55,376 - WARNING - Committee with ID SSBK12 not found in database, skipping
+2025-04-29 13:11:55,377 - WARNING - Committee with ID SSBK08 not found in database, skipping
+2025-04-29 13:11:55,384 - WARNING - Committee with ID SSBK09 not found in database, skipping
+2025-04-29 13:11:55,394 - WARNING - Committee with ID SSBK05 not found in database, skipping
+2025-04-29 13:11:55,397 - WARNING - Committee with ID SSBK04 not found in database, skipping
+2025-04-29 13:11:55,405 - INFO - Added membership: Ted Cruz in committee SSCM
+2025-04-29 13:11:55,420 - INFO - Added membership: John Thune in committee SSCM
+2025-04-29 13:11:55,431 - INFO - Added membership: Roger F. Wicker in committee SSCM
+2025-04-29 13:11:55,439 - INFO - Added membership: Deb Fischer in committee SSCM
+2025-04-29 13:11:55,442 - INFO - Added membership: Jerry Moran in committee SSCM
+2025-04-29 13:11:55,461 - INFO - Added membership: Dan Sullivan in committee SSCM
+2025-04-29 13:11:55,472 - INFO - Added membership: Marsha Blackburn in committee SSCM
+2025-04-29 13:11:55,478 - INFO - Added membership: Todd Young in committee SSCM
+2025-04-29 13:11:55,487 - INFO - Added membership: Ted Budd in committee SSCM
+2025-04-29 13:11:55,504 - INFO - Added membership: Eric Schmitt in committee SSCM
+2025-04-29 13:11:55,512 - INFO - Added membership: John R. Curtis in committee SSCM
+2025-04-29 13:11:55,513 - INFO - Added membership: Bernie Moreno in committee SSCM
+2025-04-29 13:11:55,514 - INFO - Added membership: Tim Sheehy in committee SSCM
+2025-04-29 13:11:55,516 - INFO - Added membership: Shelley Moore Capito in committee SSCM
+2025-04-29 13:11:55,521 - INFO - Added membership: Cynthia M. Lummis in committee SSCM
+2025-04-29 13:11:55,521 - INFO - Added membership: Maria Cantwell in committee SSCM
+2025-04-29 13:11:55,522 - INFO - Added membership: Amy Klobuchar in committee SSCM
+2025-04-29 13:11:55,525 - INFO - Added membership: Brian Schatz in committee SSCM
+2025-04-29 13:11:55,527 - INFO - Added membership: Edward J. Markey in committee SSCM
+2025-04-29 13:11:55,528 - INFO - Added membership: Gary C. Peters in committee SSCM
+2025-04-29 13:11:55,528 - INFO - Added membership: Tammy Baldwin in committee SSCM
+2025-04-29 13:11:55,529 - INFO - Added membership: Tammy Duckworth in committee SSCM
+2025-04-29 13:11:55,530 - INFO - Added membership: Jacky Rosen in committee SSCM
+2025-04-29 13:11:55,531 - INFO - Added membership: Ben Ray Luján in committee SSCM
+2025-04-29 13:11:55,533 - INFO - Added membership: John W. Hickenlooper in committee SSCM
+2025-04-29 13:11:55,534 - INFO - Added membership: John Fetterman in committee SSCM
+2025-04-29 13:11:55,535 - INFO - Added membership: Andy Kim in committee SSCM
+2025-04-29 13:11:55,535 - INFO - Added membership: Lisa Blunt Rochester in committee SSCM
+2025-04-29 13:11:55,536 - WARNING - Committee with ID SSCM33 not found in database, skipping
+2025-04-29 13:11:55,536 - WARNING - Committee with ID SSCM34 not found in database, skipping
+2025-04-29 13:11:55,536 - WARNING - Committee with ID SSCM35 not found in database, skipping
+2025-04-29 13:11:55,537 - WARNING - Committee with ID SSCM36 not found in database, skipping
+2025-04-29 13:11:55,537 - WARNING - Committee with ID SSCM37 not found in database, skipping
+2025-04-29 13:11:55,537 - WARNING - Committee with ID SSCM38 not found in database, skipping
+2025-04-29 13:11:55,537 - WARNING - Committee with ID SSCM39 not found in database, skipping
+2025-04-29 13:11:55,538 - INFO - Added membership: Mike Lee in committee SSEG
+2025-04-29 13:11:55,538 - INFO - Added membership: John Barrasso in committee SSEG
+2025-04-29 13:11:55,538 - INFO - Added membership: James E. Risch in committee SSEG
+2025-04-29 13:11:55,539 - INFO - Added membership: Steve Daines in committee SSEG
+2025-04-29 13:11:55,539 - INFO - Added membership: Tom Cotton in committee SSEG
+2025-04-29 13:11:55,540 - INFO - Added membership: David McCormick in committee SSEG
+2025-04-29 13:11:55,540 - INFO - Added membership: James C. Justice in committee SSEG
+2025-04-29 13:11:55,540 - INFO - Added membership: Bill Cassidy in committee SSEG
+2025-04-29 13:11:55,541 - INFO - Added membership: Cindy Hyde-Smith in committee SSEG
+2025-04-29 13:11:55,542 - INFO - Added membership: Lisa Murkowski in committee SSEG
+2025-04-29 13:11:55,542 - INFO - Added membership: John Hoeven in committee SSEG
+2025-04-29 13:11:55,542 - INFO - Added membership: Martin Heinrich in committee SSEG
+2025-04-29 13:11:55,543 - INFO - Added membership: Ron Wyden in committee SSEG
+2025-04-29 13:11:55,543 - INFO - Added membership: Maria Cantwell in committee SSEG
+2025-04-29 13:11:55,543 - INFO - Added membership: Mazie K. Hirono in committee SSEG
+2025-04-29 13:11:55,544 - INFO - Added membership: Angus S. King, Jr. in committee SSEG
+2025-04-29 13:11:55,544 - INFO - Added membership: Catherine Cortez Masto in committee SSEG
+2025-04-29 13:11:55,544 - INFO - Added membership: John W. Hickenlooper in committee SSEG
+2025-04-29 13:11:55,545 - INFO - Added membership: Alex Padilla in committee SSEG
+2025-04-29 13:11:55,545 - INFO - Added membership: Ruben Gallego in committee SSEG
+2025-04-29 13:11:55,545 - WARNING - Committee with ID SSEG01 not found in database, skipping
+2025-04-29 13:11:55,546 - WARNING - Committee with ID SSEG04 not found in database, skipping
+2025-04-29 13:11:55,546 - WARNING - Committee with ID SSEG03 not found in database, skipping
+2025-04-29 13:11:55,546 - WARNING - Committee with ID SSEG07 not found in database, skipping
+2025-04-29 13:11:55,547 - INFO - Added membership: Shelley Moore Capito in committee SSEV
+2025-04-29 13:11:55,547 - INFO - Added membership: Kevin Cramer in committee SSEV
+2025-04-29 13:11:55,548 - INFO - Added membership: Cynthia M. Lummis in committee SSEV
+2025-04-29 13:11:55,548 - INFO - Added membership: John R. Curtis in committee SSEV
+2025-04-29 13:11:55,548 - INFO - Added membership: Lindsey Graham in committee SSEV
+2025-04-29 13:11:55,548 - INFO - Added membership: Dan Sullivan in committee SSEV
+2025-04-29 13:11:55,549 - INFO - Added membership: Pete Ricketts in committee SSEV
+2025-04-29 13:11:55,549 - INFO - Added membership: Roger F. Wicker in committee SSEV
+2025-04-29 13:11:55,549 - INFO - Added membership: John Boozman in committee SSEV
+2025-04-29 13:11:55,550 - INFO - Added membership: Jon Husted in committee SSEV
+2025-04-29 13:11:55,550 - INFO - Added membership: Sheldon Whitehouse in committee SSEV
+2025-04-29 13:11:55,550 - INFO - Added membership: Bernard Sanders in committee SSEV
+2025-04-29 13:11:55,551 - INFO - Added membership: Jeff Merkley in committee SSEV
+2025-04-29 13:11:55,551 - INFO - Added membership: Edward J. Markey in committee SSEV
+2025-04-29 13:11:55,551 - INFO - Added membership: Mark Kelly in committee SSEV
+2025-04-29 13:11:55,552 - INFO - Added membership: Alex Padilla in committee SSEV
+2025-04-29 13:11:55,552 - INFO - Added membership: Adam B. Schiff in committee SSEV
+2025-04-29 13:11:55,552 - INFO - Added membership: Lisa Blunt Rochester in committee SSEV
+2025-04-29 13:11:55,553 - INFO - Added membership: Angela D. Alsobrooks in committee SSEV
+2025-04-29 13:11:55,553 - WARNING - Committee with ID SSEV09 not found in database, skipping
+2025-04-29 13:11:55,553 - WARNING - Committee with ID SSEV10 not found in database, skipping
+2025-04-29 13:11:55,554 - WARNING - Committee with ID SSEV15 not found in database, skipping
+2025-04-29 13:11:55,554 - WARNING - Committee with ID SSEV08 not found in database, skipping
+2025-04-29 13:11:55,554 - INFO - Added membership: Mike Crapo in committee SSFI
+2025-04-29 13:11:55,555 - INFO - Added membership: Chuck Grassley in committee SSFI
+2025-04-29 13:11:55,555 - INFO - Added membership: John Cornyn in committee SSFI
+2025-04-29 13:11:55,555 - INFO - Added membership: John Thune in committee SSFI
+2025-04-29 13:11:55,556 - INFO - Added membership: Tim Scott in committee SSFI
+2025-04-29 13:11:55,556 - INFO - Added membership: Bill Cassidy in committee SSFI
+2025-04-29 13:11:55,557 - INFO - Added membership: James Lankford in committee SSFI
+2025-04-29 13:11:55,557 - INFO - Added membership: Steve Daines in committee SSFI
+2025-04-29 13:11:55,558 - INFO - Added membership: Todd Young in committee SSFI
+2025-04-29 13:11:55,559 - INFO - Added membership: John Barrasso in committee SSFI
+2025-04-29 13:11:55,559 - INFO - Added membership: Ron Johnson in committee SSFI
+2025-04-29 13:11:55,560 - INFO - Added membership: Thom Tillis in committee SSFI
+2025-04-29 13:11:55,560 - INFO - Added membership: Marsha Blackburn in committee SSFI
+2025-04-29 13:11:55,560 - INFO - Added membership: Roger Marshall in committee SSFI
+2025-04-29 13:11:55,561 - INFO - Added membership: Ron Wyden in committee SSFI
+2025-04-29 13:11:55,561 - INFO - Added membership: Maria Cantwell in committee SSFI
+2025-04-29 13:11:55,561 - INFO - Added membership: Michael F. Bennet in committee SSFI
+2025-04-29 13:11:55,562 - INFO - Added membership: Mark R. Warner in committee SSFI
+2025-04-29 13:11:55,562 - INFO - Added membership: Sheldon Whitehouse in committee SSFI
+2025-04-29 13:11:55,563 - INFO - Added membership: Margaret Wood Hassan in committee SSFI
+2025-04-29 13:11:55,563 - INFO - Added membership: Catherine Cortez Masto in committee SSFI
+2025-04-29 13:11:55,563 - INFO - Added membership: Elizabeth Warren in committee SSFI
+2025-04-29 13:11:55,564 - INFO - Added membership: Bernard Sanders in committee SSFI
+2025-04-29 13:11:55,564 - INFO - Added membership: Tina Smith in committee SSFI
+2025-04-29 13:11:55,564 - INFO - Added membership: Ben Ray Luján in committee SSFI
+2025-04-29 13:11:55,565 - INFO - Added membership: Raphael G. Warnock in committee SSFI
+2025-04-29 13:11:55,565 - INFO - Added membership: Peter Welch in committee SSFI
+2025-04-29 13:11:55,565 - WARNING - Committee with ID SSFI12 not found in database, skipping
+2025-04-29 13:11:55,565 - WARNING - Committee with ID SSFI14 not found in database, skipping
+2025-04-29 13:11:55,566 - WARNING - Committee with ID SSFI10 not found in database, skipping
+2025-04-29 13:11:55,566 - WARNING - Committee with ID SSFI13 not found in database, skipping
+2025-04-29 13:11:55,566 - WARNING - Committee with ID SSFI02 not found in database, skipping
+2025-04-29 13:11:55,566 - WARNING - Committee with ID SSFI11 not found in database, skipping
+2025-04-29 13:11:55,567 - INFO - Added membership: James E. Risch in committee SSFR
+2025-04-29 13:11:55,567 - INFO - Added membership: Pete Ricketts in committee SSFR
+2025-04-29 13:11:55,567 - INFO - Added membership: David McCormick in committee SSFR
+2025-04-29 13:11:55,568 - INFO - Added membership: Steve Daines in committee SSFR
+2025-04-29 13:11:55,568 - INFO - Added membership: Bill Hagerty in committee SSFR
+2025-04-29 13:11:55,568 - INFO - Added membership: John Barrasso in committee SSFR
+2025-04-29 13:11:55,569 - INFO - Added membership: Mike Lee in committee SSFR
+2025-04-29 13:11:55,569 - INFO - Added membership: Rand Paul in committee SSFR
+2025-04-29 13:11:55,569 - INFO - Added membership: Ted Cruz in committee SSFR
+2025-04-29 13:11:55,570 - INFO - Added membership: Rick Scott in committee SSFR
+2025-04-29 13:11:55,570 - INFO - Added membership: John R. Curtis in committee SSFR
+2025-04-29 13:11:55,570 - INFO - Added membership: John Cornyn in committee SSFR
+2025-04-29 13:11:55,570 - INFO - Added membership: Jeanne Shaheen in committee SSFR
+2025-04-29 13:11:55,571 - INFO - Added membership: Christopher A. Coons in committee SSFR
+2025-04-29 13:11:55,571 - INFO - Added membership: Christopher Murphy in committee SSFR
+2025-04-29 13:11:55,572 - INFO - Added membership: Tim Kaine in committee SSFR
+2025-04-29 13:11:55,572 - INFO - Added membership: Jeff Merkley in committee SSFR
+2025-04-29 13:11:55,574 - INFO - Added membership: Cory A. Booker in committee SSFR
+2025-04-29 13:11:55,574 - INFO - Added membership: Brian Schatz in committee SSFR
+2025-04-29 13:11:55,575 - INFO - Added membership: Chris Van Hollen in committee SSFR
+2025-04-29 13:11:55,576 - INFO - Added membership: Tammy Duckworth in committee SSFR
+2025-04-29 13:11:55,576 - INFO - Added membership: Jacky Rosen in committee SSFR
+2025-04-29 13:11:55,576 - WARNING - Committee with ID SSFR09 not found in database, skipping
+2025-04-29 13:11:55,577 - WARNING - Committee with ID SSFR02 not found in database, skipping
+2025-04-29 13:11:55,577 - WARNING - Committee with ID SSFR01 not found in database, skipping
+2025-04-29 13:11:55,577 - WARNING - Committee with ID SSFR15 not found in database, skipping
+2025-04-29 13:11:55,578 - WARNING - Committee with ID SSFR07 not found in database, skipping
+2025-04-29 13:11:55,578 - WARNING - Committee with ID SSFR14 not found in database, skipping
+2025-04-29 13:11:55,578 - WARNING - Committee with ID SSFR06 not found in database, skipping
+2025-04-29 13:11:55,579 - INFO - Added membership: Bill Cassidy in committee SSHR
+2025-04-29 13:11:55,579 - INFO - Added membership: Rand Paul in committee SSHR
+2025-04-29 13:11:55,579 - INFO - Added membership: Susan M. Collins in committee SSHR
+2025-04-29 13:11:55,580 - INFO - Added membership: Lisa Murkowski in committee SSHR
+2025-04-29 13:11:55,580 - INFO - Added membership: Markwayne Mullin in committee SSHR
+2025-04-29 13:11:55,580 - INFO - Added membership: Roger Marshall in committee SSHR
+2025-04-29 13:11:55,581 - INFO - Added membership: Tim Scott in committee SSHR
+2025-04-29 13:11:55,581 - INFO - Added membership: Josh Hawley in committee SSHR
+2025-04-29 13:11:55,581 - INFO - Added membership: Tommy Tuberville in committee SSHR
+2025-04-29 13:11:55,582 - INFO - Added membership: Jim Banks in committee SSHR
+2025-04-29 13:11:55,582 - INFO - Added membership: Jon Husted in committee SSHR
+2025-04-29 13:11:55,582 - INFO - Added membership: Ashley Moody in committee SSHR
+2025-04-29 13:11:55,583 - INFO - Added membership: Bernard Sanders in committee SSHR
+2025-04-29 13:11:55,583 - INFO - Added membership: Patty Murray in committee SSHR
+2025-04-29 13:11:55,583 - INFO - Added membership: Tammy Baldwin in committee SSHR
+2025-04-29 13:11:55,584 - INFO - Added membership: Christopher Murphy in committee SSHR
+2025-04-29 13:11:55,584 - INFO - Added membership: Tim Kaine in committee SSHR
+2025-04-29 13:11:55,585 - INFO - Added membership: Margaret Wood Hassan in committee SSHR
+2025-04-29 13:11:55,585 - INFO - Added membership: John W. Hickenlooper in committee SSHR
+2025-04-29 13:11:55,585 - INFO - Added membership: Edward J. Markey in committee SSHR
+2025-04-29 13:11:55,585 - INFO - Added membership: Andy Kim in committee SSHR
+2025-04-29 13:11:55,586 - INFO - Added membership: Lisa Blunt Rochester in committee SSHR
+2025-04-29 13:11:55,586 - INFO - Added membership: Angela D. Alsobrooks in committee SSHR
+2025-04-29 13:11:55,586 - WARNING - Committee with ID SSHR09 not found in database, skipping
+2025-04-29 13:11:55,586 - WARNING - Committee with ID SSHR11 not found in database, skipping
+2025-04-29 13:11:55,587 - WARNING - Committee with ID SSHR12 not found in database, skipping
+2025-04-29 13:11:55,587 - INFO - Added membership: Rand Paul in committee SSGA
+2025-04-29 13:11:55,588 - INFO - Added membership: Ron Johnson in committee SSGA
+2025-04-29 13:11:55,588 - INFO - Added membership: James Lankford in committee SSGA
+2025-04-29 13:11:55,588 - INFO - Added membership: Rick Scott in committee SSGA
+2025-04-29 13:11:55,589 - INFO - Added membership: Josh Hawley in committee SSGA
+2025-04-29 13:11:55,589 - INFO - Added membership: Bernie Moreno in committee SSGA
+2025-04-29 13:11:55,590 - INFO - Added membership: Joni Ernst in committee SSGA
+2025-04-29 13:11:55,590 - INFO - Added membership: Ashley Moody in committee SSGA
+2025-04-29 13:11:55,591 - INFO - Added membership: Gary C. Peters in committee SSGA
+2025-04-29 13:11:55,591 - INFO - Added membership: Margaret Wood Hassan in committee SSGA
+2025-04-29 13:11:55,592 - INFO - Added membership: Richard Blumenthal in committee SSGA
+2025-04-29 13:11:55,592 - INFO - Added membership: John Fetterman in committee SSGA
+2025-04-29 13:11:55,592 - INFO - Added membership: Andy Kim in committee SSGA
+2025-04-29 13:11:55,593 - INFO - Added membership: Ruben Gallego in committee SSGA
+2025-04-29 13:11:55,593 - INFO - Added membership: Elissa Slotkin in committee SSGA
+2025-04-29 13:11:55,593 - WARNING - Committee with ID SSGA01 not found in database, skipping
+2025-04-29 13:11:55,594 - WARNING - Committee with ID SSGA20 not found in database, skipping
+2025-04-29 13:11:55,594 - WARNING - Committee with ID SSGA22 not found in database, skipping
+2025-04-29 13:11:55,594 - INFO - Added membership: Lisa Murkowski in committee SLIA
+2025-04-29 13:11:55,595 - INFO - Added membership: John Hoeven in committee SLIA
+2025-04-29 13:11:55,595 - INFO - Added membership: Steve Daines in committee SLIA
+2025-04-29 13:11:55,595 - INFO - Added membership: Markwayne Mullin in committee SLIA
+2025-04-29 13:11:55,596 - INFO - Added membership: Mike Rounds in committee SLIA
+2025-04-29 13:11:55,596 - INFO - Added membership: Jerry Moran in committee SLIA
+2025-04-29 13:11:55,596 - INFO - Added membership: Brian Schatz in committee SLIA
+2025-04-29 13:11:55,597 - INFO - Added membership: Maria Cantwell in committee SLIA
+2025-04-29 13:11:55,597 - INFO - Added membership: Catherine Cortez Masto in committee SLIA
+2025-04-29 13:11:55,597 - INFO - Added membership: Tina Smith in committee SLIA
+2025-04-29 13:11:55,598 - INFO - Added membership: Ben Ray Luján in committee SLIA
+2025-04-29 13:11:55,598 - INFO - Added membership: Mitch McConnell in committee SSRA
+2025-04-29 13:11:55,598 - INFO - Added membership: Ted Cruz in committee SSRA
+2025-04-29 13:11:55,599 - INFO - Added membership: Shelley Moore Capito in committee SSRA
+2025-04-29 13:11:55,600 - INFO - Added membership: Roger F. Wicker in committee SSRA
+2025-04-29 13:11:55,620 - INFO - Added membership: Deb Fischer in committee SSRA
+2025-04-29 13:11:55,626 - INFO - Added membership: Cindy Hyde-Smith in committee SSRA
+2025-04-29 13:11:55,629 - INFO - Added membership: Bill Hagerty in committee SSRA
+2025-04-29 13:11:55,630 - INFO - Added membership: Katie Boyd Britt in committee SSRA
+2025-04-29 13:11:55,631 - INFO - Added membership: John Boozman in committee SSRA
+2025-04-29 13:11:55,634 - INFO - Added membership: Alex Padilla in committee SSRA
+2025-04-29 13:11:55,636 - INFO - Added membership: Charles E. Schumer in committee SSRA
+2025-04-29 13:11:55,637 - INFO - Added membership: Mark R. Warner in committee SSRA
+2025-04-29 13:11:55,638 - INFO - Added membership: Amy Klobuchar in committee SSRA
+2025-04-29 13:11:55,639 - INFO - Added membership: Jeff Merkley in committee SSRA
+2025-04-29 13:11:55,642 - INFO - Added membership: Jon Ossoff in committee SSRA
+2025-04-29 13:11:55,642 - INFO - Added membership: Michael F. Bennet in committee SSRA
+2025-04-29 13:11:55,643 - INFO - Added membership: Peter Welch in committee SSRA
+2025-04-29 13:11:55,643 - INFO - Added membership: Joni Ernst in committee SSSB
+2025-04-29 13:11:55,644 - INFO - Added membership: James E. Risch in committee SSSB
+2025-04-29 13:11:55,644 - INFO - Added membership: Rand Paul in committee SSSB
+2025-04-29 13:11:55,645 - INFO - Added membership: Tim Scott in committee SSSB
+2025-04-29 13:11:55,645 - INFO - Added membership: Todd Young in committee SSSB
+2025-04-29 13:11:55,646 - INFO - Added membership: Josh Hawley in committee SSSB
+2025-04-29 13:11:55,646 - INFO - Added membership: Ted Budd in committee SSSB
+2025-04-29 13:11:55,647 - INFO - Added membership: John R. Curtis in committee SSSB
+2025-04-29 13:11:55,647 - INFO - Added membership: James C. Justice in committee SSSB
+2025-04-29 13:11:55,648 - INFO - Added membership: Jon Husted in committee SSSB
+2025-04-29 13:11:55,648 - INFO - Added membership: Edward J. Markey in committee SSSB
+2025-04-29 13:11:55,649 - INFO - Added membership: Maria Cantwell in committee SSSB
+2025-04-29 13:11:55,649 - INFO - Added membership: Jeanne Shaheen in committee SSSB
+2025-04-29 13:11:55,649 - INFO - Added membership: Cory A. Booker in committee SSSB
+2025-04-29 13:11:55,650 - INFO - Added membership: Christopher A. Coons in committee SSSB
+2025-04-29 13:11:55,650 - INFO - Added membership: Mazie K. Hirono in committee SSSB
+2025-04-29 13:11:55,650 - INFO - Added membership: Jacky Rosen in committee SSSB
+2025-04-29 13:11:55,651 - INFO - Added membership: John W. Hickenlooper in committee SSSB
+2025-04-29 13:11:55,651 - INFO - Added membership: Adam B. Schiff in committee SSSB
+2025-04-29 13:11:55,652 - INFO - Added membership: Lindsey Graham in committee SSBU
+2025-04-29 13:11:55,652 - INFO - Added membership: Chuck Grassley in committee SSBU
+2025-04-29 13:11:55,652 - INFO - Added membership: Mike Crapo in committee SSBU
+2025-04-29 13:11:55,652 - INFO - Added membership: Ron Johnson in committee SSBU
+2025-04-29 13:11:55,653 - INFO - Added membership: Roger Marshall in committee SSBU
+2025-04-29 13:11:55,653 - INFO - Added membership: John Cornyn in committee SSBU
+2025-04-29 13:11:55,653 - INFO - Added membership: Mike Lee in committee SSBU
+2025-04-29 13:11:55,654 - INFO - Added membership: John Kennedy in committee SSBU
+2025-04-29 13:11:55,654 - INFO - Added membership: Pete Ricketts in committee SSBU
+2025-04-29 13:11:55,654 - INFO - Added membership: Bernie Moreno in committee SSBU
+2025-04-29 13:11:55,655 - INFO - Added membership: Rick Scott in committee SSBU
+2025-04-29 13:11:55,655 - INFO - Added membership: Jeff Merkley in committee SSBU
+2025-04-29 13:11:55,655 - INFO - Added membership: Patty Murray in committee SSBU
+2025-04-29 13:11:55,656 - INFO - Added membership: Ron Wyden in committee SSBU
+2025-04-29 13:11:55,657 - INFO - Added membership: Bernard Sanders in committee SSBU
+2025-04-29 13:11:55,658 - INFO - Added membership: Sheldon Whitehouse in committee SSBU
+2025-04-29 13:11:55,658 - INFO - Added membership: Mark R. Warner in committee SSBU
+2025-04-29 13:11:55,659 - INFO - Added membership: Tim Kaine in committee SSBU
+2025-04-29 13:11:55,659 - INFO - Added membership: Chris Van Hollen in committee SSBU
+2025-04-29 13:11:55,660 - INFO - Added membership: Ben Ray Luján in committee SSBU
+2025-04-29 13:11:55,660 - INFO - Added membership: Alex Padilla in committee SSBU
+2025-04-29 13:11:55,660 - INFO - Added membership: Chuck Grassley in committee SSJU
+2025-04-29 13:11:55,661 - INFO - Added membership: Lindsey Graham in committee SSJU
+2025-04-29 13:11:55,661 - INFO - Added membership: John Cornyn in committee SSJU
+2025-04-29 13:11:55,661 - INFO - Added membership: Mike Lee in committee SSJU
+2025-04-29 13:11:55,662 - INFO - Added membership: Ted Cruz in committee SSJU
+2025-04-29 13:11:55,662 - INFO - Added membership: Josh Hawley in committee SSJU
+2025-04-29 13:11:55,662 - INFO - Added membership: Thom Tillis in committee SSJU
+2025-04-29 13:11:55,663 - INFO - Added membership: John Kennedy in committee SSJU
+2025-04-29 13:11:55,663 - INFO - Added membership: Marsha Blackburn in committee SSJU
+2025-04-29 13:11:55,663 - INFO - Added membership: Eric Schmitt in committee SSJU
+2025-04-29 13:11:55,664 - INFO - Added membership: Katie Boyd Britt in committee SSJU
+2025-04-29 13:11:55,664 - INFO - Added membership: Ashley Moody in committee SSJU
+2025-04-29 13:11:55,664 - INFO - Added membership: Richard J. Durbin in committee SSJU
+2025-04-29 13:11:55,665 - INFO - Added membership: Sheldon Whitehouse in committee SSJU
+2025-04-29 13:11:55,665 - INFO - Added membership: Amy Klobuchar in committee SSJU
+2025-04-29 13:11:55,665 - INFO - Added membership: Christopher A. Coons in committee SSJU
+2025-04-29 13:11:55,666 - INFO - Added membership: Richard Blumenthal in committee SSJU
+2025-04-29 13:11:55,666 - INFO - Added membership: Mazie K. Hirono in committee SSJU
+2025-04-29 13:11:55,666 - INFO - Added membership: Cory A. Booker in committee SSJU
+2025-04-29 13:11:55,666 - INFO - Added membership: Alex Padilla in committee SSJU
+2025-04-29 13:11:55,667 - INFO - Added membership: Peter Welch in committee SSJU
+2025-04-29 13:11:55,667 - INFO - Added membership: Adam B. Schiff in committee SSJU
+2025-04-29 13:11:55,668 - WARNING - Committee with ID SSJU01 not found in database, skipping
+2025-04-29 13:11:55,668 - WARNING - Committee with ID SSJU22 not found in database, skipping
+2025-04-29 13:11:55,668 - WARNING - Committee with ID SSJU25 not found in database, skipping
+2025-04-29 13:11:55,668 - WARNING - Committee with ID SSJU27 not found in database, skipping
+2025-04-29 13:11:55,669 - WARNING - Committee with ID SSJU04 not found in database, skipping
+2025-04-29 13:11:55,669 - WARNING - Committee with ID SSJU26 not found in database, skipping
+2025-04-29 13:11:55,669 - WARNING - Committee with ID SSJU28 not found in database, skipping
+2025-04-29 13:11:55,669 - WARNING - Committee with ID SSJU21 not found in database, skipping
+2025-04-29 13:11:55,670 - INFO - Added membership: Jerry Moran in committee SSVA
+2025-04-29 13:11:55,670 - INFO - Added membership: John Boozman in committee SSVA
+2025-04-29 13:11:55,670 - INFO - Added membership: Bill Cassidy in committee SSVA
+2025-04-29 13:11:55,671 - INFO - Added membership: Thom Tillis in committee SSVA
+2025-04-29 13:11:55,671 - INFO - Added membership: Dan Sullivan in committee SSVA
+2025-04-29 13:11:55,671 - INFO - Added membership: Marsha Blackburn in committee SSVA
+2025-04-29 13:11:55,672 - INFO - Added membership: Kevin Cramer in committee SSVA
+2025-04-29 13:11:55,672 - INFO - Added membership: Tommy Tuberville in committee SSVA
+2025-04-29 13:11:55,673 - INFO - Added membership: Jim Banks in committee SSVA
+2025-04-29 13:11:55,673 - INFO - Added membership: Tim Sheehy in committee SSVA
+2025-04-29 13:11:55,674 - INFO - Added membership: Richard Blumenthal in committee SSVA
+2025-04-29 13:11:55,675 - INFO - Added membership: Patty Murray in committee SSVA
+2025-04-29 13:11:55,675 - INFO - Added membership: Bernard Sanders in committee SSVA
+2025-04-29 13:11:55,676 - INFO - Added membership: Mazie K. Hirono in committee SSVA
+2025-04-29 13:11:55,676 - INFO - Added membership: Margaret Wood Hassan in committee SSVA
+2025-04-29 13:11:55,677 - INFO - Added membership: Angus S. King, Jr. in committee SSVA
+2025-04-29 13:11:55,677 - INFO - Added membership: Tammy Duckworth in committee SSVA
+2025-04-29 13:11:55,678 - INFO - Added membership: Ruben Gallego in committee SSVA
+2025-04-29 13:11:55,678 - INFO - Added membership: Elissa Slotkin in committee SSVA
+2025-04-29 13:11:55,678 - INFO - Added membership: Mitch McConnell in committee JSPR
+2025-04-29 13:11:55,679 - INFO - Added membership: Bryan Steil in committee JSPR
+2025-04-29 13:11:55,679 - INFO - Added membership: Deb Fischer in committee JSPR
+2025-04-29 13:11:55,679 - INFO - Added membership: Gregory F. Murphy in committee JSPR
+2025-04-29 13:11:55,680 - INFO - Added membership: Bill Hagerty in committee JSPR
+2025-04-29 13:11:55,680 - INFO - Added membership: Mary E. Miller in committee JSPR
+2025-04-29 13:11:55,680 - INFO - Added membership: Alex Padilla in committee JSPR
+2025-04-29 13:11:55,681 - INFO - Added membership: Jeff Merkley in committee JSPR
+2025-04-29 13:11:55,681 - INFO - Added membership: Joseph D. Morelle in committee JSPR
+2025-04-29 13:11:55,681 - INFO - Added membership: Terri A. Sewell in committee JSPR
+2025-04-29 13:11:55,682 - INFO - Added membership: Mike Crapo in committee JSTX
+2025-04-29 13:11:55,682 - INFO - Added membership: Jason Smith in committee JSTX
+2025-04-29 13:11:55,683 - INFO - Added membership: Chuck Grassley in committee JSTX
+2025-04-29 13:11:55,683 - INFO - Added membership: Vern Buchanan in committee JSTX
+2025-04-29 13:11:55,683 - INFO - Added membership: John Cornyn in committee JSTX
+2025-04-29 13:11:55,683 - INFO - Added membership: Adrian Smith in committee JSTX
+2025-04-29 13:11:55,684 - INFO - Added membership: Ron Wyden in committee JSTX
+2025-04-29 13:11:55,684 - INFO - Added membership: Maria Cantwell in committee JSTX
+2025-04-29 13:11:55,684 - INFO - Added membership: Richard E. Neal in committee JSTX
+2025-04-29 13:11:55,685 - INFO - Added membership: Lloyd Doggett in committee JSTX
+2025-04-29 13:11:55,685 - INFO - Added membership: Mitch McConnell in committee JSLC
+2025-04-29 13:11:55,686 - INFO - Added membership: Bryan Steil in committee JSLC
+2025-04-29 13:11:55,686 - INFO - Added membership: Deb Fischer in committee JSLC
+2025-04-29 13:11:55,686 - INFO - Added membership: David G. Valadao in committee JSLC
+2025-04-29 13:11:55,687 - INFO - Added membership: Cindy Hyde-Smith in committee JSLC
+2025-04-29 13:11:55,687 - INFO - Added membership: Mike Carey in committee JSLC
+2025-04-29 13:11:55,688 - INFO - Added membership: Alex Padilla in committee JSLC
+2025-04-29 13:11:55,688 - INFO - Added membership: Amy Klobuchar in committee JSLC
+2025-04-29 13:11:55,688 - INFO - Added membership: Joseph D. Morelle in committee JSLC
+2025-04-29 13:11:55,689 - INFO - Added membership: Julie Johnson in committee JSLC
+2025-04-29 13:11:55,690 - INFO - Added membership: Eric Schmitt in committee JSEC
+2025-04-29 13:11:55,691 - INFO - Added membership: David Schweikert in committee JSEC
+2025-04-29 13:11:55,692 - INFO - Added membership: Tom Cotton in committee JSEC
+2025-04-29 13:11:55,693 - INFO - Added membership: Jodey C. Arrington in committee JSEC
+2025-04-29 13:11:55,693 - INFO - Added membership: Ted Budd in committee JSEC
+2025-04-29 13:11:55,694 - INFO - Added membership: Ron Estes in committee JSEC
+2025-04-29 13:11:55,694 - INFO - Added membership: David McCormick in committee JSEC
+2025-04-29 13:11:55,695 - INFO - Added membership: Lloyd Smucker in committee JSEC
+2025-04-29 13:11:55,695 - INFO - Added membership: Marsha Blackburn in committee JSEC
+2025-04-29 13:11:55,695 - INFO - Added membership: Nicole Malliotakis in committee JSEC
+2025-04-29 13:11:55,696 - INFO - Added membership: Ashley Moody in committee JSEC
+2025-04-29 13:11:55,696 - INFO - Added membership: Victoria Spartz in committee JSEC
+2025-04-29 13:11:55,697 - INFO - Added membership: Margaret Wood Hassan in committee JSEC
+2025-04-29 13:11:55,698 - INFO - Added membership: Amy Klobuchar in committee JSEC
+2025-04-29 13:11:55,698 - INFO - Added membership: Martin Heinrich in committee JSEC
+2025-04-29 13:11:55,699 - INFO - Added membership: Mark Kelly in committee JSEC
+2025-04-29 13:11:55,699 - INFO - Added membership: Donald S. Beyer, Jr. in committee JSEC
+2025-04-29 13:11:55,699 - INFO - Added membership: Gwen Moore in committee JSEC
+2025-04-29 13:11:55,700 - INFO - Added membership: Sean Casten in committee JSEC
+2025-04-29 13:11:55,700 - INFO - Added membership: Dave Min in committee JSEC
+2025-04-29 13:11:55,701 - INFO - Added membership: James Lankford in committee SLET
+2025-04-29 13:11:55,701 - INFO - Added membership: James E. Risch in committee SLET
+2025-04-29 13:11:55,701 - INFO - Added membership: Deb Fischer in committee SLET
+2025-04-29 13:11:55,702 - INFO - Added membership: Christopher A. Coons in committee SLET
+2025-04-29 13:11:55,702 - INFO - Added membership: Brian Schatz in committee SLET
+2025-04-29 13:11:55,703 - INFO - Added membership: Jeanne Shaheen in committee SLET
+2025-04-29 13:11:55,703 - INFO - Added membership: Tom Cotton in committee SLIN
+2025-04-29 13:11:55,703 - INFO - Added membership: James E. Risch in committee SLIN
+2025-04-29 13:11:55,704 - INFO - Added membership: Susan M. Collins in committee SLIN
+2025-04-29 13:11:55,704 - INFO - Added membership: John Cornyn in committee SLIN
+2025-04-29 13:11:55,705 - INFO - Added membership: Jerry Moran in committee SLIN
+2025-04-29 13:11:55,705 - INFO - Added membership: James Lankford in committee SLIN
+2025-04-29 13:11:55,707 - INFO - Added membership: Mike Rounds in committee SLIN
+2025-04-29 13:11:55,708 - INFO - Added membership: Todd Young in committee SLIN
+2025-04-29 13:11:55,709 - INFO - Added membership: Ted Budd in committee SLIN
+2025-04-29 13:11:55,709 - INFO - Added membership: John Thune in committee SLIN
+2025-04-29 13:11:55,710 - INFO - Added membership: Roger F. Wicker in committee SLIN
+2025-04-29 13:11:55,710 - INFO - Added membership: Mark R. Warner in committee SLIN
+2025-04-29 13:11:55,711 - INFO - Added membership: Ron Wyden in committee SLIN
+2025-04-29 13:11:55,711 - INFO - Added membership: Martin Heinrich in committee SLIN
+2025-04-29 13:11:55,711 - INFO - Added membership: Angus S. King, Jr. in committee SLIN
+2025-04-29 13:11:55,712 - INFO - Added membership: Michael F. Bennet in committee SLIN
+2025-04-29 13:11:55,712 - INFO - Added membership: Kirsten E. Gillibrand in committee SLIN
+2025-04-29 13:11:55,712 - INFO - Added membership: Jon Ossoff in committee SLIN
+2025-04-29 13:11:55,713 - INFO - Added membership: Mark Kelly in committee SLIN
+2025-04-29 13:11:55,713 - INFO - Added membership: Jack Reed in committee SLIN
+2025-04-29 13:11:55,714 - INFO - Added membership: Charles E. Schumer in committee SLIN
+2025-04-29 13:11:55,714 - INFO - Added membership: Rick Scott in committee SPAG
+2025-04-29 13:11:55,714 - INFO - Added membership: David McCormick in committee SPAG
+2025-04-29 13:11:55,715 - INFO - Added membership: James C. Justice in committee SPAG
+2025-04-29 13:11:55,715 - INFO - Added membership: Tommy Tuberville in committee SPAG
+2025-04-29 13:11:55,715 - INFO - Added membership: Ron Johnson in committee SPAG
+2025-04-29 13:11:55,716 - INFO - Added membership: Ashley Moody in committee SPAG
+2025-04-29 13:11:55,716 - INFO - Added membership: Jon Husted in committee SPAG
+2025-04-29 13:11:55,716 - INFO - Added membership: Kirsten E. Gillibrand in committee SPAG
+2025-04-29 13:11:55,717 - INFO - Added membership: Elizabeth Warren in committee SPAG
+2025-04-29 13:11:55,717 - INFO - Added membership: Mark Kelly in committee SPAG
+2025-04-29 13:11:55,717 - INFO - Added membership: Raphael G. Warnock in committee SPAG
+2025-04-29 13:11:55,717 - INFO - Added membership: Andy Kim in committee SPAG
+2025-04-29 13:11:55,718 - INFO - Added membership: Angela D. Alsobrooks in committee SPAG
+2025-04-29 13:11:55,718 - INFO - Added membership: John Cornyn in committee SCNC
+2025-04-29 13:11:55,718 - INFO - Added membership: Chuck Grassley in committee SCNC
+2025-04-29 13:11:55,719 - INFO - Added membership: James E. Risch in committee SCNC
+2025-04-29 13:11:55,719 - INFO - Added membership: Bernie Moreno in committee SCNC
+2025-04-29 13:11:55,719 - INFO - Added membership: Sheldon Whitehouse in committee SCNC
+2025-04-29 13:11:55,720 - INFO - Added membership: Richard Blumenthal in committee SCNC
+2025-04-29 13:11:55,720 - INFO - Added membership: Ben Ray Luján in committee SCNC
+2025-04-29 13:11:55,720 - INFO - Added membership: Roger F. Wicker in committee JCSE
+2025-04-29 13:11:55,721 - INFO - Added membership: John Boozman in committee JCSE
+2025-04-29 13:11:55,721 - INFO - Added membership: Thom Tillis in committee JCSE
+2025-04-29 13:11:55,721 - INFO - Added membership: Tim Scott in committee JCSE
+2025-04-29 13:11:55,722 - INFO - Added membership: Sheldon Whitehouse in committee JCSE
+2025-04-29 13:11:55,722 - INFO - Added membership: Jeanne Shaheen in committee JCSE
+2025-04-29 13:11:55,722 - INFO - Added membership: Tina Smith in committee JCSE
+2025-04-29 13:11:55,724 - INFO - Added membership: John Fetterman in committee JCSE
+2025-04-29 13:11:55,725 - INFO - Added membership: Bruce Westerman in committee HSII
+2025-04-29 13:11:55,726 - INFO - Added membership: Jared Huffman in committee HSII
+2025-04-29 13:11:55,726 - INFO - Added membership: Robert J. Wittman in committee HSII
+2025-04-29 13:11:55,727 - INFO - Added membership: Joe Neguse in committee HSII
+2025-04-29 13:11:55,727 - INFO - Added membership: Tom McClintock in committee HSII
+2025-04-29 13:11:55,728 - INFO - Added membership: Teresa Leger Fernandez in committee HSII
+2025-04-29 13:11:55,728 - INFO - Added membership: Paul A. Gosar in committee HSII
+2025-04-29 13:11:55,728 - INFO - Added membership: Melanie A. Stansbury in committee HSII
+2025-04-29 13:11:55,729 - INFO - Added membership: Aumua Amata Coleman Radewagen in committee HSII
+2025-04-29 13:11:55,729 - INFO - Added membership: Val T. Hoyle in committee HSII
+2025-04-29 13:11:55,729 - INFO - Added membership: Doug LaMalfa in committee HSII
+2025-04-29 13:11:55,730 - INFO - Added membership: Seth Magaziner in committee HSII
+2025-04-29 13:11:55,730 - INFO - Added membership: Daniel Webster in committee HSII
+2025-04-29 13:11:55,730 - INFO - Added membership: Jared F. Golden in committee HSII
+2025-04-29 13:11:55,731 - INFO - Added membership: Russ Fulcher in committee HSII
+2025-04-29 13:11:55,731 - INFO - Added membership: Dave Min in committee HSII
+2025-04-29 13:11:55,731 - INFO - Added membership: Pete Stauber in committee HSII
+2025-04-29 13:11:55,732 - INFO - Added membership: Maxine Dexter in committee HSII
+2025-04-29 13:11:55,732 - INFO - Added membership: Thomas P. Tiffany in committee HSII
+2025-04-29 13:11:55,732 - INFO - Added membership: Pablo José Hernández in committee HSII
+2025-04-29 13:11:55,733 - INFO - Added membership: Lauren Boebert in committee HSII
+2025-04-29 13:11:55,733 - INFO - Added membership: Emily Randall in committee HSII
+2025-04-29 13:11:55,733 - INFO - Added membership: Cliff Bentz in committee HSII
+2025-04-29 13:11:55,734 - INFO - Added membership: Yassamin Ansari in committee HSII
+2025-04-29 13:11:55,734 - INFO - Added membership: Jennifer A. Kiggans in committee HSII
+2025-04-29 13:11:55,734 - INFO - Added membership: Sarah Elfreth in committee HSII
+2025-04-29 13:11:55,735 - INFO - Added membership: Wesley Hunt in committee HSII
+2025-04-29 13:11:55,735 - INFO - Added membership: Adam Gray in committee HSII
+2025-04-29 13:11:55,735 - INFO - Added membership: Mike Collins in committee HSII
+2025-04-29 13:11:55,736 - INFO - Added membership: Luz M. Rivas in committee HSII
+2025-04-29 13:11:55,736 - INFO - Added membership: Harriet M. Hageman in committee HSII
+2025-04-29 13:11:55,736 - INFO - Added membership: Nydia M. Velázquez in committee HSII
+2025-04-29 13:11:55,737 - INFO - Added membership: Mark E. Amodei in committee HSII
+2025-04-29 13:11:55,737 - INFO - Added membership: Debbie Dingell in committee HSII
+2025-04-29 13:11:55,737 - INFO - Added membership: Tim Walberg in committee HSII
+2025-04-29 13:11:55,738 - INFO - Added membership: Darren Soto in committee HSII
+2025-04-29 13:11:55,738 - INFO - Added membership: Mike Ezell in committee HSII
+2025-04-29 13:11:55,738 - INFO - Added membership: Julia Brownley in committee HSII
+2025-04-29 13:11:55,739 - INFO - Added membership: Celeste Maloy in committee HSII
+2025-04-29 13:11:55,739 - INFO - Added membership: Addison P. McDowell in committee HSII
+2025-04-29 13:11:55,739 - INFO - Added membership: Jeff Crank in committee HSII
+2025-04-29 13:11:55,740 - INFO - Added membership: Nicholas J. Begich III in committee HSII
+2025-04-29 13:11:55,741 - INFO - Added membership: Jeff Hurd in committee HSII
+2025-04-29 13:11:55,742 - INFO - Added membership: Mike Kennedy in committee HSII
+2025-04-29 13:11:55,742 - INFO - Added membership: Sam Graves in committee HSPW
+2025-04-29 13:11:55,742 - INFO - Added membership: Rick Larsen in committee HSPW
+2025-04-29 13:11:55,743 - INFO - Added membership: Eric A. "Rick" Crawford in committee HSPW
+2025-04-29 13:11:55,743 - INFO - Added membership: Eleanor Holmes Norton in committee HSPW
+2025-04-29 13:11:55,744 - INFO - Added membership: Daniel Webster in committee HSPW
+2025-04-29 13:11:55,744 - INFO - Added membership: Jerrold Nadler in committee HSPW
+2025-04-29 13:11:55,745 - INFO - Added membership: Thomas Massie in committee HSPW
+2025-04-29 13:11:55,746 - INFO - Added membership: Steve Cohen in committee HSPW
+2025-04-29 13:11:55,746 - INFO - Added membership: Scott Perry in committee HSPW
+2025-04-29 13:11:55,746 - INFO - Added membership: John Garamendi in committee HSPW
+2025-04-29 13:11:55,747 - INFO - Added membership: Brian Babin in committee HSPW
+2025-04-29 13:11:55,747 - INFO - Added membership: Henry C. "Hank" Johnson, Jr. in committee HSPW
+2025-04-29 13:11:55,747 - INFO - Added membership: David Rouzer in committee HSPW
+2025-04-29 13:11:55,748 - INFO - Added membership: André Carson in committee HSPW
+2025-04-29 13:11:55,748 - INFO - Added membership: Mike Bost in committee HSPW
+2025-04-29 13:11:55,748 - INFO - Added membership: Dina Titus in committee HSPW
+2025-04-29 13:11:55,749 - INFO - Added membership: Doug LaMalfa in committee HSPW
+2025-04-29 13:11:55,749 - INFO - Added membership: Jared Huffman in committee HSPW
+2025-04-29 13:11:55,749 - INFO - Added membership: Bruce Westerman in committee HSPW
+2025-04-29 13:11:55,749 - INFO - Added membership: Julia Brownley in committee HSPW
+2025-04-29 13:11:55,750 - INFO - Added membership: Brian J. Mast in committee HSPW
+2025-04-29 13:11:55,750 - INFO - Added membership: Frederica S. Wilson in committee HSPW
+2025-04-29 13:11:55,751 - INFO - Added membership: Pete Stauber in committee HSPW
+2025-04-29 13:11:55,751 - INFO - Added membership: Mark DeSaulnier in committee HSPW
+2025-04-29 13:11:55,751 - INFO - Added membership: Tim Burchett in committee HSPW
+2025-04-29 13:11:55,752 - INFO - Added membership: Salud O. Carbajal in committee HSPW
+2025-04-29 13:11:55,752 - INFO - Added membership: Dusty Johnson in committee HSPW
+2025-04-29 13:11:55,752 - INFO - Added membership: Greg Stanton in committee HSPW
+2025-04-29 13:11:55,753 - INFO - Added membership: Jefferson Van Drew in committee HSPW
+2025-04-29 13:11:55,753 - INFO - Added membership: Sharice Davids in committee HSPW
+2025-04-29 13:11:55,753 - INFO - Added membership: Troy E. Nehls in committee HSPW
+2025-04-29 13:11:55,754 - INFO - Added membership: Jesús G. "Chuy" García in committee HSPW
+2025-04-29 13:11:55,754 - INFO - Added membership: Tracey Mann in committee HSPW
+2025-04-29 13:11:55,754 - INFO - Added membership: Chris Pappas in committee HSPW
+2025-04-29 13:11:55,755 - INFO - Added membership: Burgess Owens in committee HSPW
+2025-04-29 13:11:55,755 - INFO - Added membership: Seth Moulton in committee HSPW
+2025-04-29 13:11:55,756 - INFO - Added membership: Eric Burlison in committee HSPW
+2025-04-29 13:11:55,756 - INFO - Added membership: Marilyn Strickland in committee HSPW
+2025-04-29 13:11:55,757 - INFO - Added membership: Mike Collins in committee HSPW
+2025-04-29 13:11:55,758 - INFO - Added membership: Patrick Ryan in committee HSPW
+2025-04-29 13:11:55,758 - INFO - Added membership: Mike Ezell in committee HSPW
+2025-04-29 13:11:55,759 - INFO - Added membership: Val T. Hoyle in committee HSPW
+2025-04-29 13:11:55,759 - INFO - Added membership: Kevin Kiley in committee HSPW
+2025-04-29 13:11:55,759 - INFO - Added membership: Emilia Strong Sykes in committee HSPW
+2025-04-29 13:11:55,760 - INFO - Added membership: Vince Fong in committee HSPW
+2025-04-29 13:11:55,761 - INFO - Added membership: Hillary J. Scholten in committee HSPW
+2025-04-29 13:11:55,761 - INFO - Added membership: Tony Wied in committee HSPW
+2025-04-29 13:11:55,761 - INFO - Added membership: Valerie P. Foushee in committee HSPW
+2025-04-29 13:11:55,762 - INFO - Added membership: Tom Barrett in committee HSPW
+2025-04-29 13:11:55,762 - INFO - Added membership: Christopher R. Deluzio in committee HSPW
+2025-04-29 13:11:55,762 - INFO - Added membership: Nicholas J. Begich III in committee HSPW
+2025-04-29 13:11:55,763 - INFO - Added membership: Robert Garcia in committee HSPW
+2025-04-29 13:11:55,763 - INFO - Added membership: Robert P. Bresnahan, Jr. in committee HSPW
+2025-04-29 13:11:55,763 - INFO - Added membership: Nellie Pou in committee HSPW
+2025-04-29 13:11:55,764 - INFO - Added membership: Jeff Hurd in committee HSPW
+2025-04-29 13:11:55,764 - INFO - Added membership: Kristen McDonald Rivet in committee HSPW
+2025-04-29 13:11:55,764 - INFO - Added membership: Jefferson Shreve in committee HSPW
+2025-04-29 13:11:55,765 - INFO - Added membership: Laura Friedman in committee HSPW
+2025-04-29 13:11:55,765 - INFO - Added membership: Addison P. McDowell in committee HSPW
+2025-04-29 13:11:55,765 - INFO - Added membership: Laura Gillen in committee HSPW
+2025-04-29 13:11:55,766 - INFO - Added membership: David J. Taylor in committee HSPW
+2025-04-29 13:11:55,766 - INFO - Added membership: Shomari Figures in committee HSPW
+2025-04-29 13:11:55,767 - INFO - Added membership: Brad Knott in committee HSPW
+2025-04-29 13:11:55,767 - INFO - Added membership: Kimberlyn King-Hinds in committee HSPW
+2025-04-29 13:11:55,767 - INFO - Added membership: Mike Kennedy in committee HSPW
+2025-04-29 13:11:55,768 - INFO - Added membership: Robert F. Onder, Jr. in committee HSPW
+2025-04-29 13:11:55,768 - INFO - Added membership: Brian Babin in committee HSSY
+2025-04-29 13:11:55,768 - INFO - Added membership: Zoe Lofgren in committee HSSY
+2025-04-29 13:11:55,769 - INFO - Added membership: Randy K. Weber, Sr. in committee HSSY
+2025-04-29 13:11:55,769 - INFO - Added membership: Suzanne Bonamici in committee HSSY
+2025-04-29 13:11:55,769 - INFO - Added membership: James R. Baird in committee HSSY
+2025-04-29 13:11:55,770 - INFO - Added membership: Haley M. Stevens in committee HSSY
+2025-04-29 13:11:55,770 - INFO - Added membership: Daniel Webster in committee HSSY
+2025-04-29 13:11:55,770 - INFO - Added membership: Deborah K. Ross in committee HSSY
+2025-04-29 13:11:55,771 - INFO - Added membership: Jay Obernolte in committee HSSY
+2025-04-29 13:11:55,771 - INFO - Added membership: Andrea Salinas in committee HSSY
+2025-04-29 13:11:55,772 - INFO - Added membership: Charles J. "Chuck" Fleischmann in committee HSSY
+2025-04-29 13:11:55,772 - INFO - Added membership: Valerie P. Foushee in committee HSSY
+2025-04-29 13:11:55,772 - INFO - Added membership: Darrell Issa in committee HSSY
+2025-04-29 13:11:55,773 - INFO - Added membership: Emilia Strong Sykes in committee HSSY
+2025-04-29 13:11:55,773 - INFO - Added membership: Claudia Tenney in committee HSSY
+2025-04-29 13:11:55,774 - INFO - Added membership: Maxwell Frost in committee HSSY
+2025-04-29 13:11:55,775 - INFO - Added membership: Scott Franklin in committee HSSY
+2025-04-29 13:11:55,775 - INFO - Added membership: Gabe Amo in committee HSSY
+2025-04-29 13:11:55,776 - INFO - Added membership: Max L. Miller in committee HSSY
+2025-04-29 13:11:55,777 - INFO - Added membership: Suhas Subramanyam in committee HSSY
+2025-04-29 13:11:55,777 - INFO - Added membership: Richard McCormick in committee HSSY
+2025-04-29 13:11:55,777 - INFO - Added membership: Luz M. Rivas in committee HSSY
+2025-04-29 13:11:55,778 - INFO - Added membership: Mike Collins in committee HSSY
+2025-04-29 13:11:55,778 - INFO - Added membership: Sarah McBride in committee HSSY
+2025-04-29 13:11:55,779 - INFO - Added membership: Vince Fong in committee HSSY
+2025-04-29 13:11:55,779 - INFO - Added membership: Laura Gillen in committee HSSY
+2025-04-29 13:11:55,779 - INFO - Added membership: David Rouzer in committee HSSY
+2025-04-29 13:11:55,780 - INFO - Added membership: George Whitesides in committee HSSY
+2025-04-29 13:11:55,780 - INFO - Added membership: Keith Self in committee HSSY
+2025-04-29 13:11:55,781 - INFO - Added membership: Laura Friedman in committee HSSY
+2025-04-29 13:11:55,781 - INFO - Added membership: Pat Harrigan in committee HSSY
+2025-04-29 13:11:55,781 - INFO - Added membership: April McClain Delaney in committee HSSY
+2025-04-29 13:11:55,782 - INFO - Added membership: Sheri Biggs in committee HSSY
+2025-04-29 13:11:55,782 - INFO - Added membership: Josh Riley in committee HSSY
+2025-04-29 13:11:55,782 - INFO - Added membership: Jeff Hurd in committee HSSY
+2025-04-29 13:11:55,783 - INFO - Added membership: Mike Haridopolos in committee HSSY
+2025-04-29 13:11:55,783 - INFO - Added membership: Mike Kennedy in committee HSSY
+2025-04-29 13:11:55,783 - INFO - Added membership: Nicholas J. Begich III in committee HSSY
+2025-04-29 13:11:55,783 - INFO - Added membership: Glenn Thompson in committee HSAG
+2025-04-29 13:11:55,784 - INFO - Added membership: Angie Craig in committee HSAG
+2025-04-29 13:11:55,784 - INFO - Added membership: Frank D. Lucas in committee HSAG
+2025-04-29 13:11:55,784 - INFO - Added membership: David Scott in committee HSAG
+2025-04-29 13:11:55,785 - INFO - Added membership: Austin Scott in committee HSAG
+2025-04-29 13:11:55,785 - INFO - Added membership: Jim Costa in committee HSAG
+2025-04-29 13:11:55,786 - INFO - Added membership: Eric A. "Rick" Crawford in committee HSAG
+2025-04-29 13:11:55,786 - INFO - Added membership: James P. McGovern in committee HSAG
+2025-04-29 13:11:55,787 - INFO - Added membership: Scott DesJarlais in committee HSAG
+2025-04-29 13:11:55,787 - INFO - Added membership: Alma S. Adams in committee HSAG
+2025-04-29 13:11:55,787 - INFO - Added membership: Doug LaMalfa in committee HSAG
+2025-04-29 13:11:55,788 - INFO - Added membership: Jahana Hayes in committee HSAG
+2025-04-29 13:11:55,788 - INFO - Added membership: David Rouzer in committee HSAG
+2025-04-29 13:11:55,788 - INFO - Added membership: Shontel M. Brown in committee HSAG
+2025-04-29 13:11:55,789 - INFO - Added membership: Trent Kelly in committee HSAG
+2025-04-29 13:11:55,789 - INFO - Added membership: Sharice Davids in committee HSAG
+2025-04-29 13:11:55,789 - INFO - Added membership: Don Bacon in committee HSAG
+2025-04-29 13:11:55,790 - INFO - Added membership: Andrea Salinas in committee HSAG
+2025-04-29 13:11:55,791 - INFO - Added membership: Mike Bost in committee HSAG
+2025-04-29 13:11:55,791 - INFO - Added membership: Donald G. Davis in committee HSAG
+2025-04-29 13:11:55,792 - INFO - Added membership: Dusty Johnson in committee HSAG
+2025-04-29 13:11:55,792 - INFO - Added membership: Jill N. Tokuda in committee HSAG
+2025-04-29 13:11:55,793 - INFO - Added membership: James R. Baird in committee HSAG
+2025-04-29 13:11:55,794 - INFO - Added membership: Nikki Budzinski in committee HSAG
+2025-04-29 13:11:55,794 - INFO - Added membership: Tracey Mann in committee HSAG
+2025-04-29 13:11:55,794 - INFO - Added membership: Eric Sorensen in committee HSAG
+2025-04-29 13:11:55,795 - INFO - Added membership: Randy Feenstra in committee HSAG
+2025-04-29 13:11:55,795 - INFO - Added membership: Gabe Vasquez in committee HSAG
+2025-04-29 13:11:55,796 - INFO - Added membership: Mary E. Miller in committee HSAG
+2025-04-29 13:11:55,796 - INFO - Added membership: Jonathan L. Jackson in committee HSAG
+2025-04-29 13:11:55,796 - INFO - Added membership: Barry Moore in committee HSAG
+2025-04-29 13:11:55,797 - INFO - Added membership: Shri Thanedar in committee HSAG
+2025-04-29 13:11:55,797 - INFO - Added membership: Kat Cammack in committee HSAG
+2025-04-29 13:11:55,797 - INFO - Added membership: Adam Gray in committee HSAG
+2025-04-29 13:11:55,798 - INFO - Added membership: Brad Finstad in committee HSAG
+2025-04-29 13:11:55,798 - INFO - Added membership: Kristen McDonald Rivet in committee HSAG
+2025-04-29 13:11:55,798 - INFO - Added membership: John W. Rose in committee HSAG
+2025-04-29 13:11:55,798 - INFO - Added membership: Shomari Figures in committee HSAG
+2025-04-29 13:11:55,799 - INFO - Added membership: Ronny Jackson in committee HSAG
+2025-04-29 13:11:55,799 - INFO - Added membership: Eugene Simon Vindman in committee HSAG
+2025-04-29 13:11:55,799 - INFO - Added membership: Monica De La Cruz in committee HSAG
+2025-04-29 13:11:55,800 - INFO - Added membership: Josh Riley in committee HSAG
+2025-04-29 13:11:55,800 - INFO - Added membership: Zachary Nunn in committee HSAG
+2025-04-29 13:11:55,800 - INFO - Added membership: John W. Mannion in committee HSAG
+2025-04-29 13:11:55,801 - INFO - Added membership: Derrick Van Orden in committee HSAG
+2025-04-29 13:11:55,801 - INFO - Added membership: April McClain Delaney in committee HSAG
+2025-04-29 13:11:55,801 - INFO - Added membership: Dan Newhouse in committee HSAG
+2025-04-29 13:11:55,802 - INFO - Added membership: Chellie Pingree in committee HSAG
+2025-04-29 13:11:55,802 - INFO - Added membership: Tony Wied in committee HSAG
+2025-04-29 13:11:55,802 - INFO - Added membership: Salud O. Carbajal in committee HSAG
+2025-04-29 13:11:55,803 - INFO - Added membership: Robert P. Bresnahan, Jr. in committee HSAG
+2025-04-29 13:11:55,803 - INFO - Added membership: Mark B. Messmer in committee HSAG
+2025-04-29 13:11:55,803 - INFO - Added membership: Mark Harris in committee HSAG
+2025-04-29 13:11:55,803 - INFO - Added membership: David J. Taylor in committee HSAG
+2025-04-29 13:11:55,804 - INFO - Added membership: Jim Jordan in committee HSJU
+2025-04-29 13:11:55,804 - INFO - Added membership: Jamie Raskin in committee HSJU
+2025-04-29 13:11:55,804 - INFO - Added membership: Darrell Issa in committee HSJU
+2025-04-29 13:11:55,805 - INFO - Added membership: Jerrold Nadler in committee HSJU
+2025-04-29 13:11:55,805 - INFO - Added membership: Andy Biggs in committee HSJU
+2025-04-29 13:11:55,805 - INFO - Added membership: Zoe Lofgren in committee HSJU
+2025-04-29 13:11:55,806 - INFO - Added membership: Tom McClintock in committee HSJU
+2025-04-29 13:11:55,807 - INFO - Added membership: Steve Cohen in committee HSJU
+2025-04-29 13:11:55,808 - INFO - Added membership: Thomas P. Tiffany in committee HSJU
+2025-04-29 13:11:55,808 - INFO - Added membership: Henry C. "Hank" Johnson, Jr. in committee HSJU
+2025-04-29 13:11:55,809 - INFO - Added membership: Thomas Massie in committee HSJU
+2025-04-29 13:11:55,809 - INFO - Added membership: Eric Swalwell in committee HSJU
+2025-04-29 13:11:55,810 - INFO - Added membership: Chip Roy in committee HSJU
+2025-04-29 13:11:55,811 - INFO - Added membership: Ted Lieu in committee HSJU
+2025-04-29 13:11:55,811 - INFO - Added membership: Scott Fitzgerald in committee HSJU
+2025-04-29 13:11:55,811 - INFO - Added membership: Pramila Jayapal in committee HSJU
+2025-04-29 13:11:55,812 - INFO - Added membership: Ben Cline in committee HSJU
+2025-04-29 13:11:55,812 - INFO - Added membership: J. Luis Correa in committee HSJU
+2025-04-29 13:11:55,813 - INFO - Added membership: Lance Gooden in committee HSJU
+2025-04-29 13:11:55,813 - INFO - Added membership: Mary Gay Scanlon in committee HSJU
+2025-04-29 13:11:55,813 - INFO - Added membership: Jefferson Van Drew in committee HSJU
+2025-04-29 13:11:55,814 - INFO - Added membership: Joe Neguse in committee HSJU
+2025-04-29 13:11:55,814 - INFO - Added membership: Troy E. Nehls in committee HSJU
+2025-04-29 13:11:55,814 - INFO - Added membership: Lucy McBath in committee HSJU
+2025-04-29 13:11:55,815 - INFO - Added membership: Barry Moore in committee HSJU
+2025-04-29 13:11:55,815 - INFO - Added membership: Deborah K. Ross in committee HSJU
+2025-04-29 13:11:55,815 - INFO - Added membership: Kevin Kiley in committee HSJU
+2025-04-29 13:11:55,816 - INFO - Added membership: Becca Balint in committee HSJU
+2025-04-29 13:11:55,816 - INFO - Added membership: Harriet M. Hageman in committee HSJU
+2025-04-29 13:11:55,816 - INFO - Added membership: Jesús G. "Chuy" García in committee HSJU
+2025-04-29 13:11:55,817 - INFO - Added membership: Laurel M. Lee in committee HSJU
+2025-04-29 13:11:55,817 - INFO - Added membership: Sydney Kamlager-Dove in committee HSJU
+2025-04-29 13:11:55,817 - INFO - Added membership: Wesley Hunt in committee HSJU
+2025-04-29 13:11:55,818 - INFO - Added membership: Jared Moskowitz in committee HSJU
+2025-04-29 13:11:55,818 - INFO - Added membership: Russell Fry in committee HSJU
+2025-04-29 13:11:55,818 - INFO - Added membership: Daniel S. Goldman in committee HSJU
+2025-04-29 13:11:55,819 - INFO - Added membership: Glenn Grothman in committee HSJU
+2025-04-29 13:11:55,819 - INFO - Added membership: Jasmine Crockett in committee HSJU
+2025-04-29 13:11:55,819 - INFO - Added membership: Brad Knott in committee HSJU
+2025-04-29 13:11:55,820 - INFO - Added membership: Mark Harris in committee HSJU
+2025-04-29 13:11:55,820 - INFO - Added membership: Robert F. Onder, Jr. in committee HSJU
+2025-04-29 13:11:55,821 - INFO - Added membership: Derek Schmidt in committee HSJU
+2025-04-29 13:11:55,821 - INFO - Added membership: Brandon Gill in committee HSJU
+2025-04-29 13:11:55,821 - INFO - Added membership: Michael Baumgartner in committee HSJU
+2025-04-29 13:11:55,822 - INFO - Added membership: Mike Rogers in committee HSAS
+2025-04-29 13:11:55,822 - INFO - Added membership: Adam Smith in committee HSAS
+2025-04-29 13:11:55,823 - INFO - Added membership: Joe Wilson in committee HSAS
+2025-04-29 13:11:55,823 - INFO - Added membership: Joe Courtney in committee HSAS
+2025-04-29 13:11:55,824 - INFO - Added membership: Michael R. Turner in committee HSAS
+2025-04-29 13:11:55,824 - INFO - Added membership: John Garamendi in committee HSAS
+2025-04-29 13:11:55,825 - INFO - Added membership: Robert J. Wittman in committee HSAS
+2025-04-29 13:11:55,826 - INFO - Added membership: Donald Norcross in committee HSAS
+2025-04-29 13:11:55,826 - INFO - Added membership: Austin Scott in committee HSAS
+2025-04-29 13:11:55,827 - INFO - Added membership: Seth Moulton in committee HSAS
+2025-04-29 13:11:55,827 - INFO - Added membership: Sam Graves in committee HSAS
+2025-04-29 13:11:55,828 - INFO - Added membership: Salud O. Carbajal in committee HSAS
+2025-04-29 13:11:55,828 - INFO - Added membership: Elise M. Stefanik in committee HSAS
+2025-04-29 13:11:55,828 - INFO - Added membership: Ro Khanna in committee HSAS
+2025-04-29 13:11:55,829 - INFO - Added membership: Scott DesJarlais in committee HSAS
+2025-04-29 13:11:55,829 - INFO - Added membership: William R. Keating in committee HSAS
+2025-04-29 13:11:55,829 - INFO - Added membership: Trent Kelly in committee HSAS
+2025-04-29 13:11:55,830 - INFO - Added membership: Chrissy Houlahan in committee HSAS
+2025-04-29 13:11:55,830 - INFO - Added membership: Don Bacon in committee HSAS
+2025-04-29 13:11:55,830 - INFO - Added membership: Jason Crow in committee HSAS
+2025-04-29 13:11:55,831 - INFO - Added membership: Jack Bergman in committee HSAS
+2025-04-29 13:11:55,831 - INFO - Added membership: Mikie Sherrill in committee HSAS
+2025-04-29 13:11:55,831 - INFO - Added membership: Ronny Jackson in committee HSAS
+2025-04-29 13:11:55,832 - INFO - Added membership: Jared F. Golden in committee HSAS
+2025-04-29 13:11:55,832 - INFO - Added membership: Pat Fallon in committee HSAS
+2025-04-29 13:11:55,832 - INFO - Added membership: Sara Jacobs in committee HSAS
+2025-04-29 13:11:55,833 - INFO - Added membership: Carlos A. Gimenez in committee HSAS
+2025-04-29 13:11:55,833 - INFO - Added membership: Marilyn Strickland in committee HSAS
+2025-04-29 13:11:55,833 - INFO - Added membership: Nancy Mace in committee HSAS
+2025-04-29 13:11:55,834 - INFO - Added membership: Patrick Ryan in committee HSAS
+2025-04-29 13:11:55,834 - INFO - Added membership: Brad Finstad in committee HSAS
+2025-04-29 13:11:55,834 - INFO - Added membership: Gabe Vasquez in committee HSAS
+2025-04-29 13:11:55,835 - INFO - Added membership: Morgan Luttrell in committee HSAS
+2025-04-29 13:11:55,835 - INFO - Added membership: Christopher R. Deluzio in committee HSAS
+2025-04-29 13:11:55,835 - INFO - Added membership: Jennifer A. Kiggans in committee HSAS
+2025-04-29 13:11:55,836 - INFO - Added membership: Jill N. Tokuda in committee HSAS
+2025-04-29 13:11:55,836 - INFO - Added membership: James C. Moylan in committee HSAS
+2025-04-29 13:11:55,836 - INFO - Added membership: Donald G. Davis in committee HSAS
+2025-04-29 13:11:55,837 - INFO - Added membership: Cory Mills in committee HSAS
+2025-04-29 13:11:55,837 - INFO - Added membership: Gilbert Ray Cisneros, Jr. in committee HSAS
+2025-04-29 13:11:55,837 - INFO - Added membership: Richard McCormick in committee HSAS
+2025-04-29 13:11:55,838 - INFO - Added membership: Eric Sorensen in committee HSAS
+2025-04-29 13:11:55,838 - INFO - Added membership: Lance Gooden in committee HSAS
+2025-04-29 13:11:55,838 - INFO - Added membership: Maggie Goodlander in committee HSAS
+2025-04-29 13:11:55,839 - INFO - Added membership: Clay Higgins in committee HSAS
+2025-04-29 13:11:55,839 - INFO - Added membership: Sarah Elfreth in committee HSAS
+2025-04-29 13:11:55,840 - INFO - Added membership: Derrick Van Orden in committee HSAS
+2025-04-29 13:11:55,841 - INFO - Added membership: George Whitesides in committee HSAS
+2025-04-29 13:11:55,841 - INFO - Added membership: John J. McGuire III in committee HSAS
+2025-04-29 13:11:55,842 - INFO - Added membership: Derek Tran in committee HSAS
+2025-04-29 13:11:55,842 - INFO - Added membership: Pat Harrigan in committee HSAS
+2025-04-29 13:11:55,843 - INFO - Added membership: Eugene Simon Vindman in committee HSAS
+2025-04-29 13:11:55,843 - INFO - Added membership: Mark B. Messmer in committee HSAS
+2025-04-29 13:11:55,844 - INFO - Added membership: Wesley Bell in committee HSAS
+2025-04-29 13:11:55,844 - INFO - Added membership: Derek Schmidt in committee HSAS
+2025-04-29 13:11:55,844 - INFO - Added membership: Jeff Crank in committee HSAS
+2025-04-29 13:11:55,845 - INFO - Added membership: Abraham J. Hamadeh in committee HSAS
+2025-04-29 13:11:55,845 - INFO - Added membership: Tom Cole in committee HSAP
+2025-04-29 13:11:55,845 - INFO - Added membership: Rosa L. DeLauro in committee HSAP
+2025-04-29 13:11:55,846 - INFO - Added membership: Harold Rogers in committee HSAP
+2025-04-29 13:11:55,846 - INFO - Added membership: Steny H. Hoyer in committee HSAP
+2025-04-29 13:11:55,846 - INFO - Added membership: Robert B. Aderholt in committee HSAP
+2025-04-29 13:11:55,847 - INFO - Added membership: Marcy Kaptur in committee HSAP
+2025-04-29 13:11:55,847 - INFO - Added membership: Michael K. Simpson in committee HSAP
+2025-04-29 13:11:55,847 - INFO - Added membership: James E. Clyburn in committee HSAP
+2025-04-29 13:11:55,848 - INFO - Added membership: John R. Carter in committee HSAP
+2025-04-29 13:11:55,848 - INFO - Added membership: Sanford D. Bishop, Jr. in committee HSAP
+2025-04-29 13:11:55,848 - INFO - Added membership: Ken Calvert in committee HSAP
+2025-04-29 13:11:55,849 - INFO - Added membership: Betty McCollum in committee HSAP
+2025-04-29 13:11:55,849 - INFO - Added membership: Mario Diaz-Balart in committee HSAP
+2025-04-29 13:11:55,849 - INFO - Added membership: Debbie Wasserman Schultz in committee HSAP
+2025-04-29 13:11:55,850 - INFO - Added membership: Steve Womack in committee HSAP
+2025-04-29 13:11:55,850 - INFO - Added membership: Henry Cuellar in committee HSAP
+2025-04-29 13:11:55,850 - INFO - Added membership: Charles J. "Chuck" Fleischmann in committee HSAP
+2025-04-29 13:11:55,851 - INFO - Added membership: Chellie Pingree in committee HSAP
+2025-04-29 13:11:55,851 - INFO - Added membership: David P. Joyce in committee HSAP
+2025-04-29 13:11:55,851 - INFO - Added membership: Mike Quigley in committee HSAP
+2025-04-29 13:11:55,852 - INFO - Added membership: Andy Harris in committee HSAP
+2025-04-29 13:11:55,852 - INFO - Added membership: Grace Meng in committee HSAP
+2025-04-29 13:11:55,853 - INFO - Added membership: Mark E. Amodei in committee HSAP
+2025-04-29 13:11:55,853 - INFO - Added membership: Mark Pocan in committee HSAP
+2025-04-29 13:11:55,853 - INFO - Added membership: David G. Valadao in committee HSAP
+2025-04-29 13:11:55,853 - INFO - Added membership: Pete Aguilar in committee HSAP
+2025-04-29 13:11:55,854 - INFO - Added membership: Dan Newhouse in committee HSAP
+2025-04-29 13:11:55,854 - INFO - Added membership: Lois Frankel in committee HSAP
+2025-04-29 13:11:55,854 - INFO - Added membership: John R. Moolenaar in committee HSAP
+2025-04-29 13:11:55,855 - INFO - Added membership: Bonnie Watson Coleman in committee HSAP
+2025-04-29 13:11:55,855 - INFO - Added membership: John H. Rutherford in committee HSAP
+2025-04-29 13:11:55,856 - INFO - Added membership: Norma J. Torres in committee HSAP
+2025-04-29 13:11:55,857 - INFO - Added membership: Ben Cline in committee HSAP
+2025-04-29 13:11:55,858 - INFO - Added membership: Ed Case in committee HSAP
+2025-04-29 13:11:55,858 - INFO - Added membership: Guy Reschenthaler in committee HSAP
+2025-04-29 13:11:55,859 - INFO - Added membership: Adriano Espaillat in committee HSAP
+2025-04-29 13:11:55,860 - INFO - Added membership: Ashley Hinson in committee HSAP
+2025-04-29 13:11:55,860 - INFO - Added membership: Josh Harder in committee HSAP
+2025-04-29 13:11:55,860 - INFO - Added membership: Tony Gonzales in committee HSAP
+2025-04-29 13:11:55,861 - INFO - Added membership: Lauren Underwood in committee HSAP
+2025-04-29 13:11:55,861 - INFO - Added membership: Julia Letlow in committee HSAP
+2025-04-29 13:11:55,861 - INFO - Added membership: Susie Lee in committee HSAP
+2025-04-29 13:11:55,862 - INFO - Added membership: Michael Cloud in committee HSAP
+2025-04-29 13:11:55,862 - INFO - Added membership: Joseph D. Morelle in committee HSAP
+2025-04-29 13:11:55,863 - INFO - Added membership: Michael Guest in committee HSAP
+2025-04-29 13:11:55,863 - INFO - Added membership: Mike Levin in committee HSAP
+2025-04-29 13:11:55,863 - INFO - Added membership: Ryan K. Zinke in committee HSAP
+2025-04-29 13:11:55,864 - INFO - Added membership: Madeleine Dean in committee HSAP
+2025-04-29 13:11:55,864 - INFO - Added membership: Andrew S. Clyde in committee HSAP
+2025-04-29 13:11:55,864 - INFO - Added membership: Veronica Escobar in committee HSAP
+2025-04-29 13:11:55,864 - INFO - Added membership: Stephanie I. Bice in committee HSAP
+2025-04-29 13:11:55,865 - INFO - Added membership: Frank J. Mrvan in committee HSAP
+2025-04-29 13:11:55,865 - INFO - Added membership: Scott Franklin in committee HSAP
+2025-04-29 13:11:55,866 - INFO - Added membership: Marie Gluesenkamp Perez in committee HSAP
+2025-04-29 13:11:55,866 - INFO - Added membership: Jake Ellzey in committee HSAP
+2025-04-29 13:11:55,866 - INFO - Added membership: Glenn Ivey in committee HSAP
+2025-04-29 13:11:55,867 - INFO - Added membership: Juan Ciscomani in committee HSAP
+2025-04-29 13:11:55,867 - INFO - Added membership: Chuck Edwards in committee HSAP
+2025-04-29 13:11:55,867 - INFO - Added membership: Mark Alford in committee HSAP
+2025-04-29 13:11:55,868 - INFO - Added membership: Nick LaLota in committee HSAP
+2025-04-29 13:11:55,868 - INFO - Added membership: Dale W. Strong in committee HSAP
+2025-04-29 13:11:55,868 - INFO - Added membership: Celeste Maloy in committee HSAP
+2025-04-29 13:11:55,869 - INFO - Added membership: Riley M. Moore in committee HSAP
+2025-04-29 13:11:55,869 - INFO - Added membership: Mark E. Green in committee HSHM
+2025-04-29 13:11:55,869 - INFO - Added membership: Bennie G. Thompson in committee HSHM
+2025-04-29 13:11:55,870 - INFO - Added membership: Michael T. McCaul in committee HSHM
+2025-04-29 13:11:55,870 - INFO - Added membership: Eric Swalwell in committee HSHM
+2025-04-29 13:11:55,870 - INFO - Added membership: Clay Higgins in committee HSHM
+2025-04-29 13:11:55,871 - INFO - Added membership: J. Luis Correa in committee HSHM
+2025-04-29 13:11:55,871 - INFO - Added membership: Michael Guest in committee HSHM
+2025-04-29 13:11:55,872 - INFO - Added membership: Shri Thanedar in committee HSHM
+2025-04-29 13:11:55,872 - INFO - Added membership: Carlos A. Gimenez in committee HSHM
+2025-04-29 13:11:55,873 - INFO - Added membership: Seth Magaziner in committee HSHM
+2025-04-29 13:11:55,874 - INFO - Added membership: August Pfluger in committee HSHM
+2025-04-29 13:11:55,875 - INFO - Added membership: Daniel S. Goldman in committee HSHM
+2025-04-29 13:11:55,875 - INFO - Added membership: Andrew R. Garbarino in committee HSHM
+2025-04-29 13:11:55,876 - INFO - Added membership: Delia C. Ramirez in committee HSHM
+2025-04-29 13:11:55,876 - INFO - Added membership: Marjorie Taylor Greene in committee HSHM
+2025-04-29 13:11:55,877 - INFO - Added membership: Timothy M. Kennedy in committee HSHM
+2025-04-29 13:11:55,877 - INFO - Added membership: Tony Gonzales in committee HSHM
+2025-04-29 13:11:55,877 - INFO - Added membership: LaMonica McIver in committee HSHM
+2025-04-29 13:11:55,878 - INFO - Added membership: Morgan Luttrell in committee HSHM
+2025-04-29 13:11:55,878 - INFO - Added membership: Julie Johnson in committee HSHM
+2025-04-29 13:11:55,879 - INFO - Added membership: Dale W. Strong in committee HSHM
+2025-04-29 13:11:55,879 - INFO - Added membership: Pablo José Hernández in committee HSHM
+2025-04-29 13:11:55,880 - INFO - Added membership: Josh Brecheen in committee HSHM
+2025-04-29 13:11:55,881 - INFO - Added membership: Nellie Pou in committee HSHM
+2025-04-29 13:11:55,881 - INFO - Added membership: Elijah Crane in committee HSHM
+2025-04-29 13:11:55,882 - INFO - Added membership: Troy A. Carter in committee HSHM
+2025-04-29 13:11:55,882 - INFO - Added membership: Andrew Ogles in committee HSHM
+2025-04-29 13:11:55,883 - INFO - Added membership: Robert Garcia in committee HSHM
+2025-04-29 13:11:55,883 - INFO - Added membership: Sheri Biggs in committee HSHM
+2025-04-29 13:11:55,883 - INFO - Added membership: Gabe Evans in committee HSHM
+2025-04-29 13:11:55,884 - INFO - Added membership: Ryan Mackenzie in committee HSHM
+2025-04-29 13:11:55,884 - INFO - Added membership: Brad Knott in committee HSHM
+2025-04-29 13:11:55,886 - INFO - Added membership: James Comer in committee HSGO
+2025-04-29 13:11:55,886 - INFO - Added membership: Gerald E. Connolly in committee HSGO
+2025-04-29 13:11:55,887 - INFO - Added membership: Jim Jordan in committee HSGO
+2025-04-29 13:11:55,888 - INFO - Added membership: Eleanor Holmes Norton in committee HSGO
+2025-04-29 13:11:55,888 - INFO - Added membership: Michael R. Turner in committee HSGO
+2025-04-29 13:11:55,889 - INFO - Added membership: Stephen F. Lynch in committee HSGO
+2025-04-29 13:11:55,890 - INFO - Added membership: Paul A. Gosar in committee HSGO
+2025-04-29 13:11:55,891 - INFO - Added membership: Raja Krishnamoorthi in committee HSGO
+2025-04-29 13:11:55,892 - INFO - Added membership: Virginia Foxx in committee HSGO
+2025-04-29 13:11:55,893 - INFO - Added membership: Ro Khanna in committee HSGO
+2025-04-29 13:11:55,893 - INFO - Added membership: Glenn Grothman in committee HSGO
+2025-04-29 13:11:55,894 - INFO - Added membership: Kweisi Mfume in committee HSGO
+2025-04-29 13:11:55,895 - INFO - Added membership: Michael Cloud in committee HSGO
+2025-04-29 13:11:55,895 - INFO - Added membership: Shontel M. Brown in committee HSGO
+2025-04-29 13:11:55,896 - INFO - Added membership: Gary J. Palmer in committee HSGO
+2025-04-29 13:11:55,896 - INFO - Added membership: Melanie A. Stansbury in committee HSGO
+2025-04-29 13:11:55,897 - INFO - Added membership: Clay Higgins in committee HSGO
+2025-04-29 13:11:55,897 - INFO - Added membership: Robert Garcia in committee HSGO
+2025-04-29 13:11:55,898 - INFO - Added membership: Pete Sessions in committee HSGO
+2025-04-29 13:11:55,899 - INFO - Added membership: Maxwell Frost in committee HSGO
+2025-04-29 13:11:55,899 - INFO - Added membership: Andy Biggs in committee HSGO
+2025-04-29 13:11:55,900 - INFO - Added membership: Summer L. Lee in committee HSGO
+2025-04-29 13:11:55,900 - INFO - Added membership: Nancy Mace in committee HSGO
+2025-04-29 13:11:55,901 - INFO - Added membership: Greg Casar in committee HSGO
+2025-04-29 13:11:55,901 - INFO - Added membership: Pat Fallon in committee HSGO
+2025-04-29 13:11:55,902 - INFO - Added membership: Jasmine Crockett in committee HSGO
+2025-04-29 13:11:55,902 - INFO - Added membership: Byron Donalds in committee HSGO
+2025-04-29 13:11:55,903 - INFO - Added membership: Emily Randall in committee HSGO
+2025-04-29 13:11:55,903 - INFO - Added membership: Scott Perry in committee HSGO
+2025-04-29 13:11:55,904 - INFO - Added membership: Suhas Subramanyam in committee HSGO
+2025-04-29 13:11:55,904 - INFO - Added membership: William R. Timmons IV in committee HSGO
+2025-04-29 13:11:55,905 - INFO - Added membership: Yassamin Ansari in committee HSGO
+2025-04-29 13:11:55,905 - INFO - Added membership: Tim Burchett in committee HSGO
+2025-04-29 13:11:55,908 - INFO - Added membership: Wesley Bell in committee HSGO
+2025-04-29 13:11:55,909 - INFO - Added membership: Marjorie Taylor Greene in committee HSGO
+2025-04-29 13:11:55,910 - INFO - Added membership: Lateefah Simon in committee HSGO
+2025-04-29 13:11:55,911 - INFO - Added membership: Lauren Boebert in committee HSGO
+2025-04-29 13:11:55,911 - INFO - Added membership: Dave Min in committee HSGO
+2025-04-29 13:11:55,912 - INFO - Added membership: Anna Paulina Luna in committee HSGO
+2025-04-29 13:11:55,913 - INFO - Added membership: Ayanna Pressley in committee HSGO
+2025-04-29 13:11:55,913 - INFO - Added membership: Nicholas A. Langworthy in committee HSGO
+2025-04-29 13:11:55,914 - INFO - Added membership: Rashida Tlaib in committee HSGO
+2025-04-29 13:11:55,914 - INFO - Added membership: Eric Burlison in committee HSGO
+2025-04-29 13:11:55,915 - INFO - Added membership: Elijah Crane in committee HSGO
+2025-04-29 13:11:55,915 - INFO - Added membership: Brian Jack in committee HSGO
+2025-04-29 13:11:55,915 - INFO - Added membership: John J. McGuire III in committee HSGO
+2025-04-29 13:11:55,916 - INFO - Added membership: Brandon Gill in committee HSGO
+2025-04-29 13:11:55,917 - INFO - Added membership: Brett Guthrie in committee HSIF
+2025-04-29 13:11:55,918 - INFO - Added membership: Frank Pallone, Jr. in committee HSIF
+2025-04-29 13:11:55,918 - INFO - Added membership: Robert E. Latta in committee HSIF
+2025-04-29 13:11:55,919 - INFO - Added membership: Diana DeGette in committee HSIF
+2025-04-29 13:11:55,919 - INFO - Added membership: H. Morgan Griffith in committee HSIF
+2025-04-29 13:11:55,920 - INFO - Added membership: Janice D. Schakowsky in committee HSIF
+2025-04-29 13:11:55,920 - INFO - Added membership: Gus M. Bilirakis in committee HSIF
+2025-04-29 13:11:55,921 - INFO - Added membership: Doris O. Matsui in committee HSIF
+2025-04-29 13:11:55,921 - INFO - Added membership: Richard Hudson in committee HSIF
+2025-04-29 13:11:55,921 - INFO - Added membership: Kathy Castor in committee HSIF
+2025-04-29 13:11:55,922 - INFO - Added membership: Earl L. "Buddy" Carter in committee HSIF
+2025-04-29 13:11:55,924 - INFO - Added membership: Paul Tonko in committee HSIF
+2025-04-29 13:11:55,926 - INFO - Added membership: Gary J. Palmer in committee HSIF
+2025-04-29 13:11:55,926 - INFO - Added membership: Yvette D. Clarke in committee HSIF
+2025-04-29 13:11:55,927 - INFO - Added membership: Neal P. Dunn in committee HSIF
+2025-04-29 13:11:55,927 - INFO - Added membership: Raul Ruiz in committee HSIF
+2025-04-29 13:11:55,928 - INFO - Added membership: Dan Crenshaw in committee HSIF
+2025-04-29 13:11:55,928 - INFO - Added membership: Scott H. Peters in committee HSIF
+2025-04-29 13:11:55,929 - INFO - Added membership: John Joyce in committee HSIF
+2025-04-29 13:11:55,929 - INFO - Added membership: Debbie Dingell in committee HSIF
+2025-04-29 13:11:55,930 - INFO - Added membership: Randy K. Weber, Sr. in committee HSIF
+2025-04-29 13:11:55,930 - INFO - Added membership: Marc A. Veasey in committee HSIF
+2025-04-29 13:11:55,931 - INFO - Added membership: Rick W. Allen in committee HSIF
+2025-04-29 13:11:55,931 - INFO - Added membership: Robin L. Kelly in committee HSIF
+2025-04-29 13:11:55,932 - INFO - Added membership: Troy Balderson in committee HSIF
+2025-04-29 13:11:55,932 - INFO - Added membership: Nanette Diaz Barragán in committee HSIF
+2025-04-29 13:11:55,932 - INFO - Added membership: Russ Fulcher in committee HSIF
+2025-04-29 13:11:55,933 - INFO - Added membership: Darren Soto in committee HSIF
+2025-04-29 13:11:55,933 - INFO - Added membership: August Pfluger in committee HSIF
+2025-04-29 13:11:55,934 - INFO - Added membership: Kim Schrier in committee HSIF
+2025-04-29 13:11:55,934 - INFO - Added membership: Diana Harshbarger in committee HSIF
+2025-04-29 13:11:55,934 - INFO - Added membership: Lori Trahan in committee HSIF
+2025-04-29 13:11:55,935 - INFO - Added membership: Mariannette Miller-Meeks in committee HSIF
+2025-04-29 13:11:55,935 - INFO - Added membership: Lizzie Fletcher in committee HSIF
+2025-04-29 13:11:55,936 - INFO - Added membership: Kat Cammack in committee HSIF
+2025-04-29 13:11:55,936 - INFO - Added membership: Alexandria Ocasio-Cortez in committee HSIF
+2025-04-29 13:11:55,936 - INFO - Added membership: Jay Obernolte in committee HSIF
+2025-04-29 13:11:55,937 - INFO - Added membership: Jake Auchincloss in committee HSIF
+2025-04-29 13:11:55,937 - INFO - Added membership: John James in committee HSIF
+2025-04-29 13:11:55,938 - INFO - Added membership: Troy A. Carter in committee HSIF
+2025-04-29 13:11:55,938 - INFO - Added membership: Cliff Bentz in committee HSIF
+2025-04-29 13:11:55,939 - INFO - Added membership: Robert Menendez in committee HSIF
+2025-04-29 13:11:55,939 - INFO - Added membership: Erin Houchin in committee HSIF
+2025-04-29 13:11:55,940 - INFO - Added membership: Kevin Mullin in committee HSIF
+2025-04-29 13:11:55,941 - INFO - Added membership: Russell Fry in committee HSIF
+2025-04-29 13:11:55,942 - INFO - Added membership: Greg Landsman in committee HSIF
+2025-04-29 13:11:55,943 - INFO - Added membership: Laurel M. Lee in committee HSIF
+2025-04-29 13:11:55,943 - INFO - Added membership: Jennifer L. McClellan in committee HSIF
+2025-04-29 13:11:55,944 - INFO - Added membership: Nicholas A. Langworthy in committee HSIF
+2025-04-29 13:11:55,945 - INFO - Added membership: Thomas H. Kean, Jr. in committee HSIF
+2025-04-29 13:11:55,945 - INFO - Added membership: Michael A. Rulli in committee HSIF
+2025-04-29 13:11:55,945 - INFO - Added membership: Gabe Evans in committee HSIF
+2025-04-29 13:11:55,946 - INFO - Added membership: Craig A. Goldman in committee HSIF
+2025-04-29 13:11:55,947 - INFO - Added membership: Julie Fedorchak in committee HSIF
+2025-04-29 13:11:55,947 - INFO - Added membership: Jason Smith in committee HSWM
+2025-04-29 13:11:55,948 - INFO - Added membership: Richard E. Neal in committee HSWM
+2025-04-29 13:11:55,948 - INFO - Added membership: Vern Buchanan in committee HSWM
+2025-04-29 13:11:55,949 - INFO - Added membership: Lloyd Doggett in committee HSWM
+2025-04-29 13:11:55,949 - INFO - Added membership: Adrian Smith in committee HSWM
+2025-04-29 13:11:55,950 - INFO - Added membership: Mike Thompson in committee HSWM
+2025-04-29 13:11:55,950 - INFO - Added membership: Mike Kelly in committee HSWM
+2025-04-29 13:11:55,951 - INFO - Added membership: John B. Larson in committee HSWM
+2025-04-29 13:11:55,951 - INFO - Added membership: David Schweikert in committee HSWM
+2025-04-29 13:11:55,952 - INFO - Added membership: Danny K. Davis in committee HSWM
+2025-04-29 13:11:55,952 - INFO - Added membership: Darin LaHood in committee HSWM
+2025-04-29 13:11:55,953 - INFO - Added membership: Linda T. Sánchez in committee HSWM
+2025-04-29 13:11:55,953 - INFO - Added membership: Jodey C. Arrington in committee HSWM
+2025-04-29 13:11:55,954 - INFO - Added membership: Terri A. Sewell in committee HSWM
+2025-04-29 13:11:55,954 - INFO - Added membership: Ron Estes in committee HSWM
+2025-04-29 13:11:55,955 - INFO - Added membership: Suzan K. DelBene in committee HSWM
+2025-04-29 13:11:55,955 - INFO - Added membership: Lloyd Smucker in committee HSWM
+2025-04-29 13:11:55,957 - INFO - Added membership: Judy Chu in committee HSWM
+2025-04-29 13:11:55,958 - INFO - Added membership: Kevin Hern in committee HSWM
+2025-04-29 13:11:55,959 - INFO - Added membership: Gwen Moore in committee HSWM
+2025-04-29 13:11:55,960 - INFO - Added membership: Carol D. Miller in committee HSWM
+2025-04-29 13:11:55,960 - INFO - Added membership: Brendan F. Boyle in committee HSWM
+2025-04-29 13:11:55,961 - INFO - Added membership: Gregory F. Murphy in committee HSWM
+2025-04-29 13:11:55,962 - INFO - Added membership: Donald S. Beyer, Jr. in committee HSWM
+2025-04-29 13:11:55,962 - INFO - Added membership: David Kustoff in committee HSWM
+2025-04-29 13:11:55,963 - INFO - Added membership: Dwight Evans in committee HSWM
+2025-04-29 13:11:55,963 - INFO - Added membership: Brian K. Fitzpatrick in committee HSWM
+2025-04-29 13:11:55,964 - INFO - Added membership: Bradley Scott Schneider in committee HSWM
+2025-04-29 13:11:55,964 - INFO - Added membership: W. Gregory Steube in committee HSWM
+2025-04-29 13:11:55,965 - INFO - Added membership: Jimmy Panetta in committee HSWM
+2025-04-29 13:11:55,965 - INFO - Added membership: Claudia Tenney in committee HSWM
+2025-04-29 13:11:55,966 - INFO - Added membership: Jimmy Gomez in committee HSWM
+2025-04-29 13:11:55,966 - INFO - Added membership: Michelle Fischbach in committee HSWM
+2025-04-29 13:11:55,966 - INFO - Added membership: Steven Horsford in committee HSWM
+2025-04-29 13:11:55,967 - INFO - Added membership: Blake D. Moore in committee HSWM
+2025-04-29 13:11:55,967 - INFO - Added membership: Stacey E. Plaskett in committee HSWM
+2025-04-29 13:11:55,968 - INFO - Added membership: Beth Van Duyne in committee HSWM
+2025-04-29 13:11:55,968 - INFO - Added membership: Thomas R. Suozzi in committee HSWM
+2025-04-29 13:11:55,968 - INFO - Added membership: Randy Feenstra in committee HSWM
+2025-04-29 13:11:55,969 - INFO - Added membership: Nicole Malliotakis in committee HSWM
+2025-04-29 13:11:55,969 - INFO - Added membership: Mike Carey in committee HSWM
+2025-04-29 13:11:55,970 - INFO - Added membership: Rudy Yakym III in committee HSWM
+2025-04-29 13:11:55,970 - INFO - Added membership: Max L. Miller in committee HSWM
+2025-04-29 13:11:55,970 - INFO - Added membership: Aaron Bean in committee HSWM
+2025-04-29 13:11:55,971 - INFO - Added membership: Nathaniel Moran in committee HSWM
+2025-04-29 13:11:55,971 - INFO - Added membership: Eric A. "Rick" Crawford in committee HLIG
+2025-04-29 13:11:55,971 - INFO - Added membership: James A. Himes in committee HLIG
+2025-04-29 13:11:55,972 - INFO - Added membership: Trent Kelly in committee HLIG
+2025-04-29 13:11:55,974 - INFO - Added membership: André Carson in committee HLIG
+2025-04-29 13:11:55,975 - INFO - Added membership: Darin LaHood in committee HLIG
+2025-04-29 13:11:55,976 - INFO - Added membership: Joaquin Castro in committee HLIG
+2025-04-29 13:11:55,976 - INFO - Added membership: Brian K. Fitzpatrick in committee HLIG
+2025-04-29 13:11:55,977 - INFO - Added membership: Raja Krishnamoorthi in committee HLIG
+2025-04-29 13:11:55,978 - INFO - Added membership: Austin Scott in committee HLIG
+2025-04-29 13:11:55,978 - INFO - Added membership: Jason Crow in committee HLIG
+2025-04-29 13:11:55,979 - INFO - Added membership: J. French Hill in committee HLIG
+2025-04-29 13:11:55,979 - INFO - Added membership: Ami Bera in committee HLIG
+2025-04-29 13:11:55,980 - INFO - Added membership: Dan Crenshaw in committee HLIG
+2025-04-29 13:11:55,980 - INFO - Added membership: Stacey E. Plaskett in committee HLIG
+2025-04-29 13:11:55,981 - INFO - Added membership: Scott Perry in committee HLIG
+2025-04-29 13:11:55,981 - INFO - Added membership: Josh Gottheimer in committee HLIG
+2025-04-29 13:11:55,982 - INFO - Added membership: Ronny Jackson in committee HLIG
+2025-04-29 13:11:55,982 - INFO - Added membership: Jimmy Gomez in committee HLIG
+2025-04-29 13:11:55,983 - INFO - Added membership: Ann Wagner in committee HLIG
+2025-04-29 13:11:55,983 - INFO - Added membership: Chrissy Houlahan in committee HLIG
+2025-04-29 13:11:55,983 - INFO - Added membership: Ben Cline in committee HLIG
+2025-04-29 13:11:55,984 - INFO - Added membership: Mike Quigley in committee HLIG
+2025-04-29 13:11:55,984 - INFO - Added membership: W. Gregory Steube in committee HLIG
+2025-04-29 13:11:55,984 - INFO - Added membership: Claudia Tenney in committee HLIG
+2025-04-29 13:11:55,985 - INFO - Added membership: Pat Fallon in committee HLIG
+2025-04-29 13:11:55,985 - INFO - Added membership: J. French Hill in committee HSBA
+2025-04-29 13:11:55,986 - INFO - Added membership: Maxine Waters in committee HSBA
+2025-04-29 13:11:55,986 - INFO - Added membership: Frank D. Lucas in committee HSBA
+2025-04-29 13:11:55,987 - INFO - Added membership: Nydia M. Velázquez in committee HSBA
+2025-04-29 13:11:55,987 - INFO - Added membership: Pete Sessions in committee HSBA
+2025-04-29 13:11:55,987 - INFO - Added membership: Brad Sherman in committee HSBA
+2025-04-29 13:11:55,988 - INFO - Added membership: Bill Huizenga in committee HSBA
+2025-04-29 13:11:55,988 - INFO - Added membership: Gregory W. Meeks in committee HSBA
+2025-04-29 13:11:55,988 - INFO - Added membership: Ann Wagner in committee HSBA
+2025-04-29 13:11:55,989 - INFO - Added membership: David Scott in committee HSBA
+2025-04-29 13:11:55,990 - INFO - Added membership: Andy Barr in committee HSBA
+2025-04-29 13:11:55,991 - INFO - Added membership: Stephen F. Lynch in committee HSBA
+2025-04-29 13:11:55,991 - INFO - Added membership: Roger Williams in committee HSBA
+2025-04-29 13:11:55,992 - INFO - Added membership: Emanuel Cleaver in committee HSBA
+2025-04-29 13:11:55,992 - INFO - Added membership: Tom Emmer in committee HSBA
+2025-04-29 13:11:55,993 - INFO - Added membership: James A. Himes in committee HSBA
+2025-04-29 13:11:55,993 - INFO - Added membership: Barry Loudermilk in committee HSBA
+2025-04-29 13:11:55,994 - INFO - Added membership: Bill Foster in committee HSBA
+2025-04-29 13:11:55,994 - INFO - Added membership: Warren Davidson in committee HSBA
+2025-04-29 13:11:55,995 - INFO - Added membership: Joyce Beatty in committee HSBA
+2025-04-29 13:11:55,995 - INFO - Added membership: John W. Rose in committee HSBA
+2025-04-29 13:11:55,995 - INFO - Added membership: Juan Vargas in committee HSBA
+2025-04-29 13:11:55,996 - INFO - Added membership: Bryan Steil in committee HSBA
+2025-04-29 13:11:55,996 - INFO - Added membership: Josh Gottheimer in committee HSBA
+2025-04-29 13:11:55,997 - INFO - Added membership: William R. Timmons IV in committee HSBA
+2025-04-29 13:11:55,997 - INFO - Added membership: Vicente Gonzalez in committee HSBA
+2025-04-29 13:11:55,998 - INFO - Added membership: Marlin A. Stutzman in committee HSBA
+2025-04-29 13:11:55,998 - INFO - Added membership: Sean Casten in committee HSBA
+2025-04-29 13:11:55,998 - INFO - Added membership: Ralph Norman in committee HSBA
+2025-04-29 13:11:55,999 - INFO - Added membership: Ayanna Pressley in committee HSBA
+2025-04-29 13:11:55,999 - INFO - Added membership: Daniel Meuser in committee HSBA
+2025-04-29 13:11:55,999 - INFO - Added membership: Rashida Tlaib in committee HSBA
+2025-04-29 13:11:56,000 - INFO - Added membership: Young Kim in committee HSBA
+2025-04-29 13:11:56,000 - INFO - Added membership: Ritchie Torres in committee HSBA
+2025-04-29 13:11:56,001 - INFO - Added membership: Byron Donalds in committee HSBA
+2025-04-29 13:11:56,001 - INFO - Added membership: Sylvia R. Garcia in committee HSBA
+2025-04-29 13:11:56,002 - INFO - Added membership: Andrew R. Garbarino in committee HSBA
+2025-04-29 13:11:56,002 - INFO - Added membership: Nikema Williams in committee HSBA
+2025-04-29 13:11:56,002 - INFO - Added membership: Scott Fitzgerald in committee HSBA
+2025-04-29 13:11:56,003 - INFO - Added membership: Brittany Pettersen in committee HSBA
+2025-04-29 13:11:56,003 - INFO - Added membership: Mike Flood in committee HSBA
+2025-04-29 13:11:56,004 - INFO - Added membership: Cleo Fields in committee HSBA
+2025-04-29 13:11:56,004 - INFO - Added membership: Michael Lawler in committee HSBA
+2025-04-29 13:11:56,004 - INFO - Added membership: Janelle S. Bynum in committee HSBA
+2025-04-29 13:11:56,005 - INFO - Added membership: Monica De La Cruz in committee HSBA
+2025-04-29 13:11:56,005 - INFO - Added membership: Sam T. Liccardo in committee HSBA
+2025-04-29 13:11:56,005 - INFO - Added membership: Andrew Ogles in committee HSBA
+2025-04-29 13:11:56,006 - INFO - Added membership: Zachary Nunn in committee HSBA
+2025-04-29 13:11:56,007 - INFO - Added membership: Lisa C. McClain in committee HSBA
+2025-04-29 13:11:56,008 - INFO - Added membership: Maria Elvira Salazar in committee HSBA
+2025-04-29 13:11:56,009 - INFO - Added membership: Troy Downing in committee HSBA
+2025-04-29 13:11:56,010 - INFO - Added membership: Mike Haridopolos in committee HSBA
+2025-04-29 13:11:56,010 - INFO - Added membership: Tim Moore in committee HSBA
+2025-04-29 13:11:56,011 - INFO - Added membership: Brian J. Mast in committee HSFA
+2025-04-29 13:11:56,012 - INFO - Added membership: Gregory W. Meeks in committee HSFA
+2025-04-29 13:11:56,012 - INFO - Added membership: Christopher H. Smith in committee HSFA
+2025-04-29 13:11:56,013 - INFO - Added membership: Brad Sherman in committee HSFA
+2025-04-29 13:11:56,013 - INFO - Added membership: Joe Wilson in committee HSFA
+2025-04-29 13:11:56,014 - INFO - Added membership: Gerald E. Connolly in committee HSFA
+2025-04-29 13:11:56,014 - INFO - Added membership: Michael T. McCaul in committee HSFA
+2025-04-29 13:11:56,015 - INFO - Added membership: William R. Keating in committee HSFA
+2025-04-29 13:11:56,015 - INFO - Added membership: Scott Perry in committee HSFA
+2025-04-29 13:11:56,015 - INFO - Added membership: Ami Bera in committee HSFA
+2025-04-29 13:11:56,016 - INFO - Added membership: Darrell Issa in committee HSFA
+2025-04-29 13:11:56,016 - INFO - Added membership: Joaquin Castro in committee HSFA
+2025-04-29 13:11:56,016 - INFO - Added membership: Tim Burchett in committee HSFA
+2025-04-29 13:11:56,017 - INFO - Added membership: Dina Titus in committee HSFA
+2025-04-29 13:11:56,018 - INFO - Added membership: Mark E. Green in committee HSFA
+2025-04-29 13:11:56,018 - INFO - Added membership: Ted Lieu in committee HSFA
+2025-04-29 13:11:56,018 - INFO - Added membership: Andy Barr in committee HSFA
+2025-04-29 13:11:56,019 - INFO - Added membership: Sara Jacobs in committee HSFA
+2025-04-29 13:11:56,019 - INFO - Added membership: Ronny Jackson in committee HSFA
+2025-04-29 13:11:56,020 - INFO - Added membership: Sheila Cherfilus-McCormick in committee HSFA
+2025-04-29 13:11:56,020 - INFO - Added membership: Young Kim in committee HSFA
+2025-04-29 13:11:56,020 - INFO - Added membership: Greg Stanton in committee HSFA
+2025-04-29 13:11:56,021 - INFO - Added membership: Maria Elvira Salazar in committee HSFA
+2025-04-29 13:11:56,021 - INFO - Added membership: Jared Moskowitz in committee HSFA
+2025-04-29 13:11:56,022 - INFO - Added membership: Bill Huizenga in committee HSFA
+2025-04-29 13:11:56,022 - INFO - Added membership: Jonathan L. Jackson in committee HSFA
+2025-04-29 13:11:56,023 - INFO - Added membership: Aumua Amata Coleman Radewagen in committee HSFA
+2025-04-29 13:11:56,024 - INFO - Added membership: Sydney Kamlager-Dove in committee HSFA
+2025-04-29 13:11:56,024 - INFO - Added membership: Warren Davidson in committee HSFA
+2025-04-29 13:11:56,025 - INFO - Added membership: Jim Costa in committee HSFA
+2025-04-29 13:11:56,025 - INFO - Added membership: James R. Baird in committee HSFA
+2025-04-29 13:11:56,026 - INFO - Added membership: Gabe Amo in committee HSFA
+2025-04-29 13:11:56,026 - INFO - Added membership: Thomas H. Kean, Jr. in committee HSFA
+2025-04-29 13:11:56,027 - INFO - Added membership: Kweisi Mfume in committee HSFA
+2025-04-29 13:11:56,027 - INFO - Added membership: Michael Lawler in committee HSFA
+2025-04-29 13:11:56,028 - INFO - Added membership: Pramila Jayapal in committee HSFA
+2025-04-29 13:11:56,028 - INFO - Added membership: Cory Mills in committee HSFA
+2025-04-29 13:11:56,028 - INFO - Added membership: George Latimer in committee HSFA
+2025-04-29 13:11:56,029 - INFO - Added membership: Keith Self in committee HSFA
+2025-04-29 13:11:56,029 - INFO - Added membership: Johnny Olszewski, Jr. in committee HSFA
+2025-04-29 13:11:56,030 - INFO - Added membership: Richard McCormick in committee HSFA
+2025-04-29 13:11:56,030 - INFO - Added membership: Julie Johnson in committee HSFA
+2025-04-29 13:11:56,031 - INFO - Added membership: Ryan K. Zinke in committee HSFA
+2025-04-29 13:11:56,031 - INFO - Added membership: Sarah McBride in committee HSFA
+2025-04-29 13:11:56,032 - INFO - Added membership: James C. Moylan in committee HSFA
+2025-04-29 13:11:56,032 - INFO - Added membership: Bradley Scott Schneider in committee HSFA
+2025-04-29 13:11:56,032 - INFO - Added membership: Anna Paulina Luna in committee HSFA
+2025-04-29 13:11:56,033 - INFO - Added membership: Madeleine Dean in committee HSFA
+2025-04-29 13:11:56,033 - INFO - Added membership: Jefferson Shreve in committee HSFA
+2025-04-29 13:11:56,034 - INFO - Added membership: Sheri Biggs in committee HSFA
+2025-04-29 13:11:56,034 - INFO - Added membership: Michael Baumgartner in committee HSFA
+2025-04-29 13:11:56,034 - INFO - Added membership: Ryan Mackenzie in committee HSFA
+2025-04-29 13:11:56,035 - INFO - Added membership: Mike Bost in committee HSVR
+2025-04-29 13:11:56,035 - INFO - Added membership: Mark Takano in committee HSVR
+2025-04-29 13:11:56,035 - INFO - Added membership: Aumua Amata Coleman Radewagen in committee HSVR
+2025-04-29 13:11:56,036 - INFO - Added membership: Julia Brownley in committee HSVR
+2025-04-29 13:11:56,036 - INFO - Added membership: Jack Bergman in committee HSVR
+2025-04-29 13:11:56,036 - INFO - Added membership: Chris Pappas in committee HSVR
+2025-04-29 13:11:56,037 - INFO - Added membership: Nancy Mace in committee HSVR
+2025-04-29 13:11:56,037 - INFO - Added membership: Sheila Cherfilus-McCormick in committee HSVR
+2025-04-29 13:11:56,038 - INFO - Added membership: Mariannette Miller-Meeks in committee HSVR
+2025-04-29 13:11:56,038 - INFO - Added membership: Morgan McGarvey in committee HSVR
+2025-04-29 13:11:56,039 - INFO - Added membership: Gregory F. Murphy in committee HSVR
+2025-04-29 13:11:56,039 - INFO - Added membership: Delia C. Ramirez in committee HSVR
+2025-04-29 13:11:56,040 - INFO - Added membership: Derrick Van Orden in committee HSVR
+2025-04-29 13:11:56,041 - INFO - Added membership: Nikki Budzinski in committee HSVR
+2025-04-29 13:11:56,042 - INFO - Added membership: Morgan Luttrell in committee HSVR
+2025-04-29 13:11:56,042 - INFO - Added membership: Timothy M. Kennedy in committee HSVR
+2025-04-29 13:11:56,043 - INFO - Added membership: Juan Ciscomani in committee HSVR
+2025-04-29 13:11:56,044 - INFO - Added membership: Maxine Dexter in committee HSVR
+2025-04-29 13:11:56,044 - INFO - Added membership: Keith Self in committee HSVR
+2025-04-29 13:11:56,045 - INFO - Added membership: Herbert C. Conaway, Jr. in committee HSVR
+2025-04-29 13:11:56,045 - INFO - Added membership: Jennifer A. Kiggans in committee HSVR
+2025-04-29 13:11:56,045 - INFO - Added membership: Kelly Morrison in committee HSVR
+2025-04-29 13:11:56,046 - INFO - Added membership: Abraham J. Hamadeh in committee HSVR
+2025-04-29 13:11:56,046 - INFO - Added membership: Kimberlyn King-Hinds in committee HSVR
+2025-04-29 13:11:56,046 - INFO - Added membership: Tom Barrett in committee HSVR
+2025-04-29 13:11:56,047 - INFO - Added membership: Tim Walberg in committee HSED
+2025-04-29 13:11:56,047 - INFO - Added membership: Robert C. "Bobby" Scott in committee HSED
+2025-04-29 13:11:56,048 - INFO - Added membership: Joe Wilson in committee HSED
+2025-04-29 13:11:56,048 - INFO - Added membership: Joe Courtney in committee HSED
+2025-04-29 13:11:56,048 - INFO - Added membership: Virginia Foxx in committee HSED
+2025-04-29 13:11:56,049 - INFO - Added membership: Frederica S. Wilson in committee HSED
+2025-04-29 13:11:56,049 - INFO - Added membership: Glenn Thompson in committee HSED
+2025-04-29 13:11:56,050 - INFO - Added membership: Suzanne Bonamici in committee HSED
+2025-04-29 13:11:56,050 - INFO - Added membership: Glenn Grothman in committee HSED
+2025-04-29 13:11:56,050 - INFO - Added membership: Mark Takano in committee HSED
+2025-04-29 13:11:56,051 - INFO - Added membership: Elise M. Stefanik in committee HSED
+2025-04-29 13:11:56,051 - INFO - Added membership: Alma S. Adams in committee HSED
+2025-04-29 13:11:56,052 - INFO - Added membership: Rick W. Allen in committee HSED
+2025-04-29 13:11:56,052 - INFO - Added membership: Mark DeSaulnier in committee HSED
+2025-04-29 13:11:56,052 - INFO - Added membership: James Comer in committee HSED
+2025-04-29 13:11:56,053 - INFO - Added membership: Donald Norcross in committee HSED
+2025-04-29 13:11:56,053 - INFO - Added membership: Burgess Owens in committee HSED
+2025-04-29 13:11:56,054 - INFO - Added membership: Lucy McBath in committee HSED
+2025-04-29 13:11:56,054 - INFO - Added membership: Lisa C. McClain in committee HSED
+2025-04-29 13:11:56,054 - INFO - Added membership: Jahana Hayes in committee HSED
+2025-04-29 13:11:56,055 - INFO - Added membership: Mary E. Miller in committee HSED
+2025-04-29 13:11:56,055 - INFO - Added membership: Ilhan Omar in committee HSED
+2025-04-29 13:11:56,056 - INFO - Added membership: Julia Letlow in committee HSED
+2025-04-29 13:11:56,057 - INFO - Added membership: Haley M. Stevens in committee HSED
+2025-04-29 13:11:56,058 - INFO - Added membership: Kevin Kiley in committee HSED
+2025-04-29 13:11:56,059 - INFO - Added membership: Greg Casar in committee HSED
+2025-04-29 13:11:56,059 - INFO - Added membership: Michael A. Rulli in committee HSED
+2025-04-29 13:11:56,060 - INFO - Added membership: Summer L. Lee in committee HSED
+2025-04-29 13:11:56,060 - INFO - Added membership: James C. Moylan in committee HSED
+2025-04-29 13:11:56,061 - INFO - Added membership: John W. Mannion in committee HSED
+2025-04-29 13:11:56,062 - INFO - Added membership: Robert F. Onder, Jr. in committee HSED
+2025-04-29 13:11:56,062 - INFO - Added membership: Ryan Mackenzie in committee HSED
+2025-04-29 13:11:56,063 - INFO - Added membership: Michael Baumgartner in committee HSED
+2025-04-29 13:11:56,063 - INFO - Added membership: Mark Harris in committee HSED
+2025-04-29 13:11:56,064 - INFO - Added membership: Mark B. Messmer in committee HSED
+2025-04-29 13:11:56,064 - INFO - Added membership: Roger Williams in committee HSSM
+2025-04-29 13:11:56,064 - INFO - Added membership: Nydia M. Velázquez in committee HSSM
+2025-04-29 13:11:56,065 - INFO - Added membership: Pete Stauber in committee HSSM
+2025-04-29 13:11:56,065 - INFO - Added membership: Morgan McGarvey in committee HSSM
+2025-04-29 13:11:56,066 - INFO - Added membership: Daniel Meuser in committee HSSM
+2025-04-29 13:11:56,067 - INFO - Added membership: Hillary J. Scholten in committee HSSM
+2025-04-29 13:11:56,067 - INFO - Added membership: Beth Van Duyne in committee HSSM
+2025-04-29 13:11:56,067 - INFO - Added membership: LaMonica McIver in committee HSSM
+2025-04-29 13:11:56,068 - INFO - Added membership: Jake Ellzey in committee HSSM
+2025-04-29 13:11:56,069 - INFO - Added membership: Gilbert Ray Cisneros, Jr. in committee HSSM
+2025-04-29 13:11:56,069 - INFO - Added membership: Mark Alford in committee HSSM
+2025-04-29 13:11:56,070 - INFO - Added membership: Kelly Morrison in committee HSSM
+2025-04-29 13:11:56,070 - INFO - Added membership: Nick LaLota in committee HSSM
+2025-04-29 13:11:56,071 - INFO - Added membership: George Latimer in committee HSSM
+2025-04-29 13:11:56,072 - INFO - Added membership: Brad Finstad in committee HSSM
+2025-04-29 13:11:56,072 - INFO - Added membership: Derek Tran in committee HSSM
+2025-04-29 13:11:56,074 - INFO - Added membership: Tony Wied in committee HSSM
+2025-04-29 13:11:56,075 - INFO - Added membership: Lateefah Simon in committee HSSM
+2025-04-29 13:11:56,076 - INFO - Added membership: Robert P. Bresnahan, Jr. in committee HSSM
+2025-04-29 13:11:56,077 - INFO - Added membership: Johnny Olszewski, Jr. in committee HSSM
+2025-04-29 13:11:56,077 - INFO - Added membership: Brian Jack in committee HSSM
+2025-04-29 13:11:56,078 - INFO - Added membership: Herbert C. Conaway, Jr. in committee HSSM
+2025-04-29 13:11:56,079 - INFO - Added membership: Troy Downing in committee HSSM
+2025-04-29 13:11:56,080 - INFO - Added membership: Maggie Goodlander in committee HSSM
+2025-04-29 13:11:56,080 - INFO - Added membership: Kimberlyn King-Hinds in committee HSSM
+2025-04-29 13:11:56,081 - INFO - Added membership: Derek Schmidt in committee HSSM
+2025-04-29 13:11:56,082 - INFO - Added membership: Virginia Foxx in committee HSRU
+2025-04-29 13:11:56,082 - INFO - Added membership: James P. McGovern in committee HSRU
+2025-04-29 13:11:56,083 - INFO - Added membership: Michelle Fischbach in committee HSRU
+2025-04-29 13:11:56,084 - INFO - Added membership: Mary Gay Scanlon in committee HSRU
+2025-04-29 13:11:56,084 - INFO - Added membership: Ralph Norman in committee HSRU
+2025-04-29 13:11:56,085 - INFO - Added membership: Joe Neguse in committee HSRU
+2025-04-29 13:11:56,085 - INFO - Added membership: Chip Roy in committee HSRU
+2025-04-29 13:11:56,086 - INFO - Added membership: Teresa Leger Fernandez in committee HSRU
+2025-04-29 13:11:56,086 - INFO - Added membership: Erin Houchin in committee HSRU
+2025-04-29 13:11:56,087 - INFO - Added membership: Nicholas A. Langworthy in committee HSRU
+2025-04-29 13:11:56,087 - INFO - Added membership: Austin Scott in committee HSRU
+2025-04-29 13:11:56,088 - INFO - Added membership: H. Morgan Griffith in committee HSRU
+2025-04-29 13:11:56,088 - INFO - Added membership: Brian Jack in committee HSRU
+2025-04-29 13:11:56,088 - INFO - Added membership: Jodey C. Arrington in committee HSBU
+2025-04-29 13:11:56,089 - INFO - Added membership: Brendan F. Boyle in committee HSBU
+2025-04-29 13:11:56,090 - INFO - Added membership: Ralph Norman in committee HSBU
+2025-04-29 13:11:56,091 - INFO - Added membership: Lloyd Doggett in committee HSBU
+2025-04-29 13:11:56,092 - INFO - Added membership: Tom McClintock in committee HSBU
+2025-04-29 13:11:56,093 - INFO - Added membership: Robert C. "Bobby" Scott in committee HSBU
+2025-04-29 13:11:56,093 - INFO - Added membership: Glenn Grothman in committee HSBU
+2025-04-29 13:11:56,094 - INFO - Added membership: Scott H. Peters in committee HSBU
+2025-04-29 13:11:56,094 - INFO - Added membership: Lloyd Smucker in committee HSBU
+2025-04-29 13:11:56,095 - INFO - Added membership: Jimmy Panetta in committee HSBU
+2025-04-29 13:11:56,095 - INFO - Added membership: Earl L. "Buddy" Carter in committee HSBU
+2025-04-29 13:11:56,096 - INFO - Added membership: Bonnie Watson Coleman in committee HSBU
+2025-04-29 13:11:56,096 - INFO - Added membership: Ben Cline in committee HSBU
+2025-04-29 13:11:56,097 - INFO - Added membership: Stacey E. Plaskett in committee HSBU
+2025-04-29 13:11:56,097 - INFO - Added membership: Jack Bergman in committee HSBU
+2025-04-29 13:11:56,098 - INFO - Added membership: Veronica Escobar in committee HSBU
+2025-04-29 13:11:56,098 - INFO - Added membership: Chip Roy in committee HSBU
+2025-04-29 13:11:56,099 - INFO - Added membership: Ilhan Omar in committee HSBU
+2025-04-29 13:11:56,099 - INFO - Added membership: Marlin A. Stutzman in committee HSBU
+2025-04-29 13:11:56,099 - INFO - Added membership: Becca Balint in committee HSBU
+2025-04-29 13:11:56,100 - INFO - Added membership: Blake D. Moore in committee HSBU
+2025-04-29 13:11:56,100 - INFO - Added membership: Marcy Kaptur in committee HSBU
+2025-04-29 13:11:56,101 - INFO - Added membership: Ron Estes in committee HSBU
+2025-04-29 13:11:56,101 - INFO - Added membership: Pramila Jayapal in committee HSBU
+2025-04-29 13:11:56,101 - INFO - Added membership: Josh Brecheen in committee HSBU
+2025-04-29 13:11:56,102 - INFO - Added membership: Judy Chu in committee HSBU
+2025-04-29 13:11:56,102 - INFO - Added membership: Jay Obernolte in committee HSBU
+2025-04-29 13:11:56,103 - INFO - Added membership: Paul Tonko in committee HSBU
+2025-04-29 13:11:56,103 - INFO - Added membership: Mike Carey in committee HSBU
+2025-04-29 13:11:56,104 - INFO - Added membership: Morgan McGarvey in committee HSBU
+2025-04-29 13:11:56,104 - INFO - Added membership: Chuck Edwards in committee HSBU
+2025-04-29 13:11:56,105 - INFO - Added membership: Gabe Amo in committee HSBU
+2025-04-29 13:11:56,105 - INFO - Added membership: Andrew S. Clyde in committee HSBU
+2025-04-29 13:11:56,106 - INFO - Added membership: Erin Houchin in committee HSBU
+2025-04-29 13:11:56,107 - INFO - Added membership: Addison P. McDowell in committee HSBU
+2025-04-29 13:11:56,108 - INFO - Added membership: Brandon Gill in committee HSBU
+2025-04-29 13:11:56,108 - INFO - Added membership: Tim Moore in committee HSBU
+2025-04-29 13:11:56,109 - WARNING - Committee with ID SSBK13 not found in database, skipping
+2025-04-29 13:11:56,109 - INFO - Added membership: Bryan Steil in committee HSHA
+2025-04-29 13:11:56,110 - INFO - Added membership: Joseph D. Morelle in committee HSHA
+2025-04-29 13:11:56,111 - INFO - Added membership: Barry Loudermilk in committee HSHA
+2025-04-29 13:11:56,112 - INFO - Added membership: Terri A. Sewell in committee HSHA
+2025-04-29 13:11:56,112 - INFO - Added membership: H. Morgan Griffith in committee HSHA
+2025-04-29 13:11:56,113 - INFO - Added membership: Norma J. Torres in committee HSHA
+2025-04-29 13:11:56,113 - INFO - Added membership: Gregory F. Murphy in committee HSHA
+2025-04-29 13:11:56,114 - INFO - Added membership: Julie Johnson in committee HSHA
+2025-04-29 13:11:56,114 - INFO - Added membership: Stephanie I. Bice in committee HSHA
+2025-04-29 13:11:56,114 - INFO - Added membership: Mike Carey in committee HSHA
+2025-04-29 13:11:56,115 - INFO - Added membership: Laurel M. Lee in committee HSHA
+2025-04-29 13:11:56,115 - INFO - Added membership: Mary E. Miller in committee HSHA
+2025-04-29 13:11:56,116 - WARNING - Committee with ID HSII06 not found in database, skipping
+2025-04-29 13:11:56,116 - WARNING - Committee with ID HSII15 not found in database, skipping
+2025-04-29 13:11:56,117 - WARNING - Committee with ID HSAG15 not found in database, skipping
+2025-04-29 13:11:56,117 - WARNING - Committee with ID HSAG16 not found in database, skipping
+2025-04-29 13:11:56,117 - WARNING - Committee with ID HSAG29 not found in database, skipping
+2025-04-29 13:11:56,117 - WARNING - Committee with ID HSAG03 not found in database, skipping
+2025-04-29 13:11:56,118 - WARNING - Committee with ID HSAG22 not found in database, skipping
+2025-04-29 13:11:56,118 - WARNING - Committee with ID HSII13 not found in database, skipping
+2025-04-29 13:11:56,118 - WARNING - Committee with ID HSII24 not found in database, skipping
+2025-04-29 13:11:56,119 - INFO - Added membership: John R. Moolenaar in committee HSZS
+2025-04-29 13:11:56,119 - INFO - Added membership: Raja Krishnamoorthi in committee HSZS
+2025-04-29 13:11:56,119 - INFO - Added membership: Robert J. Wittman in committee HSZS
+2025-04-29 13:11:56,120 - INFO - Added membership: Kathy Castor in committee HSZS
+2025-04-29 13:11:56,120 - INFO - Added membership: Andy Barr in committee HSZS
+2025-04-29 13:11:56,121 - INFO - Added membership: André Carson in committee HSZS
+2025-04-29 13:11:56,121 - INFO - Added membership: Dan Newhouse in committee HSZS
+2025-04-29 13:11:56,121 - INFO - Added membership: Seth Moulton in committee HSZS
+2025-04-29 13:11:56,122 - INFO - Added membership: Darin LaHood in committee HSZS
+2025-04-29 13:11:56,122 - INFO - Added membership: Ro Khanna in committee HSZS
+2025-04-29 13:11:56,123 - INFO - Added membership: Neal P. Dunn in committee HSZS
+2025-04-29 13:11:56,123 - INFO - Added membership: Mikie Sherrill in committee HSZS
+2025-04-29 13:11:56,124 - INFO - Added membership: Dusty Johnson in committee HSZS
+2025-04-29 13:11:56,125 - INFO - Added membership: Haley M. Stevens in committee HSZS
+2025-04-29 13:11:56,126 - INFO - Added membership: Ashley Hinson in committee HSZS
+2025-04-29 13:11:56,127 - INFO - Added membership: Ritchie Torres in committee HSZS
+2025-04-29 13:11:56,127 - INFO - Added membership: Carlos A. Gimenez in committee HSZS
+2025-04-29 13:11:56,128 - INFO - Added membership: Shontel M. Brown in committee HSZS
+2025-04-29 13:11:56,128 - INFO - Added membership: Gus M. Bilirakis in committee HSZS
+2025-04-29 13:11:56,129 - INFO - Added membership: Greg Stanton in committee HSZS
+2025-04-29 13:11:56,129 - INFO - Added membership: Young Kim in committee HSZS
+2025-04-29 13:11:56,130 - INFO - Added membership: Jill N. Tokuda in committee HSZS
+2025-04-29 13:11:56,130 - INFO - Added membership: Nathaniel Moran in committee HSZS
+2025-04-29 13:11:56,130 - INFO - Added membership: Zachary Nunn in committee HSZS
+2025-04-29 13:11:56,130 - WARNING - Committee with ID HSII10 not found in database, skipping
+2025-04-29 13:11:56,131 - INFO - Added membership: Michael Guest in committee HSSO
+2025-04-29 13:11:56,131 - INFO - Added membership: Mark DeSaulnier in committee HSSO
+2025-04-29 13:11:56,132 - INFO - Added membership: John H. Rutherford in committee HSSO
+2025-04-29 13:11:56,132 - INFO - Added membership: Deborah K. Ross in committee HSSO
+2025-04-29 13:11:56,132 - INFO - Added membership: Andrew R. Garbarino in committee HSSO
+2025-04-29 13:11:56,133 - INFO - Added membership: Glenn Ivey in committee HSSO
+2025-04-29 13:11:56,133 - INFO - Added membership: Ashley Hinson in committee HSSO
+2025-04-29 13:11:56,133 - INFO - Added membership: Sylvia R. Garcia in committee HSSO
+2025-04-29 13:11:56,134 - INFO - Added membership: Nathaniel Moran in committee HSSO
+2025-04-29 13:11:56,134 - INFO - Added membership: Suhas Subramanyam in committee HSSO
+2025-04-29 13:11:56,134 - WARNING - Committee with ID HSSM22 not found in database, skipping
+2025-04-29 13:11:56,135 - WARNING - Committee with ID HSSM23 not found in database, skipping
+2025-04-29 13:11:56,135 - WARNING - Committee with ID HSAG14 not found in database, skipping
+2025-04-29 13:11:56,135 - WARNING - Committee with ID HSSM21 not found in database, skipping
+2025-04-29 13:11:56,135 - WARNING - Committee with ID HSSM24 not found in database, skipping
+2025-04-29 13:11:56,136 - WARNING - Committee with ID HSSM27 not found in database, skipping
+2025-04-29 13:11:56,136 - WARNING - Committee with ID HSPW05 not found in database, skipping
+2025-04-29 13:11:56,136 - WARNING - Committee with ID HSPW07 not found in database, skipping
+2025-04-29 13:11:56,136 - WARNING - Committee with ID HSPW14 not found in database, skipping
+2025-04-29 13:11:56,137 - WARNING - Committee with ID HSSY18 not found in database, skipping
+2025-04-29 13:11:56,137 - WARNING - Committee with ID HSSY20 not found in database, skipping
+2025-04-29 13:11:56,137 - WARNING - Committee with ID HSSY21 not found in database, skipping
+2025-04-29 13:11:56,137 - WARNING - Committee with ID HSJU01 not found in database, skipping
+2025-04-29 13:11:56,138 - WARNING - Committee with ID HSJU08 not found in database, skipping
+2025-04-29 13:11:56,138 - WARNING - Committee with ID HSJU13 not found in database, skipping
+2025-04-29 13:11:56,138 - WARNING - Committee with ID HSPW02 not found in database, skipping
+2025-04-29 13:11:56,138 - WARNING - Committee with ID HSPW12 not found in database, skipping
+2025-04-29 13:11:56,139 - WARNING - Committee with ID HSPW13 not found in database, skipping
+2025-04-29 13:11:56,140 - WARNING - Committee with ID HSAP01 not found in database, skipping
+2025-04-29 13:11:56,140 - WARNING - Committee with ID HSAP02 not found in database, skipping
+2025-04-29 13:11:56,141 - WARNING - Committee with ID HSAP07 not found in database, skipping
+2025-04-29 13:11:56,141 - WARNING - Committee with ID HSAP19 not found in database, skipping
+2025-04-29 13:11:56,142 - WARNING - Committee with ID HSAP20 not found in database, skipping
+2025-04-29 13:11:56,142 - WARNING - Committee with ID HSAP24 not found in database, skipping
+2025-04-29 13:11:56,143 - WARNING - Committee with ID HSHM09 not found in database, skipping
+2025-04-29 13:11:56,143 - WARNING - Committee with ID HSHM12 not found in database, skipping
+2025-04-29 13:11:56,143 - WARNING - Committee with ID HSGO05 not found in database, skipping
+2025-04-29 13:11:56,143 - WARNING - Committee with ID HSGO24 not found in database, skipping
+2025-04-29 13:11:56,144 - WARNING - Committee with ID HSIF02 not found in database, skipping
+2025-04-29 13:11:56,144 - WARNING - Committee with ID HSIF03 not found in database, skipping
+2025-04-29 13:11:56,144 - WARNING - Committee with ID HSIF18 not found in database, skipping
+2025-04-29 13:11:56,145 - WARNING - Committee with ID HSHA08 not found in database, skipping
+2025-04-29 13:11:56,145 - WARNING - Committee with ID HSWM01 not found in database, skipping
+2025-04-29 13:11:56,145 - WARNING - Committee with ID HSWM04 not found in database, skipping
+2025-04-29 13:11:56,146 - WARNING - Committee with ID HSWM06 not found in database, skipping
+2025-04-29 13:11:56,146 - WARNING - Committee with ID HSAP23 not found in database, skipping
+2025-04-29 13:11:56,146 - WARNING - Committee with ID HSFA05 not found in database, skipping
+2025-04-29 13:11:56,146 - WARNING - Committee with ID HSFA16 not found in database, skipping
+2025-04-29 13:11:56,147 - WARNING - Committee with ID HSVR08 not found in database, skipping
+2025-04-29 13:11:56,147 - WARNING - Committee with ID HSVR09 not found in database, skipping
+2025-04-29 13:11:56,147 - WARNING - Committee with ID HSWM05 not found in database, skipping
+2025-04-29 13:11:56,147 - WARNING - Committee with ID HSGO06 not found in database, skipping
+2025-04-29 13:11:56,148 - WARNING - Committee with ID HSGO12 not found in database, skipping
+2025-04-29 13:11:56,148 - WARNING - Committee with ID HSHM07 not found in database, skipping
+2025-04-29 13:11:56,148 - WARNING - Committee with ID HSHM11 not found in database, skipping
+2025-04-29 13:11:56,148 - WARNING - Committee with ID HSFA07 not found in database, skipping
+2025-04-29 13:11:56,149 - WARNING - Committee with ID HSGO33 not found in database, skipping
+2025-04-29 13:11:56,149 - WARNING - Committee with ID HSAP04 not found in database, skipping
+2025-04-29 13:11:56,149 - WARNING - Committee with ID HSAP15 not found in database, skipping
+2025-04-29 13:11:56,149 - WARNING - Committee with ID HSVR10 not found in database, skipping
+2025-04-29 13:11:56,150 - WARNING - Committee with ID HSAS25 not found in database, skipping
+2025-04-29 13:11:56,150 - WARNING - Committee with ID HSAS26 not found in database, skipping
+2025-04-29 13:11:56,150 - WARNING - Committee with ID HSAS29 not found in database, skipping
+2025-04-29 13:11:56,150 - WARNING - Committee with ID HSVR03 not found in database, skipping
+2025-04-29 13:11:56,151 - WARNING - Committee with ID HSGO27 not found in database, skipping
+2025-04-29 13:11:56,151 - WARNING - Committee with ID HSED13 not found in database, skipping
+2025-04-29 13:11:56,151 - WARNING - Committee with ID HSED14 not found in database, skipping
+2025-04-29 13:11:56,151 - WARNING - Committee with ID HSJU03 not found in database, skipping
+2025-04-29 13:11:56,152 - WARNING - Committee with ID HSWM02 not found in database, skipping
+2025-04-29 13:11:56,152 - WARNING - Committee with ID HSJU10 not found in database, skipping
+2025-04-29 13:11:56,152 - WARNING - Committee with ID HSFA19 not found in database, skipping
+2025-04-29 13:11:56,153 - WARNING - Committee with ID HSIF16 not found in database, skipping
+2025-04-29 13:11:56,153 - WARNING - Committee with ID HSAS03 not found in database, skipping
+2025-04-29 13:11:56,153 - WARNING - Committee with ID HSAP06 not found in database, skipping
+2025-04-29 13:11:56,153 - WARNING - Committee with ID HSED02 not found in database, skipping
+2025-04-29 13:11:56,154 - WARNING - Committee with ID HSHM08 not found in database, skipping
+2025-04-29 13:11:56,154 - WARNING - Committee with ID HSIF17 not found in database, skipping
+2025-04-29 13:11:56,154 - WARNING - Committee with ID HSBA09 not found in database, skipping
+2025-04-29 13:11:56,154 - WARNING - Committee with ID HSBA10 not found in database, skipping
+2025-04-29 13:11:56,155 - WARNING - Committee with ID HSBA21 not found in database, skipping
+2025-04-29 13:11:56,155 - WARNING - Committee with ID HSAS28 not found in database, skipping
+2025-04-29 13:11:56,155 - WARNING - Committee with ID HSAS35 not found in database, skipping
+2025-04-29 13:11:56,155 - WARNING - Committee with ID HSJU05 not found in database, skipping
+2025-04-29 13:11:56,156 - WARNING - Committee with ID HSSY15 not found in database, skipping
+2025-04-29 13:11:56,157 - WARNING - Committee with ID HSSY16 not found in database, skipping
+2025-04-29 13:11:56,157 - WARNING - Committee with ID HSFA14 not found in database, skipping
+2025-04-29 13:11:56,158 - WARNING - Committee with ID HSIF14 not found in database, skipping
+2025-04-29 13:11:56,158 - WARNING - Committee with ID HSWM03 not found in database, skipping
+2025-04-29 13:11:56,159 - WARNING - Committee with ID HSAS02 not found in database, skipping
+2025-04-29 13:11:56,159 - WARNING - Committee with ID HSBA16 not found in database, skipping
+2025-04-29 13:11:56,159 - WARNING - Committee with ID HSBA20 not found in database, skipping
+2025-04-29 13:11:56,160 - WARNING - Committee with ID HSFA13 not found in database, skipping
+2025-04-29 13:11:56,160 - WARNING - Committee with ID HLIG01 not found in database, skipping
+2025-04-29 13:11:56,160 - WARNING - Committee with ID HSHA27 not found in database, skipping
+2025-04-29 13:11:56,161 - WARNING - Committee with ID HSED10 not found in database, skipping
+2025-04-29 13:11:56,161 - WARNING - Committee with ID HSAP10 not found in database, skipping
+2025-04-29 13:11:56,161 - WARNING - Committee with ID HSGO16 not found in database, skipping
+2025-04-29 13:11:56,161 - WARNING - Committee with ID HSHM05 not found in database, skipping
+2025-04-29 13:11:56,162 - WARNING - Committee with ID HSFA17 not found in database, skipping
+2025-04-29 13:11:56,162 - WARNING - Committee with ID HSAP18 not found in database, skipping
+2025-04-29 13:11:56,162 - WARNING - Committee with ID HSRU02 not found in database, skipping
+2025-04-29 13:11:56,162 - WARNING - Committee with ID HSBA04 not found in database, skipping
+2025-04-29 13:11:56,163 - WARNING - Committee with ID HSVR11 not found in database, skipping
+2025-04-29 13:11:56,163 - WARNING - Committee with ID HSRU04 not found in database, skipping
+2025-04-29 13:11:56,163 - WARNING - Committee with ID HLIG06 not found in database, skipping
+2025-04-29 13:11:56,163 - WARNING - Committee with ID HLIG04 not found in database, skipping
+2025-04-29 13:11:56,164 - WARNING - Committee with ID HLIG02 not found in database, skipping
+2025-04-29 13:11:56,164 - WARNING - Committee with ID HLIG11 not found in database, skipping
+2025-04-29 13:11:56,164 - WARNING - Committee with ID HLIG09 not found in database, skipping
+2025-04-29 13:11:56,164 - INFO - Committee Memberships: Processed 1327, Added 1327, Updated 0, Missing politicians 0
+2025-04-29 13:11:56,168 - INFO - Committee data migration completed successfully
+2025-04-29 13:11:56,172 - INFO - Committee data migration completed
+2025-04-29 14:46:55,653 - INFO - Starting committee data migration...
+2025-04-29 14:46:55,668 - INFO - Database backed up to maga_ops_backup_20250429_144655.db
+2025-04-29 14:46:55,880 - INFO - Successfully loaded YAML file: backups/migrated_data_files/committees-current.yaml
+2025-04-29 14:46:56,107 - INFO - 
+Committee Migration Summary:
+2025-04-29 14:46:56,108 - INFO - Total committees processed: 51
+2025-04-29 14:46:56,108 - INFO - Committees updated: 51
+2025-04-29 14:46:56,108 - INFO - New committees added: 0
+2025-04-29 14:46:56,109 - INFO - Committee data migration completed successfully!
+2025-04-29 14:46:56,110 - INFO - Migration script completed and exiting cleanly.

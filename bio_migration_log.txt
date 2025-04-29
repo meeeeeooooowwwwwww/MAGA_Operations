@@ -1,0 +1,553 @@
+2025-04-29 12:26:18,159 - INFO - Starting biographical information migration
+2025-04-29 12:26:18,159 - INFO - Loading YAML file: backups/migrated_data_files/legislators-current.yaml
+2025-04-29 12:26:22,815 - INFO - Found 539 legislator records in the YAML file
+2025-04-29 12:26:22,815 - INFO - Indexed 539 legislators by bioguide ID
+2025-04-29 12:26:22,819 - INFO - Found 541 politicians with bioguide IDs in the database
+2025-04-29 12:26:22,821 - INFO - Updated biographical information for Robert B. Aderholt
+2025-04-29 12:26:22,822 - INFO - Updated biographical information for Jake Auchincloss
+2025-04-29 12:26:22,823 - INFO - Updated biographical information for Mark E. Amodei
+2025-04-29 12:26:22,823 - INFO - Updated biographical information for Alma S. Adams
+2025-04-29 12:26:22,824 - INFO - Updated biographical information for Pete Aguilar
+2025-04-29 12:26:22,824 - INFO - Updated biographical information for Rick W. Allen
+2025-04-29 12:26:22,825 - INFO - Updated biographical information for Jodey C. Arrington
+2025-04-29 12:26:22,825 - INFO - Updated biographical information for Mark Alford
+2025-04-29 12:26:22,826 - INFO - Updated biographical information for Gabe Amo
+2025-04-29 12:26:22,826 - INFO - Updated biographical information for Yassamin Ansari
+2025-04-29 12:26:22,827 - INFO - Updated biographical information for Angela D. Alsobrooks
+2025-04-29 12:26:22,827 - WARNING - No legislator data found for Joe Biden (ID: B000001)
+2025-04-29 12:26:22,827 - INFO - Updated biographical information for Sanford D. Bishop, Jr.
+2025-04-29 12:26:22,828 - INFO - Updated biographical information for Cliff Bentz
+2025-04-29 12:26:22,828 - INFO - Updated biographical information for Stephanie I. Bice
+2025-04-29 12:26:22,829 - INFO - Updated biographical information for Lauren Boebert
+2025-04-29 12:26:22,829 - INFO - Updated biographical information for Tammy Baldwin
+2025-04-29 12:26:22,829 - INFO - Updated biographical information for John Boozman
+2025-04-29 12:26:22,830 - INFO - Updated biographical information for Marsha Blackburn
+2025-04-29 12:26:22,830 - INFO - Updated biographical information for Gus M. Bilirakis
+2025-04-29 12:26:22,830 - INFO - Updated biographical information for Vern Buchanan
+2025-04-29 12:26:22,831 - INFO - Updated biographical information for John Barrasso
+2025-04-29 12:26:22,831 - INFO - Updated biographical information for Michael F. Bennet
+2025-04-29 12:26:22,831 - INFO - Updated biographical information for Richard Blumenthal
+2025-04-29 12:26:22,832 - INFO - Updated biographical information for Suzanne Bonamici
+2025-04-29 12:26:22,832 - INFO - Updated biographical information for Joyce Beatty
+2025-04-29 12:26:22,832 - INFO - Updated biographical information for Andy Barr
+2025-04-29 12:26:22,833 - INFO - Updated biographical information for Julia Brownley
+2025-04-29 12:26:22,833 - INFO - Updated biographical information for Ami Bera
+2025-04-29 12:26:22,834 - INFO - Updated biographical information for Cory A. Booker
+2025-04-29 12:26:22,834 - INFO - Updated biographical information for Brian Babin
+2025-04-29 12:26:22,835 - INFO - Updated biographical information for Donald S. Beyer, Jr.
+2025-04-29 12:26:22,835 - INFO - Updated biographical information for Mike Bost
+2025-04-29 12:26:22,836 - INFO - Updated biographical information for Brendan F. Boyle
+2025-04-29 12:26:22,836 - INFO - Updated biographical information for Don Bacon
+2025-04-29 12:26:22,836 - INFO - Updated biographical information for Jim Banks
+2025-04-29 12:26:22,837 - INFO - Updated biographical information for Nanette Diaz Barragán
+2025-04-29 12:26:22,837 - INFO - Updated biographical information for Jack Bergman
+2025-04-29 12:26:22,838 - INFO - Updated biographical information for Andy Biggs
+2025-04-29 12:26:22,838 - INFO - Updated biographical information for Lisa Blunt Rochester
+2025-04-29 12:26:22,838 - INFO - Updated biographical information for Ted Budd
+2025-04-29 12:26:22,839 - INFO - Updated biographical information for Troy Balderson
+2025-04-29 12:26:22,839 - INFO - Updated biographical information for James R. Baird
+2025-04-29 12:26:22,840 - INFO - Updated biographical information for Tim Burchett
+2025-04-29 12:26:22,840 - INFO - Updated biographical information for Shontel M. Brown
+2025-04-29 12:26:22,840 - INFO - Updated biographical information for Aaron Bean
+2025-04-29 12:26:22,841 - INFO - Updated biographical information for Nikki Budzinski
+2025-04-29 12:26:22,841 - INFO - Updated biographical information for Eric Burlison
+2025-04-29 12:26:22,841 - INFO - Updated biographical information for Josh Brecheen
+2025-04-29 12:26:22,842 - INFO - Updated biographical information for Becca Balint
+2025-04-29 12:26:22,842 - INFO - Updated biographical information for Katie Boyd Britt
+2025-04-29 12:26:22,843 - INFO - Updated biographical information for Tom Barrett
+2025-04-29 12:26:22,843 - INFO - Updated biographical information for Michael Baumgartner
+2025-04-29 12:26:22,843 - INFO - Updated biographical information for Nicholas J. Begich III
+2025-04-29 12:26:22,844 - INFO - Updated biographical information for Wesley Bell
+2025-04-29 12:26:22,844 - INFO - Updated biographical information for Sheri Biggs
+2025-04-29 12:26:22,845 - INFO - Updated biographical information for Janelle S. Bynum
+2025-04-29 12:26:22,845 - INFO - Updated biographical information for Robert P. Bresnahan, Jr.
+2025-04-29 12:26:22,846 - INFO - Updated biographical information for Ken Calvert
+2025-04-29 12:26:22,846 - INFO - Updated biographical information for Maria Cantwell
+2025-04-29 12:26:22,846 - INFO - Updated biographical information for James E. Clyburn
+2025-04-29 12:26:22,847 - INFO - Updated biographical information for Mike Crapo
+2025-04-29 12:26:22,847 - INFO - Updated biographical information for Susan M. Collins
+2025-04-29 12:26:22,848 - INFO - Updated biographical information for Kat Cammack
+2025-04-29 12:26:22,848 - INFO - Updated biographical information for Shelley Moore Capito
+2025-04-29 12:26:22,848 - INFO - Updated biographical information for John R. Carter
+2025-04-29 12:26:22,849 - INFO - Updated biographical information for Tom Cole
+2025-04-29 12:26:22,849 - INFO - Updated biographical information for Ed Case
+2025-04-29 12:26:22,849 - INFO - Updated biographical information for John Cornyn
+2025-04-29 12:26:22,850 - INFO - Updated biographical information for Jim Costa
+2025-04-29 12:26:22,851 - INFO - Updated biographical information for Emanuel Cleaver
+2025-04-29 12:26:22,851 - INFO - Updated biographical information for Henry Cuellar
+2025-04-29 12:26:22,852 - INFO - Updated biographical information for Kathy Castor
+2025-04-29 12:26:22,852 - INFO - Updated biographical information for Yvette D. Clarke
+2025-04-29 12:26:22,852 - INFO - Updated biographical information for Steve Cohen
+2025-04-29 12:26:22,853 - INFO - Updated biographical information for Joe Courtney
+2025-04-29 12:26:22,853 - INFO - Updated biographical information for André Carson
+2025-04-29 12:26:22,854 - INFO - Updated biographical information for Bill Cassidy
+2025-04-29 12:26:22,854 - INFO - Updated biographical information for Gerald E. Connolly
+2025-04-29 12:26:22,854 - INFO - Updated biographical information for Judy Chu
+2025-04-29 12:26:22,855 - INFO - Updated biographical information for Eric A. "Rick" Crawford
+2025-04-29 12:26:22,855 - INFO - Updated biographical information for Christopher A. Coons
+2025-04-29 12:26:22,855 - INFO - Updated biographical information for Joaquin Castro
+2025-04-29 12:26:22,856 - INFO - Updated biographical information for Tom Cotton
+2025-04-29 12:26:22,856 - INFO - Updated biographical information for Kevin Cramer
+2025-04-29 12:26:22,857 - INFO - Updated biographical information for Ted Cruz
+2025-04-29 12:26:22,857 - INFO - Updated biographical information for Katherine M. Clark
+2025-04-29 12:26:22,857 - INFO - Updated biographical information for Earl L. "Buddy" Carter
+2025-04-29 12:26:22,858 - INFO - Updated biographical information for James Comer
+2025-04-29 12:26:22,858 - INFO - Updated biographical information for J. Luis Correa
+2025-04-29 12:26:22,859 - INFO - Updated biographical information for Salud O. Carbajal
+2025-04-29 12:26:22,859 - INFO - Updated biographical information for Catherine Cortez Masto
+2025-04-29 12:26:22,859 - INFO - Updated biographical information for John R. Curtis
+2025-04-29 12:26:22,860 - INFO - Updated biographical information for Michael Cloud
+2025-04-29 12:26:22,860 - INFO - Updated biographical information for Andrew S. Clyde
+2025-04-29 12:26:22,860 - INFO - Updated biographical information for Sean Casten
+2025-04-29 12:26:22,861 - INFO - Updated biographical information for Ben Cline
+2025-04-29 12:26:22,861 - INFO - Updated biographical information for Angie Craig
+2025-04-29 12:26:22,862 - INFO - Updated biographical information for Dan Crenshaw
+2025-04-29 12:26:22,862 - INFO - Updated biographical information for Jason Crow
+2025-04-29 12:26:22,862 - INFO - Updated biographical information for Gilbert Ray Cisneros, Jr.
+2025-04-29 12:26:22,863 - INFO - Updated biographical information for Troy A. Carter
+2025-04-29 12:26:22,863 - INFO - Updated biographical information for Mike Carey
+2025-04-29 12:26:22,863 - INFO - Updated biographical information for Sheila Cherfilus-McCormick
+2025-04-29 12:26:22,864 - INFO - Updated biographical information for Mike Collins
+2025-04-29 12:26:22,864 - INFO - Updated biographical information for Jasmine Crockett
+2025-04-29 12:26:22,864 - INFO - Updated biographical information for Greg Casar
+2025-04-29 12:26:22,864 - INFO - Updated biographical information for Elijah Crane
+2025-04-29 12:26:22,865 - INFO - Updated biographical information for Juan Ciscomani
+2025-04-29 12:26:22,865 - INFO - Updated biographical information for Herbert C. Conaway, Jr.
+2025-04-29 12:26:22,866 - INFO - Updated biographical information for Jeff Crank
+2025-04-29 12:26:22,866 - INFO - Updated biographical information for Byron Donalds
+2025-04-29 12:26:22,867 - INFO - Updated biographical information for Danny K. Davis
+2025-04-29 12:26:22,867 - INFO - Updated biographical information for Diana DeGette
+2025-04-29 12:26:22,868 - INFO - Updated biographical information for Rosa L. DeLauro
+2025-04-29 12:26:22,868 - INFO - Updated biographical information for Donald G. Davis
+2025-04-29 12:26:22,868 - INFO - Updated biographical information for Lloyd Doggett
+2025-04-29 12:26:22,869 - INFO - Updated biographical information for Christopher R. Deluzio
+2025-04-29 12:26:22,869 - INFO - Updated biographical information for Richard J. Durbin
+2025-04-29 12:26:22,869 - INFO - Updated biographical information for Monica De La Cruz
+2025-04-29 12:26:22,870 - INFO - Updated biographical information for Mario Diaz-Balart
+2025-04-29 12:26:22,870 - INFO - Updated biographical information for Scott DesJarlais
+2025-04-29 12:26:22,871 - INFO - Updated biographical information for Suzan K. DelBene
+2025-04-29 12:26:22,871 - INFO - Updated biographical information for Steve Daines
+2025-04-29 12:26:22,872 - INFO - Updated biographical information for Tammy Duckworth
+2025-04-29 12:26:22,873 - INFO - Updated biographical information for Mark DeSaulnier
+2025-04-29 12:26:22,873 - INFO - Updated biographical information for Debbie Dingell
+2025-04-29 12:26:22,873 - INFO - Updated biographical information for Warren Davidson
+2025-04-29 12:26:22,874 - INFO - Updated biographical information for Neal P. Dunn
+2025-04-29 12:26:22,874 - INFO - Updated biographical information for Sharice Davids
+2025-04-29 12:26:22,875 - INFO - Updated biographical information for Madeleine Dean
+2025-04-29 12:26:22,875 - INFO - Updated biographical information for Troy Downing
+2025-04-29 12:26:22,876 - INFO - Updated biographical information for Maxine Dexter
+2025-04-29 12:26:22,876 - INFO - Updated biographical information for Jake Ellzey
+2025-04-29 12:26:22,877 - INFO - Updated biographical information for Mike Ezell
+2025-04-29 12:26:22,877 - INFO - Updated biographical information for Chuck Edwards
+2025-04-29 12:26:22,878 - INFO - Updated biographical information for Tom Emmer
+2025-04-29 12:26:22,878 - INFO - Updated biographical information for Joni Ernst
+2025-04-29 12:26:22,878 - INFO - Updated biographical information for Dwight Evans
+2025-04-29 12:26:22,879 - INFO - Updated biographical information for Adriano Espaillat
+2025-04-29 12:26:22,879 - INFO - Updated biographical information for Ron Estes
+2025-04-29 12:26:22,879 - INFO - Updated biographical information for Veronica Escobar
+2025-04-29 12:26:22,880 - INFO - Updated biographical information for Gabe Evans
+2025-04-29 12:26:22,880 - INFO - Updated biographical information for Sarah Elfreth
+2025-04-29 12:26:22,881 - INFO - Updated biographical information for Cleo Fields
+2025-04-29 12:26:22,881 - INFO - Updated biographical information for Pat Fallon
+2025-04-29 12:26:22,882 - INFO - Updated biographical information for Randy Feenstra
+2025-04-29 12:26:22,882 - INFO - Updated biographical information for Virginia Foxx
+2025-04-29 12:26:22,883 - INFO - Updated biographical information for Bill Foster
+2025-04-29 12:26:22,883 - INFO - Updated biographical information for Charles J. "Chuck" Fleischmann
+2025-04-29 12:26:22,884 - INFO - Updated biographical information for Lois Frankel
+2025-04-29 12:26:22,884 - INFO - Updated biographical information for Deb Fischer
+2025-04-29 12:26:22,885 - INFO - Updated biographical information for Brian K. Fitzpatrick
+2025-04-29 12:26:22,886 - INFO - Updated biographical information for Lizzie Fletcher
+2025-04-29 12:26:22,886 - INFO - Updated biographical information for Russ Fulcher
+2025-04-29 12:26:22,887 - INFO - Updated biographical information for Michelle Fischbach
+2025-04-29 12:26:22,887 - INFO - Updated biographical information for Scott Fitzgerald
+2025-04-29 12:26:22,888 - INFO - Updated biographical information for Scott Franklin
+2025-04-29 12:26:22,888 - INFO - Updated biographical information for Mike Flood
+2025-04-29 12:26:22,888 - INFO - Updated biographical information for Brad Finstad
+2025-04-29 12:26:22,889 - INFO - Updated biographical information for Maxwell Frost
+2025-04-29 12:26:22,889 - INFO - Updated biographical information for Valerie P. Foushee
+2025-04-29 12:26:22,889 - INFO - Updated biographical information for Russell Fry
+2025-04-29 12:26:22,890 - INFO - Updated biographical information for John Fetterman
+2025-04-29 12:26:22,890 - INFO - Updated biographical information for Vince Fong
+2025-04-29 12:26:22,890 - INFO - Updated biographical information for Shomari Figures
+2025-04-29 12:26:22,890 - INFO - Updated biographical information for Julie Fedorchak
+2025-04-29 12:26:22,891 - INFO - Updated biographical information for Laura Friedman
+2025-04-29 12:26:22,891 - INFO - Updated biographical information for Randy Fine
+2025-04-29 12:26:22,891 - INFO - Updated biographical information for Lindsey Graham
+2025-04-29 12:26:22,891 - INFO - Updated biographical information for Chuck Grassley
+2025-04-29 12:26:22,892 - INFO - Updated biographical information for Sam Graves
+2025-04-29 12:26:22,892 - INFO - Updated biographical information for Al Green
+2025-04-29 12:26:22,893 - INFO - Updated biographical information for Kirsten E. Gillibrand
+2025-04-29 12:26:22,893 - INFO - Updated biographical information for Brett Guthrie
+2025-04-29 12:26:22,893 - INFO - Updated biographical information for John Garamendi
+2025-04-29 12:26:22,894 - INFO - Updated biographical information for Paul A. Gosar
+2025-04-29 12:26:22,894 - INFO - Updated biographical information for H. Morgan Griffith
+2025-04-29 12:26:22,895 - INFO - Updated biographical information for Ruben Gallego
+2025-04-29 12:26:22,895 - INFO - Updated biographical information for Glenn Grothman
+2025-04-29 12:26:22,895 - INFO - Updated biographical information for Vicente Gonzalez
+2025-04-29 12:26:22,896 - INFO - Updated biographical information for Josh Gottheimer
+2025-04-29 12:26:22,896 - INFO - Updated biographical information for Jimmy Gomez
+2025-04-29 12:26:22,896 - INFO - Updated biographical information for Jesús G. "Chuy" García
+2025-04-29 12:26:22,897 - INFO - Updated biographical information for Sylvia R. Garcia
+2025-04-29 12:26:22,897 - INFO - Updated biographical information for Lance Gooden
+2025-04-29 12:26:22,898 - INFO - Updated biographical information for Mark E. Green
+2025-04-29 12:26:22,898 - INFO - Updated biographical information for Michael Guest
+2025-04-29 12:26:22,899 - INFO - Updated biographical information for Jared F. Golden
+2025-04-29 12:26:22,899 - INFO - Updated biographical information for Carlos A. Gimenez
+2025-04-29 12:26:22,899 - INFO - Updated biographical information for Tony Gonzales
+2025-04-29 12:26:22,900 - INFO - Updated biographical information for Marjorie Taylor Greene
+2025-04-29 12:26:22,900 - INFO - Updated biographical information for Andrew R. Garbarino
+2025-04-29 12:26:22,901 - INFO - Updated biographical information for Robert Garcia
+2025-04-29 12:26:22,901 - INFO - Updated biographical information for Daniel S. Goldman
+2025-04-29 12:26:22,902 - INFO - Updated biographical information for Marie Gluesenkamp Perez
+2025-04-29 12:26:22,902 - INFO - Updated biographical information for Craig A. Goldman
+2025-04-29 12:26:22,903 - INFO - Updated biographical information for Laura Gillen
+2025-04-29 12:26:22,903 - INFO - Updated biographical information for Brandon Gill
+2025-04-29 12:26:22,904 - INFO - Updated biographical information for Maggie Goodlander
+2025-04-29 12:26:22,904 - INFO - Updated biographical information for Adam Gray
+2025-04-29 12:26:22,905 - INFO - Updated biographical information for John W. Hickenlooper
+2025-04-29 12:26:22,905 - INFO - Updated biographical information for Bill Hagerty
+2025-04-29 12:26:22,905 - INFO - Updated biographical information for Steny H. Hoyer
+2025-04-29 12:26:22,906 - INFO - Updated biographical information for Mazie K. Hirono
+2025-04-29 12:26:22,906 - INFO - Updated biographical information for Martin Heinrich
+2025-04-29 12:26:22,906 - INFO - Updated biographical information for James A. Himes
+2025-04-29 12:26:22,907 - INFO - Updated biographical information for Andy Harris
+2025-04-29 12:26:22,907 - INFO - Updated biographical information for Bill Huizenga
+2025-04-29 12:26:22,908 - INFO - Updated biographical information for John Hoeven
+2025-04-29 12:26:22,908 - INFO - Updated biographical information for Steven Horsford
+2025-04-29 12:26:22,908 - INFO - Updated biographical information for Richard Hudson
+2025-04-29 12:26:22,909 - INFO - Updated biographical information for Jared Huffman
+2025-04-29 12:26:22,909 - INFO - Updated biographical information for J. French Hill
+2025-04-29 12:26:22,909 - INFO - Updated biographical information for Margaret Wood Hassan
+2025-04-29 12:26:22,910 - INFO - Updated biographical information for Clay Higgins
+2025-04-29 12:26:22,910 - INFO - Updated biographical information for Cindy Hyde-Smith
+2025-04-29 12:26:22,910 - INFO - Updated biographical information for Jahana Hayes
+2025-04-29 12:26:22,911 - INFO - Updated biographical information for Kevin Hern
+2025-04-29 12:26:22,911 - INFO - Updated biographical information for Chrissy Houlahan
+2025-04-29 12:26:22,911 - INFO - Updated biographical information for Diana Harshbarger
+2025-04-29 12:26:22,912 - INFO - Updated biographical information for Josh Hawley
+2025-04-29 12:26:22,912 - INFO - Updated biographical information for Josh Harder
+2025-04-29 12:26:22,912 - INFO - Updated biographical information for Ashley Hinson
+2025-04-29 12:26:22,913 - INFO - Updated biographical information for Erin Houchin
+2025-04-29 12:26:22,913 - INFO - Updated biographical information for Val T. Hoyle
+2025-04-29 12:26:22,914 - INFO - Updated biographical information for Wesley Hunt
+2025-04-29 12:26:22,914 - INFO - Updated biographical information for Harriet M. Hageman
+2025-04-29 12:26:22,915 - INFO - Updated biographical information for Abraham J. Hamadeh
+2025-04-29 12:26:22,915 - INFO - Updated biographical information for Mike Haridopolos
+2025-04-29 12:26:22,916 - INFO - Updated biographical information for Jeff Hurd
+2025-04-29 12:26:22,916 - INFO - Updated biographical information for Pat Harrigan
+2025-04-29 12:26:22,918 - INFO - Updated biographical information for Mark Harris
+2025-04-29 12:26:22,918 - INFO - Updated biographical information for Pablo José Hernández
+2025-04-29 12:26:22,919 - INFO - Updated biographical information for Jon Husted
+2025-04-29 12:26:22,919 - INFO - Updated biographical information for Darrell Issa
+2025-04-29 12:26:22,920 - INFO - Updated biographical information for Glenn Ivey
+2025-04-29 12:26:22,920 - INFO - Updated biographical information for Henry C. "Hank" Johnson, Jr.
+2025-04-29 12:26:22,921 - INFO - Updated biographical information for Jim Jordan
+2025-04-29 12:26:22,921 - INFO - Updated biographical information for Ron Johnson
+2025-04-29 12:26:22,922 - INFO - Updated biographical information for Hakeem S. Jeffries
+2025-04-29 12:26:22,922 - INFO - Updated biographical information for David P. Joyce
+2025-04-29 12:26:22,922 - INFO - Updated biographical information for Pramila Jayapal
+2025-04-29 12:26:22,923 - INFO - Updated biographical information for Mike Johnson
+2025-04-29 12:26:22,923 - INFO - Updated biographical information for Dusty Johnson
+2025-04-29 12:26:22,923 - INFO - Updated biographical information for John Joyce
+2025-04-29 12:26:22,924 - INFO - Updated biographical information for Ronny Jackson
+2025-04-29 12:26:22,924 - INFO - Updated biographical information for Sara Jacobs
+2025-04-29 12:26:22,925 - INFO - Updated biographical information for John James
+2025-04-29 12:26:22,925 - INFO - Updated biographical information for Jonathan L. Jackson
+2025-04-29 12:26:22,925 - INFO - Updated biographical information for Julie Johnson
+2025-04-29 12:26:22,926 - INFO - Updated biographical information for Brian Jack
+2025-04-29 12:26:22,926 - INFO - Updated biographical information for James C. Justice
+2025-04-29 12:26:22,927 - INFO - Updated biographical information for Marcy Kaptur
+2025-04-29 12:26:22,927 - INFO - Updated biographical information for Amy Klobuchar
+2025-04-29 12:26:22,927 - INFO - Updated biographical information for William R. Keating
+2025-04-29 12:26:22,928 - INFO - Updated biographical information for Mike Kelly
+2025-04-29 12:26:22,928 - INFO - Updated biographical information for Mark Kelly
+2025-04-29 12:26:22,928 - INFO - Updated biographical information for Angus S. King, Jr.
+2025-04-29 12:26:22,929 - INFO - Updated biographical information for Tim Kaine
+2025-04-29 12:26:22,929 - INFO - Updated biographical information for Robin L. Kelly
+2025-04-29 12:26:22,930 - INFO - Updated biographical information for Trent Kelly
+2025-04-29 12:26:22,930 - INFO - Updated biographical information for Ro Khanna
+2025-04-29 12:26:22,930 - INFO - Updated biographical information for Raja Krishnamoorthi
+2025-04-29 12:26:22,931 - INFO - Updated biographical information for David Kustoff
+2025-04-29 12:26:22,931 - INFO - Updated biographical information for John Kennedy
+2025-04-29 12:26:22,932 - INFO - Updated biographical information for Andy Kim
+2025-04-29 12:26:22,932 - INFO - Updated biographical information for Young Kim
+2025-04-29 12:26:22,933 - INFO - Updated biographical information for Thomas H. Kean, Jr.
+2025-04-29 12:26:22,933 - INFO - Updated biographical information for Jennifer A. Kiggans
+2025-04-29 12:26:22,934 - INFO - Updated biographical information for Sydney Kamlager-Dove
+2025-04-29 12:26:22,935 - INFO - Updated biographical information for Kevin Kiley
+2025-04-29 12:26:22,935 - INFO - Updated biographical information for Timothy M. Kennedy
+2025-04-29 12:26:22,935 - INFO - Updated biographical information for Mike Kennedy
+2025-04-29 12:26:22,936 - INFO - Updated biographical information for Kimberlyn King-Hinds
+2025-04-29 12:26:22,936 - INFO - Updated biographical information for Brad Knott
+2025-04-29 12:26:22,937 - INFO - Updated biographical information for Teresa Leger Fernandez
+2025-04-29 12:26:22,937 - INFO - Updated biographical information for Zoe Lofgren
+2025-04-29 12:26:22,938 - INFO - Updated biographical information for Frank D. Lucas
+2025-04-29 12:26:22,938 - INFO - Updated biographical information for John B. Larson
+2025-04-29 12:26:22,938 - INFO - Updated biographical information for Rick Larsen
+2025-04-29 12:26:22,939 - INFO - Updated biographical information for Stephen F. Lynch
+2025-04-29 12:26:22,939 - INFO - Updated biographical information for Robert E. Latta
+2025-04-29 12:26:22,940 - INFO - Updated biographical information for Ben Ray Luján
+2025-04-29 12:26:22,940 - INFO - Updated biographical information for Cynthia M. Lummis
+2025-04-29 12:26:22,940 - INFO - Updated biographical information for James Lankford
+2025-04-29 12:26:22,941 - INFO - Updated biographical information for Mike Lee
+2025-04-29 12:26:22,941 - INFO - Updated biographical information for Doug LaMalfa
+2025-04-29 12:26:22,941 - INFO - Updated biographical information for Ted Lieu
+2025-04-29 12:26:22,942 - INFO - Updated biographical information for Barry Loudermilk
+2025-04-29 12:26:22,942 - INFO - Updated biographical information for Darin LaHood
+2025-04-29 12:26:22,943 - INFO - Updated biographical information for Susie Lee
+2025-04-29 12:26:22,943 - INFO - Updated biographical information for Mike Levin
+2025-04-29 12:26:22,943 - INFO - Updated biographical information for Julia Letlow
+2025-04-29 12:26:22,944 - INFO - Updated biographical information for Anna Paulina Luna
+2025-04-29 12:26:22,944 - INFO - Updated biographical information for Laurel M. Lee
+2025-04-29 12:26:22,944 - INFO - Updated biographical information for Nick LaLota
+2025-04-29 12:26:22,945 - INFO - Updated biographical information for Michael Lawler
+2025-04-29 12:26:22,945 - INFO - Updated biographical information for Nicholas A. Langworthy
+2025-04-29 12:26:22,945 - INFO - Updated biographical information for Greg Landsman
+2025-04-29 12:26:22,946 - INFO - Updated biographical information for Summer L. Lee
+2025-04-29 12:26:22,946 - INFO - Updated biographical information for Morgan Luttrell
+2025-04-29 12:26:22,947 - INFO - Updated biographical information for George Latimer
+2025-04-29 12:26:22,947 - INFO - Updated biographical information for Sam T. Liccardo
+2025-04-29 12:26:22,947 - INFO - Updated biographical information for Edward J. Markey
+2025-04-29 12:26:22,948 - INFO - Updated biographical information for Nancy Mace
+2025-04-29 12:26:22,948 - INFO - Updated biographical information for James P. McGovern
+2025-04-29 12:26:22,949 - INFO - Updated biographical information for Nicole Malliotakis
+2025-04-29 12:26:22,949 - INFO - Updated biographical information for Mitch McConnell
+2025-04-29 12:26:22,949 - INFO - Updated biographical information for Kweisi Mfume
+2025-04-29 12:26:22,950 - INFO - Updated biographical information for Tracey Mann
+2025-04-29 12:26:22,950 - INFO - Updated biographical information for Jerry Moran
+2025-04-29 12:26:22,951 - INFO - Updated biographical information for Patty Murray
+2025-04-29 12:26:22,952 - INFO - Updated biographical information for Lisa C. McClain
+2025-04-29 12:26:22,952 - INFO - Updated biographical information for Gregory W. Meeks
+2025-04-29 12:26:22,953 - INFO - Updated biographical information for Betty McCollum
+2025-04-29 12:26:22,954 - INFO - Updated biographical information for Lisa Murkowski
+2025-04-29 12:26:22,954 - INFO - Updated biographical information for Michael T. McCaul
+2025-04-29 12:26:22,955 - INFO - Updated biographical information for Gwen Moore
+2025-04-29 12:26:22,955 - INFO - Updated biographical information for Doris O. Matsui
+2025-04-29 12:26:22,955 - INFO - Updated biographical information for Christopher Murphy
+2025-04-29 12:26:22,956 - INFO - Updated biographical information for Jeff Merkley
+2025-04-29 12:26:22,956 - INFO - Updated biographical information for Tom McClintock
+2025-04-29 12:26:22,956 - INFO - Updated biographical information for Thomas Massie
+2025-04-29 12:26:22,957 - INFO - Updated biographical information for Grace Meng
+2025-04-29 12:26:22,957 - INFO - Updated biographical information for Markwayne Mullin
+2025-04-29 12:26:22,958 - INFO - Updated biographical information for John R. Moolenaar
+2025-04-29 12:26:22,958 - INFO - Updated biographical information for Seth Moulton
+2025-04-29 12:26:22,958 - INFO - Updated biographical information for Roger Marshall
+2025-04-29 12:26:22,959 - INFO - Updated biographical information for Brian J. Mast
+2025-04-29 12:26:22,959 - INFO - Updated biographical information for Daniel Meuser
+2025-04-29 12:26:22,959 - INFO - Updated biographical information for Carol D. Miller
+2025-04-29 12:26:22,960 - INFO - Updated biographical information for Joseph D. Morelle
+2025-04-29 12:26:22,960 - INFO - Updated biographical information for Lucy McBath
+2025-04-29 12:26:22,960 - INFO - Updated biographical information for Gregory F. Murphy
+2025-04-29 12:26:22,961 - INFO - Updated biographical information for Mary E. Miller
+2025-04-29 12:26:22,961 - INFO - Updated biographical information for Barry Moore
+2025-04-29 12:26:22,961 - INFO - Updated biographical information for Blake D. Moore
+2025-04-29 12:26:22,962 - INFO - Updated biographical information for Frank J. Mrvan
+2025-04-29 12:26:22,962 - INFO - Updated biographical information for Mariannette Miller-Meeks
+2025-04-29 12:26:22,962 - INFO - Updated biographical information for Cory Mills
+2025-04-29 12:26:22,963 - INFO - Updated biographical information for Jared Moskowitz
+2025-04-29 12:26:22,963 - INFO - Updated biographical information for Richard McCormick
+2025-04-29 12:26:22,964 - INFO - Updated biographical information for James C. Moylan
+2025-04-29 12:26:22,964 - INFO - Updated biographical information for Morgan McGarvey
+2025-04-29 12:26:22,964 - INFO - Updated biographical information for Max L. Miller
+2025-04-29 12:26:22,965 - INFO - Updated biographical information for Seth Magaziner
+2025-04-29 12:26:22,965 - INFO - Updated biographical information for Nathaniel Moran
+2025-04-29 12:26:22,965 - INFO - Updated biographical information for Kevin Mullin
+2025-04-29 12:26:22,966 - INFO - Updated biographical information for Robert Menendez
+2025-04-29 12:26:22,966 - INFO - Updated biographical information for Jennifer L. McClellan
+2025-04-29 12:26:22,967 - INFO - Updated biographical information for Celeste Maloy
+2025-04-29 12:26:22,967 - INFO - Updated biographical information for LaMonica McIver
+2025-04-29 12:26:22,968 - INFO - Updated biographical information for Ryan Mackenzie
+2025-04-29 12:26:22,968 - INFO - Updated biographical information for John W. Mannion
+2025-04-29 12:26:22,969 - INFO - Updated biographical information for April McClain Delaney
+2025-04-29 12:26:22,970 - INFO - Updated biographical information for Mark B. Messmer
+2025-04-29 12:26:22,970 - INFO - Updated biographical information for Kelly Morrison
+2025-04-29 12:26:22,971 - INFO - Updated biographical information for Riley M. Moore
+2025-04-29 12:26:22,971 - INFO - Updated biographical information for Tim Moore
+2025-04-29 12:26:22,971 - INFO - Updated biographical information for Kristen McDonald Rivet
+2025-04-29 12:26:22,972 - INFO - Updated biographical information for Sarah McBride
+2025-04-29 12:26:22,972 - INFO - Updated biographical information for John J. McGuire III
+2025-04-29 12:26:22,973 - INFO - Updated biographical information for Addison P. McDowell
+2025-04-29 12:26:22,973 - INFO - Updated biographical information for Dave Min
+2025-04-29 12:26:22,973 - INFO - Updated biographical information for Bernie Moreno
+2025-04-29 12:26:22,974 - INFO - Updated biographical information for David McCormick
+2025-04-29 12:26:22,974 - INFO - Updated biographical information for Ashley Moody
+2025-04-29 12:26:22,974 - INFO - Updated biographical information for Jerrold Nadler
+2025-04-29 12:26:22,975 - INFO - Updated biographical information for Richard E. Neal
+2025-04-29 12:26:22,975 - INFO - Updated biographical information for Troy E. Nehls
+2025-04-29 12:26:22,976 - INFO - Updated biographical information for Eleanor Holmes Norton
+2025-04-29 12:26:22,976 - INFO - Updated biographical information for Donald Norcross
+2025-04-29 12:26:22,976 - INFO - Updated biographical information for Dan Newhouse
+2025-04-29 12:26:22,977 - INFO - Updated biographical information for Ralph Norman
+2025-04-29 12:26:22,977 - INFO - Updated biographical information for Joe Neguse
+2025-04-29 12:26:22,978 - INFO - Updated biographical information for Zachary Nunn
+2025-04-29 12:26:22,978 - INFO - Updated biographical information for Jay Obernolte
+2025-04-29 12:26:22,979 - INFO - Updated biographical information for Burgess Owens
+2025-04-29 12:26:22,979 - INFO - Updated biographical information for Alexandria Ocasio-Cortez
+2025-04-29 12:26:22,979 - INFO - Updated biographical information for Ilhan Omar
+2025-04-29 12:26:22,980 - INFO - Updated biographical information for Jon Ossoff
+2025-04-29 12:26:22,980 - INFO - Updated biographical information for Andrew Ogles
+2025-04-29 12:26:22,981 - INFO - Updated biographical information for Johnny Olszewski, Jr.
+2025-04-29 12:26:22,981 - INFO - Updated biographical information for Robert F. Onder, Jr.
+2025-04-29 12:26:22,982 - INFO - Updated biographical information for Frank Pallone, Jr.
+2025-04-29 12:26:22,982 - INFO - Updated biographical information for August Pfluger
+2025-04-29 12:26:22,983 - INFO - Updated biographical information for Alex Padilla
+2025-04-29 12:26:22,984 - INFO - Updated biographical information for Nancy Pelosi
+2025-04-29 12:26:22,985 - INFO - Updated biographical information for Gary C. Peters
+2025-04-29 12:26:22,986 - INFO - Updated biographical information for Chellie Pingree
+2025-04-29 12:26:22,987 - INFO - Updated biographical information for Rand Paul
+2025-04-29 12:26:22,987 - INFO - Updated biographical information for Scott Perry
+2025-04-29 12:26:22,988 - INFO - Updated biographical information for Mark Pocan
+2025-04-29 12:26:22,988 - INFO - Updated biographical information for Scott H. Peters
+2025-04-29 12:26:22,988 - INFO - Updated biographical information for Gary J. Palmer
+2025-04-29 12:26:22,989 - INFO - Updated biographical information for Stacey E. Plaskett
+2025-04-29 12:26:22,989 - INFO - Updated biographical information for Jimmy Panetta
+2025-04-29 12:26:22,989 - INFO - Updated biographical information for Chris Pappas
+2025-04-29 12:26:22,990 - INFO - Updated biographical information for Ayanna Pressley
+2025-04-29 12:26:22,990 - INFO - Updated biographical information for Brittany Pettersen
+2025-04-29 12:26:22,991 - INFO - Updated biographical information for Nellie Pou
+2025-04-29 12:26:22,991 - INFO - Updated biographical information for Jimmy Patronis
+2025-04-29 12:26:22,991 - INFO - Updated biographical information for Mike Quigley
+2025-04-29 12:26:22,992 - INFO - Updated biographical information for Jack Reed
+2025-04-29 12:26:22,992 - INFO - Updated biographical information for Deborah K. Ross
+2025-04-29 12:26:22,992 - INFO - Updated biographical information for Harold Rogers
+2025-04-29 12:26:22,993 - INFO - Updated biographical information for Mike Rogers
+2025-04-29 12:26:22,993 - INFO - Updated biographical information for Patrick Ryan
+2025-04-29 12:26:22,993 - INFO - Updated biographical information for James E. Risch
+2025-04-29 12:26:22,994 - INFO - Updated biographical information for Raul Ruiz
+2025-04-29 12:26:22,994 - INFO - Updated biographical information for Aumua Amata Coleman Radewagen
+2025-04-29 12:26:22,994 - INFO - Updated biographical information for David Rouzer
+2025-04-29 12:26:22,995 - INFO - Updated biographical information for Mike Rounds
+2025-04-29 12:26:22,995 - INFO - Updated biographical information for Jamie Raskin
+2025-04-29 12:26:22,996 - INFO - Updated biographical information for Jacky Rosen
+2025-04-29 12:26:22,996 - INFO - Updated biographical information for John H. Rutherford
+2025-04-29 12:26:22,996 - INFO - Updated biographical information for Guy Reschenthaler
+2025-04-29 12:26:22,997 - INFO - Updated biographical information for John W. Rose
+2025-04-29 12:26:22,997 - INFO - Updated biographical information for Chip Roy
+2025-04-29 12:26:22,997 - INFO - Updated biographical information for Delia C. Ramirez
+2025-04-29 12:26:22,998 - INFO - Updated biographical information for Pete Ricketts
+2025-04-29 12:26:22,998 - INFO - Updated biographical information for Michael A. Rulli
+2025-04-29 12:26:22,998 - INFO - Updated biographical information for Luz M. Rivas
+2025-04-29 12:26:22,999 - INFO - Updated biographical information for Emily Randall
+2025-04-29 12:26:22,999 - INFO - Updated biographical information for Josh Riley
+2025-04-29 12:26:23,000 - INFO - Updated biographical information for Bernard Sanders
+2025-04-29 12:26:23,001 - INFO - Updated biographical information for Charles E. Schumer
+2025-04-29 12:26:23,001 - INFO - Updated biographical information for Maria Elvira Salazar
+2025-04-29 12:26:23,002 - INFO - Updated biographical information for Robert C. "Bobby" Scott
+2025-04-29 12:26:23,002 - INFO - Updated biographical information for Pete Sessions
+2025-04-29 12:26:23,003 - INFO - Updated biographical information for Brad Sherman
+2025-04-29 12:26:23,003 - INFO - Updated biographical information for Adam Smith
+2025-04-29 12:26:23,003 - INFO - Updated biographical information for Christopher H. Smith
+2025-04-29 12:26:23,004 - INFO - Updated biographical information for Victoria Spartz
+2025-04-29 12:26:23,004 - INFO - Updated biographical information for Janice D. Schakowsky
+2025-04-29 12:26:23,005 - INFO - Updated biographical information for Michael K. Simpson
+2025-04-29 12:26:23,005 - INFO - Updated biographical information for Adam B. Schiff
+2025-04-29 12:26:23,006 - INFO - Updated biographical information for Linda T. Sánchez
+2025-04-29 12:26:23,006 - INFO - Updated biographical information for David Scott
+2025-04-29 12:26:23,006 - INFO - Updated biographical information for Marilyn Strickland
+2025-04-29 12:26:23,007 - INFO - Updated biographical information for Adrian Smith
+2025-04-29 12:26:23,007 - INFO - Updated biographical information for Steve Scalise
+2025-04-29 12:26:23,008 - INFO - Updated biographical information for Jeanne Shaheen
+2025-04-29 12:26:23,008 - INFO - Updated biographical information for David Schweikert
+2025-04-29 12:26:23,008 - INFO - Updated biographical information for Tim Scott
+2025-04-29 12:26:23,009 - INFO - Updated biographical information for Terri A. Sewell
+2025-04-29 12:26:23,009 - INFO - Updated biographical information for Marlin A. Stutzman
+2025-04-29 12:26:23,010 - INFO - Updated biographical information for Austin Scott
+2025-04-29 12:26:23,010 - INFO - Updated biographical information for Bradley Scott Schneider
+2025-04-29 12:26:23,010 - INFO - Updated biographical information for Eric Swalwell
+2025-04-29 12:26:23,011 - INFO - Updated biographical information for Brian Schatz
+2025-04-29 12:26:23,011 - INFO - Updated biographical information for Jason Smith
+2025-04-29 12:26:23,011 - INFO - Updated biographical information for Elise M. Stefanik
+2025-04-29 12:26:23,012 - INFO - Updated biographical information for Dan Sullivan
+2025-04-29 12:26:23,012 - INFO - Updated biographical information for Lloyd Smucker
+2025-04-29 12:26:23,012 - INFO - Updated biographical information for Darren Soto
+2025-04-29 12:26:23,013 - INFO - Updated biographical information for Thomas R. Suozzi
+2025-04-29 12:26:23,013 - INFO - Updated biographical information for Tina Smith
+2025-04-29 12:26:23,013 - INFO - Updated biographical information for Mary Gay Scanlon
+2025-04-29 12:26:23,014 - INFO - Updated biographical information for Mikie Sherrill
+2025-04-29 12:26:23,014 - INFO - Updated biographical information for Elissa Slotkin
+2025-04-29 12:26:23,015 - INFO - Updated biographical information for Greg Stanton
+2025-04-29 12:26:23,015 - INFO - Updated biographical information for Pete Stauber
+2025-04-29 12:26:23,015 - INFO - Updated biographical information for Bryan Steil
+2025-04-29 12:26:23,016 - INFO - Updated biographical information for W. Gregory Steube
+2025-04-29 12:26:23,016 - INFO - Updated biographical information for Haley M. Stevens
+2025-04-29 12:26:23,017 - INFO - Updated biographical information for Kim Schrier
+2025-04-29 12:26:23,017 - INFO - Updated biographical information for Rick Scott
+2025-04-29 12:26:23,018 - INFO - Updated biographical information for Melanie A. Stansbury
+2025-04-29 12:26:23,018 - INFO - Updated biographical information for Dale W. Strong
+2025-04-29 12:26:23,019 - INFO - Updated biographical information for Hillary J. Scholten
+2025-04-29 12:26:23,019 - INFO - Updated biographical information for Emilia Strong Sykes
+2025-04-29 12:26:23,020 - INFO - Updated biographical information for Keith Self
+2025-04-29 12:26:23,020 - INFO - Updated biographical information for Eric Sorensen
+2025-04-29 12:26:23,021 - INFO - Updated biographical information for Andrea Salinas
+2025-04-29 12:26:23,021 - INFO - Updated biographical information for Eric Schmitt
+2025-04-29 12:26:23,021 - INFO - Updated biographical information for Derek Schmidt
+2025-04-29 12:26:23,022 - INFO - Updated biographical information for Jefferson Shreve
+2025-04-29 12:26:23,022 - INFO - Updated biographical information for Suhas Subramanyam
+2025-04-29 12:26:23,023 - INFO - Updated biographical information for Lateefah Simon
+2025-04-29 12:26:23,023 - INFO - Updated biographical information for Tim Sheehy
+2025-04-29 12:26:23,023 - WARNING - No legislator data found for Donald Trump (ID: T000001)
+2025-04-29 12:26:23,024 - INFO - Updated biographical information for Thomas P. Tiffany
+2025-04-29 12:26:23,024 - INFO - Updated biographical information for Bennie G. Thompson
+2025-04-29 12:26:23,024 - INFO - Updated biographical information for John Thune
+2025-04-29 12:26:23,025 - INFO - Updated biographical information for Tommy Tuberville
+2025-04-29 12:26:23,025 - INFO - Updated biographical information for Mike Thompson
+2025-04-29 12:26:23,026 - INFO - Updated biographical information for Michael R. Turner
+2025-04-29 12:26:23,026 - INFO - Updated biographical information for Glenn Thompson
+2025-04-29 12:26:23,026 - INFO - Updated biographical information for Dina Titus
+2025-04-29 12:26:23,027 - INFO - Updated biographical information for Paul Tonko
+2025-04-29 12:26:23,027 - INFO - Updated biographical information for Mark Takano
+2025-04-29 12:26:23,027 - INFO - Updated biographical information for Norma J. Torres
+2025-04-29 12:26:23,028 - INFO - Updated biographical information for Thom Tillis
+2025-04-29 12:26:23,028 - INFO - Updated biographical information for Claudia Tenney
+2025-04-29 12:26:23,028 - INFO - Updated biographical information for William R. Timmons IV
+2025-04-29 12:26:23,029 - INFO - Updated biographical information for Rashida Tlaib
+2025-04-29 12:26:23,029 - INFO - Updated biographical information for Lori Trahan
+2025-04-29 12:26:23,030 - INFO - Updated biographical information for Ritchie Torres
+2025-04-29 12:26:23,030 - INFO - Updated biographical information for Jill N. Tokuda
+2025-04-29 12:26:23,030 - INFO - Updated biographical information for Shri Thanedar
+2025-04-29 12:26:23,031 - INFO - Updated biographical information for David J. Taylor
+2025-04-29 12:26:23,031 - INFO - Updated biographical information for Derek Tran
+2025-04-29 12:26:23,031 - INFO - Updated biographical information for Lauren Underwood
+2025-04-29 12:26:23,032 - INFO - Updated biographical information for Nydia M. Velázquez
+2025-04-29 12:26:23,032 - INFO - Updated biographical information for Chris Van Hollen
+2025-04-29 12:26:23,032 - INFO - Updated biographical information for David G. Valadao
+2025-04-29 12:26:23,033 - INFO - Updated biographical information for Juan Vargas
+2025-04-29 12:26:23,033 - INFO - Updated biographical information for Marc A. Veasey
+2025-04-29 12:26:23,034 - INFO - Updated biographical information for Jefferson Van Drew
+2025-04-29 12:26:23,035 - INFO - Updated biographical information for Beth Van Duyne
+2025-04-29 12:26:23,035 - INFO - Updated biographical information for Derrick Van Orden
+2025-04-29 12:26:23,036 - INFO - Updated biographical information for Gabe Vasquez
+2025-04-29 12:26:23,036 - INFO - Updated biographical information for Eugene Simon Vindman
+2025-04-29 12:26:23,036 - INFO - Updated biographical information for Maxine Waters
+2025-04-29 12:26:23,037 - INFO - Updated biographical information for Roger F. Wicker
+2025-04-29 12:26:23,037 - INFO - Updated biographical information for Ron Wyden
+2025-04-29 12:26:23,037 - INFO - Updated biographical information for Nikema Williams
+2025-04-29 12:26:23,038 - INFO - Updated biographical information for Raphael G. Warnock
+2025-04-29 12:26:23,038 - INFO - Updated biographical information for Joe Wilson
+2025-04-29 12:26:23,039 - INFO - Updated biographical information for Debbie Wasserman Schultz
+2025-04-29 12:26:23,039 - INFO - Updated biographical information for Tim Walberg
+2025-04-29 12:26:23,039 - INFO - Updated biographical information for Peter Welch
+2025-04-29 12:26:23,040 - INFO - Updated biographical information for Sheldon Whitehouse
+2025-04-29 12:26:23,040 - INFO - Updated biographical information for Robert J. Wittman
+2025-04-29 12:26:23,041 - INFO - Updated biographical information for Mark R. Warner
+2025-04-29 12:26:23,041 - INFO - Updated biographical information for Daniel Webster
+2025-04-29 12:26:23,042 - INFO - Updated biographical information for Frederica S. Wilson
+2025-04-29 12:26:23,042 - INFO - Updated biographical information for Steve Womack
+2025-04-29 12:26:23,042 - INFO - Updated biographical information for Ann Wagner
+2025-04-29 12:26:23,043 - INFO - Updated biographical information for Randy K. Weber, Sr.
+2025-04-29 12:26:23,043 - INFO - Updated biographical information for Roger Williams
+2025-04-29 12:26:23,043 - INFO - Updated biographical information for Elizabeth Warren
+2025-04-29 12:26:23,044 - INFO - Updated biographical information for Bruce Westerman
+2025-04-29 12:26:23,044 - INFO - Updated biographical information for Bonnie Watson Coleman
+2025-04-29 12:26:23,044 - INFO - Updated biographical information for Tony Wied
+2025-04-29 12:26:23,045 - INFO - Updated biographical information for George Whitesides
+2025-04-29 12:26:23,045 - INFO - Updated biographical information for Todd Young
+2025-04-29 12:26:23,045 - INFO - Updated biographical information for Rudy Yakym III
+2025-04-29 12:26:23,046 - INFO - Updated biographical information for Ryan K. Zinke
+2025-04-29 12:26:23,054 - INFO - Migration Summary:
+2025-04-29 12:26:23,055 - INFO - Total records processed: 541
+2025-04-29 12:26:23,055 - INFO - Total records updated: 539
+2025-04-29 12:26:23,055 - INFO - Total records with no changes needed: 0
+2025-04-29 12:26:23,056 - INFO - Total records missing or not found: 2
+2025-04-29 12:26:23,063 - INFO - Biographical information migration completed
+2025-04-29 12:26:23,064 - INFO - Script exiting, no input required.

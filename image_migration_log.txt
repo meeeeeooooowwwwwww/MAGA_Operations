@@ -1,0 +1,552 @@
+2025-04-29 12:18:38,586 - INFO - Starting image URL migration
+2025-04-29 12:18:38,587 - INFO - Loading YAML file: backups/migrated_data_files/legislators-current.yaml
+2025-04-29 12:18:43,305 - INFO - Found 539 legislator records in the YAML file
+2025-04-29 12:18:43,309 - INFO - Found 541 politicians with bioguide IDs in the database
+2025-04-29 12:18:43,310 - INFO - Updated image URL for Robert B. Aderholt to https://bioguide.congress.gov/bioguide/photo/A/A000055.jpg
+2025-04-29 12:18:43,311 - INFO - Updated image URL for Jake Auchincloss to https://bioguide.congress.gov/bioguide/photo/A/A000148.jpg
+2025-04-29 12:18:43,312 - INFO - Updated image URL for Mark E. Amodei to https://bioguide.congress.gov/bioguide/photo/A/A000369.jpg
+2025-04-29 12:18:43,313 - INFO - Updated image URL for Alma S. Adams to https://bioguide.congress.gov/bioguide/photo/A/A000370.jpg
+2025-04-29 12:18:43,313 - INFO - Updated image URL for Pete Aguilar to https://bioguide.congress.gov/bioguide/photo/A/A000371.jpg
+2025-04-29 12:18:43,314 - INFO - Updated image URL for Rick W. Allen to https://bioguide.congress.gov/bioguide/photo/A/A000372.jpg
+2025-04-29 12:18:43,314 - INFO - Updated image URL for Jodey C. Arrington to https://bioguide.congress.gov/bioguide/photo/A/A000375.jpg
+2025-04-29 12:18:43,315 - INFO - Updated image URL for Mark Alford to https://bioguide.congress.gov/bioguide/photo/A/A000379.jpg
+2025-04-29 12:18:43,315 - INFO - Updated image URL for Gabe Amo to https://bioguide.congress.gov/bioguide/photo/A/A000380.jpg
+2025-04-29 12:18:43,316 - INFO - Updated image URL for Yassamin Ansari to https://bioguide.congress.gov/bioguide/photo/A/A000381.jpg
+2025-04-29 12:18:43,317 - INFO - Updated image URL for Angela D. Alsobrooks to https://bioguide.congress.gov/bioguide/photo/A/A000382.jpg
+2025-04-29 12:18:43,318 - INFO - Updated image URL for Joe Biden to https://bioguide.congress.gov/bioguide/photo/B/B000001.jpg
+2025-04-29 12:18:43,318 - INFO - Updated image URL for Sanford D. Bishop, Jr. to https://bioguide.congress.gov/bioguide/photo/B/B000490.jpg
+2025-04-29 12:18:43,319 - INFO - Updated image URL for Cliff Bentz to https://bioguide.congress.gov/bioguide/photo/B/B000668.jpg
+2025-04-29 12:18:43,319 - INFO - Updated image URL for Stephanie I. Bice to https://bioguide.congress.gov/bioguide/photo/B/B000740.jpg
+2025-04-29 12:18:43,320 - INFO - Updated image URL for Lauren Boebert to https://bioguide.congress.gov/bioguide/photo/B/B000825.jpg
+2025-04-29 12:18:43,320 - INFO - Updated image URL for Tammy Baldwin to https://bioguide.congress.gov/bioguide/photo/B/B001230.jpg
+2025-04-29 12:18:43,320 - INFO - Updated image URL for John Boozman to https://bioguide.congress.gov/bioguide/photo/B/B001236.jpg
+2025-04-29 12:18:43,321 - INFO - Updated image URL for Marsha Blackburn to https://bioguide.congress.gov/bioguide/photo/B/B001243.jpg
+2025-04-29 12:18:43,322 - INFO - Updated image URL for Gus M. Bilirakis to https://bioguide.congress.gov/bioguide/photo/B/B001257.jpg
+2025-04-29 12:18:43,322 - INFO - Updated image URL for Vern Buchanan to https://bioguide.congress.gov/bioguide/photo/B/B001260.jpg
+2025-04-29 12:18:43,323 - INFO - Updated image URL for John Barrasso to https://bioguide.congress.gov/bioguide/photo/B/B001261.jpg
+2025-04-29 12:18:43,323 - INFO - Updated image URL for Michael F. Bennet to https://bioguide.congress.gov/bioguide/photo/B/B001267.jpg
+2025-04-29 12:18:43,323 - INFO - Updated image URL for Richard Blumenthal to https://bioguide.congress.gov/bioguide/photo/B/B001277.jpg
+2025-04-29 12:18:43,324 - INFO - Updated image URL for Suzanne Bonamici to https://bioguide.congress.gov/bioguide/photo/B/B001278.jpg
+2025-04-29 12:18:43,324 - INFO - Updated image URL for Joyce Beatty to https://bioguide.congress.gov/bioguide/photo/B/B001281.jpg
+2025-04-29 12:18:43,325 - INFO - Updated image URL for Andy Barr to https://bioguide.congress.gov/bioguide/photo/B/B001282.jpg
+2025-04-29 12:18:43,325 - INFO - Updated image URL for Julia Brownley to https://bioguide.congress.gov/bioguide/photo/B/B001285.jpg
+2025-04-29 12:18:43,325 - INFO - Updated image URL for Ami Bera to https://bioguide.congress.gov/bioguide/photo/B/B001287.jpg
+2025-04-29 12:18:43,326 - INFO - Updated image URL for Cory A. Booker to https://bioguide.congress.gov/bioguide/photo/B/B001288.jpg
+2025-04-29 12:18:43,326 - INFO - Updated image URL for Brian Babin to https://bioguide.congress.gov/bioguide/photo/B/B001291.jpg
+2025-04-29 12:18:43,326 - INFO - Updated image URL for Donald S. Beyer, Jr. to https://bioguide.congress.gov/bioguide/photo/B/B001292.jpg
+2025-04-29 12:18:43,327 - INFO - Updated image URL for Mike Bost to https://bioguide.congress.gov/bioguide/photo/B/B001295.jpg
+2025-04-29 12:18:43,327 - INFO - Updated image URL for Brendan F. Boyle to https://bioguide.congress.gov/bioguide/photo/B/B001296.jpg
+2025-04-29 12:18:43,327 - INFO - Updated image URL for Don Bacon to https://bioguide.congress.gov/bioguide/photo/B/B001298.jpg
+2025-04-29 12:18:43,328 - INFO - Updated image URL for Jim Banks to https://bioguide.congress.gov/bioguide/photo/B/B001299.jpg
+2025-04-29 12:18:43,328 - INFO - Updated image URL for Nanette Diaz Barragán to https://bioguide.congress.gov/bioguide/photo/B/B001300.jpg
+2025-04-29 12:18:43,328 - INFO - Updated image URL for Jack Bergman to https://bioguide.congress.gov/bioguide/photo/B/B001301.jpg
+2025-04-29 12:18:43,329 - INFO - Updated image URL for Andy Biggs to https://bioguide.congress.gov/bioguide/photo/B/B001302.jpg
+2025-04-29 12:18:43,329 - INFO - Updated image URL for Lisa Blunt Rochester to https://bioguide.congress.gov/bioguide/photo/B/B001303.jpg
+2025-04-29 12:18:43,330 - INFO - Updated image URL for Ted Budd to https://bioguide.congress.gov/bioguide/photo/B/B001305.jpg
+2025-04-29 12:18:43,330 - INFO - Updated image URL for Troy Balderson to https://bioguide.congress.gov/bioguide/photo/B/B001306.jpg
+2025-04-29 12:18:43,330 - INFO - Updated image URL for James R. Baird to https://bioguide.congress.gov/bioguide/photo/B/B001307.jpg
+2025-04-29 12:18:43,331 - INFO - Updated image URL for Tim Burchett to https://bioguide.congress.gov/bioguide/photo/B/B001309.jpg
+2025-04-29 12:18:43,331 - INFO - Updated image URL for Shontel M. Brown to https://bioguide.congress.gov/bioguide/photo/B/B001313.jpg
+2025-04-29 12:18:43,332 - INFO - Updated image URL for Aaron Bean to https://bioguide.congress.gov/bioguide/photo/B/B001314.jpg
+2025-04-29 12:18:43,332 - INFO - Updated image URL for Nikki Budzinski to https://bioguide.congress.gov/bioguide/photo/B/B001315.jpg
+2025-04-29 12:18:43,333 - INFO - Updated image URL for Eric Burlison to https://bioguide.congress.gov/bioguide/photo/B/B001316.jpg
+2025-04-29 12:18:43,334 - INFO - Updated image URL for Josh Brecheen to https://bioguide.congress.gov/bioguide/photo/B/B001317.jpg
+2025-04-29 12:18:43,335 - INFO - Updated image URL for Becca Balint to https://bioguide.congress.gov/bioguide/photo/B/B001318.jpg
+2025-04-29 12:18:43,335 - INFO - Updated image URL for Katie Boyd Britt to https://bioguide.congress.gov/bioguide/photo/B/B001319.jpg
+2025-04-29 12:18:43,336 - INFO - Updated image URL for Tom Barrett to https://bioguide.congress.gov/bioguide/photo/B/B001321.jpg
+2025-04-29 12:18:43,337 - INFO - Updated image URL for Michael Baumgartner to https://bioguide.congress.gov/bioguide/photo/B/B001322.jpg
+2025-04-29 12:18:43,337 - INFO - Updated image URL for Nicholas J. Begich III to https://bioguide.congress.gov/bioguide/photo/B/B001323.jpg
+2025-04-29 12:18:43,338 - INFO - Updated image URL for Wesley Bell to https://bioguide.congress.gov/bioguide/photo/B/B001324.jpg
+2025-04-29 12:18:43,338 - INFO - Updated image URL for Sheri Biggs to https://bioguide.congress.gov/bioguide/photo/B/B001325.jpg
+2025-04-29 12:18:43,338 - INFO - Updated image URL for Janelle S. Bynum to https://bioguide.congress.gov/bioguide/photo/B/B001326.jpg
+2025-04-29 12:18:43,339 - INFO - Updated image URL for Robert P. Bresnahan, Jr. to https://bioguide.congress.gov/bioguide/photo/B/B001327.jpg
+2025-04-29 12:18:43,339 - INFO - Updated image URL for Ken Calvert to https://bioguide.congress.gov/bioguide/photo/C/C000059.jpg
+2025-04-29 12:18:43,340 - INFO - Updated image URL for Maria Cantwell to https://bioguide.congress.gov/bioguide/photo/C/C000127.jpg
+2025-04-29 12:18:43,340 - INFO - Updated image URL for James E. Clyburn to https://bioguide.congress.gov/bioguide/photo/C/C000537.jpg
+2025-04-29 12:18:43,341 - INFO - Updated image URL for Mike Crapo to https://bioguide.congress.gov/bioguide/photo/C/C000880.jpg
+2025-04-29 12:18:43,341 - INFO - Updated image URL for Susan M. Collins to https://bioguide.congress.gov/bioguide/photo/C/C001035.jpg
+2025-04-29 12:18:43,341 - INFO - Updated image URL for Kat Cammack to https://bioguide.congress.gov/bioguide/photo/C/C001039.jpg
+2025-04-29 12:18:43,342 - INFO - Updated image URL for Shelley Moore Capito to https://bioguide.congress.gov/bioguide/photo/C/C001047.jpg
+2025-04-29 12:18:43,342 - INFO - Updated image URL for John R. Carter to https://bioguide.congress.gov/bioguide/photo/C/C001051.jpg
+2025-04-29 12:18:43,342 - INFO - Updated image URL for Tom Cole to https://bioguide.congress.gov/bioguide/photo/C/C001053.jpg
+2025-04-29 12:18:43,343 - INFO - Updated image URL for Ed Case to https://bioguide.congress.gov/bioguide/photo/C/C001055.jpg
+2025-04-29 12:18:43,343 - INFO - Updated image URL for John Cornyn to https://bioguide.congress.gov/bioguide/photo/C/C001056.jpg
+2025-04-29 12:18:43,344 - INFO - Updated image URL for Jim Costa to https://bioguide.congress.gov/bioguide/photo/C/C001059.jpg
+2025-04-29 12:18:43,344 - INFO - Updated image URL for Emanuel Cleaver to https://bioguide.congress.gov/bioguide/photo/C/C001061.jpg
+2025-04-29 12:18:43,344 - INFO - Updated image URL for Henry Cuellar to https://bioguide.congress.gov/bioguide/photo/C/C001063.jpg
+2025-04-29 12:18:43,345 - INFO - Updated image URL for Kathy Castor to https://bioguide.congress.gov/bioguide/photo/C/C001066.jpg
+2025-04-29 12:18:43,345 - INFO - Updated image URL for Yvette D. Clarke to https://bioguide.congress.gov/bioguide/photo/C/C001067.jpg
+2025-04-29 12:18:43,346 - INFO - Updated image URL for Steve Cohen to https://bioguide.congress.gov/bioguide/photo/C/C001068.jpg
+2025-04-29 12:18:43,346 - INFO - Updated image URL for Joe Courtney to https://bioguide.congress.gov/bioguide/photo/C/C001069.jpg
+2025-04-29 12:18:43,346 - INFO - Updated image URL for André Carson to https://bioguide.congress.gov/bioguide/photo/C/C001072.jpg
+2025-04-29 12:18:43,347 - INFO - Updated image URL for Bill Cassidy to https://bioguide.congress.gov/bioguide/photo/C/C001075.jpg
+2025-04-29 12:18:43,347 - INFO - Updated image URL for Gerald E. Connolly to https://bioguide.congress.gov/bioguide/photo/C/C001078.jpg
+2025-04-29 12:18:43,348 - INFO - Updated image URL for Judy Chu to https://bioguide.congress.gov/bioguide/photo/C/C001080.jpg
+2025-04-29 12:18:43,348 - INFO - Updated image URL for Eric A. "Rick" Crawford to https://bioguide.congress.gov/bioguide/photo/C/C001087.jpg
+2025-04-29 12:18:43,349 - INFO - Updated image URL for Christopher A. Coons to https://bioguide.congress.gov/bioguide/photo/C/C001088.jpg
+2025-04-29 12:18:43,349 - INFO - Updated image URL for Joaquin Castro to https://bioguide.congress.gov/bioguide/photo/C/C001091.jpg
+2025-04-29 12:18:43,350 - INFO - Updated image URL for Tom Cotton to https://bioguide.congress.gov/bioguide/photo/C/C001095.jpg
+2025-04-29 12:18:43,350 - INFO - Updated image URL for Kevin Cramer to https://bioguide.congress.gov/bioguide/photo/C/C001096.jpg
+2025-04-29 12:18:43,351 - INFO - Updated image URL for Ted Cruz to https://bioguide.congress.gov/bioguide/photo/C/C001098.jpg
+2025-04-29 12:18:43,352 - INFO - Updated image URL for Katherine M. Clark to https://bioguide.congress.gov/bioguide/photo/C/C001101.jpg
+2025-04-29 12:18:43,352 - INFO - Updated image URL for Earl L. "Buddy" Carter to https://bioguide.congress.gov/bioguide/photo/C/C001103.jpg
+2025-04-29 12:18:43,353 - INFO - Updated image URL for James Comer to https://bioguide.congress.gov/bioguide/photo/C/C001108.jpg
+2025-04-29 12:18:43,353 - INFO - Updated image URL for J. Luis Correa to https://bioguide.congress.gov/bioguide/photo/C/C001110.jpg
+2025-04-29 12:18:43,354 - INFO - Updated image URL for Salud O. Carbajal to https://bioguide.congress.gov/bioguide/photo/C/C001112.jpg
+2025-04-29 12:18:43,354 - INFO - Updated image URL for Catherine Cortez Masto to https://bioguide.congress.gov/bioguide/photo/C/C001113.jpg
+2025-04-29 12:18:43,355 - INFO - Updated image URL for John R. Curtis to https://bioguide.congress.gov/bioguide/photo/C/C001114.jpg
+2025-04-29 12:18:43,355 - INFO - Updated image URL for Michael Cloud to https://bioguide.congress.gov/bioguide/photo/C/C001115.jpg
+2025-04-29 12:18:43,356 - INFO - Updated image URL for Andrew S. Clyde to https://bioguide.congress.gov/bioguide/photo/C/C001116.jpg
+2025-04-29 12:18:43,356 - INFO - Updated image URL for Sean Casten to https://bioguide.congress.gov/bioguide/photo/C/C001117.jpg
+2025-04-29 12:18:43,356 - INFO - Updated image URL for Ben Cline to https://bioguide.congress.gov/bioguide/photo/C/C001118.jpg
+2025-04-29 12:18:43,357 - INFO - Updated image URL for Angie Craig to https://bioguide.congress.gov/bioguide/photo/C/C001119.jpg
+2025-04-29 12:18:43,357 - INFO - Updated image URL for Dan Crenshaw to https://bioguide.congress.gov/bioguide/photo/C/C001120.jpg
+2025-04-29 12:18:43,357 - INFO - Updated image URL for Jason Crow to https://bioguide.congress.gov/bioguide/photo/C/C001121.jpg
+2025-04-29 12:18:43,358 - INFO - Updated image URL for Gilbert Ray Cisneros, Jr. to https://bioguide.congress.gov/bioguide/photo/C/C001123.jpg
+2025-04-29 12:18:43,358 - INFO - Updated image URL for Troy A. Carter to https://bioguide.congress.gov/bioguide/photo/C/C001125.jpg
+2025-04-29 12:18:43,358 - INFO - Updated image URL for Mike Carey to https://bioguide.congress.gov/bioguide/photo/C/C001126.jpg
+2025-04-29 12:18:43,359 - INFO - Updated image URL for Sheila Cherfilus-McCormick to https://bioguide.congress.gov/bioguide/photo/C/C001127.jpg
+2025-04-29 12:18:43,359 - INFO - Updated image URL for Mike Collins to https://bioguide.congress.gov/bioguide/photo/C/C001129.jpg
+2025-04-29 12:18:43,359 - INFO - Updated image URL for Jasmine Crockett to https://bioguide.congress.gov/bioguide/photo/C/C001130.jpg
+2025-04-29 12:18:43,360 - INFO - Updated image URL for Greg Casar to https://bioguide.congress.gov/bioguide/photo/C/C001131.jpg
+2025-04-29 12:18:43,360 - INFO - Updated image URL for Elijah Crane to https://bioguide.congress.gov/bioguide/photo/C/C001132.jpg
+2025-04-29 12:18:43,361 - INFO - Updated image URL for Juan Ciscomani to https://bioguide.congress.gov/bioguide/photo/C/C001133.jpg
+2025-04-29 12:18:43,361 - INFO - Updated image URL for Herbert C. Conaway, Jr. to https://bioguide.congress.gov/bioguide/photo/C/C001136.jpg
+2025-04-29 12:18:43,361 - INFO - Updated image URL for Jeff Crank to https://bioguide.congress.gov/bioguide/photo/C/C001137.jpg
+2025-04-29 12:18:43,362 - INFO - Updated image URL for Byron Donalds to https://bioguide.congress.gov/bioguide/photo/D/D000032.jpg
+2025-04-29 12:18:43,362 - INFO - Updated image URL for Danny K. Davis to https://bioguide.congress.gov/bioguide/photo/D/D000096.jpg
+2025-04-29 12:18:43,362 - INFO - Updated image URL for Diana DeGette to https://bioguide.congress.gov/bioguide/photo/D/D000197.jpg
+2025-04-29 12:18:43,363 - INFO - Updated image URL for Rosa L. DeLauro to https://bioguide.congress.gov/bioguide/photo/D/D000216.jpg
+2025-04-29 12:18:43,363 - INFO - Updated image URL for Donald G. Davis to https://bioguide.congress.gov/bioguide/photo/D/D000230.jpg
+2025-04-29 12:18:43,364 - INFO - Updated image URL for Lloyd Doggett to https://bioguide.congress.gov/bioguide/photo/D/D000399.jpg
+2025-04-29 12:18:43,364 - INFO - Updated image URL for Christopher R. Deluzio to https://bioguide.congress.gov/bioguide/photo/D/D000530.jpg
+2025-04-29 12:18:43,365 - INFO - Updated image URL for Richard J. Durbin to https://bioguide.congress.gov/bioguide/photo/D/D000563.jpg
+2025-04-29 12:18:43,365 - INFO - Updated image URL for Monica De La Cruz to https://bioguide.congress.gov/bioguide/photo/D/D000594.jpg
+2025-04-29 12:18:43,367 - INFO - Updated image URL for Mario Diaz-Balart to https://bioguide.congress.gov/bioguide/photo/D/D000600.jpg
+2025-04-29 12:18:43,368 - INFO - Updated image URL for Scott DesJarlais to https://bioguide.congress.gov/bioguide/photo/D/D000616.jpg
+2025-04-29 12:18:43,368 - INFO - Updated image URL for Suzan K. DelBene to https://bioguide.congress.gov/bioguide/photo/D/D000617.jpg
+2025-04-29 12:18:43,369 - INFO - Updated image URL for Steve Daines to https://bioguide.congress.gov/bioguide/photo/D/D000618.jpg
+2025-04-29 12:18:43,370 - INFO - Updated image URL for Tammy Duckworth to https://bioguide.congress.gov/bioguide/photo/D/D000622.jpg
+2025-04-29 12:18:43,370 - INFO - Updated image URL for Mark DeSaulnier to https://bioguide.congress.gov/bioguide/photo/D/D000623.jpg
+2025-04-29 12:18:43,371 - INFO - Updated image URL for Debbie Dingell to https://bioguide.congress.gov/bioguide/photo/D/D000624.jpg
+2025-04-29 12:18:43,371 - INFO - Updated image URL for Warren Davidson to https://bioguide.congress.gov/bioguide/photo/D/D000626.jpg
+2025-04-29 12:18:43,371 - INFO - Updated image URL for Neal P. Dunn to https://bioguide.congress.gov/bioguide/photo/D/D000628.jpg
+2025-04-29 12:18:43,372 - INFO - Updated image URL for Sharice Davids to https://bioguide.congress.gov/bioguide/photo/D/D000629.jpg
+2025-04-29 12:18:43,372 - INFO - Updated image URL for Madeleine Dean to https://bioguide.congress.gov/bioguide/photo/D/D000631.jpg
+2025-04-29 12:18:43,373 - INFO - Updated image URL for Troy Downing to https://bioguide.congress.gov/bioguide/photo/D/D000634.jpg
+2025-04-29 12:18:43,373 - INFO - Updated image URL for Maxine Dexter to https://bioguide.congress.gov/bioguide/photo/D/D000635.jpg
+2025-04-29 12:18:43,374 - INFO - Updated image URL for Jake Ellzey to https://bioguide.congress.gov/bioguide/photo/E/E000071.jpg
+2025-04-29 12:18:43,374 - INFO - Updated image URL for Mike Ezell to https://bioguide.congress.gov/bioguide/photo/E/E000235.jpg
+2025-04-29 12:18:43,374 - INFO - Updated image URL for Chuck Edwards to https://bioguide.congress.gov/bioguide/photo/E/E000246.jpg
+2025-04-29 12:18:43,375 - INFO - Updated image URL for Tom Emmer to https://bioguide.congress.gov/bioguide/photo/E/E000294.jpg
+2025-04-29 12:18:43,375 - INFO - Updated image URL for Joni Ernst to https://bioguide.congress.gov/bioguide/photo/E/E000295.jpg
+2025-04-29 12:18:43,375 - INFO - Updated image URL for Dwight Evans to https://bioguide.congress.gov/bioguide/photo/E/E000296.jpg
+2025-04-29 12:18:43,376 - INFO - Updated image URL for Adriano Espaillat to https://bioguide.congress.gov/bioguide/photo/E/E000297.jpg
+2025-04-29 12:18:43,376 - INFO - Updated image URL for Ron Estes to https://bioguide.congress.gov/bioguide/photo/E/E000298.jpg
+2025-04-29 12:18:43,377 - INFO - Updated image URL for Veronica Escobar to https://bioguide.congress.gov/bioguide/photo/E/E000299.jpg
+2025-04-29 12:18:43,377 - INFO - Updated image URL for Gabe Evans to https://bioguide.congress.gov/bioguide/photo/E/E000300.jpg
+2025-04-29 12:18:43,377 - INFO - Updated image URL for Sarah Elfreth to https://bioguide.congress.gov/bioguide/photo/E/E000301.jpg
+2025-04-29 12:18:43,378 - INFO - Updated image URL for Cleo Fields to https://bioguide.congress.gov/bioguide/photo/F/F000110.jpg
+2025-04-29 12:18:43,378 - INFO - Updated image URL for Pat Fallon to https://bioguide.congress.gov/bioguide/photo/F/F000246.jpg
+2025-04-29 12:18:43,379 - INFO - Updated image URL for Randy Feenstra to https://bioguide.congress.gov/bioguide/photo/F/F000446.jpg
+2025-04-29 12:18:43,379 - INFO - Updated image URL for Virginia Foxx to https://bioguide.congress.gov/bioguide/photo/F/F000450.jpg
+2025-04-29 12:18:43,379 - INFO - Updated image URL for Bill Foster to https://bioguide.congress.gov/bioguide/photo/F/F000454.jpg
+2025-04-29 12:18:43,380 - INFO - Updated image URL for Charles J. "Chuck" Fleischmann to https://bioguide.congress.gov/bioguide/photo/F/F000459.jpg
+2025-04-29 12:18:43,380 - INFO - Updated image URL for Lois Frankel to https://bioguide.congress.gov/bioguide/photo/F/F000462.jpg
+2025-04-29 12:18:43,381 - INFO - Updated image URL for Deb Fischer to https://bioguide.congress.gov/bioguide/photo/F/F000463.jpg
+2025-04-29 12:18:43,381 - INFO - Updated image URL for Brian K. Fitzpatrick to https://bioguide.congress.gov/bioguide/photo/F/F000466.jpg
+2025-04-29 12:18:43,381 - INFO - Updated image URL for Lizzie Fletcher to https://bioguide.congress.gov/bioguide/photo/F/F000468.jpg
+2025-04-29 12:18:43,382 - INFO - Updated image URL for Russ Fulcher to https://bioguide.congress.gov/bioguide/photo/F/F000469.jpg
+2025-04-29 12:18:43,382 - INFO - Updated image URL for Michelle Fischbach to https://bioguide.congress.gov/bioguide/photo/F/F000470.jpg
+2025-04-29 12:18:43,383 - INFO - Updated image URL for Scott Fitzgerald to https://bioguide.congress.gov/bioguide/photo/F/F000471.jpg
+2025-04-29 12:18:43,384 - INFO - Updated image URL for Scott Franklin to https://bioguide.congress.gov/bioguide/photo/F/F000472.jpg
+2025-04-29 12:18:43,385 - INFO - Updated image URL for Mike Flood to https://bioguide.congress.gov/bioguide/photo/F/F000474.jpg
+2025-04-29 12:18:43,385 - INFO - Updated image URL for Brad Finstad to https://bioguide.congress.gov/bioguide/photo/F/F000475.jpg
+2025-04-29 12:18:43,386 - INFO - Updated image URL for Maxwell Frost to https://bioguide.congress.gov/bioguide/photo/F/F000476.jpg
+2025-04-29 12:18:43,386 - INFO - Updated image URL for Valerie P. Foushee to https://bioguide.congress.gov/bioguide/photo/F/F000477.jpg
+2025-04-29 12:18:43,387 - INFO - Updated image URL for Russell Fry to https://bioguide.congress.gov/bioguide/photo/F/F000478.jpg
+2025-04-29 12:18:43,387 - INFO - Updated image URL for John Fetterman to https://bioguide.congress.gov/bioguide/photo/F/F000479.jpg
+2025-04-29 12:18:43,388 - INFO - Updated image URL for Vince Fong to https://bioguide.congress.gov/bioguide/photo/F/F000480.jpg
+2025-04-29 12:18:43,388 - INFO - Updated image URL for Shomari Figures to https://bioguide.congress.gov/bioguide/photo/F/F000481.jpg
+2025-04-29 12:18:43,389 - INFO - Updated image URL for Julie Fedorchak to https://bioguide.congress.gov/bioguide/photo/F/F000482.jpg
+2025-04-29 12:18:43,389 - INFO - Updated image URL for Laura Friedman to https://bioguide.congress.gov/bioguide/photo/F/F000483.jpg
+2025-04-29 12:18:43,390 - INFO - Updated image URL for Randy Fine to https://bioguide.congress.gov/bioguide/photo/F/F000484.jpg
+2025-04-29 12:18:43,390 - INFO - Updated image URL for Lindsey Graham to https://bioguide.congress.gov/bioguide/photo/G/G000359.jpg
+2025-04-29 12:18:43,391 - INFO - Updated image URL for Chuck Grassley to https://bioguide.congress.gov/bioguide/photo/G/G000386.jpg
+2025-04-29 12:18:43,391 - INFO - Updated image URL for Sam Graves to https://bioguide.congress.gov/bioguide/photo/G/G000546.jpg
+2025-04-29 12:18:43,391 - INFO - Updated image URL for Al Green to https://bioguide.congress.gov/bioguide/photo/G/G000553.jpg
+2025-04-29 12:18:43,392 - INFO - Updated image URL for Kirsten E. Gillibrand to https://bioguide.congress.gov/bioguide/photo/G/G000555.jpg
+2025-04-29 12:18:43,392 - INFO - Updated image URL for Brett Guthrie to https://bioguide.congress.gov/bioguide/photo/G/G000558.jpg
+2025-04-29 12:18:43,393 - INFO - Updated image URL for John Garamendi to https://bioguide.congress.gov/bioguide/photo/G/G000559.jpg
+2025-04-29 12:18:43,393 - INFO - Updated image URL for Paul A. Gosar to https://bioguide.congress.gov/bioguide/photo/G/G000565.jpg
+2025-04-29 12:18:43,393 - INFO - Updated image URL for H. Morgan Griffith to https://bioguide.congress.gov/bioguide/photo/G/G000568.jpg
+2025-04-29 12:18:43,394 - INFO - Updated image URL for Ruben Gallego to https://bioguide.congress.gov/bioguide/photo/G/G000574.jpg
+2025-04-29 12:18:43,394 - INFO - Updated image URL for Glenn Grothman to https://bioguide.congress.gov/bioguide/photo/G/G000576.jpg
+2025-04-29 12:18:43,395 - INFO - Updated image URL for Vicente Gonzalez to https://bioguide.congress.gov/bioguide/photo/G/G000581.jpg
+2025-04-29 12:18:43,395 - INFO - Updated image URL for Josh Gottheimer to https://bioguide.congress.gov/bioguide/photo/G/G000583.jpg
+2025-04-29 12:18:43,395 - INFO - Updated image URL for Jimmy Gomez to https://bioguide.congress.gov/bioguide/photo/G/G000585.jpg
+2025-04-29 12:18:43,396 - INFO - Updated image URL for Jesús G. "Chuy" García to https://bioguide.congress.gov/bioguide/photo/G/G000586.jpg
+2025-04-29 12:18:43,396 - INFO - Updated image URL for Sylvia R. Garcia to https://bioguide.congress.gov/bioguide/photo/G/G000587.jpg
+2025-04-29 12:18:43,397 - INFO - Updated image URL for Lance Gooden to https://bioguide.congress.gov/bioguide/photo/G/G000589.jpg
+2025-04-29 12:18:43,397 - INFO - Updated image URL for Mark E. Green to https://bioguide.congress.gov/bioguide/photo/G/G000590.jpg
+2025-04-29 12:18:43,397 - INFO - Updated image URL for Michael Guest to https://bioguide.congress.gov/bioguide/photo/G/G000591.jpg
+2025-04-29 12:18:43,398 - INFO - Updated image URL for Jared F. Golden to https://bioguide.congress.gov/bioguide/photo/G/G000592.jpg
+2025-04-29 12:18:43,398 - INFO - Updated image URL for Carlos A. Gimenez to https://bioguide.congress.gov/bioguide/photo/G/G000593.jpg
+2025-04-29 12:18:43,400 - INFO - Updated image URL for Tony Gonzales to https://bioguide.congress.gov/bioguide/photo/G/G000594.jpg
+2025-04-29 12:18:43,401 - INFO - Updated image URL for Marjorie Taylor Greene to https://bioguide.congress.gov/bioguide/photo/G/G000596.jpg
+2025-04-29 12:18:43,401 - INFO - Updated image URL for Andrew R. Garbarino to https://bioguide.congress.gov/bioguide/photo/G/G000597.jpg
+2025-04-29 12:18:43,402 - INFO - Updated image URL for Robert Garcia to https://bioguide.congress.gov/bioguide/photo/G/G000598.jpg
+2025-04-29 12:18:43,402 - INFO - Updated image URL for Daniel S. Goldman to https://bioguide.congress.gov/bioguide/photo/G/G000599.jpg
+2025-04-29 12:18:43,403 - INFO - Updated image URL for Marie Gluesenkamp Perez to https://bioguide.congress.gov/bioguide/photo/G/G000600.jpg
+2025-04-29 12:18:43,403 - INFO - Updated image URL for Craig A. Goldman to https://bioguide.congress.gov/bioguide/photo/G/G000601.jpg
+2025-04-29 12:18:43,404 - INFO - Updated image URL for Laura Gillen to https://bioguide.congress.gov/bioguide/photo/G/G000602.jpg
+2025-04-29 12:18:43,404 - INFO - Updated image URL for Brandon Gill to https://bioguide.congress.gov/bioguide/photo/G/G000603.jpg
+2025-04-29 12:18:43,405 - INFO - Updated image URL for Maggie Goodlander to https://bioguide.congress.gov/bioguide/photo/G/G000604.jpg
+2025-04-29 12:18:43,405 - INFO - Updated image URL for Adam Gray to https://bioguide.congress.gov/bioguide/photo/G/G000605.jpg
+2025-04-29 12:18:43,405 - INFO - Updated image URL for John W. Hickenlooper to https://bioguide.congress.gov/bioguide/photo/H/H000273.jpg
+2025-04-29 12:18:43,406 - INFO - Updated image URL for Bill Hagerty to https://bioguide.congress.gov/bioguide/photo/H/H000601.jpg
+2025-04-29 12:18:43,406 - INFO - Updated image URL for Steny H. Hoyer to https://bioguide.congress.gov/bioguide/photo/H/H000874.jpg
+2025-04-29 12:18:43,406 - INFO - Updated image URL for Mazie K. Hirono to https://bioguide.congress.gov/bioguide/photo/H/H001042.jpg
+2025-04-29 12:18:43,407 - INFO - Updated image URL for Martin Heinrich to https://bioguide.congress.gov/bioguide/photo/H/H001046.jpg
+2025-04-29 12:18:43,407 - INFO - Updated image URL for James A. Himes to https://bioguide.congress.gov/bioguide/photo/H/H001047.jpg
+2025-04-29 12:18:43,408 - INFO - Updated image URL for Andy Harris to https://bioguide.congress.gov/bioguide/photo/H/H001052.jpg
+2025-04-29 12:18:43,408 - INFO - Updated image URL for Bill Huizenga to https://bioguide.congress.gov/bioguide/photo/H/H001058.jpg
+2025-04-29 12:18:43,409 - INFO - Updated image URL for John Hoeven to https://bioguide.congress.gov/bioguide/photo/H/H001061.jpg
+2025-04-29 12:18:43,409 - INFO - Updated image URL for Steven Horsford to https://bioguide.congress.gov/bioguide/photo/H/H001066.jpg
+2025-04-29 12:18:43,410 - INFO - Updated image URL for Richard Hudson to https://bioguide.congress.gov/bioguide/photo/H/H001067.jpg
+2025-04-29 12:18:43,410 - INFO - Updated image URL for Jared Huffman to https://bioguide.congress.gov/bioguide/photo/H/H001068.jpg
+2025-04-29 12:18:43,410 - INFO - Updated image URL for J. French Hill to https://bioguide.congress.gov/bioguide/photo/H/H001072.jpg
+2025-04-29 12:18:43,411 - INFO - Updated image URL for Margaret Wood Hassan to https://bioguide.congress.gov/bioguide/photo/H/H001076.jpg
+2025-04-29 12:18:43,411 - INFO - Updated image URL for Clay Higgins to https://bioguide.congress.gov/bioguide/photo/H/H001077.jpg
+2025-04-29 12:18:43,412 - INFO - Updated image URL for Cindy Hyde-Smith to https://bioguide.congress.gov/bioguide/photo/H/H001079.jpg
+2025-04-29 12:18:43,412 - INFO - Updated image URL for Jahana Hayes to https://bioguide.congress.gov/bioguide/photo/H/H001081.jpg
+2025-04-29 12:18:43,413 - INFO - Updated image URL for Kevin Hern to https://bioguide.congress.gov/bioguide/photo/H/H001082.jpg
+2025-04-29 12:18:43,413 - INFO - Updated image URL for Chrissy Houlahan to https://bioguide.congress.gov/bioguide/photo/H/H001085.jpg
+2025-04-29 12:18:43,414 - INFO - Updated image URL for Diana Harshbarger to https://bioguide.congress.gov/bioguide/photo/H/H001086.jpg
+2025-04-29 12:18:43,414 - INFO - Updated image URL for Josh Hawley to https://bioguide.congress.gov/bioguide/photo/H/H001089.jpg
+2025-04-29 12:18:43,414 - INFO - Updated image URL for Josh Harder to https://bioguide.congress.gov/bioguide/photo/H/H001090.jpg
+2025-04-29 12:18:43,415 - INFO - Updated image URL for Ashley Hinson to https://bioguide.congress.gov/bioguide/photo/H/H001091.jpg
+2025-04-29 12:18:43,415 - INFO - Updated image URL for Erin Houchin to https://bioguide.congress.gov/bioguide/photo/H/H001093.jpg
+2025-04-29 12:18:43,416 - INFO - Updated image URL for Val T. Hoyle to https://bioguide.congress.gov/bioguide/photo/H/H001094.jpg
+2025-04-29 12:18:43,417 - INFO - Updated image URL for Wesley Hunt to https://bioguide.congress.gov/bioguide/photo/H/H001095.jpg
+2025-04-29 12:18:43,418 - INFO - Updated image URL for Harriet M. Hageman to https://bioguide.congress.gov/bioguide/photo/H/H001096.jpg
+2025-04-29 12:18:43,419 - INFO - Updated image URL for Abraham J. Hamadeh to https://bioguide.congress.gov/bioguide/photo/H/H001098.jpg
+2025-04-29 12:18:43,419 - INFO - Updated image URL for Mike Haridopolos to https://bioguide.congress.gov/bioguide/photo/H/H001099.jpg
+2025-04-29 12:18:43,420 - INFO - Updated image URL for Jeff Hurd to https://bioguide.congress.gov/bioguide/photo/H/H001100.jpg
+2025-04-29 12:18:43,420 - INFO - Updated image URL for Pat Harrigan to https://bioguide.congress.gov/bioguide/photo/H/H001101.jpg
+2025-04-29 12:18:43,421 - INFO - Updated image URL for Mark Harris to https://bioguide.congress.gov/bioguide/photo/H/H001102.jpg
+2025-04-29 12:18:43,421 - INFO - Updated image URL for Pablo José Hernández to https://bioguide.congress.gov/bioguide/photo/H/H001103.jpg
+2025-04-29 12:18:43,421 - INFO - Updated image URL for Jon Husted to https://bioguide.congress.gov/bioguide/photo/H/H001104.jpg
+2025-04-29 12:18:43,422 - INFO - Updated image URL for Darrell Issa to https://bioguide.congress.gov/bioguide/photo/I/I000056.jpg
+2025-04-29 12:18:43,422 - INFO - Updated image URL for Glenn Ivey to https://bioguide.congress.gov/bioguide/photo/I/I000058.jpg
+2025-04-29 12:18:43,422 - INFO - Updated image URL for Henry C. "Hank" Johnson, Jr. to https://bioguide.congress.gov/bioguide/photo/J/J000288.jpg
+2025-04-29 12:18:43,423 - INFO - Updated image URL for Jim Jordan to https://bioguide.congress.gov/bioguide/photo/J/J000289.jpg
+2025-04-29 12:18:43,423 - INFO - Updated image URL for Ron Johnson to https://bioguide.congress.gov/bioguide/photo/J/J000293.jpg
+2025-04-29 12:18:43,423 - INFO - Updated image URL for Hakeem S. Jeffries to https://bioguide.congress.gov/bioguide/photo/J/J000294.jpg
+2025-04-29 12:18:43,424 - INFO - Updated image URL for David P. Joyce to https://bioguide.congress.gov/bioguide/photo/J/J000295.jpg
+2025-04-29 12:18:43,424 - INFO - Updated image URL for Pramila Jayapal to https://bioguide.congress.gov/bioguide/photo/J/J000298.jpg
+2025-04-29 12:18:43,424 - INFO - Updated image URL for Mike Johnson to https://bioguide.congress.gov/bioguide/photo/J/J000299.jpg
+2025-04-29 12:18:43,425 - INFO - Updated image URL for Dusty Johnson to https://bioguide.congress.gov/bioguide/photo/J/J000301.jpg
+2025-04-29 12:18:43,426 - INFO - Updated image URL for John Joyce to https://bioguide.congress.gov/bioguide/photo/J/J000302.jpg
+2025-04-29 12:18:43,426 - INFO - Updated image URL for Ronny Jackson to https://bioguide.congress.gov/bioguide/photo/J/J000304.jpg
+2025-04-29 12:18:43,427 - INFO - Updated image URL for Sara Jacobs to https://bioguide.congress.gov/bioguide/photo/J/J000305.jpg
+2025-04-29 12:18:43,427 - INFO - Updated image URL for John James to https://bioguide.congress.gov/bioguide/photo/J/J000307.jpg
+2025-04-29 12:18:43,427 - INFO - Updated image URL for Jonathan L. Jackson to https://bioguide.congress.gov/bioguide/photo/J/J000309.jpg
+2025-04-29 12:18:43,428 - INFO - Updated image URL for Julie Johnson to https://bioguide.congress.gov/bioguide/photo/J/J000310.jpg
+2025-04-29 12:18:43,428 - INFO - Updated image URL for Brian Jack to https://bioguide.congress.gov/bioguide/photo/J/J000311.jpg
+2025-04-29 12:18:43,428 - INFO - Updated image URL for James C. Justice to https://bioguide.congress.gov/bioguide/photo/J/J000312.jpg
+2025-04-29 12:18:43,429 - INFO - Updated image URL for Marcy Kaptur to https://bioguide.congress.gov/bioguide/photo/K/K000009.jpg
+2025-04-29 12:18:43,429 - INFO - Updated image URL for Amy Klobuchar to https://bioguide.congress.gov/bioguide/photo/K/K000367.jpg
+2025-04-29 12:18:43,430 - INFO - Updated image URL for William R. Keating to https://bioguide.congress.gov/bioguide/photo/K/K000375.jpg
+2025-04-29 12:18:43,460 - INFO - Updated image URL for Mike Kelly to https://bioguide.congress.gov/bioguide/photo/K/K000376.jpg
+2025-04-29 12:18:43,463 - INFO - Updated image URL for Mark Kelly to https://bioguide.congress.gov/bioguide/photo/K/K000377.jpg
+2025-04-29 12:18:43,468 - INFO - Updated image URL for Angus S. King, Jr. to https://bioguide.congress.gov/bioguide/photo/K/K000383.jpg
+2025-04-29 12:18:43,470 - INFO - Updated image URL for Tim Kaine to https://bioguide.congress.gov/bioguide/photo/K/K000384.jpg
+2025-04-29 12:18:43,475 - INFO - Updated image URL for Robin L. Kelly to https://bioguide.congress.gov/bioguide/photo/K/K000385.jpg
+2025-04-29 12:18:43,486 - INFO - Updated image URL for Trent Kelly to https://bioguide.congress.gov/bioguide/photo/K/K000388.jpg
+2025-04-29 12:18:43,489 - INFO - Updated image URL for Ro Khanna to https://bioguide.congress.gov/bioguide/photo/K/K000389.jpg
+2025-04-29 12:18:43,492 - INFO - Updated image URL for Raja Krishnamoorthi to https://bioguide.congress.gov/bioguide/photo/K/K000391.jpg
+2025-04-29 12:18:43,497 - INFO - Updated image URL for David Kustoff to https://bioguide.congress.gov/bioguide/photo/K/K000392.jpg
+2025-04-29 12:18:43,503 - INFO - Updated image URL for John Kennedy to https://bioguide.congress.gov/bioguide/photo/K/K000393.jpg
+2025-04-29 12:18:43,506 - INFO - Updated image URL for Andy Kim to https://bioguide.congress.gov/bioguide/photo/K/K000394.jpg
+2025-04-29 12:18:43,520 - INFO - Updated image URL for Young Kim to https://bioguide.congress.gov/bioguide/photo/K/K000397.jpg
+2025-04-29 12:18:43,522 - INFO - Updated image URL for Thomas H. Kean, Jr. to https://bioguide.congress.gov/bioguide/photo/K/K000398.jpg
+2025-04-29 12:18:43,523 - INFO - Updated image URL for Jennifer A. Kiggans to https://bioguide.congress.gov/bioguide/photo/K/K000399.jpg
+2025-04-29 12:18:43,538 - INFO - Updated image URL for Sydney Kamlager-Dove to https://bioguide.congress.gov/bioguide/photo/K/K000400.jpg
+2025-04-29 12:18:43,542 - INFO - Updated image URL for Kevin Kiley to https://bioguide.congress.gov/bioguide/photo/K/K000401.jpg
+2025-04-29 12:18:43,564 - INFO - Updated image URL for Timothy M. Kennedy to https://bioguide.congress.gov/bioguide/photo/K/K000402.jpg
+2025-04-29 12:18:43,567 - INFO - Updated image URL for Mike Kennedy to https://bioguide.congress.gov/bioguide/photo/K/K000403.jpg
+2025-04-29 12:18:43,577 - INFO - Updated image URL for Kimberlyn King-Hinds to https://bioguide.congress.gov/bioguide/photo/K/K000404.jpg
+2025-04-29 12:18:43,602 - INFO - Updated image URL for Brad Knott to https://bioguide.congress.gov/bioguide/photo/K/K000405.jpg
+2025-04-29 12:18:43,604 - INFO - Updated image URL for Teresa Leger Fernandez to https://bioguide.congress.gov/bioguide/photo/L/L000273.jpg
+2025-04-29 12:18:43,606 - INFO - Updated image URL for Zoe Lofgren to https://bioguide.congress.gov/bioguide/photo/L/L000397.jpg
+2025-04-29 12:18:43,614 - INFO - Updated image URL for Frank D. Lucas to https://bioguide.congress.gov/bioguide/photo/L/L000491.jpg
+2025-04-29 12:18:43,618 - INFO - Updated image URL for John B. Larson to https://bioguide.congress.gov/bioguide/photo/L/L000557.jpg
+2025-04-29 12:18:43,637 - INFO - Updated image URL for Rick Larsen to https://bioguide.congress.gov/bioguide/photo/L/L000560.jpg
+2025-04-29 12:18:43,643 - INFO - Updated image URL for Stephen F. Lynch to https://bioguide.congress.gov/bioguide/photo/L/L000562.jpg
+2025-04-29 12:18:43,648 - INFO - Updated image URL for Robert E. Latta to https://bioguide.congress.gov/bioguide/photo/L/L000566.jpg
+2025-04-29 12:18:43,670 - INFO - Updated image URL for Ben Ray Luján to https://bioguide.congress.gov/bioguide/photo/L/L000570.jpg
+2025-04-29 12:18:43,678 - INFO - Updated image URL for Cynthia M. Lummis to https://bioguide.congress.gov/bioguide/photo/L/L000571.jpg
+2025-04-29 12:18:43,680 - INFO - Updated image URL for James Lankford to https://bioguide.congress.gov/bioguide/photo/L/L000575.jpg
+2025-04-29 12:18:43,681 - INFO - Updated image URL for Mike Lee to https://bioguide.congress.gov/bioguide/photo/L/L000577.jpg
+2025-04-29 12:18:43,683 - INFO - Updated image URL for Doug LaMalfa to https://bioguide.congress.gov/bioguide/photo/L/L000578.jpg
+2025-04-29 12:18:43,684 - INFO - Updated image URL for Ted Lieu to https://bioguide.congress.gov/bioguide/photo/L/L000582.jpg
+2025-04-29 12:18:43,684 - INFO - Updated image URL for Barry Loudermilk to https://bioguide.congress.gov/bioguide/photo/L/L000583.jpg
+2025-04-29 12:18:43,685 - INFO - Updated image URL for Darin LaHood to https://bioguide.congress.gov/bioguide/photo/L/L000585.jpg
+2025-04-29 12:18:43,685 - INFO - Updated image URL for Susie Lee to https://bioguide.congress.gov/bioguide/photo/L/L000590.jpg
+2025-04-29 12:18:43,685 - INFO - Updated image URL for Mike Levin to https://bioguide.congress.gov/bioguide/photo/L/L000593.jpg
+2025-04-29 12:18:43,686 - INFO - Updated image URL for Julia Letlow to https://bioguide.congress.gov/bioguide/photo/L/L000595.jpg
+2025-04-29 12:18:43,686 - INFO - Updated image URL for Anna Paulina Luna to https://bioguide.congress.gov/bioguide/photo/L/L000596.jpg
+2025-04-29 12:18:43,687 - INFO - Updated image URL for Laurel M. Lee to https://bioguide.congress.gov/bioguide/photo/L/L000597.jpg
+2025-04-29 12:18:43,687 - INFO - Updated image URL for Nick LaLota to https://bioguide.congress.gov/bioguide/photo/L/L000598.jpg
+2025-04-29 12:18:43,688 - INFO - Updated image URL for Michael Lawler to https://bioguide.congress.gov/bioguide/photo/L/L000599.jpg
+2025-04-29 12:18:43,688 - INFO - Updated image URL for Nicholas A. Langworthy to https://bioguide.congress.gov/bioguide/photo/L/L000600.jpg
+2025-04-29 12:18:43,689 - INFO - Updated image URL for Greg Landsman to https://bioguide.congress.gov/bioguide/photo/L/L000601.jpg
+2025-04-29 12:18:43,690 - INFO - Updated image URL for Summer L. Lee to https://bioguide.congress.gov/bioguide/photo/L/L000602.jpg
+2025-04-29 12:18:43,690 - INFO - Updated image URL for Morgan Luttrell to https://bioguide.congress.gov/bioguide/photo/L/L000603.jpg
+2025-04-29 12:18:43,691 - INFO - Updated image URL for George Latimer to https://bioguide.congress.gov/bioguide/photo/L/L000606.jpg
+2025-04-29 12:18:43,691 - INFO - Updated image URL for Sam T. Liccardo to https://bioguide.congress.gov/bioguide/photo/L/L000607.jpg
+2025-04-29 12:18:43,692 - INFO - Updated image URL for Edward J. Markey to https://bioguide.congress.gov/bioguide/photo/M/M000133.jpg
+2025-04-29 12:18:43,692 - INFO - Updated image URL for Nancy Mace to https://bioguide.congress.gov/bioguide/photo/M/M000194.jpg
+2025-04-29 12:18:43,693 - INFO - Updated image URL for James P. McGovern to https://bioguide.congress.gov/bioguide/photo/M/M000312.jpg
+2025-04-29 12:18:43,693 - INFO - Updated image URL for Nicole Malliotakis to https://bioguide.congress.gov/bioguide/photo/M/M000317.jpg
+2025-04-29 12:18:43,694 - INFO - Updated image URL for Mitch McConnell to https://bioguide.congress.gov/bioguide/photo/M/M000355.jpg
+2025-04-29 12:18:43,694 - INFO - Updated image URL for Kweisi Mfume to https://bioguide.congress.gov/bioguide/photo/M/M000687.jpg
+2025-04-29 12:18:43,695 - INFO - Updated image URL for Tracey Mann to https://bioguide.congress.gov/bioguide/photo/M/M000871.jpg
+2025-04-29 12:18:43,695 - INFO - Updated image URL for Jerry Moran to https://bioguide.congress.gov/bioguide/photo/M/M000934.jpg
+2025-04-29 12:18:43,695 - INFO - Updated image URL for Patty Murray to https://bioguide.congress.gov/bioguide/photo/M/M001111.jpg
+2025-04-29 12:18:43,696 - INFO - Updated image URL for Lisa C. McClain to https://bioguide.congress.gov/bioguide/photo/M/M001136.jpg
+2025-04-29 12:18:43,696 - INFO - Updated image URL for Gregory W. Meeks to https://bioguide.congress.gov/bioguide/photo/M/M001137.jpg
+2025-04-29 12:18:43,697 - INFO - Updated image URL for Betty McCollum to https://bioguide.congress.gov/bioguide/photo/M/M001143.jpg
+2025-04-29 12:18:43,697 - INFO - Updated image URL for Lisa Murkowski to https://bioguide.congress.gov/bioguide/photo/M/M001153.jpg
+2025-04-29 12:18:43,697 - INFO - Updated image URL for Michael T. McCaul to https://bioguide.congress.gov/bioguide/photo/M/M001157.jpg
+2025-04-29 12:18:43,698 - INFO - Updated image URL for Gwen Moore to https://bioguide.congress.gov/bioguide/photo/M/M001160.jpg
+2025-04-29 12:18:43,698 - INFO - Updated image URL for Doris O. Matsui to https://bioguide.congress.gov/bioguide/photo/M/M001163.jpg
+2025-04-29 12:18:43,700 - INFO - Updated image URL for Christopher Murphy to https://bioguide.congress.gov/bioguide/photo/M/M001169.jpg
+2025-04-29 12:18:43,701 - INFO - Updated image URL for Jeff Merkley to https://bioguide.congress.gov/bioguide/photo/M/M001176.jpg
+2025-04-29 12:18:43,702 - INFO - Updated image URL for Tom McClintock to https://bioguide.congress.gov/bioguide/photo/M/M001177.jpg
+2025-04-29 12:18:43,702 - INFO - Updated image URL for Thomas Massie to https://bioguide.congress.gov/bioguide/photo/M/M001184.jpg
+2025-04-29 12:18:43,703 - INFO - Updated image URL for Grace Meng to https://bioguide.congress.gov/bioguide/photo/M/M001188.jpg
+2025-04-29 12:18:43,703 - INFO - Updated image URL for Markwayne Mullin to https://bioguide.congress.gov/bioguide/photo/M/M001190.jpg
+2025-04-29 12:18:43,704 - INFO - Updated image URL for John R. Moolenaar to https://bioguide.congress.gov/bioguide/photo/M/M001194.jpg
+2025-04-29 12:18:43,704 - INFO - Updated image URL for Seth Moulton to https://bioguide.congress.gov/bioguide/photo/M/M001196.jpg
+2025-04-29 12:18:43,705 - INFO - Updated image URL for Roger Marshall to https://bioguide.congress.gov/bioguide/photo/M/M001198.jpg
+2025-04-29 12:18:43,705 - INFO - Updated image URL for Brian J. Mast to https://bioguide.congress.gov/bioguide/photo/M/M001199.jpg
+2025-04-29 12:18:43,706 - INFO - Updated image URL for Daniel Meuser to https://bioguide.congress.gov/bioguide/photo/M/M001204.jpg
+2025-04-29 12:18:43,707 - INFO - Updated image URL for Carol D. Miller to https://bioguide.congress.gov/bioguide/photo/M/M001205.jpg
+2025-04-29 12:18:43,707 - INFO - Updated image URL for Joseph D. Morelle to https://bioguide.congress.gov/bioguide/photo/M/M001206.jpg
+2025-04-29 12:18:43,708 - INFO - Updated image URL for Lucy McBath to https://bioguide.congress.gov/bioguide/photo/M/M001208.jpg
+2025-04-29 12:18:43,708 - INFO - Updated image URL for Gregory F. Murphy to https://bioguide.congress.gov/bioguide/photo/M/M001210.jpg
+2025-04-29 12:18:43,708 - INFO - Updated image URL for Mary E. Miller to https://bioguide.congress.gov/bioguide/photo/M/M001211.jpg
+2025-04-29 12:18:43,709 - INFO - Updated image URL for Barry Moore to https://bioguide.congress.gov/bioguide/photo/M/M001212.jpg
+2025-04-29 12:18:43,709 - INFO - Updated image URL for Blake D. Moore to https://bioguide.congress.gov/bioguide/photo/M/M001213.jpg
+2025-04-29 12:18:43,710 - INFO - Updated image URL for Frank J. Mrvan to https://bioguide.congress.gov/bioguide/photo/M/M001214.jpg
+2025-04-29 12:18:43,710 - INFO - Updated image URL for Mariannette Miller-Meeks to https://bioguide.congress.gov/bioguide/photo/M/M001215.jpg
+2025-04-29 12:18:43,711 - INFO - Updated image URL for Cory Mills to https://bioguide.congress.gov/bioguide/photo/M/M001216.jpg
+2025-04-29 12:18:43,711 - INFO - Updated image URL for Jared Moskowitz to https://bioguide.congress.gov/bioguide/photo/M/M001217.jpg
+2025-04-29 12:18:43,711 - INFO - Updated image URL for Richard McCormick to https://bioguide.congress.gov/bioguide/photo/M/M001218.jpg
+2025-04-29 12:18:43,712 - INFO - Updated image URL for James C. Moylan to https://bioguide.congress.gov/bioguide/photo/M/M001219.jpg
+2025-04-29 12:18:43,712 - INFO - Updated image URL for Morgan McGarvey to https://bioguide.congress.gov/bioguide/photo/M/M001220.jpg
+2025-04-29 12:18:43,713 - INFO - Updated image URL for Max L. Miller to https://bioguide.congress.gov/bioguide/photo/M/M001222.jpg
+2025-04-29 12:18:43,713 - INFO - Updated image URL for Seth Magaziner to https://bioguide.congress.gov/bioguide/photo/M/M001223.jpg
+2025-04-29 12:18:43,714 - INFO - Updated image URL for Nathaniel Moran to https://bioguide.congress.gov/bioguide/photo/M/M001224.jpg
+2025-04-29 12:18:43,714 - INFO - Updated image URL for Kevin Mullin to https://bioguide.congress.gov/bioguide/photo/M/M001225.jpg
+2025-04-29 12:18:43,715 - INFO - Updated image URL for Robert Menendez to https://bioguide.congress.gov/bioguide/photo/M/M001226.jpg
+2025-04-29 12:18:43,716 - INFO - Updated image URL for Jennifer L. McClellan to https://bioguide.congress.gov/bioguide/photo/M/M001227.jpg
+2025-04-29 12:18:43,717 - INFO - Updated image URL for Celeste Maloy to https://bioguide.congress.gov/bioguide/photo/M/M001228.jpg
+2025-04-29 12:18:43,717 - INFO - Updated image URL for LaMonica McIver to https://bioguide.congress.gov/bioguide/photo/M/M001229.jpg
+2025-04-29 12:18:43,718 - INFO - Updated image URL for Ryan Mackenzie to https://bioguide.congress.gov/bioguide/photo/M/M001230.jpg
+2025-04-29 12:18:43,718 - INFO - Updated image URL for John W. Mannion to https://bioguide.congress.gov/bioguide/photo/M/M001231.jpg
+2025-04-29 12:18:43,719 - INFO - Updated image URL for April McClain Delaney to https://bioguide.congress.gov/bioguide/photo/M/M001232.jpg
+2025-04-29 12:18:43,719 - INFO - Updated image URL for Mark B. Messmer to https://bioguide.congress.gov/bioguide/photo/M/M001233.jpg
+2025-04-29 12:18:43,719 - INFO - Updated image URL for Kelly Morrison to https://bioguide.congress.gov/bioguide/photo/M/M001234.jpg
+2025-04-29 12:18:43,720 - INFO - Updated image URL for Riley M. Moore to https://bioguide.congress.gov/bioguide/photo/M/M001235.jpg
+2025-04-29 12:18:43,720 - INFO - Updated image URL for Tim Moore to https://bioguide.congress.gov/bioguide/photo/M/M001236.jpg
+2025-04-29 12:18:43,721 - INFO - Updated image URL for Kristen McDonald Rivet to https://bioguide.congress.gov/bioguide/photo/M/M001237.jpg
+2025-04-29 12:18:43,721 - INFO - Updated image URL for Sarah McBride to https://bioguide.congress.gov/bioguide/photo/M/M001238.jpg
+2025-04-29 12:18:43,722 - INFO - Updated image URL for John J. McGuire III to https://bioguide.congress.gov/bioguide/photo/M/M001239.jpg
+2025-04-29 12:18:43,722 - INFO - Updated image URL for Addison P. McDowell to https://bioguide.congress.gov/bioguide/photo/M/M001240.jpg
+2025-04-29 12:18:43,723 - INFO - Updated image URL for Dave Min to https://bioguide.congress.gov/bioguide/photo/M/M001241.jpg
+2025-04-29 12:18:43,723 - INFO - Updated image URL for Bernie Moreno to https://bioguide.congress.gov/bioguide/photo/M/M001242.jpg
+2025-04-29 12:18:43,724 - INFO - Updated image URL for David McCormick to https://bioguide.congress.gov/bioguide/photo/M/M001243.jpg
+2025-04-29 12:18:43,726 - INFO - Updated image URL for Ashley Moody to https://bioguide.congress.gov/bioguide/photo/M/M001244.jpg
+2025-04-29 12:18:43,730 - INFO - Updated image URL for Jerrold Nadler to https://bioguide.congress.gov/bioguide/photo/N/N000002.jpg
+2025-04-29 12:18:43,731 - INFO - Updated image URL for Richard E. Neal to https://bioguide.congress.gov/bioguide/photo/N/N000015.jpg
+2025-04-29 12:18:43,755 - INFO - Updated image URL for Troy E. Nehls to https://bioguide.congress.gov/bioguide/photo/N/N000026.jpg
+2025-04-29 12:18:43,755 - INFO - Updated image URL for Eleanor Holmes Norton to https://bioguide.congress.gov/bioguide/photo/N/N000147.jpg
+2025-04-29 12:18:43,756 - INFO - Updated image URL for Donald Norcross to https://bioguide.congress.gov/bioguide/photo/N/N000188.jpg
+2025-04-29 12:18:43,757 - INFO - Updated image URL for Dan Newhouse to https://bioguide.congress.gov/bioguide/photo/N/N000189.jpg
+2025-04-29 12:18:43,757 - INFO - Updated image URL for Ralph Norman to https://bioguide.congress.gov/bioguide/photo/N/N000190.jpg
+2025-04-29 12:18:43,758 - INFO - Updated image URL for Joe Neguse to https://bioguide.congress.gov/bioguide/photo/N/N000191.jpg
+2025-04-29 12:18:43,758 - INFO - Updated image URL for Zachary Nunn to https://bioguide.congress.gov/bioguide/photo/N/N000193.jpg
+2025-04-29 12:18:43,759 - INFO - Updated image URL for Jay Obernolte to https://bioguide.congress.gov/bioguide/photo/O/O000019.jpg
+2025-04-29 12:18:43,760 - INFO - Updated image URL for Burgess Owens to https://bioguide.congress.gov/bioguide/photo/O/O000086.jpg
+2025-04-29 12:18:43,760 - INFO - Updated image URL for Alexandria Ocasio-Cortez to https://bioguide.congress.gov/bioguide/photo/O/O000172.jpg
+2025-04-29 12:18:43,761 - INFO - Updated image URL for Ilhan Omar to https://bioguide.congress.gov/bioguide/photo/O/O000173.jpg
+2025-04-29 12:18:43,762 - INFO - Updated image URL for Jon Ossoff to https://bioguide.congress.gov/bioguide/photo/O/O000174.jpg
+2025-04-29 12:18:43,762 - INFO - Updated image URL for Andrew Ogles to https://bioguide.congress.gov/bioguide/photo/O/O000175.jpg
+2025-04-29 12:18:43,762 - INFO - Updated image URL for Johnny Olszewski, Jr. to https://bioguide.congress.gov/bioguide/photo/O/O000176.jpg
+2025-04-29 12:18:43,763 - INFO - Updated image URL for Robert F. Onder, Jr. to https://bioguide.congress.gov/bioguide/photo/O/O000177.jpg
+2025-04-29 12:18:43,763 - INFO - Updated image URL for Frank Pallone, Jr. to https://bioguide.congress.gov/bioguide/photo/P/P000034.jpg
+2025-04-29 12:18:43,764 - INFO - Updated image URL for August Pfluger to https://bioguide.congress.gov/bioguide/photo/P/P000048.jpg
+2025-04-29 12:18:43,764 - INFO - Updated image URL for Alex Padilla to https://bioguide.congress.gov/bioguide/photo/P/P000145.jpg
+2025-04-29 12:18:43,764 - INFO - Updated image URL for Nancy Pelosi to https://bioguide.congress.gov/bioguide/photo/P/P000197.jpg
+2025-04-29 12:18:43,765 - INFO - Updated image URL for Gary C. Peters to https://bioguide.congress.gov/bioguide/photo/P/P000595.jpg
+2025-04-29 12:18:43,767 - INFO - Updated image URL for Chellie Pingree to https://bioguide.congress.gov/bioguide/photo/P/P000597.jpg
+2025-04-29 12:18:43,768 - INFO - Updated image URL for Rand Paul to https://bioguide.congress.gov/bioguide/photo/P/P000603.jpg
+2025-04-29 12:18:43,768 - INFO - Updated image URL for Scott Perry to https://bioguide.congress.gov/bioguide/photo/P/P000605.jpg
+2025-04-29 12:18:43,769 - INFO - Updated image URL for Mark Pocan to https://bioguide.congress.gov/bioguide/photo/P/P000607.jpg
+2025-04-29 12:18:43,769 - INFO - Updated image URL for Scott H. Peters to https://bioguide.congress.gov/bioguide/photo/P/P000608.jpg
+2025-04-29 12:18:43,769 - INFO - Updated image URL for Gary J. Palmer to https://bioguide.congress.gov/bioguide/photo/P/P000609.jpg
+2025-04-29 12:18:43,770 - INFO - Updated image URL for Stacey E. Plaskett to https://bioguide.congress.gov/bioguide/photo/P/P000610.jpg
+2025-04-29 12:18:43,771 - INFO - Updated image URL for Jimmy Panetta to https://bioguide.congress.gov/bioguide/photo/P/P000613.jpg
+2025-04-29 12:18:43,771 - INFO - Updated image URL for Chris Pappas to https://bioguide.congress.gov/bioguide/photo/P/P000614.jpg
+2025-04-29 12:18:43,772 - INFO - Updated image URL for Ayanna Pressley to https://bioguide.congress.gov/bioguide/photo/P/P000617.jpg
+2025-04-29 12:18:43,772 - INFO - Updated image URL for Brittany Pettersen to https://bioguide.congress.gov/bioguide/photo/P/P000620.jpg
+2025-04-29 12:18:43,773 - INFO - Updated image URL for Nellie Pou to https://bioguide.congress.gov/bioguide/photo/P/P000621.jpg
+2025-04-29 12:18:43,773 - INFO - Updated image URL for Jimmy Patronis to https://bioguide.congress.gov/bioguide/photo/P/P000622.jpg
+2025-04-29 12:18:43,774 - INFO - Updated image URL for Mike Quigley to https://bioguide.congress.gov/bioguide/photo/Q/Q000023.jpg
+2025-04-29 12:18:43,774 - INFO - Updated image URL for Jack Reed to https://bioguide.congress.gov/bioguide/photo/R/R000122.jpg
+2025-04-29 12:18:43,774 - INFO - Updated image URL for Deborah K. Ross to https://bioguide.congress.gov/bioguide/photo/R/R000305.jpg
+2025-04-29 12:18:43,775 - INFO - Updated image URL for Harold Rogers to https://bioguide.congress.gov/bioguide/photo/R/R000395.jpg
+2025-04-29 12:18:43,775 - INFO - Updated image URL for Mike Rogers to https://bioguide.congress.gov/bioguide/photo/R/R000575.jpg
+2025-04-29 12:18:43,776 - INFO - Updated image URL for Patrick Ryan to https://bioguide.congress.gov/bioguide/photo/R/R000579.jpg
+2025-04-29 12:18:43,776 - INFO - Updated image URL for James E. Risch to https://bioguide.congress.gov/bioguide/photo/R/R000584.jpg
+2025-04-29 12:18:43,776 - INFO - Updated image URL for Raul Ruiz to https://bioguide.congress.gov/bioguide/photo/R/R000599.jpg
+2025-04-29 12:18:43,777 - INFO - Updated image URL for Aumua Amata Coleman Radewagen to https://bioguide.congress.gov/bioguide/photo/R/R000600.jpg
+2025-04-29 12:18:43,777 - INFO - Updated image URL for David Rouzer to https://bioguide.congress.gov/bioguide/photo/R/R000603.jpg
+2025-04-29 12:18:43,777 - INFO - Updated image URL for Mike Rounds to https://bioguide.congress.gov/bioguide/photo/R/R000605.jpg
+2025-04-29 12:18:43,778 - INFO - Updated image URL for Jamie Raskin to https://bioguide.congress.gov/bioguide/photo/R/R000606.jpg
+2025-04-29 12:18:43,778 - INFO - Updated image URL for Jacky Rosen to https://bioguide.congress.gov/bioguide/photo/R/R000608.jpg
+2025-04-29 12:18:43,779 - INFO - Updated image URL for John H. Rutherford to https://bioguide.congress.gov/bioguide/photo/R/R000609.jpg
+2025-04-29 12:18:43,779 - INFO - Updated image URL for Guy Reschenthaler to https://bioguide.congress.gov/bioguide/photo/R/R000610.jpg
+2025-04-29 12:18:43,779 - INFO - Updated image URL for John W. Rose to https://bioguide.congress.gov/bioguide/photo/R/R000612.jpg
+2025-04-29 12:18:43,780 - INFO - Updated image URL for Chip Roy to https://bioguide.congress.gov/bioguide/photo/R/R000614.jpg
+2025-04-29 12:18:43,780 - INFO - Updated image URL for Delia C. Ramirez to https://bioguide.congress.gov/bioguide/photo/R/R000617.jpg
+2025-04-29 12:18:43,780 - INFO - Updated image URL for Pete Ricketts to https://bioguide.congress.gov/bioguide/photo/R/R000618.jpg
+2025-04-29 12:18:43,781 - INFO - Updated image URL for Michael A. Rulli to https://bioguide.congress.gov/bioguide/photo/R/R000619.jpg
+2025-04-29 12:18:43,781 - INFO - Updated image URL for Luz M. Rivas to https://bioguide.congress.gov/bioguide/photo/R/R000620.jpg
+2025-04-29 12:18:43,781 - INFO - Updated image URL for Emily Randall to https://bioguide.congress.gov/bioguide/photo/R/R000621.jpg
+2025-04-29 12:18:43,782 - INFO - Updated image URL for Josh Riley to https://bioguide.congress.gov/bioguide/photo/R/R000622.jpg
+2025-04-29 12:18:43,782 - INFO - Updated image URL for Bernard Sanders to https://bioguide.congress.gov/bioguide/photo/S/S000033.jpg
+2025-04-29 12:18:43,783 - INFO - Updated image URL for Charles E. Schumer to https://bioguide.congress.gov/bioguide/photo/S/S000148.jpg
+2025-04-29 12:18:43,784 - INFO - Updated image URL for Maria Elvira Salazar to https://bioguide.congress.gov/bioguide/photo/S/S000168.jpg
+2025-04-29 12:18:43,784 - INFO - Updated image URL for Robert C. "Bobby" Scott to https://bioguide.congress.gov/bioguide/photo/S/S000185.jpg
+2025-04-29 12:18:43,784 - INFO - Updated image URL for Pete Sessions to https://bioguide.congress.gov/bioguide/photo/S/S000250.jpg
+2025-04-29 12:18:43,785 - INFO - Updated image URL for Brad Sherman to https://bioguide.congress.gov/bioguide/photo/S/S000344.jpg
+2025-04-29 12:18:43,785 - INFO - Updated image URL for Adam Smith to https://bioguide.congress.gov/bioguide/photo/S/S000510.jpg
+2025-04-29 12:18:43,786 - INFO - Updated image URL for Christopher H. Smith to https://bioguide.congress.gov/bioguide/photo/S/S000522.jpg
+2025-04-29 12:18:43,786 - INFO - Updated image URL for Victoria Spartz to https://bioguide.congress.gov/bioguide/photo/S/S000929.jpg
+2025-04-29 12:18:43,786 - INFO - Updated image URL for Janice D. Schakowsky to https://bioguide.congress.gov/bioguide/photo/S/S001145.jpg
+2025-04-29 12:18:43,787 - INFO - Updated image URL for Michael K. Simpson to https://bioguide.congress.gov/bioguide/photo/S/S001148.jpg
+2025-04-29 12:18:43,787 - INFO - Updated image URL for Adam B. Schiff to https://bioguide.congress.gov/bioguide/photo/S/S001150.jpg
+2025-04-29 12:18:43,787 - INFO - Updated image URL for Linda T. Sánchez to https://bioguide.congress.gov/bioguide/photo/S/S001156.jpg
+2025-04-29 12:18:43,788 - INFO - Updated image URL for David Scott to https://bioguide.congress.gov/bioguide/photo/S/S001157.jpg
+2025-04-29 12:18:43,788 - INFO - Updated image URL for Marilyn Strickland to https://bioguide.congress.gov/bioguide/photo/S/S001159.jpg
+2025-04-29 12:18:43,788 - INFO - Updated image URL for Adrian Smith to https://bioguide.congress.gov/bioguide/photo/S/S001172.jpg
+2025-04-29 12:18:43,789 - INFO - Updated image URL for Steve Scalise to https://bioguide.congress.gov/bioguide/photo/S/S001176.jpg
+2025-04-29 12:18:43,789 - INFO - Updated image URL for Jeanne Shaheen to https://bioguide.congress.gov/bioguide/photo/S/S001181.jpg
+2025-04-29 12:18:43,790 - INFO - Updated image URL for David Schweikert to https://bioguide.congress.gov/bioguide/photo/S/S001183.jpg
+2025-04-29 12:18:43,790 - INFO - Updated image URL for Tim Scott to https://bioguide.congress.gov/bioguide/photo/S/S001184.jpg
+2025-04-29 12:18:43,790 - INFO - Updated image URL for Terri A. Sewell to https://bioguide.congress.gov/bioguide/photo/S/S001185.jpg
+2025-04-29 12:18:43,791 - INFO - Updated image URL for Marlin A. Stutzman to https://bioguide.congress.gov/bioguide/photo/S/S001188.jpg
+2025-04-29 12:18:43,791 - INFO - Updated image URL for Austin Scott to https://bioguide.congress.gov/bioguide/photo/S/S001189.jpg
+2025-04-29 12:18:43,792 - INFO - Updated image URL for Bradley Scott Schneider to https://bioguide.congress.gov/bioguide/photo/S/S001190.jpg
+2025-04-29 12:18:43,792 - INFO - Updated image URL for Eric Swalwell to https://bioguide.congress.gov/bioguide/photo/S/S001193.jpg
+2025-04-29 12:18:43,792 - INFO - Updated image URL for Brian Schatz to https://bioguide.congress.gov/bioguide/photo/S/S001194.jpg
+2025-04-29 12:18:43,793 - INFO - Updated image URL for Jason Smith to https://bioguide.congress.gov/bioguide/photo/S/S001195.jpg
+2025-04-29 12:18:43,793 - INFO - Updated image URL for Elise M. Stefanik to https://bioguide.congress.gov/bioguide/photo/S/S001196.jpg
+2025-04-29 12:18:43,794 - INFO - Updated image URL for Dan Sullivan to https://bioguide.congress.gov/bioguide/photo/S/S001198.jpg
+2025-04-29 12:18:43,794 - INFO - Updated image URL for Lloyd Smucker to https://bioguide.congress.gov/bioguide/photo/S/S001199.jpg
+2025-04-29 12:18:43,794 - INFO - Updated image URL for Darren Soto to https://bioguide.congress.gov/bioguide/photo/S/S001200.jpg
+2025-04-29 12:18:43,795 - INFO - Updated image URL for Thomas R. Suozzi to https://bioguide.congress.gov/bioguide/photo/S/S001201.jpg
+2025-04-29 12:18:43,795 - INFO - Updated image URL for Tina Smith to https://bioguide.congress.gov/bioguide/photo/S/S001203.jpg
+2025-04-29 12:18:43,795 - INFO - Updated image URL for Mary Gay Scanlon to https://bioguide.congress.gov/bioguide/photo/S/S001205.jpg
+2025-04-29 12:18:43,796 - INFO - Updated image URL for Mikie Sherrill to https://bioguide.congress.gov/bioguide/photo/S/S001207.jpg
+2025-04-29 12:18:43,796 - INFO - Updated image URL for Elissa Slotkin to https://bioguide.congress.gov/bioguide/photo/S/S001208.jpg
+2025-04-29 12:18:43,797 - INFO - Updated image URL for Greg Stanton to https://bioguide.congress.gov/bioguide/photo/S/S001211.jpg
+2025-04-29 12:18:43,797 - INFO - Updated image URL for Pete Stauber to https://bioguide.congress.gov/bioguide/photo/S/S001212.jpg
+2025-04-29 12:18:43,797 - INFO - Updated image URL for Bryan Steil to https://bioguide.congress.gov/bioguide/photo/S/S001213.jpg
+2025-04-29 12:18:43,798 - INFO - Updated image URL for W. Gregory Steube to https://bioguide.congress.gov/bioguide/photo/S/S001214.jpg
+2025-04-29 12:18:43,798 - INFO - Updated image URL for Haley M. Stevens to https://bioguide.congress.gov/bioguide/photo/S/S001215.jpg
+2025-04-29 12:18:43,798 - INFO - Updated image URL for Kim Schrier to https://bioguide.congress.gov/bioguide/photo/S/S001216.jpg
+2025-04-29 12:18:43,799 - INFO - Updated image URL for Rick Scott to https://bioguide.congress.gov/bioguide/photo/S/S001217.jpg
+2025-04-29 12:18:43,800 - INFO - Updated image URL for Melanie A. Stansbury to https://bioguide.congress.gov/bioguide/photo/S/S001218.jpg
+2025-04-29 12:18:43,801 - INFO - Updated image URL for Dale W. Strong to https://bioguide.congress.gov/bioguide/photo/S/S001220.jpg
+2025-04-29 12:18:43,801 - INFO - Updated image URL for Hillary J. Scholten to https://bioguide.congress.gov/bioguide/photo/S/S001221.jpg
+2025-04-29 12:18:43,802 - INFO - Updated image URL for Emilia Strong Sykes to https://bioguide.congress.gov/bioguide/photo/S/S001223.jpg
+2025-04-29 12:18:43,802 - INFO - Updated image URL for Keith Self to https://bioguide.congress.gov/bioguide/photo/S/S001224.jpg
+2025-04-29 12:18:43,803 - INFO - Updated image URL for Eric Sorensen to https://bioguide.congress.gov/bioguide/photo/S/S001225.jpg
+2025-04-29 12:18:43,803 - INFO - Updated image URL for Andrea Salinas to https://bioguide.congress.gov/bioguide/photo/S/S001226.jpg
+2025-04-29 12:18:43,804 - INFO - Updated image URL for Eric Schmitt to https://bioguide.congress.gov/bioguide/photo/S/S001227.jpg
+2025-04-29 12:18:43,804 - INFO - Updated image URL for Derek Schmidt to https://bioguide.congress.gov/bioguide/photo/S/S001228.jpg
+2025-04-29 12:18:43,805 - INFO - Updated image URL for Jefferson Shreve to https://bioguide.congress.gov/bioguide/photo/S/S001229.jpg
+2025-04-29 12:18:43,805 - INFO - Updated image URL for Suhas Subramanyam to https://bioguide.congress.gov/bioguide/photo/S/S001230.jpg
+2025-04-29 12:18:43,806 - INFO - Updated image URL for Lateefah Simon to https://bioguide.congress.gov/bioguide/photo/S/S001231.jpg
+2025-04-29 12:18:43,806 - INFO - Updated image URL for Tim Sheehy to https://bioguide.congress.gov/bioguide/photo/S/S001232.jpg
+2025-04-29 12:18:43,807 - INFO - Updated image URL for Donald Trump to https://bioguide.congress.gov/bioguide/photo/T/T000001.jpg
+2025-04-29 12:18:43,807 - INFO - Updated image URL for Thomas P. Tiffany to https://bioguide.congress.gov/bioguide/photo/T/T000165.jpg
+2025-04-29 12:18:43,808 - INFO - Updated image URL for Bennie G. Thompson to https://bioguide.congress.gov/bioguide/photo/T/T000193.jpg
+2025-04-29 12:18:43,808 - INFO - Updated image URL for John Thune to https://bioguide.congress.gov/bioguide/photo/T/T000250.jpg
+2025-04-29 12:18:43,808 - INFO - Updated image URL for Tommy Tuberville to https://bioguide.congress.gov/bioguide/photo/T/T000278.jpg
+2025-04-29 12:18:43,809 - INFO - Updated image URL for Mike Thompson to https://bioguide.congress.gov/bioguide/photo/T/T000460.jpg
+2025-04-29 12:18:43,809 - INFO - Updated image URL for Michael R. Turner to https://bioguide.congress.gov/bioguide/photo/T/T000463.jpg
+2025-04-29 12:18:43,810 - INFO - Updated image URL for Glenn Thompson to https://bioguide.congress.gov/bioguide/photo/T/T000467.jpg
+2025-04-29 12:18:43,810 - INFO - Updated image URL for Dina Titus to https://bioguide.congress.gov/bioguide/photo/T/T000468.jpg
+2025-04-29 12:18:43,811 - INFO - Updated image URL for Paul Tonko to https://bioguide.congress.gov/bioguide/photo/T/T000469.jpg
+2025-04-29 12:18:43,811 - INFO - Updated image URL for Mark Takano to https://bioguide.congress.gov/bioguide/photo/T/T000472.jpg
+2025-04-29 12:18:43,811 - INFO - Updated image URL for Norma J. Torres to https://bioguide.congress.gov/bioguide/photo/T/T000474.jpg
+2025-04-29 12:18:43,812 - INFO - Updated image URL for Thom Tillis to https://bioguide.congress.gov/bioguide/photo/T/T000476.jpg
+2025-04-29 12:18:43,812 - INFO - Updated image URL for Claudia Tenney to https://bioguide.congress.gov/bioguide/photo/T/T000478.jpg
+2025-04-29 12:18:43,813 - INFO - Updated image URL for William R. Timmons IV to https://bioguide.congress.gov/bioguide/photo/T/T000480.jpg
+2025-04-29 12:18:43,813 - INFO - Updated image URL for Rashida Tlaib to https://bioguide.congress.gov/bioguide/photo/T/T000481.jpg
+2025-04-29 12:18:43,813 - INFO - Updated image URL for Lori Trahan to https://bioguide.congress.gov/bioguide/photo/T/T000482.jpg
+2025-04-29 12:18:43,814 - INFO - Updated image URL for Ritchie Torres to https://bioguide.congress.gov/bioguide/photo/T/T000486.jpg
+2025-04-29 12:18:43,814 - INFO - Updated image URL for Jill N. Tokuda to https://bioguide.congress.gov/bioguide/photo/T/T000487.jpg
+2025-04-29 12:18:43,814 - INFO - Updated image URL for Shri Thanedar to https://bioguide.congress.gov/bioguide/photo/T/T000488.jpg
+2025-04-29 12:18:43,815 - INFO - Updated image URL for David J. Taylor to https://bioguide.congress.gov/bioguide/photo/T/T000490.jpg
+2025-04-29 12:18:43,815 - INFO - Updated image URL for Derek Tran to https://bioguide.congress.gov/bioguide/photo/T/T000491.jpg
+2025-04-29 12:18:43,816 - INFO - Updated image URL for Lauren Underwood to https://bioguide.congress.gov/bioguide/photo/U/U000040.jpg
+2025-04-29 12:18:43,817 - INFO - Updated image URL for Nydia M. Velázquez to https://bioguide.congress.gov/bioguide/photo/V/V000081.jpg
+2025-04-29 12:18:43,818 - INFO - Updated image URL for Chris Van Hollen to https://bioguide.congress.gov/bioguide/photo/V/V000128.jpg
+2025-04-29 12:18:43,818 - INFO - Updated image URL for David G. Valadao to https://bioguide.congress.gov/bioguide/photo/V/V000129.jpg
+2025-04-29 12:18:43,819 - INFO - Updated image URL for Juan Vargas to https://bioguide.congress.gov/bioguide/photo/V/V000130.jpg
+2025-04-29 12:18:43,819 - INFO - Updated image URL for Marc A. Veasey to https://bioguide.congress.gov/bioguide/photo/V/V000131.jpg
+2025-04-29 12:18:43,820 - INFO - Updated image URL for Jefferson Van Drew to https://bioguide.congress.gov/bioguide/photo/V/V000133.jpg
+2025-04-29 12:18:43,820 - INFO - Updated image URL for Beth Van Duyne to https://bioguide.congress.gov/bioguide/photo/V/V000134.jpg
+2025-04-29 12:18:43,821 - INFO - Updated image URL for Derrick Van Orden to https://bioguide.congress.gov/bioguide/photo/V/V000135.jpg
+2025-04-29 12:18:43,821 - INFO - Updated image URL for Gabe Vasquez to https://bioguide.congress.gov/bioguide/photo/V/V000136.jpg
+2025-04-29 12:18:43,822 - INFO - Updated image URL for Eugene Simon Vindman to https://bioguide.congress.gov/bioguide/photo/V/V000138.jpg
+2025-04-29 12:18:43,822 - INFO - Updated image URL for Maxine Waters to https://bioguide.congress.gov/bioguide/photo/W/W000187.jpg
+2025-04-29 12:18:43,823 - INFO - Updated image URL for Roger F. Wicker to https://bioguide.congress.gov/bioguide/photo/W/W000437.jpg
+2025-04-29 12:18:43,823 - INFO - Updated image URL for Ron Wyden to https://bioguide.congress.gov/bioguide/photo/W/W000779.jpg
+2025-04-29 12:18:43,824 - INFO - Updated image URL for Nikema Williams to https://bioguide.congress.gov/bioguide/photo/W/W000788.jpg
+2025-04-29 12:18:43,824 - INFO - Updated image URL for Raphael G. Warnock to https://bioguide.congress.gov/bioguide/photo/W/W000790.jpg
+2025-04-29 12:18:43,825 - INFO - Updated image URL for Joe Wilson to https://bioguide.congress.gov/bioguide/photo/W/W000795.jpg
+2025-04-29 12:18:43,825 - INFO - Updated image URL for Debbie Wasserman Schultz to https://bioguide.congress.gov/bioguide/photo/W/W000797.jpg
+2025-04-29 12:18:43,826 - INFO - Updated image URL for Tim Walberg to https://bioguide.congress.gov/bioguide/photo/W/W000798.jpg
+2025-04-29 12:18:43,826 - INFO - Updated image URL for Peter Welch to https://bioguide.congress.gov/bioguide/photo/W/W000800.jpg
+2025-04-29 12:18:43,826 - INFO - Updated image URL for Sheldon Whitehouse to https://bioguide.congress.gov/bioguide/photo/W/W000802.jpg
+2025-04-29 12:18:43,826 - INFO - Updated image URL for Robert J. Wittman to https://bioguide.congress.gov/bioguide/photo/W/W000804.jpg
+2025-04-29 12:18:43,827 - INFO - Updated image URL for Mark R. Warner to https://bioguide.congress.gov/bioguide/photo/W/W000805.jpg
+2025-04-29 12:18:43,827 - INFO - Updated image URL for Daniel Webster to https://bioguide.congress.gov/bioguide/photo/W/W000806.jpg
+2025-04-29 12:18:43,828 - INFO - Updated image URL for Frederica S. Wilson to https://bioguide.congress.gov/bioguide/photo/W/W000808.jpg
+2025-04-29 12:18:43,828 - INFO - Updated image URL for Steve Womack to https://bioguide.congress.gov/bioguide/photo/W/W000809.jpg
+2025-04-29 12:18:43,828 - INFO - Updated image URL for Ann Wagner to https://bioguide.congress.gov/bioguide/photo/W/W000812.jpg
+2025-04-29 12:18:43,829 - INFO - Updated image URL for Randy K. Weber, Sr. to https://bioguide.congress.gov/bioguide/photo/W/W000814.jpg
+2025-04-29 12:18:43,829 - INFO - Updated image URL for Roger Williams to https://bioguide.congress.gov/bioguide/photo/W/W000816.jpg
+2025-04-29 12:18:43,829 - INFO - Updated image URL for Elizabeth Warren to https://bioguide.congress.gov/bioguide/photo/W/W000817.jpg
+2025-04-29 12:18:43,830 - INFO - Updated image URL for Bruce Westerman to https://bioguide.congress.gov/bioguide/photo/W/W000821.jpg
+2025-04-29 12:18:43,830 - INFO - Updated image URL for Bonnie Watson Coleman to https://bioguide.congress.gov/bioguide/photo/W/W000822.jpg
+2025-04-29 12:18:43,830 - INFO - Updated image URL for Tony Wied to https://bioguide.congress.gov/bioguide/photo/W/W000829.jpg
+2025-04-29 12:18:43,831 - INFO - Updated image URL for George Whitesides to https://bioguide.congress.gov/bioguide/photo/W/W000830.jpg
+2025-04-29 12:18:43,831 - INFO - Updated image URL for Todd Young to https://bioguide.congress.gov/bioguide/photo/Y/Y000064.jpg
+2025-04-29 12:18:43,831 - INFO - Updated image URL for Rudy Yakym III to https://bioguide.congress.gov/bioguide/photo/Y/Y000067.jpg
+2025-04-29 12:18:43,834 - INFO - Updated image URL for Ryan K. Zinke to https://bioguide.congress.gov/bioguide/photo/Z/Z000018.jpg
+2025-04-29 12:18:43,840 - INFO - Migration Summary:
+2025-04-29 12:18:43,841 - INFO - Total records processed: 541
+2025-04-29 12:18:43,841 - INFO - Total records updated: 541
+2025-04-29 12:18:43,841 - INFO - Total records with no changes needed: 0
+2025-04-29 12:18:43,842 - INFO - Total records missing or not found: 0
+2025-04-29 12:18:43,851 - INFO - Image URL migration completed
+2025-04-29 12:18:43,853 - INFO - Script exiting, no input required.

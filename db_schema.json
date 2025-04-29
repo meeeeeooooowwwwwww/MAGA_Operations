@@ -1,0 +1,901 @@
+{
+  "entities": [
+    {
+      "name": "id",
+      "type": "INTEGER",
+      "notnull": 0,
+      "default": null,
+      "pk": 1
+    },
+    {
+      "name": "name",
+      "type": "TEXT",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "normalized_name",
+      "type": "TEXT",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "bio",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "image_url",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "twitter_handle",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "instagram_handle",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "facebook_url",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "website_url",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "first_appearance_date",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "last_updated",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "relevance_score",
+      "type": "REAL",
+      "notnull": 0,
+      "default": "0.0",
+      "pk": 0
+    },
+    {
+      "name": "entity_type",
+      "type": "TEXT",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "official_positions",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "known_affiliations",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "location",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "recent_activity",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    }
+  ],
+  "sqlite_sequence": [
+    {
+      "name": "name",
+      "type": "",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "seq",
+      "type": "",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    }
+  ],
+  "politicians": [
+    {
+      "name": "entity_id",
+      "type": "INTEGER",
+      "notnull": 0,
+      "default": null,
+      "pk": 1
+    },
+    {
+      "name": "office",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "state",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "district",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "election_year",
+      "type": "INTEGER",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "bioguide_id",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "fec_candidate_id",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    }
+  ],
+  "influencers": [
+    {
+      "name": "entity_id",
+      "type": "INTEGER",
+      "notnull": 0,
+      "default": null,
+      "pk": 1
+    },
+    {
+      "name": "platform",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "audience_size",
+      "type": "INTEGER",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "content_focus",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "influence_score",
+      "type": "REAL",
+      "notnull": 0,
+      "default": "0.0",
+      "pk": 0
+    }
+  ],
+  "category_types": [
+    {
+      "name": "id",
+      "type": "INTEGER",
+      "notnull": 0,
+      "default": null,
+      "pk": 1
+    },
+    {
+      "name": "name",
+      "type": "TEXT",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "description",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "is_multiple",
+      "type": "BOOLEAN",
+      "notnull": 0,
+      "default": "FALSE",
+      "pk": 0
+    }
+  ],
+  "categories": [
+    {
+      "name": "id",
+      "type": "INTEGER",
+      "notnull": 0,
+      "default": null,
+      "pk": 1
+    },
+    {
+      "name": "category_type_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "code",
+      "type": "TEXT",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "name",
+      "type": "TEXT",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "description",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "display_order",
+      "type": "INTEGER",
+      "notnull": 0,
+      "default": "0",
+      "pk": 0
+    },
+    {
+      "name": "parent_category_id",
+      "type": "INTEGER",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    }
+  ],
+  "entity_categories": [
+    {
+      "name": "entity_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "default": null,
+      "pk": 1
+    },
+    {
+      "name": "category_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "default": null,
+      "pk": 2
+    },
+    {
+      "name": "confidence_score",
+      "type": "REAL",
+      "notnull": 0,
+      "default": "1.0",
+      "pk": 0
+    },
+    {
+      "name": "source",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    }
+  ],
+  "entity_connections": [
+    {
+      "name": "id",
+      "type": "INTEGER",
+      "notnull": 0,
+      "default": null,
+      "pk": 1
+    },
+    {
+      "name": "entity1_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "entity2_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "connection_type",
+      "type": "TEXT",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "strength",
+      "type": "REAL",
+      "notnull": 0,
+      "default": "0.0",
+      "pk": 0
+    },
+    {
+      "name": "source",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "first_detected",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "last_updated",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    }
+  ],
+  "entity_embeddings": [
+    {
+      "name": "entity_id",
+      "type": "INTEGER",
+      "notnull": 0,
+      "default": null,
+      "pk": 1
+    },
+    {
+      "name": "embedding_data",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "embedding_model",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "created_at",
+      "type": "TEXT",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    }
+  ],
+  "search_history": [
+    {
+      "name": "id",
+      "type": "INTEGER",
+      "notnull": 0,
+      "default": null,
+      "pk": 1
+    },
+    {
+      "name": "query",
+      "type": "TEXT",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "timestamp",
+      "type": "TEXT",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "results_count",
+      "type": "INTEGER",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    }
+  ],
+  "social_posts": [
+    {
+      "name": "id",
+      "type": "INTEGER",
+      "notnull": 0,
+      "default": null,
+      "pk": 1
+    },
+    {
+      "name": "entity_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "platform",
+      "type": "TEXT",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "post_id",
+      "type": "TEXT",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "content",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "posted_at",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "engagement_count",
+      "type": "INTEGER",
+      "notnull": 0,
+      "default": "0",
+      "pk": 0
+    },
+    {
+      "name": "sentiment_score",
+      "type": "REAL",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "ai_analyzed",
+      "type": "BOOLEAN",
+      "notnull": 0,
+      "default": "FALSE",
+      "pk": 0
+    },
+    {
+      "name": "analysis_data",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    }
+  ],
+  "voting_records": [
+    {
+      "name": "id",
+      "type": "INTEGER",
+      "notnull": 0,
+      "default": null,
+      "pk": 1
+    },
+    {
+      "name": "politician_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "vote_id",
+      "type": "TEXT",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "bill_id",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "bill_title",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "vote_date",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "vote_position",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "congress",
+      "type": "INTEGER",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    }
+  ],
+  "topics": [
+    {
+      "name": "id",
+      "type": "INTEGER",
+      "notnull": 0,
+      "default": null,
+      "pk": 1
+    },
+    {
+      "name": "name",
+      "type": "TEXT",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "description",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "parent_topic_id",
+      "type": "INTEGER",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    }
+  ],
+  "entity_topics": [
+    {
+      "name": "entity_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "default": null,
+      "pk": 1
+    },
+    {
+      "name": "topic_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "default": null,
+      "pk": 2
+    },
+    {
+      "name": "stance",
+      "type": "REAL",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "importance",
+      "type": "REAL",
+      "notnull": 0,
+      "default": "0.5",
+      "pk": 0
+    }
+  ],
+  "funding_sources": [
+    {
+      "name": "id",
+      "type": "INTEGER",
+      "notnull": 0,
+      "default": null,
+      "pk": 1
+    },
+    {
+      "name": "name",
+      "type": "TEXT",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "description",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "organization_type",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    }
+  ],
+  "entity_funding": [
+    {
+      "name": "id",
+      "type": "INTEGER",
+      "notnull": 0,
+      "default": null,
+      "pk": 1
+    },
+    {
+      "name": "entity_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "source_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "amount",
+      "type": "REAL",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "transaction_date",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "transaction_type",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "transaction_id",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    }
+  ],
+  "connection_evidence": [
+    {
+      "name": "id",
+      "type": "INTEGER",
+      "notnull": 0,
+      "default": null,
+      "pk": 1
+    },
+    {
+      "name": "connection_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "evidence_type",
+      "type": "TEXT",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "description",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "source_url",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "confidence_score",
+      "type": "REAL",
+      "notnull": 0,
+      "default": "0.0",
+      "pk": 0
+    },
+    {
+      "name": "extraction_date",
+      "type": "TEXT",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    }
+  ],
+  "donation_records": [
+    {
+      "name": "id",
+      "type": "INTEGER",
+      "notnull": 0,
+      "default": null,
+      "pk": 1
+    },
+    {
+      "name": "donor_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "recipient_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "amount",
+      "type": "REAL",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "donation_date",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "donation_type",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "source_url",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "source_id",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    }
+  ],
+  "ai_metadata": [
+    {
+      "name": "id",
+      "type": "INTEGER",
+      "notnull": 0,
+      "default": null,
+      "pk": 1
+    },
+    {
+      "name": "entity_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "field_name",
+      "type": "TEXT",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "field_value",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "confidence_score",
+      "type": "REAL",
+      "notnull": 0,
+      "default": "0.0",
+      "pk": 0
+    },
+    {
+      "name": "source",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "extraction_date",
+      "type": "TEXT",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "name": "verified",
+      "type": "BOOLEAN",
+      "notnull": 0,
+      "default": "FALSE",
+      "pk": 0
+    },
+    {
+      "name": "verified_date",
+      "type": "TEXT",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    }
+  ]
+}

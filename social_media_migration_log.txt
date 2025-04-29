@@ -1,0 +1,1107 @@
+2025-04-29 12:16:33,812 - INFO - Starting social media migration
+2025-04-29 12:16:33,813 - INFO - Loading YAML file: backups/migrated_data_files/legislators-social-media.yaml
+2025-04-29 12:16:34,431 - ERROR - No social media data found in the YAML file
+2025-04-29 12:16:34,432 - INFO - Social media migration completed
+2025-04-29 12:16:34,433 - INFO - Script exiting, no input required.
+2025-04-29 12:17:54,285 - INFO - Starting social media migration
+2025-04-29 12:17:54,286 - INFO - Loading YAML file: backups/migrated_data_files/legislators-social-media.yaml
+2025-04-29 12:17:54,782 - INFO - Found 529 social media records in the YAML file
+2025-04-29 12:17:54,785 - INFO - Twitter already set for Aumua Amata Coleman Radewagen: RepAmata, skipping
+2025-04-29 12:17:54,785 - INFO - Twitter already set for Todd Young: SenToddYoung, skipping
+2025-04-29 12:17:54,786 - INFO - Twitter already set for Joni Ernst: SenJoniErnst, skipping
+2025-04-29 12:17:54,786 - INFO - Twitter already set for Thom Tillis: SenThomTillis, skipping
+2025-04-29 12:17:54,787 - INFO - Twitter already set for Steve Womack: Rep_SteveWomack, skipping
+2025-04-29 12:17:54,787 - INFO - Twitter already set for Frederica S. Wilson: RepWilson, skipping
+2025-04-29 12:17:54,788 - INFO - Twitter already set for Daniel Webster: RepWebster, skipping
+2025-04-29 12:17:54,788 - INFO - Twitter already set for Mark R. Warner: MarkWarner, skipping
+2025-04-29 12:17:54,789 - INFO - Twitter already set for Robert J. Wittman: RobWittman, skipping
+2025-04-29 12:17:54,790 - INFO - Twitter already set for Sheldon Whitehouse: SenWhitehouse, skipping
+2025-04-29 12:17:54,790 - INFO - Twitter already set for Peter Welch: PeterWelch, skipping
+2025-04-29 12:17:54,791 - INFO - Twitter already set for Tim Walberg: RepWalberg, skipping
+2025-04-29 12:17:54,791 - INFO - Twitter already set for Debbie Wasserman Schultz: RepDWStweets, skipping
+2025-04-29 12:17:54,792 - INFO - Twitter already set for Joe Wilson: RepJoeWilson, skipping
+2025-04-29 12:17:54,792 - INFO - Twitter already set for Ron Wyden: RonWyden, skipping
+2025-04-29 12:17:54,793 - INFO - Twitter already set for Roger F. Wicker: SenatorWicker, skipping
+2025-04-29 12:17:54,793 - INFO - Twitter already set for Maxine Waters: RepMaxineWaters, skipping
+2025-04-29 12:17:54,794 - INFO - Twitter already set for Chris Van Hollen: ChrisVanHollen, skipping
+2025-04-29 12:17:54,794 - INFO - Twitter already set for Nydia M. Velázquez: NydiaVelazquez, skipping
+2025-04-29 12:17:54,795 - INFO - Twitter already set for Paul Tonko: RepPaulTonko, skipping
+2025-04-29 12:17:54,795 - INFO - Twitter already set for Dina Titus: RepDinaTitus, skipping
+2025-04-29 12:17:54,796 - INFO - Twitter already set for Glenn Thompson: CongressmanGT, skipping
+2025-04-29 12:17:54,796 - INFO - Twitter already set for Michael R. Turner: RepMikeTurner, skipping
+2025-04-29 12:17:54,797 - INFO - Twitter already set for Mike Thompson: RepThompson, skipping
+2025-04-29 12:17:54,797 - INFO - Twitter already set for John Thune: SenJohnThune, skipping
+2025-04-29 12:17:54,800 - INFO - Twitter already set for Bennie G. Thompson: BennieGThompson, skipping
+2025-04-29 12:17:54,801 - INFO - Twitter already set for Austin Scott: AustinScottGA08, skipping
+2025-04-29 12:17:54,802 - INFO - Twitter already set for Terri A. Sewell: RepTerriSewell, skipping
+2025-04-29 12:17:54,802 - INFO - Twitter already set for Tim Scott: SenatorTimScott, skipping
+2025-04-29 12:17:54,803 - INFO - Twitter already set for David Schweikert: RepDavid, skipping
+2025-04-29 12:17:54,804 - INFO - Twitter already set for Jeanne Shaheen: SenatorShaheen, skipping
+2025-04-29 12:17:54,804 - INFO - Twitter already set for Steve Scalise: SteveScalise, skipping
+2025-04-29 12:17:54,805 - INFO - Twitter already set for Adrian Smith: RepAdrianSmith, skipping
+2025-04-29 12:17:54,806 - INFO - Twitter already set for David Scott: RepDavidScott, skipping
+2025-04-29 12:17:54,806 - INFO - Twitter already set for Linda T. Sánchez: RepLindaSanchez, skipping
+2025-04-29 12:17:54,807 - INFO - Twitter already set for Michael K. Simpson: CongMikeSimpson, skipping
+2025-04-29 12:17:54,808 - INFO - Twitter already set for Janice D. Schakowsky: JanSchakowsky, skipping
+2025-04-29 12:17:54,808 - INFO - Twitter already set for Rick Scott: SenRickScott, skipping
+2025-04-29 12:17:54,809 - INFO - Twitter already set for Adam Smith: RepAdamSmith, skipping
+2025-04-29 12:17:54,810 - INFO - Twitter already set for Brad Sherman: BradSherman, skipping
+2025-04-29 12:17:54,810 - INFO - Twitter already set for Robert C. "Bobby" Scott: BobbyScott, skipping
+2025-04-29 12:17:54,811 - INFO - Twitter already set for Charles E. Schumer: SenSchumer, skipping
+2025-04-29 12:17:54,812 - INFO - Twitter already set for Bernard Sanders: SenSanders, skipping
+2025-04-29 12:17:54,813 - INFO - Twitter already set for Mike Rogers: RepMikeRogersAL, skipping
+2025-04-29 12:17:54,813 - INFO - Twitter already set for Harold Rogers: RepHalRogers, skipping
+2025-04-29 12:17:54,814 - INFO - Twitter already set for Jack Reed: SenJackReed, skipping
+2025-04-29 12:17:54,817 - INFO - Twitter already set for Mike Quigley: RepMikeQuigley, skipping
+2025-04-29 12:17:54,818 - INFO - Twitter already set for Rand Paul: SenRandPaul, skipping
+2025-04-29 12:17:54,818 - INFO - Twitter already set for Chellie Pingree: ChelliePingree, skipping
+2025-04-29 12:17:54,819 - INFO - Twitter already set for Gary C. Peters: SenGaryPeters, skipping
+2025-04-29 12:17:54,820 - INFO - Twitter already set for Nancy Pelosi: SpeakerPelosi, skipping
+2025-04-29 12:17:54,820 - INFO - Twitter already set for Frank Pallone, Jr.: FrankPallone, skipping
+2025-04-29 12:17:54,821 - INFO - Twitter already set for Eleanor Holmes Norton: EleanorNorton, skipping
+2025-04-29 12:17:54,821 - INFO - Twitter already set for Richard E. Neal: RepRichardNeal, skipping
+2025-04-29 12:17:54,822 - INFO - Twitter already set for Jerrold Nadler: RepJerryNadler, skipping
+2025-04-29 12:17:54,823 - INFO - Twitter already set for Tom McClintock: RepMcClintock, skipping
+2025-04-29 12:17:54,823 - INFO - Twitter already set for Jeff Merkley: SenJeffMerkley, skipping
+2025-04-29 12:17:54,824 - INFO - Twitter already set for Doris O. Matsui: DorisMatsui, skipping
+2025-04-29 12:17:54,825 - INFO - Twitter already set for Gwen Moore: RepGwenMoore, skipping
+2025-04-29 12:17:54,825 - INFO - Twitter already set for Michael T. McCaul: RepMcCaul, skipping
+2025-04-29 12:17:54,826 - INFO - Twitter already set for Lisa Murkowski: LisaMurkowski, skipping
+2025-04-29 12:17:54,826 - INFO - Twitter already set for Betty McCollum: BettyMcCollum04, skipping
+2025-04-29 12:17:54,827 - INFO - Twitter already set for Gregory W. Meeks: RepGregoryMeeks, skipping
+2025-04-29 12:17:54,827 - INFO - Twitter already set for Patty Murray: PattyMurray, skipping
+2025-04-29 12:17:54,828 - INFO - Twitter already set for Jerry Moran: JerryMoran, skipping
+2025-04-29 12:17:54,828 - INFO - Twitter already set for Mitch McConnell: McConnellPress, skipping
+2025-04-29 12:17:54,828 - INFO - Twitter already set for James P. McGovern: RepMcGovern, skipping
+2025-04-29 12:17:54,829 - INFO - Twitter already set for Edward J. Markey: SenMarkey, skipping
+2025-04-29 12:17:54,829 - INFO - Twitter already set for Mike Lee: SenMikeLee, skipping
+2025-04-29 12:17:54,829 - INFO - Twitter already set for James Lankford: SenatorLankford, skipping
+2025-04-29 12:17:54,829 - INFO - Twitter already set for Ben Ray Luján: SenatorLujan, skipping
+2025-04-29 12:17:54,830 - INFO - Twitter already set for Robert E. Latta: BobLatta, skipping
+2025-04-29 12:17:54,830 - INFO - Twitter already set for Stephen F. Lynch: RepStephenLynch, skipping
+2025-04-29 12:17:54,831 - INFO - Twitter already set for Rick Larsen: RepRickLarsen, skipping
+2025-04-29 12:17:54,833 - INFO - Twitter already set for John B. Larson: RepJohnLarson, skipping
+2025-04-29 12:17:54,834 - INFO - Twitter already set for Frank D. Lucas: RepFrankLucas, skipping
+2025-04-29 12:17:54,834 - INFO - Twitter already set for Zoe Lofgren: RepZoeLofgren, skipping
+2025-04-29 12:17:54,835 - INFO - Twitter already set for Mike Kelly: MikeKellyPA, skipping
+2025-04-29 12:17:54,835 - INFO - Twitter already set for William R. Keating: USRepKeating, skipping
+2025-04-29 12:17:54,836 - INFO - Twitter already set for Marcy Kaptur: RepMarcyKaptur, skipping
+2025-04-29 12:17:54,836 - INFO - Twitter already set for Ron Johnson: SenRonJohnson, skipping
+2025-04-29 12:17:54,837 - INFO - Twitter already set for Jim Jordan: Jim_Jordan, skipping
+2025-04-29 12:17:54,837 - INFO - Twitter already set for Henry C. "Hank" Johnson, Jr.: RepHankJohnson, skipping
+2025-04-29 12:17:54,838 - INFO - Twitter already set for John Hoeven: SenJohnHoeven, skipping
+2025-04-29 12:17:54,838 - INFO - Twitter already set for Bill Huizenga: RepHuizenga, skipping
+2025-04-29 12:17:54,839 - INFO - Twitter already set for James A. Himes: jahimes, skipping
+2025-04-29 12:17:54,839 - INFO - Twitter already set for Martin Heinrich: MartinHeinrich, skipping
+2025-04-29 12:17:54,840 - INFO - Twitter already set for Mazie K. Hirono: MazieHirono, skipping
+2025-04-29 12:17:54,840 - INFO - Twitter already set for Steny H. Hoyer: RepStenyHoyer, skipping
+2025-04-29 12:17:54,841 - INFO - Twitter already set for H. Morgan Griffith: RepMGriffith, skipping
+2025-04-29 12:17:54,842 - INFO - Twitter already set for Paul A. Gosar: RepGosar, skipping
+2025-04-29 12:17:54,842 - INFO - Twitter already set for John Garamendi: RepGaramendi, skipping
+2025-04-29 12:17:54,843 - INFO - Twitter already set for Al Green: RepAlGreen, skipping
+2025-04-29 12:17:54,844 - INFO - Twitter already set for Chuck Grassley: ChuckGrassley, skipping
+2025-04-29 12:17:54,844 - INFO - Twitter already set for Lindsey Graham: GrahamBlog, skipping
+2025-04-29 12:17:54,845 - INFO - Twitter already set for Charles J. "Chuck" Fleischmann: RepChuck, skipping
+2025-04-29 12:17:54,846 - INFO - Twitter already set for Virginia Foxx: VirginiaFoxx, skipping
+2025-04-29 12:17:54,846 - INFO - Twitter already set for Scott DesJarlais: DesJarlaisTN04, skipping
+2025-04-29 12:17:54,847 - INFO - Twitter already set for Mario Diaz-Balart: MarioDB, skipping
+2025-04-29 12:17:54,847 - INFO - Twitter already set for Richard J. Durbin: SenatorDurbin, skipping
+2025-04-29 12:17:54,848 - INFO - Twitter already set for Lloyd Doggett: RepLloydDoggett, skipping
+2025-04-29 12:17:54,849 - INFO - Twitter already set for Rosa L. DeLauro: RosaDeLauro, skipping
+2025-04-29 12:17:54,849 - INFO - Twitter already set for Diana DeGette: RepDianaDeGette, skipping
+2025-04-29 12:17:54,850 - INFO - Twitter already set for Christopher A. Coons: ChrisCoons, skipping
+2025-04-29 12:17:54,851 - INFO - Twitter already set for Eric A. "Rick" Crawford: RepRickCrawford, skipping
+2025-04-29 12:17:54,851 - INFO - Twitter already set for Judy Chu: RepJudyChu, skipping
+2025-04-29 12:17:54,853 - INFO - Twitter already set for Gerald E. Connolly: GerryConnolly, skipping
+2025-04-29 12:17:54,854 - INFO - Twitter already set for André Carson: RepAndreCarson, skipping
+2025-04-29 12:17:54,855 - INFO - Twitter already set for Joe Courtney: RepJoeCourtney, skipping
+2025-04-29 12:17:54,856 - INFO - Twitter already set for Steve Cohen: RepCohen, skipping
+2025-04-29 12:17:54,856 - INFO - Twitter already set for Yvette D. Clarke: RepYvetteClarke, skipping
+2025-04-29 12:17:54,857 - INFO - Twitter already set for Henry Cuellar: RepCuellar, skipping
+2025-04-29 12:17:54,858 - INFO - Twitter already set for Emanuel Cleaver: RepCleaver, skipping
+2025-04-29 12:17:54,858 - INFO - Twitter already set for Jim Costa: RepJimCosta, skipping
+2025-04-29 12:17:54,859 - INFO - Twitter already set for John Cornyn: JohnCornyn, skipping
+2025-04-29 12:17:54,860 - INFO - Twitter already set for Tom Cole: TomColeOK04, skipping
+2025-04-29 12:17:54,860 - INFO - Twitter already set for John R. Carter: JudgeCarter, skipping
+2025-04-29 12:17:54,861 - INFO - Twitter already set for Shelley Moore Capito: SenCapito, skipping
+2025-04-29 12:17:54,862 - INFO - Twitter already set for Susan M. Collins: SenatorCollins, skipping
+2025-04-29 12:17:54,862 - INFO - Twitter already set for Mike Crapo: MikeCrapo, skipping
+2025-04-29 12:17:54,863 - INFO - Twitter already set for James E. Clyburn: RepJamesClyburn, skipping
+2025-04-29 12:17:54,864 - INFO - Twitter already set for Maria Cantwell: SenatorCantwell, skipping
+2025-04-29 12:17:54,865 - INFO - Twitter already set for Ken Calvert: KenCalvert, skipping
+2025-04-29 12:17:54,867 - INFO - Twitter already set for Richard Blumenthal: SenBlumenthal, skipping
+2025-04-29 12:17:54,869 - INFO - Twitter already set for Michael F. Bennet: SenatorBennet, skipping
+2025-04-29 12:17:54,870 - INFO - Twitter already set for John Barrasso: SenJohnBarrasso, skipping
+2025-04-29 12:17:54,871 - INFO - Twitter already set for Vern Buchanan: VernBuchanan, skipping
+2025-04-29 12:17:54,872 - INFO - Twitter already set for Gus M. Bilirakis: RepGusBilirakis, skipping
+2025-04-29 12:17:54,872 - INFO - Twitter already set for Marsha Blackburn: MarshaBlackburn, skipping
+2025-04-29 12:17:54,873 - INFO - Twitter already set for John Boozman: JohnBoozman, skipping
+2025-04-29 12:17:54,874 - INFO - Twitter already set for Sanford D. Bishop, Jr.: SanfordBishop, skipping
+2025-04-29 12:17:54,874 - INFO - Twitter already set for Robert B. Aderholt: Robert_Aderholt, skipping
+2025-04-29 12:17:54,875 - INFO - Twitter already set for Suzan K. DelBene: RepDelBene, skipping
+2025-04-29 12:17:54,875 - INFO - Twitter already set for Suzanne Bonamici: RepBonamici, skipping
+2025-04-29 12:17:54,876 - INFO - Twitter already set for Angus S. King, Jr.: SenAngusKing, skipping
+2025-04-29 12:17:54,876 - INFO - Twitter already set for Mark E. Amodei: MarkAmodeiNV2, skipping
+2025-04-29 12:17:54,877 - INFO - Twitter already set for Eric Swalwell: RepSwalwell, skipping
+2025-04-29 12:17:54,878 - INFO - Twitter already set for Markwayne Mullin: SenMullin, skipping
+2025-04-29 12:17:54,879 - INFO - Twitter already set for Grace Meng: RepGraceMeng, skipping
+2025-04-29 12:17:54,879 - INFO - Twitter already set for Mark Takano: RepMarkTakano, skipping
+2025-04-29 12:17:54,880 - INFO - Twitter already set for Hakeem S. Jeffries: RepJeffries, skipping
+2025-04-29 12:17:54,880 - INFO - Twitter already set for David P. Joyce: RepDaveJoyce, skipping
+2025-04-29 12:17:54,881 - INFO - Twitter already set for Randy K. Weber, Sr.: TXRandy14, skipping
+2025-04-29 12:17:54,881 - INFO - Twitter already set for Steve Daines: SteveDaines, skipping
+2025-04-29 12:17:54,882 - INFO - Twitter already set for Tom Cotton: SenTomCotton, skipping
+2025-04-29 12:17:54,883 - INFO - Twitter already set for Ami Bera: RepBera, skipping
+2025-04-29 12:17:54,884 - INFO - Twitter already set for Bill Foster: RepBillFoster, skipping
+2025-04-29 12:17:54,885 - INFO - Twitter already set for Lois Frankel: RepLoisFrankel, skipping
+2025-04-29 12:17:54,885 - INFO - Twitter already set for Richard Hudson: RepRichHudson, skipping
+2025-04-29 12:17:54,886 - INFO - Twitter already set for Marc A. Veasey: RepVeasey, skipping
+2025-04-29 12:17:54,886 - INFO - Twitter already set for Scott Perry: RepScottPerry, skipping
+2025-04-29 12:17:54,887 - INFO - Twitter already set for Raul Ruiz: RepRaulRuizMD, skipping
+2025-04-29 12:17:54,888 - INFO - Twitter already set for Kevin Cramer: SenKevinCramer, skipping
+2025-04-29 12:17:54,888 - INFO - Twitter already set for Ann Wagner: RepAnnWagner, skipping
+2025-04-29 12:17:54,889 - INFO - Twitter already set for Elizabeth Warren: SenWarren, skipping
+2025-04-29 12:17:54,889 - INFO - Twitter already set for Andy Barr: RepAndyBarr, skipping
+2025-04-29 12:17:54,890 - INFO - Twitter already set for Ted Cruz: SenTedCruz, skipping
+2025-04-29 12:17:54,890 - INFO - Twitter already set for Danny K. Davis: RepDannyDavis, skipping
+2025-04-29 12:17:54,891 - INFO - Twitter already set for Sam Graves: RepSamGraves, skipping
+2025-04-29 12:17:54,891 - INFO - Twitter already set for Tammy Baldwin: SenatorBaldwin, skipping
+2025-04-29 12:17:54,892 - INFO - Twitter already set for Roger Williams: RepRWilliams, skipping
+2025-04-29 12:17:54,892 - INFO - Twitter already set for Tammy Duckworth: SenDuckworth, skipping
+2025-04-29 12:17:54,893 - INFO - Twitter already set for Deb Fischer: SenatorFischer, skipping
+2025-04-29 12:17:54,894 - INFO - Twitter already set for Jared Huffman: RepHuffman, skipping
+2025-04-29 12:17:54,894 - INFO - Twitter already set for Andy Harris: RepAndyHarrisMD, skipping
+2025-04-29 12:17:54,895 - INFO - Twitter already set for Scott H. Peters: RepScottPeters, skipping
+2025-04-29 12:17:54,895 - INFO - Twitter already set for Joaquin Castro: JoaquinCastrotx, skipping
+2025-04-29 12:17:54,896 - INFO - Twitter already set for Bill Cassidy: SenBillCassidy, skipping
+2025-04-29 12:17:54,896 - INFO - Twitter already set for Brett Guthrie: RepGuthrie, skipping
+2025-04-29 12:17:54,897 - INFO - Twitter already set for Doug LaMalfa: RepLaMalfa, skipping
+2025-04-29 12:17:54,897 - INFO - Twitter already set for Kathy Castor: USRepKCastor, skipping
+2025-04-29 12:17:54,897 - INFO - Twitter already set for Amy Klobuchar: SenAmyKlobuchar, skipping
+2025-04-29 12:17:54,898 - INFO - Twitter already set for Mark Pocan: RepMarkPocan, skipping
+2025-04-29 12:17:54,898 - INFO - Twitter already set for Juan Vargas: RepJuanVargas, skipping
+2025-04-29 12:17:54,901 - INFO - Updated instagram_handle to 'sentimkaine' for Tim Kaine
+2025-04-29 12:17:54,902 - INFO - Updated facebook_url to 'https://www.facebook.com/SenatorKaine' for Tim Kaine
+2025-04-29 12:17:54,902 - INFO - Twitter already set for Brian Schatz: SenBrianSchatz, skipping
+2025-04-29 12:17:54,903 - INFO - Twitter already set for Julia Brownley: RepBrownley, skipping
+2025-04-29 12:17:54,903 - INFO - Twitter already set for Thomas Massie: RepThomasMassie, skipping
+2025-04-29 12:17:54,903 - INFO - Twitter already set for Robin L. Kelly: RepRobinKelly, skipping
+2025-04-29 12:17:54,904 - INFO - Twitter already set for Kirsten E. Gillibrand: GillibrandNY, skipping
+2025-04-29 12:17:54,904 - INFO - Twitter already set for James E. Risch: SenatorRisch, skipping
+2025-04-29 12:17:54,904 - INFO - Twitter already set for Joyce Beatty: RepBeatty, skipping
+2025-04-29 12:17:54,905 - INFO - Twitter already set for Tina Smith: SenTinaSmith, skipping
+2025-04-29 12:17:54,905 - INFO - Twitter already set for Jason Smith: RepJasonSmith, skipping
+2025-04-29 12:17:54,906 - INFO - Updated instagram_handle to 'repchrissmith' for Christopher H. Smith
+2025-04-29 12:17:54,906 - INFO - Updated facebook_url to 'https://www.facebook.com/RepChrisSmith' for Christopher H. Smith
+2025-04-29 12:17:54,907 - INFO - Twitter already set for Christopher Murphy: SenMurphyOffice, skipping
+2025-04-29 12:17:54,907 - INFO - Twitter already set for Cory A. Booker: SenBooker, skipping
+2025-04-29 12:17:54,908 - INFO - Twitter already set for Katherine M. Clark: RepKClark, skipping
+2025-04-29 12:17:54,908 - INFO - Twitter already set for Dan Newhouse: RepNewhouse, skipping
+2025-04-29 12:17:54,908 - INFO - Twitter already set for Barry Loudermilk: RepLoudermilk, skipping
+2025-04-29 12:17:54,909 - INFO - Twitter already set for Earl L. "Buddy" Carter: RepBuddyCarter, skipping
+2025-04-29 12:17:54,909 - INFO - Twitter already set for Mike Bost: RepBost, skipping
+2025-04-29 12:17:54,909 - INFO - Twitter already set for Alma S. Adams: RepAdams, skipping
+2025-04-29 12:17:54,910 - INFO - Twitter already set for John R. Moolenaar: RepMoolenaar, skipping
+2025-04-29 12:17:54,910 - INFO - Twitter already set for Elise M. Stefanik: RepStefanik, skipping
+2025-04-29 12:17:54,911 - INFO - Twitter already set for David Rouzer: RepDavidRouzer, skipping
+2025-04-29 12:17:54,911 - INFO - Twitter already set for Gary J. Palmer: USRepGaryPalmer, skipping
+2025-04-29 12:17:54,911 - INFO - Twitter already set for Tom Emmer: RepTomEmmer, skipping
+2025-04-29 12:17:54,912 - INFO - Twitter already set for Bruce Westerman: RepWesterman, skipping
+2025-04-29 12:17:54,912 - INFO - Twitter already set for J. French Hill: RepFrenchHill, skipping
+2025-04-29 12:17:54,912 - INFO - Twitter already set for Brian Babin: RepBrianBabin, skipping
+2025-04-29 12:17:54,912 - INFO - Twitter already set for Debbie Dingell: RepDebDingell, skipping
+2025-04-29 12:17:54,913 - INFO - Twitter already set for Norma J. Torres: NormaJTorres, skipping
+2025-04-29 12:17:54,913 - INFO - Twitter already set for Dan Sullivan: SenDanSullivan, skipping
+2025-04-29 12:17:54,913 - INFO - Twitter already set for Rick W. Allen: RepRickAllen, skipping
+2025-04-29 12:17:54,913 - INFO - Twitter already set for Mike Rounds: SenatorRounds, skipping
+2025-04-29 12:17:54,914 - INFO - Twitter already set for Brendan F. Boyle: CongBoyle, skipping
+2025-04-29 12:17:54,914 - INFO - Twitter already set for Pete Aguilar: RepPeteAguilar, skipping
+2025-04-29 12:17:54,914 - INFO - Twitter already set for Ruben Gallego: RepRubenGallego, skipping
+2025-04-29 12:17:54,914 - INFO - Twitter already set for Stacey E. Plaskett: StaceyPlaskett, skipping
+2025-04-29 12:17:54,915 - INFO - Twitter already set for Bonnie Watson Coleman: RepBonnie, skipping
+2025-04-29 12:17:54,915 - INFO - Twitter already set for Ted Lieu: RepTedLieu, skipping
+2025-04-29 12:17:54,916 - INFO - Twitter already set for Mark DeSaulnier: RepDeSaulnier, skipping
+2025-04-29 12:17:54,917 - INFO - Twitter already set for Seth Moulton: RepMoulton, skipping
+2025-04-29 12:17:54,917 - INFO - Twitter already set for Donald S. Beyer, Jr.: RepDonBeyer, skipping
+2025-04-29 12:17:54,918 - INFO - Twitter already set for Glenn Grothman: RepGrothman, skipping
+2025-04-29 12:17:54,918 - INFO - Twitter already set for Donald Norcross: DonaldNorcross, skipping
+2025-04-29 12:17:54,919 - INFO - Twitter already set for Trent Kelly: RepTrentKelly, skipping
+2025-04-29 12:17:54,919 - INFO - Twitter already set for Darin LaHood: RepLaHood, skipping
+2025-04-29 12:17:54,919 - INFO - Twitter already set for Jim Banks: RepJimBanks, skipping
+2025-04-29 12:17:54,920 - INFO - Twitter already set for Lisa Blunt Rochester: RepLBR, skipping
+2025-04-29 12:17:54,920 - INFO - Twitter already set for Jamie Raskin: RepRaskin, skipping
+2025-04-29 12:17:54,920 - INFO - Twitter already set for Jimmy Panetta: RepJimmyPanetta, skipping
+2025-04-29 12:17:54,921 - INFO - Twitter already set for Neal P. Dunn: DrNealDunnFL2, skipping
+2025-04-29 12:17:54,921 - INFO - Twitter already set for Nanette Diaz Barragán: RepBarragan, skipping
+2025-04-29 12:17:54,921 - INFO - Twitter already set for Andy Biggs: RepAndyBiggsAZ, skipping
+2025-04-29 12:17:54,922 - INFO - Twitter already set for Brian J. Mast: RepBrianMast, skipping
+2025-04-29 12:17:54,922 - INFO - Twitter already set for Warren Davidson: WarrenDavidson, skipping
+2025-04-29 12:17:54,923 - INFO - Twitter already set for Vicente Gonzalez: RepGonzalez, skipping
+2025-04-29 12:17:54,923 - INFO - Twitter already set for Josh Gottheimer: RepJoshG, skipping
+2025-04-29 12:17:54,923 - INFO - Twitter already set for Catherine Cortez Masto: SenCortezMasto, skipping
+2025-04-29 12:17:54,924 - INFO - Twitter already set for Ro Khanna: RepRoKhanna, skipping
+2025-04-29 12:17:54,924 - INFO - Twitter already set for Jodey C. Arrington: RepArrington, skipping
+2025-04-29 12:17:54,924 - INFO - Twitter already set for Salud O. Carbajal: RepCarbajal, skipping
+2025-04-29 12:17:54,925 - INFO - Twitter already set for Bradley Scott Schneider: RepSchneider, skipping
+2025-04-29 12:17:54,925 - INFO - Twitter already set for Ted Budd: RepTedBudd, skipping
+2025-04-29 12:17:54,925 - INFO - Twitter already set for Pramila Jayapal: RepJayapal, skipping
+2025-04-29 12:17:54,925 - INFO - Twitter already set for Brian K. Fitzpatrick: RepBrianFitz, skipping
+2025-04-29 12:17:54,926 - INFO - Twitter already set for John Kennedy: SenJohnKennedy, skipping
+2025-04-29 12:17:54,926 - INFO - Twitter already set for Raja Krishnamoorthi: CongressmanRaja, skipping
+2025-04-29 12:17:54,926 - INFO - Twitter already set for Margaret Wood Hassan: SenatorHassan, skipping
+2025-04-29 12:17:54,926 - INFO - Twitter already set for Adriano Espaillat: RepEspaillat, skipping
+2025-04-29 12:17:54,927 - INFO - Twitter already set for David Kustoff: RepDavidKustoff, skipping
+2025-04-29 12:17:54,927 - INFO - Twitter already set for Darren Soto: RepDarrenSoto, skipping
+2025-04-29 12:17:54,927 - INFO - Twitter already set for Jack Bergman: RepJackBergman, skipping
+2025-04-29 12:17:54,928 - INFO - Twitter already set for James Comer: RepJamesComer, skipping
+2025-04-29 12:17:54,928 - INFO - Twitter already set for Roger Marshall: SenatorMarshall, skipping
+2025-04-29 12:17:54,928 - INFO - Twitter already set for Dwight Evans: RepDwightEvans, skipping
+2025-04-29 12:17:54,928 - INFO - Twitter already set for John H. Rutherford: RepRutherfordFL, skipping
+2025-04-29 12:17:54,929 - INFO - Twitter already set for Mike Johnson: RepMikeJohnson, skipping
+2025-04-29 12:17:54,929 - INFO - Twitter already set for Jacky Rosen: SenJackyRosen, skipping
+2025-04-29 12:17:54,929 - INFO - Twitter already set for J. Luis Correa: RepLouCorrea, skipping
+2025-04-29 12:17:54,930 - INFO - Twitter already set for Don Bacon: RepDonBacon, skipping
+2025-04-29 12:17:54,930 - INFO - Twitter already set for Lloyd Smucker: RepSmucker, skipping
+2025-04-29 12:17:54,930 - INFO - Twitter already set for Clay Higgins: RepClayHiggins, skipping
+2025-04-29 12:17:54,930 - INFO - Twitter already set for Ron Estes: RepRonEstes, skipping
+2025-04-29 12:17:54,931 - INFO - Twitter already set for Jimmy Gomez: RepJimmyGomez, skipping
+2025-04-29 12:17:54,931 - INFO - Twitter already set for Ralph Norman: RepRalphNorman, skipping
+2025-04-29 12:17:54,931 - INFO - Twitter already set for John R. Curtis: RepJohnCurtis, skipping
+2025-04-29 12:17:54,931 - INFO - Twitter already set for Cindy Hyde-Smith: SenHydeSmith, skipping
+2025-04-29 12:17:54,932 - INFO - Twitter already set for Michael Cloud: RepCloudTX, skipping
+2025-04-29 12:17:54,933 - INFO - Twitter already set for Pete Stauber: RepPeteStauber, skipping
+2025-04-29 12:17:54,933 - INFO - Twitter already set for Troy Balderson: RepBalderson, skipping
+2025-04-29 12:17:54,934 - INFO - Twitter already set for Ben Cline: RepBenCline, skipping
+2025-04-29 12:17:54,934 - INFO - Twitter already set for Steven Horsford: RepHorsford, skipping
+2025-04-29 12:17:54,935 - INFO - Twitter already set for Kevin Hern: repkevinhern, skipping
+2025-04-29 12:17:54,935 - INFO - Twitter already set for Mike Levin: RepMikeLevin, skipping
+2025-04-29 12:17:54,936 - INFO - Twitter already set for Joseph D. Morelle: RepJoeMorelle, skipping
+2025-04-29 12:17:54,936 - INFO - Twitter already set for Joe Neguse: RepJoeNeguse, skipping
+2025-04-29 12:17:54,936 - INFO - Twitter already set for Bryan Steil: RepBryanSteil, skipping
+2025-04-29 12:17:54,937 - INFO - Twitter already set for Tim Burchett: RepTimBurchett, skipping
+2025-04-29 12:17:54,937 - INFO - Twitter already set for Angie Craig: RepAngieCraig, skipping
+2025-04-29 12:17:54,937 - INFO - Twitter already set for Dan Crenshaw: RepDanCrenshaw, skipping
+2025-04-29 12:17:54,938 - INFO - Twitter already set for Jason Crow: RepJasonCrow, skipping
+2025-04-29 12:17:54,938 - INFO - Twitter already set for Sharice Davids: RepDavids, skipping
+2025-04-29 12:17:54,938 - INFO - Twitter already set for Veronica Escobar: RepEscobar, skipping
+2025-04-29 12:17:54,938 - INFO - Twitter already set for Lizzie Fletcher: RepFletcher, skipping
+2025-04-29 12:17:54,939 - INFO - Twitter already set for Russ Fulcher: RepRussFulcher, skipping
+2025-04-29 12:17:54,939 - INFO - Twitter already set for Sylvia R. Garcia: RepSylviaGarcia, skipping
+2025-04-29 12:17:54,939 - INFO - Twitter already set for Mark E. Green: RepMarkGreen, skipping
+2025-04-29 12:17:54,940 - INFO - Twitter already set for Jared F. Golden: RepGolden, skipping
+2025-04-29 12:17:54,940 - INFO - Twitter already set for Chrissy Houlahan: RepHoulahan, skipping
+2025-04-29 12:17:54,940 - INFO - Twitter already set for Josh Harder: RepJoshHarder, skipping
+2025-04-29 12:17:54,941 - INFO - Twitter already set for Dusty Johnson: RepDustyJohnson, skipping
+2025-04-29 12:17:54,941 - INFO - Twitter already set for Susie Lee: RepSusieLee, skipping
+2025-04-29 12:17:54,942 - INFO - Twitter already set for Daniel Meuser: RepMeuser, skipping
+2025-04-29 12:17:54,942 - INFO - Twitter already set for Ayanna Pressley: RepPressley, skipping
+2025-04-29 12:17:54,943 - INFO - Twitter already set for Mikie Sherrill: RepSherrill, skipping
+2025-04-29 12:17:54,943 - INFO - Twitter already set for Elissa Slotkin: RepSlotkin, skipping
+2025-04-29 12:17:54,943 - INFO - Twitter already set for Greg Stanton: RepGregStanton, skipping
+2025-04-29 12:17:54,943 - INFO - Twitter already set for Haley M. Stevens: RepHaleyStevens, skipping
+2025-04-29 12:17:54,944 - INFO - Twitter already set for Kim Schrier: RepKimSchrier, skipping
+2025-04-29 12:17:54,944 - INFO - Twitter already set for William R. Timmons IV: RepTimmons, skipping
+2025-04-29 12:17:54,944 - INFO - Twitter already set for Rashida Tlaib: RepRashida, skipping
+2025-04-29 12:17:54,945 - INFO - Twitter already set for Lori Trahan: RepLoriTrahan, skipping
+2025-04-29 12:17:54,945 - INFO - Twitter already set for Lauren Underwood: RepUnderwood, skipping
+2025-04-29 12:17:54,945 - INFO - Twitter already set for Jahana Hayes: RepJahanaHayes, skipping
+2025-04-29 12:17:54,945 - INFO - Twitter already set for Madeleine Dean: RepDean, skipping
+2025-04-29 12:17:54,946 - INFO - Twitter already set for Chris Pappas: RepChrisPappas, skipping
+2025-04-29 12:17:54,946 - INFO - Twitter already set for John W. Rose: RepJohnRose, skipping
+2025-04-29 12:17:54,946 - INFO - Twitter already set for Mary Gay Scanlon: RepMGS, skipping
+2025-04-29 12:17:54,947 - INFO - Twitter already set for Alexandria Ocasio-Cortez: RepAOC, skipping
+2025-04-29 12:17:54,947 - INFO - Twitter already set for John Joyce: RepJohnJoyce, skipping
+2025-04-29 12:17:54,947 - INFO - Twitter already set for Michael Guest: RepMichaelGuest, skipping
+2025-04-29 12:17:54,947 - INFO - Twitter already set for Sean Casten: RepCasten, skipping
+2025-04-29 12:17:54,948 - INFO - Twitter already set for Carol D. Miller: RepCarolMiller, skipping
+2025-04-29 12:17:54,948 - INFO - Twitter already set for Lucy McBath: RepLucyMcBath, skipping
+2025-04-29 12:17:54,949 - INFO - Twitter already set for Chip Roy: RepChipRoy, skipping
+2025-04-29 12:17:54,949 - INFO - Twitter already set for W. Gregory Steube: RepGregSteube, skipping
+2025-04-29 12:17:54,951 - INFO - Twitter already set for Jesús G. "Chuy" García: RepChuyGarcia, skipping
+2025-04-29 12:17:54,951 - INFO - Twitter already set for James R. Baird: RepJimBaird, skipping
+2025-04-29 12:17:54,952 - INFO - Twitter already set for Guy Reschenthaler: GReschenthaler, skipping
+2025-04-29 12:17:54,952 - INFO - Twitter already set for Ilhan Omar: Ilhan, skipping
+2025-04-29 12:17:54,952 - INFO - Twitter already set for Ed Case: RepEdCase, skipping
+2025-04-29 12:17:54,953 - INFO - Twitter already set for Josh Hawley: SenHawleyPress, skipping
+2025-04-29 12:17:54,953 - INFO - Twitter already set for Kweisi Mfume: RepKweisiMfume, skipping
+2025-04-29 12:17:54,953 - INFO - Twitter already set for Gregory F. Murphy: RepGregMurphy, skipping
+2025-04-29 12:17:54,954 - INFO - Twitter already set for Mark Kelly: SenMarkKelly, skipping
+2025-04-29 12:17:54,954 - INFO - Twitter already set for Burgess Owens: RepBurgessOwens, skipping
+2025-04-29 12:17:54,954 - INFO - Twitter already set for Blake D. Moore: RepBlakeMoore, skipping
+2025-04-29 12:17:54,955 - INFO - Twitter already set for Beth Van Duyne: RepBethVanDuyne, skipping
+2025-04-29 12:17:54,955 - INFO - Twitter already set for Ronny Jackson: RepRonnyJackson, skipping
+2025-04-29 12:17:54,956 - INFO - Twitter already set for August Pfluger: RepPfluger, skipping
+2025-04-29 12:17:54,956 - INFO - Twitter already set for Pat Fallon: RepPatFallon, skipping
+2025-04-29 12:17:54,956 - INFO - Twitter already set for Diana Harshbarger: RepHarshbarger, skipping
+2025-04-29 12:17:54,957 - INFO - Twitter already set for Nancy Mace: RepNancyMace, skipping
+2025-04-29 12:17:54,957 - INFO - Twitter already set for Stephanie I. Bice: RepBice, skipping
+2025-04-29 12:17:54,957 - INFO - Twitter already set for Nicole Malliotakis: RepMalliotakis, skipping
+2025-04-29 12:17:54,958 - INFO - Twitter already set for Andrew R. Garbarino: RepGarbarino, skipping
+2025-04-29 12:17:54,958 - INFO - Twitter already set for Michelle Fischbach: RepFischbach, skipping
+2025-04-29 12:17:54,959 - INFO - Twitter already set for Lisa C. McClain: RepLisaMcClain, skipping
+2025-04-29 12:17:54,959 - INFO - Twitter already set for Jake Auchincloss: RepAuchincloss, skipping
+2025-04-29 12:17:54,959 - INFO - Twitter already set for Victoria Spartz: RepSpartz, skipping
+2025-04-29 12:17:54,960 - INFO - Twitter already set for Mary E. Miller: RepMaryMiller, skipping
+2025-04-29 12:17:54,960 - INFO - Twitter already set for Randy Feenstra: RepFeenstra, skipping
+2025-04-29 12:17:54,961 - INFO - Twitter already set for Ashley Hinson: RepAshleyHinson, skipping
+2025-04-29 12:17:54,961 - INFO - Twitter already set for Marjorie Taylor Greene: RepMTG, skipping
+2025-04-29 12:17:54,962 - INFO - Twitter already set for Nikema Williams: RepNikema, skipping
+2025-04-29 12:17:54,962 - INFO - Twitter already set for Maria Elvira Salazar: RepMariaSalazar, skipping
+2025-04-29 12:17:54,962 - INFO - Twitter already set for Scott Franklin: RepFranklin, skipping
+2025-04-29 12:17:54,962 - INFO - Twitter already set for Kat Cammack: RepKatCammack, skipping
+2025-04-29 12:17:54,963 - INFO - Twitter already set for Lauren Boebert: RepBoebert, skipping
+2025-04-29 12:17:54,963 - INFO - Twitter already set for Sara Jacobs: RepSaraJacobs, skipping
+2025-04-29 12:17:54,964 - INFO - Twitter already set for Young Kim: RepYoungKim, skipping
+2025-04-29 12:17:54,964 - INFO - Twitter already set for Barry Moore: RepBarryMoore, skipping
+2025-04-29 12:17:54,964 - INFO - Twitter already set for Tommy Tuberville: SenTuberville, skipping
+2025-04-29 12:17:54,965 - INFO - Twitter already set for Ritchie Torres: RepRitchie, skipping
+2025-04-29 12:17:54,965 - INFO - Twitter already set for Tracey Mann: RepMann, skipping
+2025-04-29 12:17:54,966 - INFO - Twitter already set for Cliff Bentz: RepBentz, skipping
+2025-04-29 12:17:54,967 - INFO - Twitter already set for Mariannette Miller-Meeks: RepMMM, skipping
+2025-04-29 12:17:54,968 - INFO - Twitter already set for Carlos A. Gimenez: RepCarlos, skipping
+2025-04-29 12:17:54,968 - INFO - Twitter already set for Cynthia M. Lummis: SenLummis, skipping
+2025-04-29 12:17:54,969 - INFO - Twitter already set for Teresa Leger Fernandez: RepTeresaLF, skipping
+2025-04-29 12:17:54,969 - INFO - Twitter already set for Jay Obernolte: JayObernolte, skipping
+2025-04-29 12:17:54,969 - INFO - Twitter already set for Marilyn Strickland: RepStricklandWA, skipping
+2025-04-29 12:17:54,970 - INFO - Twitter already set for Tony Gonzales: RepTonyGonzales, skipping
+2025-04-29 12:17:54,970 - INFO - Twitter already set for Deborah K. Ross: RepDeborahRoss, skipping
+2025-04-29 12:17:54,971 - INFO - Twitter already set for Bill Hagerty: SenatorHagerty, skipping
+2025-04-29 12:17:54,971 - INFO - Twitter already set for Troy E. Nehls: RepTroyNehls, skipping
+2025-04-29 12:17:54,972 - INFO - Twitter already set for Alex Padilla: SenAlexPadilla, skipping
+2025-04-29 12:17:54,972 - INFO - Twitter already set for Raphael G. Warnock: SenatorWarnock, skipping
+2025-04-29 12:17:54,972 - INFO - Twitter already set for Frank J. Mrvan: RepMrvan, skipping
+2025-04-29 12:17:54,972 - INFO - Twitter already set for Scott Fitzgerald: RepFitzgerald, skipping
+2025-04-29 12:17:54,973 - INFO - Twitter already set for Claudia Tenney: RepTenney, skipping
+2025-04-29 12:17:54,973 - INFO - Twitter already set for Jon Ossoff: SenOssoff, skipping
+2025-04-29 12:17:54,974 - INFO - Twitter already set for Shontel M. Brown: RepShontelBrown, skipping
+2025-04-29 12:17:54,974 - INFO - Twitter already set for Andrew S. Clyde: Rep_Clyde, skipping
+2025-04-29 12:17:54,974 - INFO - Twitter already set for Mike Carey: RepMikeCarey, skipping
+2025-04-29 12:17:54,975 - INFO - Twitter already set for Troy A. Carter: RepTroyCarter, skipping
+2025-04-29 12:17:54,975 - INFO - Twitter already set for Byron Donalds: RepDonaldsPress, skipping
+2025-04-29 12:17:54,975 - INFO - Twitter already set for Jake Ellzey: RepEllzey, skipping
+2025-04-29 12:17:54,976 - INFO - Twitter already set for John W. Hickenlooper: SenatorHick, skipping
+2025-04-29 12:17:54,976 - INFO - Twitter already set for Darrell Issa: repdarrellissa, skipping
+2025-04-29 12:17:54,976 - INFO - Twitter already set for Julia Letlow: RepJuliaLetlow, skipping
+2025-04-29 12:17:54,977 - INFO - Twitter already set for Pete Sessions: PeteSessions, skipping
+2025-04-29 12:17:54,977 - INFO - Twitter already set for Melanie A. Stansbury: Rep_Stansbury, skipping
+2025-04-29 12:17:54,978 - INFO - Twitter already set for Thomas P. Tiffany: RepTiffany, skipping
+2025-04-29 12:17:54,978 - INFO - Twitter already set for Jefferson Van Drew: Congressman_JVD, skipping
+2025-04-29 12:17:54,978 - INFO - Twitter already set for David G. Valadao: RepDavidValadao, skipping
+2025-04-29 12:17:54,979 - INFO - Twitter already set for Aaron Bean: RepAaronBean, skipping
+2025-04-29 12:17:54,979 - INFO - Twitter already set for Nikki Budzinski: RepNikkiB, skipping
+2025-04-29 12:17:54,979 - INFO - Twitter already set for Eric Burlison: RepEricBurlison, skipping
+2025-04-29 12:17:54,980 - INFO - Twitter already set for Becca Balint: RepBeccaB, skipping
+2025-04-29 12:17:54,980 - INFO - Twitter already set for Mike Collins: RepMikeCollins, skipping
+2025-04-29 12:17:54,981 - INFO - Twitter already set for Jasmine Crockett: RepJasmine, skipping
+2025-04-29 12:17:54,981 - INFO - Twitter already set for Greg Casar: RepCasar, skipping
+2025-04-29 12:17:54,982 - INFO - Twitter already set for Elijah Crane: RepEliCrane, skipping
+2025-04-29 12:17:54,983 - INFO - Twitter already set for Juan Ciscomani: RepCiscomani, skipping
+2025-04-29 12:17:54,984 - INFO - Twitter already set for Christopher R. Deluzio: RepDeluzio, skipping
+2025-04-29 12:17:54,985 - INFO - Twitter already set for Mike Ezell: RepEzell, skipping
+2025-04-29 12:17:54,985 - INFO - Twitter already set for Chuck Edwards: RepEdwards, skipping
+2025-04-29 12:17:54,986 - INFO - Twitter already set for Maxwell Frost: RepMaxwellFrost, skipping
+2025-04-29 12:17:54,986 - INFO - Twitter already set for Valerie P. Foushee: ValerieFoushee, skipping
+2025-04-29 12:17:54,987 - INFO - Twitter already set for Russell Fry: RepRussellFry, skipping
+2025-04-29 12:17:54,987 - INFO - Twitter already set for Robert Garcia: RepRobertGarcia, skipping
+2025-04-29 12:17:54,987 - INFO - Twitter already set for Daniel S. Goldman: RepDanGoldman, skipping
+2025-04-29 12:17:54,988 - INFO - Twitter already set for Marie Gluesenkamp Perez: RepMGP, skipping
+2025-04-29 12:17:54,988 - INFO - Twitter already set for Erin Houchin: RepHouchin, skipping
+2025-04-29 12:17:54,988 - INFO - Twitter already set for Val T. Hoyle: repvalhoyle, skipping
+2025-04-29 12:17:54,989 - INFO - Twitter already set for Wesley Hunt: RepWesleyHunt, skipping
+2025-04-29 12:17:54,989 - INFO - Twitter already set for Glenn Ivey: RepGlennIvey, skipping
+2025-04-29 12:17:54,990 - INFO - Twitter already set for Thomas H. Kean, Jr.: CongressmanKean, skipping
+2025-04-29 12:17:54,990 - INFO - Twitter already set for Kevin Kiley: RepKiley, skipping
+2025-04-29 12:17:54,990 - INFO - Twitter already set for Anna Paulina Luna: RepLuna, skipping
+2025-04-29 12:17:54,991 - INFO - Twitter already set for Laurel M. Lee: RepLaurelLee, skipping
+2025-04-29 12:17:54,991 - INFO - Twitter already set for Nick LaLota: RepLaLota, skipping
+2025-04-29 12:17:54,991 - INFO - Twitter already set for Michael Lawler: RepMikeLawler, skipping
+2025-04-29 12:17:54,992 - INFO - Twitter already set for Morgan Luttrell: RepLuttrell, skipping
+2025-04-29 12:17:54,992 - INFO - Twitter already set for Jared Moskowitz: RepMoskowitz, skipping
+2025-04-29 12:17:54,992 - INFO - Twitter already set for Richard McCormick: RepMcCormick, skipping
+2025-04-29 12:17:54,992 - INFO - Twitter already set for Morgan McGarvey: RepMcGarvey, skipping
+2025-04-29 12:17:54,993 - INFO - Twitter already set for Kevin Mullin: RepKevinMullin, skipping
+2025-04-29 12:17:54,993 - INFO - Twitter already set for Robert Menendez: RepMenendez, skipping
+2025-04-29 12:17:54,993 - INFO - Twitter already set for Zachary Nunn: ZachNunn, skipping
+2025-04-29 12:17:54,993 - INFO - Twitter already set for Patrick Ryan: RepPatRyanNY, skipping
+2025-04-29 12:17:54,994 - INFO - Twitter already set for Emilia Strong Sykes: RepEmiliaSykes, skipping
+2025-04-29 12:17:54,994 - INFO - Twitter already set for Eric Sorensen: RepEricSorensen, skipping
+2025-04-29 12:17:54,994 - INFO - Twitter already set for Jill N. Tokuda: RepJillTokuda, skipping
+2025-04-29 12:17:54,995 - INFO - Twitter already set for Shri Thanedar: RepShriThanedar, skipping
+2025-04-29 12:17:54,995 - INFO - Twitter already set for Derrick Van Orden: RepVanOrden, skipping
+2025-04-29 12:17:54,995 - INFO - Twitter already set for Rudy Yakym III: RepRudyYakym, skipping
+2025-04-29 12:17:54,996 - INFO - Twitter already set for Mike Flood: USRepMikeFlood, skipping
+2025-04-29 12:17:54,996 - INFO - Twitter already set for Brad Finstad: RepFinstad, skipping
+2025-04-29 12:17:54,996 - INFO - Twitter already set for Ryan K. Zinke: RepRyanZinke, skipping
+2025-04-29 12:17:54,997 - INFO - Twitter already set for Katie Boyd Britt: SenKatieBritt, skipping
+2025-04-29 12:17:54,997 - INFO - Twitter already set for Eric Schmitt: SenEricSchmitt, skipping
+2025-04-29 12:17:54,997 - INFO - Twitter already set for Dale W. Strong: RepDaleStrong, skipping
+2025-04-29 12:17:54,997 - INFO - Twitter already set for Sydney Kamlager-Dove: RepKamlagerDove, skipping
+2025-04-29 12:17:54,998 - INFO - Twitter already set for Brittany Pettersen: reppettersen, skipping
+2025-04-29 12:17:54,998 - INFO - Twitter already set for Cory Mills: RepMillsPress, skipping
+2025-04-29 12:17:54,998 - INFO - Twitter already set for James C. Moylan: JMoylanforGuam, skipping
+2025-04-29 12:17:54,999 - INFO - Twitter already set for Delia C. Ramirez: repdeliaramirez, skipping
+2025-04-29 12:17:54,999 - INFO - Twitter already set for Hillary J. Scholten: RepScholten, skipping
+2025-04-29 12:17:55,000 - INFO - Twitter already set for John James: RepJames, skipping
+2025-04-29 12:17:55,000 - INFO - Twitter already set for Mark Alford: RepMarkAlford, skipping
+2025-04-29 12:17:55,000 - INFO - Twitter already set for Donald G. Davis: RepDonDavis, skipping
+2025-04-29 12:17:55,001 - INFO - Twitter already set for Gabe Vasquez: RepGabeVasquez, skipping
+2025-04-29 12:17:55,001 - INFO - Twitter already set for Nicholas A. Langworthy: RepLangworthy, skipping
+2025-04-29 12:17:55,001 - INFO - Twitter already set for Greg Landsman: repgreglandsman, skipping
+2025-04-29 12:17:55,002 - INFO - Twitter already set for Max L. Miller: repmaxmiller, skipping
+2025-04-29 12:17:55,002 - INFO - Twitter already set for Josh Brecheen: repbrecheen, skipping
+2025-04-29 12:17:55,003 - INFO - Twitter already set for Andrea Salinas: repsalinas, skipping
+2025-04-29 12:17:55,003 - INFO - Twitter already set for Summer L. Lee: RepSummerLee, skipping
+2025-04-29 12:17:55,003 - INFO - Twitter already set for Seth Magaziner: Rep_Magaziner, skipping
+2025-04-29 12:17:55,003 - INFO - Twitter already set for Andrew Ogles: repogles, skipping
+2025-04-29 12:17:55,004 - INFO - Twitter already set for Nathaniel Moran: RepNateMoran, skipping
+2025-04-29 12:17:55,004 - INFO - Twitter already set for Keith Self: repkeithself, skipping
+2025-04-29 12:17:55,004 - INFO - Twitter already set for Monica De La Cruz: RepMonicaDLC, skipping
+2025-04-29 12:17:55,005 - INFO - Twitter already set for Jennifer A. Kiggans: RepJenKiggans, skipping
+2025-04-29 12:17:55,005 - INFO - Twitter already set for Harriet M. Hageman: RepHageman, skipping
+2025-04-29 12:17:55,005 - INFO - Twitter already set for Pete Ricketts: SenatorRicketts, skipping
+2025-04-29 12:17:55,006 - INFO - Twitter already set for Jennifer L. McClellan: RepMcClellan, skipping
+2025-04-29 12:17:55,006 - INFO - Twitter already set for Gabe Amo: RepGabeAmo, skipping
+2025-04-29 12:17:55,007 - INFO - Twitter already set for Celeste Maloy: RepMaloyUtah, skipping
+2025-04-29 12:17:55,007 - INFO - Twitter already set for Thomas R. Suozzi: reptomsuozzi, skipping
+2025-04-29 12:17:55,007 - INFO - Twitter already set for Timothy M. Kennedy: reptimkennedy, skipping
+2025-04-29 12:17:55,007 - INFO - Twitter already set for Vince Fong: RepVinceFong, skipping
+2025-04-29 12:17:55,008 - INFO - Twitter already set for LaMonica McIver: RepLaMonica, skipping
+2025-04-29 12:17:55,008 - INFO - Twitter already set for Tony Wied: RepTonyWied, skipping
+2025-04-29 12:17:55,008 - INFO - Twitter already set for Cleo Fields: repfields, skipping
+2025-04-29 12:17:55,009 - INFO - Twitter already set for Marlin A. Stutzman: RepStutzman, skipping
+2025-04-29 12:17:55,009 - INFO - Twitter already set for Bernie Moreno: berniemoreno, skipping
+2025-04-29 12:17:55,009 - INFO - Twitter already set for Nicholas J. Begich III: repnickbegich, skipping
+2025-04-29 12:17:55,010 - INFO - Twitter already set for Shomari Figures: repscfigures, skipping
+2025-04-29 12:17:55,010 - INFO - Twitter already set for Yassamin Ansari: RepYassAnsari, skipping
+2025-04-29 12:17:55,010 - INFO - Twitter already set for Lateefah Simon: RepLSimon, skipping
+2025-04-29 12:17:55,010 - INFO - Twitter already set for Adam Gray: RepAdamGrayCA, skipping
+2025-04-29 12:17:55,011 - INFO - Twitter already set for Sam T. Liccardo: repliccardo, skipping
+2025-04-29 12:17:55,011 - INFO - Twitter already set for George Whitesides: Rep_Whitesides, skipping
+2025-04-29 12:17:55,011 - INFO - Twitter already set for Luz M. Rivas: RepLuzRivas, skipping
+2025-04-29 12:17:55,011 - INFO - Twitter already set for Laura Friedman: RepFriedmanCA, skipping
+2025-04-29 12:17:55,012 - INFO - Twitter already set for Jeff Hurd: RepJeffHurd, skipping
+2025-04-29 12:17:55,012 - INFO - Twitter already set for Jeff Crank: RepJeffCrank, skipping
+2025-04-29 12:17:55,012 - INFO - Twitter already set for Gabe Evans: repgabeevans, skipping
+2025-04-29 12:17:55,012 - INFO - Twitter already set for Mike Haridopolos: repharidopolos, skipping
+2025-04-29 12:17:55,013 - INFO - Twitter already set for Brian Jack: RepBrianJack, skipping
+2025-04-29 12:17:55,013 - INFO - Twitter already set for Jefferson Shreve: repshreve, skipping
+2025-04-29 12:17:55,013 - INFO - Twitter already set for Derek Schmidt: repderekschmidt, skipping
+2025-04-29 12:17:55,014 - INFO - Twitter already set for Johnny Olszewski, Jr.: RepJohnnyO, skipping
+2025-04-29 12:17:55,014 - INFO - Twitter already set for Sarah Elfreth: repsarahelfreth, skipping
+2025-04-29 12:17:55,014 - INFO - Twitter already set for April McClain Delaney: RepAprilDelaney, skipping
+2025-04-29 12:17:55,015 - INFO - Twitter already set for Tom Barrett: reptombarrett, skipping
+2025-04-29 12:17:55,015 - INFO - Twitter already set for Kristen McDonald Rivet: repkmr, skipping
+2025-04-29 12:17:55,016 - INFO - Twitter already set for Kelly Morrison: kellymorrisonmn, skipping
+2025-04-29 12:17:55,017 - INFO - Twitter already set for Wesley Bell: RepWesleyBellMO, skipping
+2025-04-29 12:17:55,017 - INFO - Twitter already set for Robert F. Onder, Jr.: RepBobOnder, skipping
+2025-04-29 12:17:55,018 - INFO - Twitter already set for Kimberlyn King-Hinds: RepKimKingHinds, skipping
+2025-04-29 12:17:55,018 - INFO - Twitter already set for Troy Downing: reptroydowning, skipping
+2025-04-29 12:17:55,018 - INFO - Twitter already set for Addison P. McDowell: RepMcDowell, skipping
+2025-04-29 12:17:55,019 - INFO - Twitter already set for Mark Harris: RepMarkHarrisNC, skipping
+2025-04-29 12:17:55,019 - INFO - Twitter already set for Pat Harrigan: RepPatHarrigan, skipping
+2025-04-29 12:17:55,019 - INFO - Twitter already set for Brad Knott: RepKnott, skipping
+2025-04-29 12:17:55,020 - INFO - Twitter already set for Tim Moore: RepTimMooreNC, skipping
+2025-04-29 12:17:55,020 - INFO - Twitter already set for Julie Fedorchak: RepFedorchak, skipping
+2025-04-29 12:17:55,020 - INFO - Twitter already set for Maggie Goodlander: RepGoodlander, skipping
+2025-04-29 12:17:55,021 - INFO - Twitter already set for Herbert C. Conaway, Jr.: RepHerbConaway, skipping
+2025-04-29 12:17:55,021 - INFO - Twitter already set for Nellie Pou: caohouse, skipping
+2025-04-29 12:17:55,021 - INFO - Twitter already set for Laura Gillen: RepLauraGillen, skipping
+2025-04-29 12:17:55,022 - INFO - Twitter already set for George Latimer: RepGLatimer, skipping
+2025-04-29 12:17:55,022 - INFO - Twitter already set for John W. Mannion: JohnMannionNY22, skipping
+2025-04-29 12:17:55,023 - INFO - Twitter already set for David J. Taylor: RepDaveTaylor, skipping
+2025-04-29 12:17:55,023 - INFO - Twitter already set for Maxine Dexter: RepDexterOR, skipping
+2025-04-29 12:17:55,023 - INFO - Twitter already set for Janelle S. Bynum: RepBynum, skipping
+2025-04-29 12:17:55,024 - INFO - Twitter already set for Ryan Mackenzie: RepMackenzie, skipping
+2025-04-29 12:17:55,024 - INFO - Twitter already set for Robert P. Bresnahan, Jr.: RepBresnahan, skipping
+2025-04-29 12:17:55,025 - INFO - Twitter already set for Pablo José Hernández: reppablojose, skipping
+2025-04-29 12:17:55,025 - INFO - Twitter already set for Sheri Biggs: repsheribiggs, skipping
+2025-04-29 12:17:55,025 - INFO - Twitter already set for Craig A. Goldman: RepCraigGoldman, skipping
+2025-04-29 12:17:55,025 - INFO - Twitter already set for Brandon Gill: repbrandongill, skipping
+2025-04-29 12:17:55,026 - INFO - Twitter already set for Julie Johnson: RepJulieJohnson, skipping
+2025-04-29 12:17:55,026 - INFO - Twitter already set for Mike Kennedy: repmikekennedy, skipping
+2025-04-29 12:17:55,027 - INFO - Twitter already set for John J. McGuire III: RepJohnMcGuire, skipping
+2025-04-29 12:17:55,027 - INFO - Twitter already set for Eugene Simon Vindman: RepVindman, skipping
+2025-04-29 12:17:55,027 - INFO - Twitter already set for Suhas Subramanyam: RepSuhas, skipping
+2025-04-29 12:17:55,027 - INFO - Twitter already set for Michael Baumgartner: repbaumgartner, skipping
+2025-04-29 12:17:55,028 - INFO - Twitter already set for Riley M. Moore: RepRileyMoore, skipping
+2025-04-29 12:17:55,028 - INFO - Updated instagram_handle to 'SenAdamSchiff' for Adam B. Schiff
+2025-04-29 12:17:55,028 - INFO - Updated facebook_url to 'https://www.facebook.com/SenAdamSchiff' for Adam B. Schiff
+2025-04-29 12:17:55,028 - INFO - Updated instagram_handle to 'SenatorAndyKim' for Andy Kim
+2025-04-29 12:17:55,029 - INFO - Updated facebook_url to 'https://www.facebook.com/SenatorAndyKim' for Andy Kim
+2025-04-29 12:17:55,029 - INFO - Updated facebook_url to 'https://www.facebook.com/congresswomanSCM' for Sheila Cherfilus-McCormick
+2025-04-29 12:17:55,030 - INFO - Updated instagram_handle to 'senfettermanpa' for John Fetterman
+2025-04-29 12:17:55,030 - INFO - Updated facebook_url to 'https://www.facebook.com/SenFettermanPA' for John Fetterman
+2025-04-29 12:17:55,030 - INFO - Updated instagram_handle to 'repjackson' for Jonathan L. Jackson
+2025-04-29 12:17:55,031 - INFO - Updated facebook_url to 'https://www.facebook.com/repjackson' for Jonathan L. Jackson
+2025-04-29 12:17:55,031 - INFO - Updated instagram_handle to 'repgilcisneros' for Gilbert Ray Cisneros, Jr.
+2025-04-29 12:17:55,032 - INFO - Updated facebook_url to 'https://www.facebook.com/RepGilCisneros' for Gilbert Ray Cisneros, Jr.
+2025-04-29 12:17:55,033 - INFO - Updated instagram_handle to 'sen_alsobrooks' for Angela D. Alsobrooks
+2025-04-29 12:17:55,034 - INFO - Updated facebook_url to 'https://www.facebook.com/SenatorAlsobrooks' for Angela D. Alsobrooks
+2025-04-29 12:17:55,034 - INFO - Updated instagram_handle to 'senmccormickpa' for David McCormick
+2025-04-29 12:17:55,035 - INFO - Updated facebook_url to 'https://www.facebook.com/SenMcCormickPA' for David McCormick
+2025-04-29 12:17:55,035 - INFO - Updated instagram_handle to 'congresswomansarahmcbride' for Sarah McBride
+2025-04-29 12:17:55,035 - INFO - Updated facebook_url to 'https://www.facebook.com/CongresswomanSarahMcBride' for Sarah McBride
+2025-04-29 12:17:55,036 - INFO - Updated instagram_handle to 'HouseRepublicans' for Mark B. Messmer
+2025-04-29 12:17:55,036 - INFO - Updated facebook_url to 'https://www.facebook.com/CongressmanMessmer' for Mark B. Messmer
+2025-04-29 12:17:55,037 - INFO - Updated instagram_handle to 'RepRileyNY' for Josh Riley
+2025-04-29 12:17:55,037 - INFO - Updated facebook_url to 'https://www.facebook.com/RepRileyNY' for Josh Riley
+2025-04-29 12:17:55,038 - INFO - Updated instagram_handle to 'senjimjustice' for James C. Justice
+2025-04-29 12:17:55,038 - INFO - Updated facebook_url to 'https://www.facebook.com/100044187231175' for James C. Justice
+2025-04-29 12:17:55,043 - INFO - Migration Summary:
+2025-04-29 12:17:55,044 - INFO - Total records processed: 529
+2025-04-29 12:17:55,044 - INFO - Total records updated: 15
+2025-04-29 12:17:55,045 - INFO - Total records with no changes needed: 514
+2025-04-29 12:17:55,045 - INFO - Total records missing or not found: 0
+2025-04-29 12:17:55,046 - INFO - Social media migration completed
+2025-04-29 12:17:55,046 - INFO - Script exiting, no input required.
+2025-04-29 13:55:28,055 - INFO - Starting social media migration
+2025-04-29 13:55:28,056 - INFO - Loading YAML file: backups/migrated_data_files/legislators-social-media.yaml
+2025-04-29 13:55:28,541 - INFO - Found 529 social media records in the YAML file
+2025-04-29 13:55:28,543 - INFO - Twitter already set for Aumua Amata Coleman Radewagen: @RepAmata, skipping
+2025-04-29 13:55:28,543 - INFO - Twitter already set for Todd Young: @SenToddYoung, skipping
+2025-04-29 13:55:28,543 - INFO - Twitter already set for Joni Ernst: @SenJoniErnst, skipping
+2025-04-29 13:55:28,544 - INFO - Twitter already set for Thom Tillis: @SenThomTillis, skipping
+2025-04-29 13:55:28,544 - INFO - Twitter already set for Steve Womack: @Rep_SteveWomack, skipping
+2025-04-29 13:55:28,544 - INFO - Twitter already set for Frederica S. Wilson: @RepWilson, skipping
+2025-04-29 13:55:28,545 - INFO - Twitter already set for Daniel Webster: @RepWebster, skipping
+2025-04-29 13:55:28,545 - INFO - Twitter already set for Mark R. Warner: @MarkWarner, skipping
+2025-04-29 13:55:28,545 - INFO - Twitter already set for Robert J. Wittman: @RobWittman, skipping
+2025-04-29 13:55:28,546 - INFO - Twitter already set for Sheldon Whitehouse: @SenWhitehouse, skipping
+2025-04-29 13:55:28,546 - INFO - Twitter already set for Peter Welch: @PeterWelch, skipping
+2025-04-29 13:55:28,546 - INFO - Twitter already set for Tim Walberg: @RepWalberg, skipping
+2025-04-29 13:55:28,547 - INFO - Twitter already set for Debbie Wasserman Schultz: @RepDWStweets, skipping
+2025-04-29 13:55:28,547 - INFO - Twitter already set for Joe Wilson: @RepJoeWilson, skipping
+2025-04-29 13:55:28,547 - INFO - Twitter already set for Ron Wyden: @RonWyden, skipping
+2025-04-29 13:55:28,548 - INFO - Twitter already set for Roger F. Wicker: @SenatorWicker, skipping
+2025-04-29 13:55:28,548 - INFO - Twitter already set for Maxine Waters: @RepMaxineWaters, skipping
+2025-04-29 13:55:28,549 - INFO - Twitter already set for Chris Van Hollen: @ChrisVanHollen, skipping
+2025-04-29 13:55:28,549 - INFO - Twitter already set for Nydia M. Velázquez: @NydiaVelazquez, skipping
+2025-04-29 13:55:28,550 - INFO - Twitter already set for Paul Tonko: @RepPaulTonko, skipping
+2025-04-29 13:55:28,550 - INFO - Twitter already set for Dina Titus: @RepDinaTitus, skipping
+2025-04-29 13:55:28,550 - INFO - Twitter already set for Glenn Thompson: @CongressmanGT, skipping
+2025-04-29 13:55:28,551 - INFO - Twitter already set for Michael R. Turner: @RepMikeTurner, skipping
+2025-04-29 13:55:28,551 - INFO - Twitter already set for Mike Thompson: @RepThompson, skipping
+2025-04-29 13:55:28,552 - INFO - Twitter already set for John Thune: @SenJohnThune, skipping
+2025-04-29 13:55:28,552 - INFO - Twitter already set for Bennie G. Thompson: @BennieGThompson, skipping
+2025-04-29 13:55:28,552 - INFO - Twitter already set for Austin Scott: @AustinScottGA08, skipping
+2025-04-29 13:55:28,553 - INFO - Twitter already set for Terri A. Sewell: @RepTerriSewell, skipping
+2025-04-29 13:55:28,553 - INFO - Twitter already set for Tim Scott: @SenatorTimScott, skipping
+2025-04-29 13:55:28,554 - INFO - Twitter already set for David Schweikert: @RepDavid, skipping
+2025-04-29 13:55:28,554 - INFO - Twitter already set for Jeanne Shaheen: @SenatorShaheen, skipping
+2025-04-29 13:55:28,554 - INFO - Twitter already set for Steve Scalise: @SteveScalise, skipping
+2025-04-29 13:55:28,555 - INFO - Twitter already set for Adrian Smith: @RepAdrianSmith, skipping
+2025-04-29 13:55:28,555 - INFO - Twitter already set for David Scott: @RepDavidScott, skipping
+2025-04-29 13:55:28,556 - INFO - Twitter already set for Linda T. Sánchez: @RepLindaSanchez, skipping
+2025-04-29 13:55:28,556 - INFO - Twitter already set for Michael K. Simpson: @CongMikeSimpson, skipping
+2025-04-29 13:55:28,556 - INFO - Twitter already set for Janice D. Schakowsky: @JanSchakowsky, skipping
+2025-04-29 13:55:28,557 - INFO - Twitter already set for Rick Scott: @SenRickScott, skipping
+2025-04-29 13:55:28,557 - INFO - Twitter already set for Adam Smith: @RepAdamSmith, skipping
+2025-04-29 13:55:28,557 - INFO - Twitter already set for Brad Sherman: @BradSherman, skipping
+2025-04-29 13:55:28,558 - INFO - Twitter already set for Robert C. "Bobby" Scott: @BobbyScott, skipping
+2025-04-29 13:55:28,558 - INFO - Twitter already set for Charles E. Schumer: @SenSchumer, skipping
+2025-04-29 13:55:28,559 - INFO - Twitter already set for Bernard Sanders: @SenSanders, skipping
+2025-04-29 13:55:28,559 - INFO - Twitter already set for Mike Rogers: @RepMikeRogersAL, skipping
+2025-04-29 13:55:28,560 - INFO - Twitter already set for Harold Rogers: @RepHalRogers, skipping
+2025-04-29 13:55:28,560 - INFO - Twitter already set for Jack Reed: @SenJackReed, skipping
+2025-04-29 13:55:28,561 - INFO - Twitter already set for Mike Quigley: @RepMikeQuigley, skipping
+2025-04-29 13:55:28,561 - INFO - Twitter already set for Rand Paul: @SenRandPaul, skipping
+2025-04-29 13:55:28,562 - INFO - Twitter already set for Chellie Pingree: @ChelliePingree, skipping
+2025-04-29 13:55:28,562 - INFO - Twitter already set for Gary C. Peters: @SenGaryPeters, skipping
+2025-04-29 13:55:28,563 - INFO - Twitter already set for Nancy Pelosi: @SpeakerPelosi, skipping
+2025-04-29 13:55:28,563 - INFO - Twitter already set for Frank Pallone, Jr.: @FrankPallone, skipping
+2025-04-29 13:55:28,564 - INFO - Twitter already set for Eleanor Holmes Norton: @EleanorNorton, skipping
+2025-04-29 13:55:28,564 - INFO - Twitter already set for Richard E. Neal: @RepRichardNeal, skipping
+2025-04-29 13:55:28,564 - INFO - Twitter already set for Jerrold Nadler: @RepJerryNadler, skipping
+2025-04-29 13:55:28,565 - INFO - Twitter already set for Tom McClintock: @RepMcClintock, skipping
+2025-04-29 13:55:28,565 - INFO - Twitter already set for Jeff Merkley: @SenJeffMerkley, skipping
+2025-04-29 13:55:28,565 - INFO - Twitter already set for Doris O. Matsui: @DorisMatsui, skipping
+2025-04-29 13:55:28,566 - INFO - Twitter already set for Gwen Moore: @RepGwenMoore, skipping
+2025-04-29 13:55:28,566 - INFO - Twitter already set for Michael T. McCaul: @RepMcCaul, skipping
+2025-04-29 13:55:28,567 - INFO - Twitter already set for Lisa Murkowski: @LisaMurkowski, skipping
+2025-04-29 13:55:28,567 - INFO - Twitter already set for Betty McCollum: @BettyMcCollum04, skipping
+2025-04-29 13:55:28,567 - INFO - Twitter already set for Gregory W. Meeks: @RepGregoryMeeks, skipping
+2025-04-29 13:55:28,568 - INFO - Twitter already set for Patty Murray: @PattyMurray, skipping
+2025-04-29 13:55:28,568 - INFO - Twitter already set for Jerry Moran: @JerryMoran, skipping
+2025-04-29 13:55:28,569 - INFO - Twitter already set for Mitch McConnell: @McConnellPress, skipping
+2025-04-29 13:55:28,569 - INFO - Twitter already set for James P. McGovern: @RepMcGovern, skipping
+2025-04-29 13:55:28,569 - INFO - Twitter already set for Edward J. Markey: @SenMarkey, skipping
+2025-04-29 13:55:28,570 - INFO - Twitter already set for Mike Lee: @SenMikeLee, skipping
+2025-04-29 13:55:28,570 - INFO - Twitter already set for James Lankford: @SenatorLankford, skipping
+2025-04-29 13:55:28,571 - INFO - Twitter already set for Ben Ray Luján: @SenatorLujan, skipping
+2025-04-29 13:55:28,571 - INFO - Twitter already set for Robert E. Latta: @BobLatta, skipping
+2025-04-29 13:55:28,572 - INFO - Twitter already set for Stephen F. Lynch: @RepStephenLynch, skipping
+2025-04-29 13:55:28,572 - INFO - Twitter already set for Rick Larsen: @RepRickLarsen, skipping
+2025-04-29 13:55:28,573 - INFO - Twitter already set for John B. Larson: @RepJohnLarson, skipping
+2025-04-29 13:55:28,573 - INFO - Twitter already set for Frank D. Lucas: @RepFrankLucas, skipping
+2025-04-29 13:55:28,573 - INFO - Twitter already set for Zoe Lofgren: @RepZoeLofgren, skipping
+2025-04-29 13:55:28,574 - INFO - Twitter already set for Mike Kelly: @MikeKellyPA, skipping
+2025-04-29 13:55:28,574 - INFO - Twitter already set for William R. Keating: @USRepKeating, skipping
+2025-04-29 13:55:28,575 - INFO - Twitter already set for Marcy Kaptur: @RepMarcyKaptur, skipping
+2025-04-29 13:55:28,575 - INFO - Twitter already set for Ron Johnson: @SenRonJohnson, skipping
+2025-04-29 13:55:28,576 - INFO - Twitter already set for Jim Jordan: @Jim_Jordan, skipping
+2025-04-29 13:55:28,577 - INFO - Twitter already set for Henry C. "Hank" Johnson, Jr.: @RepHankJohnson, skipping
+2025-04-29 13:55:28,577 - INFO - Twitter already set for John Hoeven: @SenJohnHoeven, skipping
+2025-04-29 13:55:28,578 - INFO - Twitter already set for Bill Huizenga: @RepHuizenga, skipping
+2025-04-29 13:55:28,578 - INFO - Twitter already set for James A. Himes: @jahimes, skipping
+2025-04-29 13:55:28,579 - INFO - Twitter already set for Martin Heinrich: @MartinHeinrich, skipping
+2025-04-29 13:55:28,579 - INFO - Twitter already set for Mazie K. Hirono: @MazieHirono, skipping
+2025-04-29 13:55:28,580 - INFO - Twitter already set for Steny H. Hoyer: @RepStenyHoyer, skipping
+2025-04-29 13:55:28,580 - INFO - Twitter already set for H. Morgan Griffith: @RepMGriffith, skipping
+2025-04-29 13:55:28,580 - INFO - Twitter already set for Paul A. Gosar: @RepGosar, skipping
+2025-04-29 13:55:28,581 - INFO - Twitter already set for John Garamendi: @RepGaramendi, skipping
+2025-04-29 13:55:28,581 - INFO - Twitter already set for Al Green: @RepAlGreen, skipping
+2025-04-29 13:55:28,582 - INFO - Twitter already set for Chuck Grassley: @ChuckGrassley, skipping
+2025-04-29 13:55:28,582 - INFO - Twitter already set for Lindsey Graham: @GrahamBlog, skipping
+2025-04-29 13:55:28,582 - INFO - Twitter already set for Charles J. "Chuck" Fleischmann: @RepChuck, skipping
+2025-04-29 13:55:28,583 - INFO - Twitter already set for Virginia Foxx: @VirginiaFoxx, skipping
+2025-04-29 13:55:28,583 - INFO - Twitter already set for Scott DesJarlais: @DesJarlaisTN04, skipping
+2025-04-29 13:55:28,584 - INFO - Twitter already set for Mario Diaz-Balart: @MarioDB, skipping
+2025-04-29 13:55:28,584 - INFO - Twitter already set for Richard J. Durbin: @SenatorDurbin, skipping
+2025-04-29 13:55:28,585 - INFO - Twitter already set for Lloyd Doggett: @RepLloydDoggett, skipping
+2025-04-29 13:55:28,585 - INFO - Twitter already set for Rosa L. DeLauro: @RosaDeLauro, skipping
+2025-04-29 13:55:28,585 - INFO - Twitter already set for Diana DeGette: @RepDianaDeGette, skipping
+2025-04-29 13:55:28,586 - INFO - Twitter already set for Christopher A. Coons: @ChrisCoons, skipping
+2025-04-29 13:55:28,586 - INFO - Twitter already set for Eric A. "Rick" Crawford: @RepRickCrawford, skipping
+2025-04-29 13:55:28,586 - INFO - Twitter already set for Judy Chu: @RepJudyChu, skipping
+2025-04-29 13:55:28,587 - INFO - Twitter already set for Gerald E. Connolly: @GerryConnolly, skipping
+2025-04-29 13:55:28,588 - INFO - Twitter already set for André Carson: @RepAndreCarson, skipping
+2025-04-29 13:55:28,588 - INFO - Twitter already set for Joe Courtney: @RepJoeCourtney, skipping
+2025-04-29 13:55:28,589 - INFO - Twitter already set for Steve Cohen: @RepCohen, skipping
+2025-04-29 13:55:28,589 - INFO - Twitter already set for Yvette D. Clarke: @RepYvetteClarke, skipping
+2025-04-29 13:55:28,589 - INFO - Twitter already set for Henry Cuellar: @RepCuellar, skipping
+2025-04-29 13:55:28,590 - INFO - Twitter already set for Emanuel Cleaver: @RepCleaver, skipping
+2025-04-29 13:55:28,590 - INFO - Twitter already set for Jim Costa: @RepJimCosta, skipping
+2025-04-29 13:55:28,591 - INFO - Twitter already set for John Cornyn: @JohnCornyn, skipping
+2025-04-29 13:55:28,591 - INFO - Twitter already set for Tom Cole: @TomColeOK04, skipping
+2025-04-29 13:55:28,592 - INFO - Twitter already set for John R. Carter: @JudgeCarter, skipping
+2025-04-29 13:55:28,593 - INFO - Twitter already set for Shelley Moore Capito: @SenCapito, skipping
+2025-04-29 13:55:28,594 - INFO - Twitter already set for Susan M. Collins: @SenatorCollins, skipping
+2025-04-29 13:55:28,594 - INFO - Twitter already set for Mike Crapo: @MikeCrapo, skipping
+2025-04-29 13:55:28,595 - INFO - Twitter already set for James E. Clyburn: @RepJamesClyburn, skipping
+2025-04-29 13:55:28,595 - INFO - Twitter already set for Maria Cantwell: @SenatorCantwell, skipping
+2025-04-29 13:55:28,595 - INFO - Twitter already set for Ken Calvert: @KenCalvert, skipping
+2025-04-29 13:55:28,596 - INFO - Twitter already set for Richard Blumenthal: @SenBlumenthal, skipping
+2025-04-29 13:55:28,596 - INFO - Twitter already set for Michael F. Bennet: @SenatorBennet, skipping
+2025-04-29 13:55:28,597 - INFO - Twitter already set for John Barrasso: @SenJohnBarrasso, skipping
+2025-04-29 13:55:28,597 - INFO - Twitter already set for Vern Buchanan: @VernBuchanan, skipping
+2025-04-29 13:55:28,597 - INFO - Twitter already set for Gus M. Bilirakis: @RepGusBilirakis, skipping
+2025-04-29 13:55:28,598 - INFO - Twitter already set for Marsha Blackburn: @MarshaBlackburn, skipping
+2025-04-29 13:55:28,598 - INFO - Twitter already set for John Boozman: @JohnBoozman, skipping
+2025-04-29 13:55:28,599 - INFO - Twitter already set for Sanford D. Bishop, Jr.: @SanfordBishop, skipping
+2025-04-29 13:55:28,599 - INFO - Twitter already set for Robert B. Aderholt: @Robert_Aderholt, skipping
+2025-04-29 13:55:28,600 - INFO - Twitter already set for Suzan K. DelBene: @RepDelBene, skipping
+2025-04-29 13:55:28,600 - INFO - Twitter already set for Suzanne Bonamici: @RepBonamici, skipping
+2025-04-29 13:55:28,601 - INFO - Twitter already set for Angus S. King, Jr.: @SenAngusKing, skipping
+2025-04-29 13:55:28,601 - INFO - Twitter already set for Mark E. Amodei: @MarkAmodeiNV2, skipping
+2025-04-29 13:55:28,601 - INFO - Twitter already set for Eric Swalwell: @RepSwalwell, skipping
+2025-04-29 13:55:28,602 - INFO - Twitter already set for Markwayne Mullin: @SenMullin, skipping
+2025-04-29 13:55:28,602 - INFO - Twitter already set for Grace Meng: @RepGraceMeng, skipping
+2025-04-29 13:55:28,603 - INFO - Twitter already set for Mark Takano: @RepMarkTakano, skipping
+2025-04-29 13:55:28,603 - INFO - Twitter already set for Hakeem S. Jeffries: @RepJeffries, skipping
+2025-04-29 13:55:28,603 - INFO - Twitter already set for David P. Joyce: @RepDaveJoyce, skipping
+2025-04-29 13:55:28,604 - INFO - Twitter already set for Randy K. Weber, Sr.: @TXRandy14, skipping
+2025-04-29 13:55:28,604 - INFO - Twitter already set for Steve Daines: @SteveDaines, skipping
+2025-04-29 13:55:28,605 - INFO - Twitter already set for Tom Cotton: @SenTomCotton, skipping
+2025-04-29 13:55:28,605 - INFO - Twitter already set for Ami Bera: @RepBera, skipping
+2025-04-29 13:55:28,605 - INFO - Twitter already set for Bill Foster: @RepBillFoster, skipping
+2025-04-29 13:55:28,606 - INFO - Twitter already set for Lois Frankel: @RepLoisFrankel, skipping
+2025-04-29 13:55:28,606 - INFO - Twitter already set for Richard Hudson: @RepRichHudson, skipping
+2025-04-29 13:55:28,607 - INFO - Twitter already set for Marc A. Veasey: @RepVeasey, skipping
+2025-04-29 13:55:28,608 - INFO - Twitter already set for Scott Perry: @RepScottPerry, skipping
+2025-04-29 13:55:28,608 - INFO - Twitter already set for Raul Ruiz: @RepRaulRuizMD, skipping
+2025-04-29 13:55:28,609 - INFO - Twitter already set for Kevin Cramer: @SenKevinCramer, skipping
+2025-04-29 13:55:28,609 - INFO - Twitter already set for Ann Wagner: @RepAnnWagner, skipping
+2025-04-29 13:55:28,610 - INFO - Twitter already set for Elizabeth Warren: @SenWarren, skipping
+2025-04-29 13:55:28,611 - INFO - Twitter already set for Andy Barr: @RepAndyBarr, skipping
+2025-04-29 13:55:28,611 - INFO - Twitter already set for Ted Cruz: @SenTedCruz, skipping
+2025-04-29 13:55:28,612 - INFO - Twitter already set for Danny K. Davis: @RepDannyDavis, skipping
+2025-04-29 13:55:28,612 - INFO - Twitter already set for Sam Graves: @RepSamGraves, skipping
+2025-04-29 13:55:28,613 - INFO - Twitter already set for Tammy Baldwin: @SenatorBaldwin, skipping
+2025-04-29 13:55:28,613 - INFO - Twitter already set for Roger Williams: @RepRWilliams, skipping
+2025-04-29 13:55:28,613 - INFO - Twitter already set for Tammy Duckworth: @SenDuckworth, skipping
+2025-04-29 13:55:28,614 - INFO - Twitter already set for Deb Fischer: @SenatorFischer, skipping
+2025-04-29 13:55:28,614 - INFO - Twitter already set for Jared Huffman: @RepHuffman, skipping
+2025-04-29 13:55:28,615 - INFO - Twitter already set for Andy Harris: @RepAndyHarrisMD, skipping
+2025-04-29 13:55:28,615 - INFO - Twitter already set for Scott H. Peters: @RepScottPeters, skipping
+2025-04-29 13:55:28,616 - INFO - Twitter already set for Joaquin Castro: @JoaquinCastrotx, skipping
+2025-04-29 13:55:28,616 - INFO - Twitter already set for Bill Cassidy: @SenBillCassidy, skipping
+2025-04-29 13:55:28,616 - INFO - Twitter already set for Brett Guthrie: @RepGuthrie, skipping
+2025-04-29 13:55:28,617 - INFO - Twitter already set for Doug LaMalfa: @RepLaMalfa, skipping
+2025-04-29 13:55:28,617 - INFO - Twitter already set for Kathy Castor: @USRepKCastor, skipping
+2025-04-29 13:55:28,618 - INFO - Twitter already set for Amy Klobuchar: @SenAmyKlobuchar, skipping
+2025-04-29 13:55:28,618 - INFO - Twitter already set for Mark Pocan: @RepMarkPocan, skipping
+2025-04-29 13:55:28,618 - INFO - Twitter already set for Juan Vargas: @RepJuanVargas, skipping
+2025-04-29 13:55:28,619 - INFO - Updated instagram_handle to 'sentimkaine' for Tim Kaine
+2025-04-29 13:55:28,619 - INFO - Updated facebook_url to 'https://www.facebook.com/SenatorKaine' for Tim Kaine
+2025-04-29 13:55:28,620 - INFO - Twitter already set for Brian Schatz: @SenBrianSchatz, skipping
+2025-04-29 13:55:28,620 - INFO - Twitter already set for Julia Brownley: @RepBrownley, skipping
+2025-04-29 13:55:28,620 - INFO - Twitter already set for Thomas Massie: @RepThomasMassie, skipping
+2025-04-29 13:55:28,621 - INFO - Twitter already set for Robin L. Kelly: @RepRobinKelly, skipping
+2025-04-29 13:55:28,621 - INFO - Twitter already set for Kirsten E. Gillibrand: @GillibrandNY, skipping
+2025-04-29 13:55:28,621 - INFO - Twitter already set for James E. Risch: @SenatorRisch, skipping
+2025-04-29 13:55:28,621 - INFO - Twitter already set for Joyce Beatty: @RepBeatty, skipping
+2025-04-29 13:55:28,622 - INFO - Twitter already set for Tina Smith: @SenTinaSmith, skipping
+2025-04-29 13:55:28,622 - INFO - Twitter already set for Jason Smith: @RepJasonSmith, skipping
+2025-04-29 13:55:28,623 - INFO - Updated instagram_handle to 'repchrissmith' for Christopher H. Smith
+2025-04-29 13:55:28,623 - INFO - Updated facebook_url to 'https://www.facebook.com/RepChrisSmith' for Christopher H. Smith
+2025-04-29 13:55:28,624 - INFO - Twitter already set for Christopher Murphy: @SenMurphyOffice, skipping
+2025-04-29 13:55:28,624 - INFO - Twitter already set for Cory A. Booker: @SenBooker, skipping
+2025-04-29 13:55:28,624 - INFO - Twitter already set for Katherine M. Clark: @RepKClark, skipping
+2025-04-29 13:55:28,625 - INFO - Twitter already set for Dan Newhouse: @RepNewhouse, skipping
+2025-04-29 13:55:28,625 - INFO - Twitter already set for Barry Loudermilk: @RepLoudermilk, skipping
+2025-04-29 13:55:28,625 - INFO - Twitter already set for Earl L. "Buddy" Carter: @RepBuddyCarter, skipping
+2025-04-29 13:55:28,626 - INFO - Twitter already set for Mike Bost: @RepBost, skipping
+2025-04-29 13:55:28,626 - INFO - Twitter already set for Alma S. Adams: @RepAdams, skipping
+2025-04-29 13:55:28,627 - INFO - Twitter already set for John R. Moolenaar: @RepMoolenaar, skipping
+2025-04-29 13:55:28,627 - INFO - Twitter already set for Elise M. Stefanik: @RepStefanik, skipping
+2025-04-29 13:55:28,628 - INFO - Twitter already set for David Rouzer: @RepDavidRouzer, skipping
+2025-04-29 13:55:28,628 - INFO - Twitter already set for Gary J. Palmer: @USRepGaryPalmer, skipping
+2025-04-29 13:55:28,628 - INFO - Twitter already set for Tom Emmer: @RepTomEmmer, skipping
+2025-04-29 13:55:28,629 - INFO - Twitter already set for Bruce Westerman: @RepWesterman, skipping
+2025-04-29 13:55:28,629 - INFO - Twitter already set for J. French Hill: @RepFrenchHill, skipping
+2025-04-29 13:55:28,629 - INFO - Twitter already set for Brian Babin: @RepBrianBabin, skipping
+2025-04-29 13:55:28,630 - INFO - Twitter already set for Debbie Dingell: @RepDebDingell, skipping
+2025-04-29 13:55:28,630 - INFO - Twitter already set for Norma J. Torres: @NormaJTorres, skipping
+2025-04-29 13:55:28,630 - INFO - Twitter already set for Dan Sullivan: @SenDanSullivan, skipping
+2025-04-29 13:55:28,631 - INFO - Twitter already set for Rick W. Allen: @RepRickAllen, skipping
+2025-04-29 13:55:28,631 - INFO - Twitter already set for Mike Rounds: @SenatorRounds, skipping
+2025-04-29 13:55:28,631 - INFO - Twitter already set for Brendan F. Boyle: @CongBoyle, skipping
+2025-04-29 13:55:28,632 - INFO - Twitter already set for Pete Aguilar: @RepPeteAguilar, skipping
+2025-04-29 13:55:28,632 - INFO - Twitter already set for Ruben Gallego: @RepRubenGallego, skipping
+2025-04-29 13:55:28,632 - INFO - Twitter already set for Stacey E. Plaskett: @StaceyPlaskett, skipping
+2025-04-29 13:55:28,633 - INFO - Twitter already set for Bonnie Watson Coleman: @RepBonnie, skipping
+2025-04-29 13:55:28,633 - INFO - Twitter already set for Ted Lieu: @RepTedLieu, skipping
+2025-04-29 13:55:28,633 - INFO - Twitter already set for Mark DeSaulnier: @RepDeSaulnier, skipping
+2025-04-29 13:55:28,634 - INFO - Twitter already set for Seth Moulton: @RepMoulton, skipping
+2025-04-29 13:55:28,634 - INFO - Twitter already set for Donald S. Beyer, Jr.: @RepDonBeyer, skipping
+2025-04-29 13:55:28,634 - INFO - Twitter already set for Glenn Grothman: @RepGrothman, skipping
+2025-04-29 13:55:28,635 - INFO - Twitter already set for Donald Norcross: @DonaldNorcross, skipping
+2025-04-29 13:55:28,635 - INFO - Twitter already set for Trent Kelly: @RepTrentKelly, skipping
+2025-04-29 13:55:28,636 - INFO - Twitter already set for Darin LaHood: @RepLaHood, skipping
+2025-04-29 13:55:28,636 - INFO - Twitter already set for Jim Banks: @RepJimBanks, skipping
+2025-04-29 13:55:28,636 - INFO - Twitter already set for Lisa Blunt Rochester: @RepLBR, skipping
+2025-04-29 13:55:28,637 - INFO - Twitter already set for Jamie Raskin: @RepRaskin, skipping
+2025-04-29 13:55:28,637 - INFO - Twitter already set for Jimmy Panetta: @RepJimmyPanetta, skipping
+2025-04-29 13:55:28,637 - INFO - Twitter already set for Neal P. Dunn: @DrNealDunnFL2, skipping
+2025-04-29 13:55:28,637 - INFO - Twitter already set for Nanette Diaz Barragán: @RepBarragan, skipping
+2025-04-29 13:55:28,638 - INFO - Twitter already set for Andy Biggs: @RepAndyBiggsAZ, skipping
+2025-04-29 13:55:28,638 - INFO - Twitter already set for Brian J. Mast: @RepBrianMast, skipping
+2025-04-29 13:55:28,638 - INFO - Twitter already set for Warren Davidson: @WarrenDavidson, skipping
+2025-04-29 13:55:28,639 - INFO - Twitter already set for Vicente Gonzalez: @RepGonzalez, skipping
+2025-04-29 13:55:28,639 - INFO - Twitter already set for Josh Gottheimer: @RepJoshG, skipping
+2025-04-29 13:55:28,639 - INFO - Twitter already set for Catherine Cortez Masto: @SenCortezMasto, skipping
+2025-04-29 13:55:28,640 - INFO - Twitter already set for Ro Khanna: @RepRoKhanna, skipping
+2025-04-29 13:55:28,640 - INFO - Twitter already set for Jodey C. Arrington: @RepArrington, skipping
+2025-04-29 13:55:28,641 - INFO - Twitter already set for Salud O. Carbajal: @RepCarbajal, skipping
+2025-04-29 13:55:28,641 - INFO - Twitter already set for Bradley Scott Schneider: @RepSchneider, skipping
+2025-04-29 13:55:28,641 - INFO - Twitter already set for Ted Budd: @RepTedBudd, skipping
+2025-04-29 13:55:28,641 - INFO - Twitter already set for Pramila Jayapal: @RepJayapal, skipping
+2025-04-29 13:55:28,642 - INFO - Twitter already set for Brian K. Fitzpatrick: @RepBrianFitz, skipping
+2025-04-29 13:55:28,642 - INFO - Twitter already set for John Kennedy: @SenJohnKennedy, skipping
+2025-04-29 13:55:28,643 - INFO - Twitter already set for Raja Krishnamoorthi: @CongressmanRaja, skipping
+2025-04-29 13:55:28,643 - INFO - Twitter already set for Margaret Wood Hassan: @SenatorHassan, skipping
+2025-04-29 13:55:28,644 - INFO - Twitter already set for Adriano Espaillat: @RepEspaillat, skipping
+2025-04-29 13:55:28,644 - INFO - Twitter already set for David Kustoff: @RepDavidKustoff, skipping
+2025-04-29 13:55:28,644 - INFO - Twitter already set for Darren Soto: @RepDarrenSoto, skipping
+2025-04-29 13:55:28,644 - INFO - Twitter already set for Jack Bergman: @RepJackBergman, skipping
+2025-04-29 13:55:28,645 - INFO - Twitter already set for James Comer: @RepJamesComer, skipping
+2025-04-29 13:55:28,645 - INFO - Twitter already set for Roger Marshall: @SenatorMarshall, skipping
+2025-04-29 13:55:28,645 - INFO - Twitter already set for Dwight Evans: @RepDwightEvans, skipping
+2025-04-29 13:55:28,646 - INFO - Twitter already set for John H. Rutherford: @RepRutherfordFL, skipping
+2025-04-29 13:55:28,646 - INFO - Twitter already set for Mike Johnson: @RepMikeJohnson, skipping
+2025-04-29 13:55:28,646 - INFO - Twitter already set for Jacky Rosen: @SenJackyRosen, skipping
+2025-04-29 13:55:28,647 - INFO - Twitter already set for J. Luis Correa: @RepLouCorrea, skipping
+2025-04-29 13:55:28,647 - INFO - Twitter already set for Don Bacon: @RepDonBacon, skipping
+2025-04-29 13:55:28,647 - INFO - Twitter already set for Lloyd Smucker: @RepSmucker, skipping
+2025-04-29 13:55:28,647 - INFO - Twitter already set for Clay Higgins: @RepClayHiggins, skipping
+2025-04-29 13:55:28,648 - INFO - Twitter already set for Ron Estes: @RepRonEstes, skipping
+2025-04-29 13:55:28,648 - INFO - Twitter already set for Jimmy Gomez: @RepJimmyGomez, skipping
+2025-04-29 13:55:28,649 - INFO - Twitter already set for Ralph Norman: @RepRalphNorman, skipping
+2025-04-29 13:55:28,649 - INFO - Twitter already set for John R. Curtis: @RepJohnCurtis, skipping
+2025-04-29 13:55:28,649 - INFO - Twitter already set for Cindy Hyde-Smith: @SenHydeSmith, skipping
+2025-04-29 13:55:28,650 - INFO - Twitter already set for Michael Cloud: @RepCloudTX, skipping
+2025-04-29 13:55:28,650 - INFO - Twitter already set for Pete Stauber: @RepPeteStauber, skipping
+2025-04-29 13:55:28,650 - INFO - Twitter already set for Troy Balderson: @RepBalderson, skipping
+2025-04-29 13:55:28,651 - INFO - Twitter already set for Ben Cline: @RepBenCline, skipping
+2025-04-29 13:55:28,651 - INFO - Twitter already set for Steven Horsford: @RepHorsford, skipping
+2025-04-29 13:55:28,651 - INFO - Twitter already set for Kevin Hern: @repkevinhern, skipping
+2025-04-29 13:55:28,651 - INFO - Twitter already set for Mike Levin: @RepMikeLevin, skipping
+2025-04-29 13:55:28,652 - INFO - Twitter already set for Joseph D. Morelle: @RepJoeMorelle, skipping
+2025-04-29 13:55:28,652 - INFO - Twitter already set for Joe Neguse: @RepJoeNeguse, skipping
+2025-04-29 13:55:28,652 - INFO - Twitter already set for Bryan Steil: @RepBryanSteil, skipping
+2025-04-29 13:55:28,653 - INFO - Twitter already set for Tim Burchett: @RepTimBurchett, skipping
+2025-04-29 13:55:28,653 - INFO - Twitter already set for Angie Craig: @RepAngieCraig, skipping
+2025-04-29 13:55:28,653 - INFO - Twitter already set for Dan Crenshaw: @RepDanCrenshaw, skipping
+2025-04-29 13:55:28,654 - INFO - Twitter already set for Jason Crow: @RepJasonCrow, skipping
+2025-04-29 13:55:28,654 - INFO - Twitter already set for Sharice Davids: @RepDavids, skipping
+2025-04-29 13:55:28,654 - INFO - Twitter already set for Veronica Escobar: @RepEscobar, skipping
+2025-04-29 13:55:28,654 - INFO - Twitter already set for Lizzie Fletcher: @RepFletcher, skipping
+2025-04-29 13:55:28,655 - INFO - Twitter already set for Russ Fulcher: @RepRussFulcher, skipping
+2025-04-29 13:55:28,655 - INFO - Twitter already set for Sylvia R. Garcia: @RepSylviaGarcia, skipping
+2025-04-29 13:55:28,655 - INFO - Twitter already set for Mark E. Green: @RepMarkGreen, skipping
+2025-04-29 13:55:28,655 - INFO - Twitter already set for Jared F. Golden: @RepGolden, skipping
+2025-04-29 13:55:28,656 - INFO - Twitter already set for Chrissy Houlahan: @RepHoulahan, skipping
+2025-04-29 13:55:28,656 - INFO - Twitter already set for Josh Harder: @RepJoshHarder, skipping
+2025-04-29 13:55:28,656 - INFO - Twitter already set for Dusty Johnson: @RepDustyJohnson, skipping
+2025-04-29 13:55:28,657 - INFO - Twitter already set for Susie Lee: @RepSusieLee, skipping
+2025-04-29 13:55:28,657 - INFO - Twitter already set for Daniel Meuser: @RepMeuser, skipping
+2025-04-29 13:55:28,658 - INFO - Twitter already set for Ayanna Pressley: @RepPressley, skipping
+2025-04-29 13:55:28,658 - INFO - Twitter already set for Mikie Sherrill: @RepSherrill, skipping
+2025-04-29 13:55:28,658 - INFO - Twitter already set for Elissa Slotkin: @RepSlotkin, skipping
+2025-04-29 13:55:28,659 - INFO - Twitter already set for Greg Stanton: @RepGregStanton, skipping
+2025-04-29 13:55:28,659 - INFO - Twitter already set for Haley M. Stevens: @RepHaleyStevens, skipping
+2025-04-29 13:55:28,659 - INFO - Twitter already set for Kim Schrier: @RepKimSchrier, skipping
+2025-04-29 13:55:28,660 - INFO - Twitter already set for William R. Timmons IV: @RepTimmons, skipping
+2025-04-29 13:55:28,660 - INFO - Twitter already set for Rashida Tlaib: @RepRashida, skipping
+2025-04-29 13:55:28,661 - INFO - Twitter already set for Lori Trahan: @RepLoriTrahan, skipping
+2025-04-29 13:55:28,661 - INFO - Twitter already set for Lauren Underwood: @RepUnderwood, skipping
+2025-04-29 13:55:28,661 - INFO - Twitter already set for Jahana Hayes: @RepJahanaHayes, skipping
+2025-04-29 13:55:28,661 - INFO - Twitter already set for Madeleine Dean: @RepDean, skipping
+2025-04-29 13:55:28,662 - INFO - Twitter already set for Chris Pappas: @RepChrisPappas, skipping
+2025-04-29 13:55:28,662 - INFO - Twitter already set for John W. Rose: @RepJohnRose, skipping
+2025-04-29 13:55:28,662 - INFO - Twitter already set for Mary Gay Scanlon: @RepMGS, skipping
+2025-04-29 13:55:28,663 - INFO - Twitter already set for Alexandria Ocasio-Cortez: @RepAOC, skipping
+2025-04-29 13:55:28,663 - INFO - Twitter already set for John Joyce: @RepJohnJoyce, skipping
+2025-04-29 13:55:28,663 - INFO - Twitter already set for Michael Guest: @RepMichaelGuest, skipping
+2025-04-29 13:55:28,664 - INFO - Twitter already set for Sean Casten: @RepCasten, skipping
+2025-04-29 13:55:28,664 - INFO - Twitter already set for Carol D. Miller: @RepCarolMiller, skipping
+2025-04-29 13:55:28,664 - INFO - Twitter already set for Lucy McBath: @RepLucyMcBath, skipping
+2025-04-29 13:55:28,665 - INFO - Twitter already set for Chip Roy: @RepChipRoy, skipping
+2025-04-29 13:55:28,665 - INFO - Twitter already set for W. Gregory Steube: @RepGregSteube, skipping
+2025-04-29 13:55:28,665 - INFO - Twitter already set for Jesús G. "Chuy" García: @RepChuyGarcia, skipping
+2025-04-29 13:55:28,665 - INFO - Twitter already set for James R. Baird: @RepJimBaird, skipping
+2025-04-29 13:55:28,666 - INFO - Twitter already set for Guy Reschenthaler: @GReschenthaler, skipping
+2025-04-29 13:55:28,666 - INFO - Twitter already set for Ilhan Omar: @Ilhan, skipping
+2025-04-29 13:55:28,666 - INFO - Twitter already set for Ed Case: @RepEdCase, skipping
+2025-04-29 13:55:28,666 - INFO - Twitter already set for Josh Hawley: @SenHawleyPress, skipping
+2025-04-29 13:55:28,667 - INFO - Twitter already set for Kweisi Mfume: @RepKweisiMfume, skipping
+2025-04-29 13:55:28,667 - INFO - Twitter already set for Gregory F. Murphy: @RepGregMurphy, skipping
+2025-04-29 13:55:28,667 - INFO - Twitter already set for Mark Kelly: @SenMarkKelly, skipping
+2025-04-29 13:55:28,668 - INFO - Twitter already set for Burgess Owens: @RepBurgessOwens, skipping
+2025-04-29 13:55:28,668 - INFO - Twitter already set for Blake D. Moore: @RepBlakeMoore, skipping
+2025-04-29 13:55:28,668 - INFO - Twitter already set for Beth Van Duyne: @RepBethVanDuyne, skipping
+2025-04-29 13:55:28,669 - INFO - Twitter already set for Ronny Jackson: @RepRonnyJackson, skipping
+2025-04-29 13:55:28,669 - INFO - Twitter already set for August Pfluger: @RepPfluger, skipping
+2025-04-29 13:55:28,669 - INFO - Twitter already set for Pat Fallon: @RepPatFallon, skipping
+2025-04-29 13:55:28,669 - INFO - Twitter already set for Diana Harshbarger: @RepHarshbarger, skipping
+2025-04-29 13:55:28,670 - INFO - Twitter already set for Nancy Mace: @RepNancyMace, skipping
+2025-04-29 13:55:28,670 - INFO - Twitter already set for Stephanie I. Bice: @RepBice, skipping
+2025-04-29 13:55:28,670 - INFO - Twitter already set for Nicole Malliotakis: @RepMalliotakis, skipping
+2025-04-29 13:55:28,670 - INFO - Twitter already set for Andrew R. Garbarino: @RepGarbarino, skipping
+2025-04-29 13:55:28,671 - INFO - Twitter already set for Michelle Fischbach: @RepFischbach, skipping
+2025-04-29 13:55:28,671 - INFO - Twitter already set for Lisa C. McClain: @RepLisaMcClain, skipping
+2025-04-29 13:55:28,671 - INFO - Twitter already set for Jake Auchincloss: @RepAuchincloss, skipping
+2025-04-29 13:55:28,672 - INFO - Twitter already set for Victoria Spartz: @RepSpartz, skipping
+2025-04-29 13:55:28,672 - INFO - Twitter already set for Mary E. Miller: @RepMaryMiller, skipping
+2025-04-29 13:55:28,672 - INFO - Twitter already set for Randy Feenstra: @RepFeenstra, skipping
+2025-04-29 13:55:28,673 - INFO - Twitter already set for Ashley Hinson: @RepAshleyHinson, skipping
+2025-04-29 13:55:28,673 - INFO - Twitter already set for Marjorie Taylor Greene: @RepMTG, skipping
+2025-04-29 13:55:28,673 - INFO - Twitter already set for Nikema Williams: @RepNikema, skipping
+2025-04-29 13:55:28,674 - INFO - Twitter already set for Maria Elvira Salazar: @RepMariaSalazar, skipping
+2025-04-29 13:55:28,674 - INFO - Twitter already set for Scott Franklin: @RepFranklin, skipping
+2025-04-29 13:55:28,674 - INFO - Twitter already set for Kat Cammack: @RepKatCammack, skipping
+2025-04-29 13:55:28,675 - INFO - Twitter already set for Lauren Boebert: @RepBoebert, skipping
+2025-04-29 13:55:28,675 - INFO - Twitter already set for Sara Jacobs: @RepSaraJacobs, skipping
+2025-04-29 13:55:28,676 - INFO - Twitter already set for Young Kim: @RepYoungKim, skipping
+2025-04-29 13:55:28,676 - INFO - Twitter already set for Barry Moore: @RepBarryMoore, skipping
+2025-04-29 13:55:28,677 - INFO - Twitter already set for Tommy Tuberville: @SenTuberville, skipping
+2025-04-29 13:55:28,677 - INFO - Twitter already set for Ritchie Torres: @RepRitchie, skipping
+2025-04-29 13:55:28,677 - INFO - Twitter already set for Tracey Mann: @RepMann, skipping
+2025-04-29 13:55:28,678 - INFO - Twitter already set for Cliff Bentz: @RepBentz, skipping
+2025-04-29 13:55:28,678 - INFO - Twitter already set for Mariannette Miller-Meeks: @RepMMM, skipping
+2025-04-29 13:55:28,678 - INFO - Twitter already set for Carlos A. Gimenez: @RepCarlos, skipping
+2025-04-29 13:55:28,679 - INFO - Twitter already set for Cynthia M. Lummis: @SenLummis, skipping
+2025-04-29 13:55:28,679 - INFO - Twitter already set for Teresa Leger Fernandez: @RepTeresaLF, skipping
+2025-04-29 13:55:28,679 - INFO - Twitter already set for Jay Obernolte: @JayObernolte, skipping
+2025-04-29 13:55:28,679 - INFO - Twitter already set for Marilyn Strickland: @RepStricklandWA, skipping
+2025-04-29 13:55:28,680 - INFO - Twitter already set for Tony Gonzales: @RepTonyGonzales, skipping
+2025-04-29 13:55:28,680 - INFO - Twitter already set for Deborah K. Ross: @RepDeborahRoss, skipping
+2025-04-29 13:55:28,680 - INFO - Twitter already set for Bill Hagerty: @SenatorHagerty, skipping
+2025-04-29 13:55:28,681 - INFO - Twitter already set for Troy E. Nehls: @RepTroyNehls, skipping
+2025-04-29 13:55:28,681 - INFO - Twitter already set for Alex Padilla: @SenAlexPadilla, skipping
+2025-04-29 13:55:28,681 - INFO - Twitter already set for Raphael G. Warnock: @SenatorWarnock, skipping
+2025-04-29 13:55:28,682 - INFO - Twitter already set for Frank J. Mrvan: @RepMrvan, skipping
+2025-04-29 13:55:28,682 - INFO - Twitter already set for Scott Fitzgerald: @RepFitzgerald, skipping
+2025-04-29 13:55:28,682 - INFO - Twitter already set for Claudia Tenney: @RepTenney, skipping
+2025-04-29 13:55:28,683 - INFO - Twitter already set for Jon Ossoff: @SenOssoff, skipping
+2025-04-29 13:55:28,683 - INFO - Twitter already set for Shontel M. Brown: @RepShontelBrown, skipping
+2025-04-29 13:55:28,683 - INFO - Twitter already set for Andrew S. Clyde: @Rep_Clyde, skipping
+2025-04-29 13:55:28,683 - INFO - Twitter already set for Mike Carey: @RepMikeCarey, skipping
+2025-04-29 13:55:28,684 - INFO - Twitter already set for Troy A. Carter: @RepTroyCarter, skipping
+2025-04-29 13:55:28,684 - INFO - Twitter already set for Byron Donalds: @RepDonaldsPress, skipping
+2025-04-29 13:55:28,684 - INFO - Twitter already set for Jake Ellzey: @RepEllzey, skipping
+2025-04-29 13:55:28,684 - INFO - Twitter already set for John W. Hickenlooper: @SenatorHick, skipping
+2025-04-29 13:55:28,685 - INFO - Twitter already set for Darrell Issa: @repdarrellissa, skipping
+2025-04-29 13:55:28,685 - INFO - Twitter already set for Julia Letlow: @RepJuliaLetlow, skipping
+2025-04-29 13:55:28,685 - INFO - Twitter already set for Pete Sessions: @PeteSessions, skipping
+2025-04-29 13:55:28,685 - INFO - Twitter already set for Melanie A. Stansbury: @Rep_Stansbury, skipping
+2025-04-29 13:55:28,686 - INFO - Twitter already set for Thomas P. Tiffany: @RepTiffany, skipping
+2025-04-29 13:55:28,686 - INFO - Twitter already set for Jefferson Van Drew: @Congressman_JVD, skipping
+2025-04-29 13:55:28,686 - INFO - Twitter already set for David G. Valadao: @RepDavidValadao, skipping
+2025-04-29 13:55:28,687 - INFO - Twitter already set for Aaron Bean: @RepAaronBean, skipping
+2025-04-29 13:55:28,687 - INFO - Twitter already set for Nikki Budzinski: @RepNikkiB, skipping
+2025-04-29 13:55:28,687 - INFO - Twitter already set for Eric Burlison: @RepEricBurlison, skipping
+2025-04-29 13:55:28,687 - INFO - Twitter already set for Becca Balint: @RepBeccaB, skipping
+2025-04-29 13:55:28,688 - INFO - Twitter already set for Mike Collins: @RepMikeCollins, skipping
+2025-04-29 13:55:28,688 - INFO - Twitter already set for Jasmine Crockett: @RepJasmine, skipping
+2025-04-29 13:55:28,688 - INFO - Twitter already set for Greg Casar: @RepCasar, skipping
+2025-04-29 13:55:28,689 - INFO - Twitter already set for Elijah Crane: @RepEliCrane, skipping
+2025-04-29 13:55:28,689 - INFO - Twitter already set for Juan Ciscomani: @RepCiscomani, skipping
+2025-04-29 13:55:28,689 - INFO - Twitter already set for Christopher R. Deluzio: @RepDeluzio, skipping
+2025-04-29 13:55:28,689 - INFO - Twitter already set for Mike Ezell: @RepEzell, skipping
+2025-04-29 13:55:28,690 - INFO - Twitter already set for Chuck Edwards: @RepEdwards, skipping
+2025-04-29 13:55:28,690 - INFO - Twitter already set for Maxwell Frost: @RepMaxwellFrost, skipping
+2025-04-29 13:55:28,690 - INFO - Twitter already set for Valerie P. Foushee: @ValerieFoushee, skipping
+2025-04-29 13:55:28,691 - INFO - Twitter already set for Russell Fry: @RepRussellFry, skipping
+2025-04-29 13:55:28,691 - INFO - Twitter already set for Robert Garcia: @RepRobertGarcia, skipping
+2025-04-29 13:55:28,691 - INFO - Twitter already set for Daniel S. Goldman: @RepDanGoldman, skipping
+2025-04-29 13:55:28,692 - INFO - Twitter already set for Marie Gluesenkamp Perez: @RepMGP, skipping
+2025-04-29 13:55:28,692 - INFO - Twitter already set for Erin Houchin: @RepHouchin, skipping
+2025-04-29 13:55:28,693 - INFO - Twitter already set for Val T. Hoyle: @repvalhoyle, skipping
+2025-04-29 13:55:28,693 - INFO - Twitter already set for Wesley Hunt: @RepWesleyHunt, skipping
+2025-04-29 13:55:28,693 - INFO - Twitter already set for Glenn Ivey: @RepGlennIvey, skipping
+2025-04-29 13:55:28,694 - INFO - Twitter already set for Thomas H. Kean, Jr.: @CongressmanKean, skipping
+2025-04-29 13:55:28,694 - INFO - Twitter already set for Kevin Kiley: @RepKiley, skipping
+2025-04-29 13:55:28,695 - INFO - Twitter already set for Anna Paulina Luna: @RepLuna, skipping
+2025-04-29 13:55:28,695 - INFO - Twitter already set for Laurel M. Lee: @RepLaurelLee, skipping
+2025-04-29 13:55:28,695 - INFO - Twitter already set for Nick LaLota: @RepLaLota, skipping
+2025-04-29 13:55:28,695 - INFO - Twitter already set for Michael Lawler: @RepMikeLawler, skipping
+2025-04-29 13:55:28,696 - INFO - Twitter already set for Morgan Luttrell: @RepLuttrell, skipping
+2025-04-29 13:55:28,696 - INFO - Twitter already set for Jared Moskowitz: @RepMoskowitz, skipping
+2025-04-29 13:55:28,696 - INFO - Twitter already set for Richard McCormick: @RepMcCormick, skipping
+2025-04-29 13:55:28,697 - INFO - Twitter already set for Morgan McGarvey: @RepMcGarvey, skipping
+2025-04-29 13:55:28,697 - INFO - Twitter already set for Kevin Mullin: @RepKevinMullin, skipping
+2025-04-29 13:55:28,697 - INFO - Twitter already set for Robert Menendez: @RepMenendez, skipping
+2025-04-29 13:55:28,697 - INFO - Twitter already set for Zachary Nunn: @ZachNunn, skipping
+2025-04-29 13:55:28,698 - INFO - Twitter already set for Patrick Ryan: @RepPatRyanNY, skipping
+2025-04-29 13:55:28,698 - INFO - Twitter already set for Emilia Strong Sykes: @RepEmiliaSykes, skipping
+2025-04-29 13:55:28,698 - INFO - Twitter already set for Eric Sorensen: @RepEricSorensen, skipping
+2025-04-29 13:55:28,698 - INFO - Twitter already set for Jill N. Tokuda: @RepJillTokuda, skipping
+2025-04-29 13:55:28,699 - INFO - Twitter already set for Shri Thanedar: @RepShriThanedar, skipping
+2025-04-29 13:55:28,699 - INFO - Twitter already set for Derrick Van Orden: @RepVanOrden, skipping
+2025-04-29 13:55:28,699 - INFO - Twitter already set for Rudy Yakym III: @RepRudyYakym, skipping
+2025-04-29 13:55:28,700 - INFO - Twitter already set for Mike Flood: @USRepMikeFlood, skipping
+2025-04-29 13:55:28,700 - INFO - Twitter already set for Brad Finstad: @RepFinstad, skipping
+2025-04-29 13:55:28,700 - INFO - Twitter already set for Ryan K. Zinke: @RepRyanZinke, skipping
+2025-04-29 13:55:28,700 - INFO - Twitter already set for Katie Boyd Britt: @SenKatieBritt, skipping
+2025-04-29 13:55:28,701 - INFO - Twitter already set for Eric Schmitt: @SenEricSchmitt, skipping
+2025-04-29 13:55:28,701 - INFO - Twitter already set for Dale W. Strong: @RepDaleStrong, skipping
+2025-04-29 13:55:28,701 - INFO - Twitter already set for Sydney Kamlager-Dove: @RepKamlagerDove, skipping
+2025-04-29 13:55:28,702 - INFO - Twitter already set for Brittany Pettersen: @reppettersen, skipping
+2025-04-29 13:55:28,702 - INFO - Twitter already set for Cory Mills: @RepMillsPress, skipping
+2025-04-29 13:55:28,702 - INFO - Twitter already set for James C. Moylan: @JMoylanforGuam, skipping
+2025-04-29 13:55:28,702 - INFO - Twitter already set for Delia C. Ramirez: @repdeliaramirez, skipping
+2025-04-29 13:55:28,703 - INFO - Twitter already set for Hillary J. Scholten: @RepScholten, skipping
+2025-04-29 13:55:28,703 - INFO - Twitter already set for John James: @RepJames, skipping
+2025-04-29 13:55:28,703 - INFO - Twitter already set for Mark Alford: @RepMarkAlford, skipping
+2025-04-29 13:55:28,703 - INFO - Twitter already set for Donald G. Davis: @RepDonDavis, skipping
+2025-04-29 13:55:28,704 - INFO - Twitter already set for Gabe Vasquez: @RepGabeVasquez, skipping
+2025-04-29 13:55:28,704 - INFO - Twitter already set for Nicholas A. Langworthy: @RepLangworthy, skipping
+2025-04-29 13:55:28,704 - INFO - Twitter already set for Greg Landsman: @repgreglandsman, skipping
+2025-04-29 13:55:28,704 - INFO - Twitter already set for Max L. Miller: @repmaxmiller, skipping
+2025-04-29 13:55:28,705 - INFO - Twitter already set for Josh Brecheen: @repbrecheen, skipping
+2025-04-29 13:55:28,705 - INFO - Twitter already set for Andrea Salinas: @repsalinas, skipping
+2025-04-29 13:55:28,705 - INFO - Twitter already set for Summer L. Lee: @RepSummerLee, skipping
+2025-04-29 13:55:28,705 - INFO - Twitter already set for Seth Magaziner: @Rep_Magaziner, skipping
+2025-04-29 13:55:28,706 - INFO - Twitter already set for Andrew Ogles: @repogles, skipping
+2025-04-29 13:55:28,706 - INFO - Twitter already set for Nathaniel Moran: @RepNateMoran, skipping
+2025-04-29 13:55:28,706 - INFO - Twitter already set for Keith Self: @repkeithself, skipping
+2025-04-29 13:55:28,707 - INFO - Twitter already set for Monica De La Cruz: @RepMonicaDLC, skipping
+2025-04-29 13:55:28,707 - INFO - Twitter already set for Jennifer A. Kiggans: @RepJenKiggans, skipping
+2025-04-29 13:55:28,707 - INFO - Twitter already set for Harriet M. Hageman: @RepHageman, skipping
+2025-04-29 13:55:28,707 - INFO - Twitter already set for Pete Ricketts: @SenatorRicketts, skipping
+2025-04-29 13:55:28,708 - INFO - Twitter already set for Jennifer L. McClellan: @RepMcClellan, skipping
+2025-04-29 13:55:28,708 - INFO - Twitter already set for Gabe Amo: @RepGabeAmo, skipping
+2025-04-29 13:55:28,708 - INFO - Twitter already set for Celeste Maloy: @RepMaloyUtah, skipping
+2025-04-29 13:55:28,709 - INFO - Twitter already set for Thomas R. Suozzi: @reptomsuozzi, skipping
+2025-04-29 13:55:28,709 - INFO - Twitter already set for Timothy M. Kennedy: @reptimkennedy, skipping
+2025-04-29 13:55:28,709 - INFO - Twitter already set for Vince Fong: @RepVinceFong, skipping
+2025-04-29 13:55:28,710 - INFO - Twitter already set for LaMonica McIver: @RepLaMonica, skipping
+2025-04-29 13:55:28,710 - INFO - Twitter already set for Tony Wied: @RepTonyWied, skipping
+2025-04-29 13:55:28,710 - INFO - Twitter already set for Cleo Fields: @repfields, skipping
+2025-04-29 13:55:28,710 - INFO - Twitter already set for Marlin A. Stutzman: @RepStutzman, skipping
+2025-04-29 13:55:28,711 - INFO - Twitter already set for Bernie Moreno: @berniemoreno, skipping
+2025-04-29 13:55:28,711 - INFO - Twitter already set for Nicholas J. Begich III: @repnickbegich, skipping
+2025-04-29 13:55:28,711 - INFO - Twitter already set for Shomari Figures: @repscfigures, skipping
+2025-04-29 13:55:28,712 - INFO - Twitter already set for Yassamin Ansari: @RepYassAnsari, skipping
+2025-04-29 13:55:28,712 - INFO - Twitter already set for Lateefah Simon: @RepLSimon, skipping
+2025-04-29 13:55:28,712 - INFO - Twitter already set for Adam Gray: @RepAdamGrayCA, skipping
+2025-04-29 13:55:28,713 - INFO - Twitter already set for Sam T. Liccardo: @repliccardo, skipping
+2025-04-29 13:55:28,713 - INFO - Twitter already set for George Whitesides: @Rep_Whitesides, skipping
+2025-04-29 13:55:28,713 - INFO - Twitter already set for Luz M. Rivas: @RepLuzRivas, skipping
+2025-04-29 13:55:28,713 - INFO - Twitter already set for Laura Friedman: @RepFriedmanCA, skipping
+2025-04-29 13:55:28,714 - INFO - Twitter already set for Jeff Hurd: @RepJeffHurd, skipping
+2025-04-29 13:55:28,714 - INFO - Twitter already set for Jeff Crank: @RepJeffCrank, skipping
+2025-04-29 13:55:28,714 - INFO - Twitter already set for Gabe Evans: @repgabeevans, skipping
+2025-04-29 13:55:28,715 - INFO - Twitter already set for Mike Haridopolos: @repharidopolos, skipping
+2025-04-29 13:55:28,715 - INFO - Twitter already set for Brian Jack: @RepBrianJack, skipping
+2025-04-29 13:55:28,715 - INFO - Twitter already set for Jefferson Shreve: @repshreve, skipping
+2025-04-29 13:55:28,715 - INFO - Twitter already set for Derek Schmidt: @repderekschmidt, skipping
+2025-04-29 13:55:28,716 - INFO - Twitter already set for Johnny Olszewski, Jr.: @RepJohnnyO, skipping
+2025-04-29 13:55:28,716 - INFO - Twitter already set for Sarah Elfreth: @repsarahelfreth, skipping
+2025-04-29 13:55:28,716 - INFO - Twitter already set for April McClain Delaney: @RepAprilDelaney, skipping
+2025-04-29 13:55:28,717 - INFO - Twitter already set for Tom Barrett: @reptombarrett, skipping
+2025-04-29 13:55:28,717 - INFO - Twitter already set for Kristen McDonald Rivet: @repkmr, skipping
+2025-04-29 13:55:28,717 - INFO - Twitter already set for Kelly Morrison: @kellymorrisonmn, skipping
+2025-04-29 13:55:28,717 - INFO - Twitter already set for Wesley Bell: @RepWesleyBellMO, skipping
+2025-04-29 13:55:28,718 - INFO - Twitter already set for Robert F. Onder, Jr.: @RepBobOnder, skipping
+2025-04-29 13:55:28,718 - INFO - Twitter already set for Kimberlyn King-Hinds: @RepKimKingHinds, skipping
+2025-04-29 13:55:28,718 - INFO - Twitter already set for Troy Downing: @reptroydowning, skipping
+2025-04-29 13:55:28,718 - INFO - Twitter already set for Addison P. McDowell: @RepMcDowell, skipping
+2025-04-29 13:55:28,719 - INFO - Twitter already set for Mark Harris: @RepMarkHarrisNC, skipping
+2025-04-29 13:55:28,719 - INFO - Twitter already set for Pat Harrigan: @RepPatHarrigan, skipping
+2025-04-29 13:55:28,719 - INFO - Twitter already set for Brad Knott: @RepKnott, skipping
+2025-04-29 13:55:28,720 - INFO - Twitter already set for Tim Moore: @RepTimMooreNC, skipping
+2025-04-29 13:55:28,720 - INFO - Twitter already set for Julie Fedorchak: @RepFedorchak, skipping
+2025-04-29 13:55:28,721 - INFO - Twitter already set for Maggie Goodlander: @RepGoodlander, skipping
+2025-04-29 13:55:28,722 - INFO - Twitter already set for Herbert C. Conaway, Jr.: @RepHerbConaway, skipping
+2025-04-29 13:55:28,722 - INFO - Twitter already set for Nellie Pou: @caohouse, skipping
+2025-04-29 13:55:28,723 - INFO - Twitter already set for Laura Gillen: @RepLauraGillen, skipping
+2025-04-29 13:55:28,723 - INFO - Twitter already set for George Latimer: @RepGLatimer, skipping
+2025-04-29 13:55:28,724 - INFO - Twitter already set for John W. Mannion: @JohnMannionNY22, skipping
+2025-04-29 13:55:28,724 - INFO - Twitter already set for David J. Taylor: @RepDaveTaylor, skipping
+2025-04-29 13:55:28,724 - INFO - Twitter already set for Maxine Dexter: @RepDexterOR, skipping
+2025-04-29 13:55:28,725 - INFO - Twitter already set for Janelle S. Bynum: @RepBynum, skipping
+2025-04-29 13:55:28,727 - INFO - Twitter already set for Ryan Mackenzie: @RepMackenzie, skipping
+2025-04-29 13:55:28,727 - INFO - Twitter already set for Robert P. Bresnahan, Jr.: @RepBresnahan, skipping
+2025-04-29 13:55:28,728 - INFO - Twitter already set for Pablo José Hernández: @reppablojose, skipping
+2025-04-29 13:55:28,728 - INFO - Twitter already set for Sheri Biggs: @repsheribiggs, skipping
+2025-04-29 13:55:28,728 - INFO - Twitter already set for Craig A. Goldman: @RepCraigGoldman, skipping
+2025-04-29 13:55:28,729 - INFO - Twitter already set for Brandon Gill: @repbrandongill, skipping
+2025-04-29 13:55:28,729 - INFO - Twitter already set for Julie Johnson: @RepJulieJohnson, skipping
+2025-04-29 13:55:28,729 - INFO - Twitter already set for Mike Kennedy: @repmikekennedy, skipping
+2025-04-29 13:55:28,729 - INFO - Twitter already set for John J. McGuire III: @RepJohnMcGuire, skipping
+2025-04-29 13:55:28,730 - INFO - Twitter already set for Eugene Simon Vindman: @RepVindman, skipping
+2025-04-29 13:55:28,730 - INFO - Twitter already set for Suhas Subramanyam: @RepSuhas, skipping
+2025-04-29 13:55:28,730 - INFO - Twitter already set for Michael Baumgartner: @repbaumgartner, skipping
+2025-04-29 13:55:28,730 - INFO - Twitter already set for Riley M. Moore: @RepRileyMoore, skipping
+2025-04-29 13:55:28,731 - INFO - Updated instagram_handle to 'SenAdamSchiff' for Adam B. Schiff
+2025-04-29 13:55:28,731 - INFO - Updated facebook_url to 'https://www.facebook.com/SenAdamSchiff' for Adam B. Schiff
+2025-04-29 13:55:28,731 - INFO - Updated instagram_handle to 'SenatorAndyKim' for Andy Kim
+2025-04-29 13:55:28,732 - INFO - Updated facebook_url to 'https://www.facebook.com/SenatorAndyKim' for Andy Kim
+2025-04-29 13:55:28,732 - INFO - Updated facebook_url to 'https://www.facebook.com/congresswomanSCM' for Sheila Cherfilus-McCormick
+2025-04-29 13:55:28,732 - INFO - Updated instagram_handle to 'senfettermanpa' for John Fetterman
+2025-04-29 13:55:28,733 - INFO - Updated facebook_url to 'https://www.facebook.com/SenFettermanPA' for John Fetterman
+2025-04-29 13:55:28,733 - INFO - Updated instagram_handle to 'repjackson' for Jonathan L. Jackson
+2025-04-29 13:55:28,733 - INFO - Updated facebook_url to 'https://www.facebook.com/repjackson' for Jonathan L. Jackson
+2025-04-29 13:55:28,734 - INFO - Updated instagram_handle to 'repgilcisneros' for Gilbert Ray Cisneros, Jr.
+2025-04-29 13:55:28,734 - INFO - Updated facebook_url to 'https://www.facebook.com/RepGilCisneros' for Gilbert Ray Cisneros, Jr.
+2025-04-29 13:55:28,734 - INFO - Updated instagram_handle to 'sen_alsobrooks' for Angela D. Alsobrooks
+2025-04-29 13:55:28,735 - INFO - Updated facebook_url to 'https://www.facebook.com/SenatorAlsobrooks' for Angela D. Alsobrooks
+2025-04-29 13:55:28,735 - INFO - Updated instagram_handle to 'senmccormickpa' for David McCormick
+2025-04-29 13:55:28,736 - INFO - Updated facebook_url to 'https://www.facebook.com/SenMcCormickPA' for David McCormick
+2025-04-29 13:55:28,736 - INFO - Updated instagram_handle to 'congresswomansarahmcbride' for Sarah McBride
+2025-04-29 13:55:28,736 - INFO - Updated facebook_url to 'https://www.facebook.com/CongresswomanSarahMcBride' for Sarah McBride
+2025-04-29 13:55:28,737 - INFO - Updated instagram_handle to 'HouseRepublicans' for Mark B. Messmer
+2025-04-29 13:55:28,737 - INFO - Updated facebook_url to 'https://www.facebook.com/CongressmanMessmer' for Mark B. Messmer
+2025-04-29 13:55:28,737 - INFO - Updated instagram_handle to 'RepRileyNY' for Josh Riley
+2025-04-29 13:55:28,738 - INFO - Updated facebook_url to 'https://www.facebook.com/RepRileyNY' for Josh Riley
+2025-04-29 13:55:28,738 - INFO - Updated instagram_handle to 'senjimjustice' for James C. Justice
+2025-04-29 13:55:28,738 - INFO - Updated facebook_url to 'https://www.facebook.com/100044187231175' for James C. Justice
+2025-04-29 13:55:28,739 - INFO - Migration Summary:
+2025-04-29 13:55:28,739 - INFO - Total records processed: 529
+2025-04-29 13:55:28,739 - INFO - Total records updated: 15
+2025-04-29 13:55:28,739 - INFO - Total records with no changes needed: 514
+2025-04-29 13:55:28,740 - INFO - Total records missing or not found: 0
+2025-04-29 13:55:28,745 - INFO - Social media migration completed
+2025-04-29 13:55:28,747 - INFO - Script exiting, no input required.

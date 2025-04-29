@@ -1,0 +1,197 @@
+2025-04-29 13:45:31,680 - INFO - Starting executive data migration
+2025-04-29 13:45:31,683 - INFO - Creating executive_officials table...
+2025-04-29 13:45:31,687 - INFO - Created new executive_officials table
+2025-04-29 13:45:31,688 - INFO - Loading YAML file: backups/migrated_data_files/executive.yaml
+2025-04-29 13:45:31,849 - INFO - Found 80 records in the executive YAML file
+2025-04-29 13:45:31,850 - ERROR - Error during executive data migration: 'dict' object has no attribute 'strip'
+2025-04-29 13:45:31,851 - INFO - Executive data migration completed
+2025-04-29 13:46:13,022 - INFO - Starting executive data migration
+2025-04-29 13:46:13,044 - INFO - Loading YAML file: backups/migrated_data_files/executive.yaml
+2025-04-29 13:46:13,262 - INFO - Found 80 records in the executive YAML file
+2025-04-29 13:46:13,262 - ERROR - Error during executive data migration: 'dict' object has no attribute 'strip'
+2025-04-29 13:46:13,264 - INFO - Executive data migration completed
+2025-04-29 13:46:35,190 - INFO - Starting executive data migration
+2025-04-29 13:46:35,192 - INFO - Loading YAML file: backups/migrated_data_files/executive.yaml
+2025-04-29 13:46:35,377 - INFO - Found 80 records in the executive YAML file
+2025-04-29 13:46:35,380 - ERROR - Error during executive data migration: table entities has no column named type
+2025-04-29 13:46:35,381 - INFO - Executive data migration completed
+2025-04-29 13:47:42,176 - INFO - Starting executive data migration
+2025-04-29 13:47:42,180 - INFO - Loading YAML file: backups/migrated_data_files/executive.yaml
+2025-04-29 13:47:42,456 - INFO - Found 80 records in the executive YAML file
+2025-04-29 13:47:42,461 - ERROR - Error during executive data migration: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:47:42,462 - INFO - Executive data migration completed
+2025-04-29 13:48:35,973 - INFO - Starting executive data migration
+2025-04-29 13:48:35,976 - INFO - Loading YAML file: backups/migrated_data_files/executive.yaml
+2025-04-29 13:48:36,164 - INFO - Found 80 records in the executive YAML file
+2025-04-29 13:48:36,165 - INFO - Starting to process 80 executive records
+2025-04-29 13:48:36,165 - INFO - Processing executive record 1: {'first': 'George', 'last': 'Washington'}
+2025-04-29 13:48:36,168 - ERROR - Error processing {'first': 'George', 'last': 'Washington'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,169 - INFO - Processing executive record 2: {'first': 'John', 'last': 'Adams'}
+2025-04-29 13:48:36,170 - ERROR - Error processing {'first': 'John', 'last': 'Adams'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,170 - INFO - Processing executive record 3: {'first': 'Thomas', 'last': 'Jefferson'}
+2025-04-29 13:48:36,171 - ERROR - Error processing {'first': 'Thomas', 'last': 'Jefferson'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,171 - INFO - Processing executive record 4: {'first': 'Aaron', 'last': 'Burr', 'suffix': 'Jr.'}
+2025-04-29 13:48:36,172 - ERROR - Error processing {'first': 'Aaron', 'last': 'Burr', 'suffix': 'Jr.'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,172 - INFO - Processing executive record 5: {'first': 'George', 'last': 'Clinton'}
+2025-04-29 13:48:36,173 - ERROR - Error processing {'first': 'George', 'last': 'Clinton'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,174 - INFO - Processing executive record 6: {'first': 'Elbridge', 'last': 'Gerry'}
+2025-04-29 13:48:36,174 - ERROR - Error processing {'first': 'Elbridge', 'last': 'Gerry'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,175 - INFO - Processing executive record 7: {'first': 'James', 'last': 'Madison'}
+2025-04-29 13:48:36,176 - ERROR - Error processing {'first': 'James', 'last': 'Madison'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,177 - INFO - Processing executive record 8: {'first': 'Daniel', 'middle': 'D.', 'last': 'Tompkins'}
+2025-04-29 13:48:36,178 - ERROR - Error processing {'first': 'Daniel', 'middle': 'D.', 'last': 'Tompkins'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,178 - INFO - Processing executive record 9: {'first': 'James', 'last': 'Monroe'}
+2025-04-29 13:48:36,179 - ERROR - Error processing {'first': 'James', 'last': 'Monroe'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,180 - INFO - Processing executive record 10: {'first': 'John', 'middle': 'Quincy', 'last': 'Adams'}
+2025-04-29 13:48:36,185 - ERROR - Error processing {'first': 'John', 'middle': 'Quincy', 'last': 'Adams'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,186 - INFO - Processing executive record 11: {'first': 'John', 'middle': 'Caldwell', 'last': 'Calhoun'}
+2025-04-29 13:48:36,186 - ERROR - Error processing {'first': 'John', 'middle': 'Caldwell', 'last': 'Calhoun'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,187 - INFO - Processing executive record 12: {'first': 'Andrew', 'last': 'Jackson'}
+2025-04-29 13:48:36,187 - ERROR - Error processing {'first': 'Andrew', 'last': 'Jackson'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,187 - INFO - Processing executive record 13: {'first': 'Richard', 'middle': 'Mentor', 'last': 'Johnson'}
+2025-04-29 13:48:36,188 - ERROR - Error processing {'first': 'Richard', 'middle': 'Mentor', 'last': 'Johnson'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,188 - INFO - Processing executive record 14: {'first': 'Martin', 'last': 'Van Buren'}
+2025-04-29 13:48:36,189 - ERROR - Error processing {'first': 'Martin', 'last': 'Van Buren'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,189 - INFO - Processing executive record 15: {'first': 'William', 'middle': 'Henry', 'last': 'Harrison'}
+2025-04-29 13:48:36,190 - ERROR - Error processing {'first': 'William', 'middle': 'Henry', 'last': 'Harrison'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,191 - INFO - Processing executive record 16: {'first': 'John', 'last': 'Tyler'}
+2025-04-29 13:48:36,191 - ERROR - Error processing {'first': 'John', 'last': 'Tyler'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,193 - INFO - Processing executive record 17: {'first': 'George', 'middle': 'Mifflin', 'last': 'Dallas'}
+2025-04-29 13:48:36,195 - ERROR - Error processing {'first': 'George', 'middle': 'Mifflin', 'last': 'Dallas'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,196 - INFO - Processing executive record 18: {'first': 'James', 'middle': 'Knox', 'last': 'Polk'}
+2025-04-29 13:48:36,197 - ERROR - Error processing {'first': 'James', 'middle': 'Knox', 'last': 'Polk'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,198 - INFO - Processing executive record 19: {'first': 'Zachary', 'last': 'Taylor'}
+2025-04-29 13:48:36,198 - ERROR - Error processing {'first': 'Zachary', 'last': 'Taylor'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,199 - INFO - Processing executive record 20: {'first': 'Millard', 'last': 'Fillmore'}
+2025-04-29 13:48:36,200 - ERROR - Error processing {'first': 'Millard', 'last': 'Fillmore'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,200 - INFO - Processing executive record 21: {'first': 'William', 'middle': 'Rufus de Vane', 'last': 'King'}
+2025-04-29 13:48:36,201 - ERROR - Error processing {'first': 'William', 'middle': 'Rufus de Vane', 'last': 'King'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,201 - INFO - Processing executive record 22: {'first': 'Franklin', 'last': 'Pierce'}
+2025-04-29 13:48:36,202 - ERROR - Error processing {'first': 'Franklin', 'last': 'Pierce'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,202 - INFO - Processing executive record 23: {'first': 'John', 'middle': 'Cabell', 'last': 'Breckinridge'}
+2025-04-29 13:48:36,203 - ERROR - Error processing {'first': 'John', 'middle': 'Cabell', 'last': 'Breckinridge'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,203 - INFO - Processing executive record 24: {'first': 'James', 'last': 'Buchanan'}
+2025-04-29 13:48:36,204 - ERROR - Error processing {'first': 'James', 'last': 'Buchanan'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,204 - INFO - Processing executive record 25: {'first': 'Hannibal', 'last': 'Hamlin'}
+2025-04-29 13:48:36,204 - ERROR - Error processing {'first': 'Hannibal', 'last': 'Hamlin'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,205 - INFO - Processing executive record 26: {'first': 'Abraham', 'last': 'Lincoln'}
+2025-04-29 13:48:36,205 - ERROR - Error processing {'first': 'Abraham', 'last': 'Lincoln'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,206 - INFO - Processing executive record 27: {'first': 'Andrew', 'last': 'Johnson'}
+2025-04-29 13:48:36,206 - ERROR - Error processing {'first': 'Andrew', 'last': 'Johnson'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,207 - INFO - Processing executive record 28: {'first': 'Schuyler', 'last': 'Colfax'}
+2025-04-29 13:48:36,207 - ERROR - Error processing {'first': 'Schuyler', 'last': 'Colfax'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,207 - INFO - Processing executive record 29: {'first': 'Henry', 'last': 'Wilson'}
+2025-04-29 13:48:36,208 - ERROR - Error processing {'first': 'Henry', 'last': 'Wilson'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,208 - INFO - Processing executive record 30: {'first': 'Ulysses', 'middle': 'Simpson', 'last': 'Grant'}
+2025-04-29 13:48:36,210 - ERROR - Error processing {'first': 'Ulysses', 'middle': 'Simpson', 'last': 'Grant'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,210 - INFO - Processing executive record 31: {'first': 'William', 'middle': 'Almon', 'last': 'Wheeler'}
+2025-04-29 13:48:36,211 - ERROR - Error processing {'first': 'William', 'middle': 'Almon', 'last': 'Wheeler'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,212 - INFO - Processing executive record 32: {'first': 'Rutherford', 'middle': 'Birchard', 'last': 'Hayes'}
+2025-04-29 13:48:36,212 - ERROR - Error processing {'first': 'Rutherford', 'middle': 'Birchard', 'last': 'Hayes'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,213 - INFO - Processing executive record 33: {'first': 'James', 'middle': 'Abram', 'last': 'Garfield'}
+2025-04-29 13:48:36,214 - ERROR - Error processing {'first': 'James', 'middle': 'Abram', 'last': 'Garfield'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,215 - INFO - Processing executive record 34: {'first': 'Chester', 'middle': 'Alan', 'last': 'Arthur'}
+2025-04-29 13:48:36,215 - ERROR - Error processing {'first': 'Chester', 'middle': 'Alan', 'last': 'Arthur'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,216 - INFO - Processing executive record 35: {'first': 'Thomas', 'middle': 'Andrews', 'last': 'Hendricks'}
+2025-04-29 13:48:36,216 - ERROR - Error processing {'first': 'Thomas', 'middle': 'Andrews', 'last': 'Hendricks'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,217 - INFO - Processing executive record 36: {'first': 'Levi', 'middle': 'Parsons', 'last': 'Morton'}
+2025-04-29 13:48:36,218 - ERROR - Error processing {'first': 'Levi', 'middle': 'Parsons', 'last': 'Morton'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,218 - INFO - Processing executive record 37: {'first': 'Benjamin', 'last': 'Harrison'}
+2025-04-29 13:48:36,219 - ERROR - Error processing {'first': 'Benjamin', 'last': 'Harrison'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,219 - INFO - Processing executive record 38: {'first': 'Adlai', 'middle': 'Ewing', 'last': 'Stevenson'}
+2025-04-29 13:48:36,219 - ERROR - Error processing {'first': 'Adlai', 'middle': 'Ewing', 'last': 'Stevenson'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,220 - INFO - Processing executive record 39: {'first': 'Grover', 'last': 'Cleveland'}
+2025-04-29 13:48:36,220 - ERROR - Error processing {'first': 'Grover', 'last': 'Cleveland'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,221 - INFO - Processing executive record 40: {'first': 'Garret', 'middle': 'Augustus', 'last': 'Hobart'}
+2025-04-29 13:48:36,221 - ERROR - Error processing {'first': 'Garret', 'middle': 'Augustus', 'last': 'Hobart'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,221 - INFO - Processing executive record 41: {'first': 'William', 'last': 'McKinley', 'suffix': 'Jr.'}
+2025-04-29 13:48:36,222 - ERROR - Error processing {'first': 'William', 'last': 'McKinley', 'suffix': 'Jr.'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,222 - INFO - Processing executive record 42: {'first': 'Charles', 'middle': 'Warren', 'last': 'Fairbanks'}
+2025-04-29 13:48:36,223 - ERROR - Error processing {'first': 'Charles', 'middle': 'Warren', 'last': 'Fairbanks'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,223 - INFO - Processing executive record 43: {'first': 'Theodore', 'last': 'Roosevelt'}
+2025-04-29 13:48:36,224 - ERROR - Error processing {'first': 'Theodore', 'last': 'Roosevelt'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,224 - INFO - Processing executive record 44: {'first': 'James', 'middle': 'Schoolcraft', 'last': 'Sherman'}
+2025-04-29 13:48:36,226 - ERROR - Error processing {'first': 'James', 'middle': 'Schoolcraft', 'last': 'Sherman'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,227 - INFO - Processing executive record 45: {'first': 'William', 'middle': 'Howard', 'last': 'Taft'}
+2025-04-29 13:48:36,228 - ERROR - Error processing {'first': 'William', 'middle': 'Howard', 'last': 'Taft'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,229 - INFO - Processing executive record 46: {'first': 'Thomas', 'middle': 'Riley', 'last': 'Marshall'}
+2025-04-29 13:48:36,230 - ERROR - Error processing {'first': 'Thomas', 'middle': 'Riley', 'last': 'Marshall'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,230 - INFO - Processing executive record 47: {'first': 'Woodrow', 'last': 'Wilson'}
+2025-04-29 13:48:36,231 - ERROR - Error processing {'first': 'Woodrow', 'last': 'Wilson'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,232 - INFO - Processing executive record 48: {'first': 'Warren', 'middle': 'Gamaliel', 'last': 'Harding'}
+2025-04-29 13:48:36,232 - ERROR - Error processing {'first': 'Warren', 'middle': 'Gamaliel', 'last': 'Harding'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,233 - INFO - Processing executive record 49: {'first': 'Charles', 'middle': 'Gates', 'last': 'Dawes'}
+2025-04-29 13:48:36,233 - ERROR - Error processing {'first': 'Charles', 'middle': 'Gates', 'last': 'Dawes'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,234 - INFO - Processing executive record 50: {'first': 'Calvin', 'last': 'Coolidge'}
+2025-04-29 13:48:36,234 - ERROR - Error processing {'first': 'Calvin', 'last': 'Coolidge'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,234 - INFO - Processing executive record 51: {'first': 'Charles', 'last': 'Curtis'}
+2025-04-29 13:48:36,235 - ERROR - Error processing {'first': 'Charles', 'last': 'Curtis'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,235 - INFO - Processing executive record 52: {'first': 'Herbert', 'middle': 'Clark', 'last': 'Hoover'}
+2025-04-29 13:48:36,235 - ERROR - Error processing {'first': 'Herbert', 'middle': 'Clark', 'last': 'Hoover'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,235 - INFO - Processing executive record 53: {'first': 'John', 'middle': 'Nance', 'last': 'Garner'}
+2025-04-29 13:48:36,236 - ERROR - Error processing {'first': 'John', 'middle': 'Nance', 'last': 'Garner'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,236 - INFO - Processing executive record 54: {'first': 'Henry', 'middle': 'Agard', 'last': 'Wallace'}
+2025-04-29 13:48:36,236 - ERROR - Error processing {'first': 'Henry', 'middle': 'Agard', 'last': 'Wallace'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,237 - INFO - Processing executive record 55: {'first': 'Franklin', 'middle': 'Delano', 'last': 'Roosevelt'}
+2025-04-29 13:48:36,238 - ERROR - Error processing {'first': 'Franklin', 'middle': 'Delano', 'last': 'Roosevelt'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,238 - INFO - Processing executive record 56: {'first': 'Alben', 'middle': 'William', 'last': 'Barkley'}
+2025-04-29 13:48:36,238 - ERROR - Error processing {'first': 'Alben', 'middle': 'William', 'last': 'Barkley'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,239 - INFO - Processing executive record 57: {'first': 'Harry', 'middle': 'S.', 'last': 'Truman'}
+2025-04-29 13:48:36,239 - ERROR - Error processing {'first': 'Harry', 'middle': 'S.', 'last': 'Truman'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,240 - INFO - Processing executive record 58: {'first': 'Dwight', 'middle': 'David', 'last': 'Eisenhower'}
+2025-04-29 13:48:36,240 - ERROR - Error processing {'first': 'Dwight', 'middle': 'David', 'last': 'Eisenhower'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,241 - INFO - Processing executive record 59: {'first': 'John', 'middle': 'Fitzgerald', 'last': 'Kennedy'}
+2025-04-29 13:48:36,241 - INFO - Using entity ID 241 for {'first': 'John', 'middle': 'Fitzgerald', 'last': 'Kennedy'}
+2025-04-29 13:48:36,242 - INFO - Processing executive record 60: {'first': 'Hubert', 'middle': 'Horatio', 'last': 'Humphrey', 'suffix': 'Jr.'}
+2025-04-29 13:48:36,243 - ERROR - Error processing {'first': 'Hubert', 'middle': 'Horatio', 'last': 'Humphrey', 'suffix': 'Jr.'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,244 - INFO - Processing executive record 61: {'first': 'Lyndon', 'middle': 'Baines', 'last': 'Johnson'}
+2025-04-29 13:48:36,244 - ERROR - Error processing {'first': 'Lyndon', 'middle': 'Baines', 'last': 'Johnson'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,245 - INFO - Processing executive record 62: {'first': 'Spiro', 'middle': 'Theodore', 'last': 'Agnew'}
+2025-04-29 13:48:36,246 - ERROR - Error processing {'first': 'Spiro', 'middle': 'Theodore', 'last': 'Agnew'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,246 - INFO - Processing executive record 63: {'first': 'Richard', 'middle': 'Milhous', 'last': 'Nixon'}
+2025-04-29 13:48:36,247 - ERROR - Error processing {'first': 'Richard', 'middle': 'Milhous', 'last': 'Nixon'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,247 - INFO - Processing executive record 64: {'first': 'Gerald', 'middle': 'Rudolph', 'last': 'Ford', 'suffix': 'Jr.'}
+2025-04-29 13:48:36,248 - ERROR - Error processing {'first': 'Gerald', 'middle': 'Rudolph', 'last': 'Ford', 'suffix': 'Jr.'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,248 - INFO - Processing executive record 65: {'first': 'Nelson', 'middle': 'Aldrich', 'last': 'Rockefeller'}
+2025-04-29 13:48:36,249 - ERROR - Error processing {'first': 'Nelson', 'middle': 'Aldrich', 'last': 'Rockefeller'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,249 - INFO - Processing executive record 66: {'first': 'Walter', 'middle': 'Frederick', 'last': 'Mondale'}
+2025-04-29 13:48:36,250 - ERROR - Error processing {'first': 'Walter', 'middle': 'Frederick', 'last': 'Mondale'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,250 - INFO - Processing executive record 67: {'first': 'James', 'middle': 'Earl', 'last': 'Carter', 'nickname': 'Jimmy'}
+2025-04-29 13:48:36,254 - ERROR - Error processing {'first': 'James', 'middle': 'Earl', 'last': 'Carter', 'nickname': 'Jimmy'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,255 - INFO - Processing executive record 68: {'first': 'Ronald', 'middle': 'Wilson', 'last': 'Reagan'}
+2025-04-29 13:48:36,255 - ERROR - Error processing {'first': 'Ronald', 'middle': 'Wilson', 'last': 'Reagan'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,256 - INFO - Processing executive record 69: {'first': 'James', 'middle': 'Danforth', 'last': 'Quayle', 'nickname': 'Dan'}
+2025-04-29 13:48:36,256 - ERROR - Error processing {'first': 'James', 'middle': 'Danforth', 'last': 'Quayle', 'nickname': 'Dan'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,257 - INFO - Processing executive record 70: {'first': 'George', 'middle': 'Herbert Walker', 'last': 'Bush'}
+2025-04-29 13:48:36,257 - ERROR - Error processing {'first': 'George', 'middle': 'Herbert Walker', 'last': 'Bush'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,258 - INFO - Processing executive record 71: {'first': 'Albert', 'middle': 'Arnold', 'last': 'Gore', 'suffix': 'Jr.', 'nickname': 'Al'}
+2025-04-29 13:48:36,261 - ERROR - Error processing {'first': 'Albert', 'middle': 'Arnold', 'last': 'Gore', 'suffix': 'Jr.', 'nickname': 'Al'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,262 - INFO - Processing executive record 72: {'first': 'William', 'middle': 'Jefferson', 'last': 'Clinton', 'nickname': 'Bill'}
+2025-04-29 13:48:36,263 - ERROR - Error processing {'first': 'William', 'middle': 'Jefferson', 'last': 'Clinton', 'nickname': 'Bill'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,264 - INFO - Processing executive record 73: {'first': 'Richard', 'middle': 'Bruce', 'last': 'Cheney', 'nickname': 'Dick'}
+2025-04-29 13:48:36,265 - ERROR - Error processing {'first': 'Richard', 'middle': 'Bruce', 'last': 'Cheney', 'nickname': 'Dick'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,265 - INFO - Processing executive record 74: {'first': 'George', 'middle': 'Walker', 'last': 'Bush'}
+2025-04-29 13:48:36,266 - ERROR - Error processing {'first': 'George', 'middle': 'Walker', 'last': 'Bush'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,267 - INFO - Processing executive record 75: {'first': 'Joseph', 'middle': 'Robinette', 'last': 'Biden', 'suffix': 'Jr.', 'nickname': 'Joe'}
+2025-04-29 13:48:36,268 - ERROR - Error processing {'first': 'Joseph', 'middle': 'Robinette', 'last': 'Biden', 'suffix': 'Jr.', 'nickname': 'Joe'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,269 - INFO - Processing executive record 76: {'first': 'Barack', 'middle': 'Hussein', 'last': 'Obama'}
+2025-04-29 13:48:36,269 - ERROR - Error processing {'first': 'Barack', 'middle': 'Hussein', 'last': 'Obama'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,270 - INFO - Processing executive record 77: {'first': 'Mike', 'last': 'Pence'}
+2025-04-29 13:48:36,270 - ERROR - Error processing {'first': 'Mike', 'last': 'Pence'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,271 - INFO - Processing executive record 78: {'first': 'Donald', 'middle': 'J.', 'last': 'Trump'}
+2025-04-29 13:48:36,272 - INFO - Using entity ID 13 for {'first': 'Donald', 'middle': 'J.', 'last': 'Trump'}
+2025-04-29 13:48:36,272 - INFO - Processing executive record 79: {'first': 'Kamala', 'middle': 'D.', 'last': 'Harris', 'official_full': 'Kamala D. Harris'}
+2025-04-29 13:48:36,273 - INFO - Using entity ID 603 for {'first': 'Kamala', 'middle': 'D.', 'last': 'Harris', 'official_full': 'Kamala D. Harris'}
+2025-04-29 13:48:36,273 - INFO - Processing executive record 80: {'first': 'James David', 'nickname': 'J.D.', 'last': 'Vance', 'official_full': 'J.D. Vance'}
+2025-04-29 13:48:36,274 - ERROR - Error processing {'first': 'James David', 'nickname': 'J.D.', 'last': 'Vance', 'official_full': 'J.D. Vance'}: NOT NULL constraint failed: entities.normalized_name
+2025-04-29 13:48:36,274 - INFO - Executive migration completed: Processed 80, Added 0, Updated 0
+2025-04-29 13:48:36,274 - INFO - Migration Summary:
+2025-04-29 13:48:36,275 - INFO - Total records processed: 80
+2025-04-29 13:48:36,275 - INFO - Total positions added: 0
+2025-04-29 13:48:36,276 - INFO - Total positions updated: 0
+2025-04-29 13:48:36,276 - INFO - Executive data migration completed successfully
+2025-04-29 13:48:36,278 - INFO - Executive data migration completed
+2025-04-29 14:48:45,620 - INFO - Starting executive officials data migration...
+2025-04-29 14:48:45,637 - INFO - Database backed up to maga_ops_backup_20250429_144845.db
+2025-04-29 14:48:45,864 - INFO - Successfully loaded YAML file: backups/migrated_data_files/executive.yaml
+2025-04-29 14:48:45,888 - INFO - Migration script completed and exiting cleanly.

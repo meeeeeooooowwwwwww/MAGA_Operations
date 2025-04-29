@@ -1,0 +1,15 @@
+{
+  "timestamp": "2025-04-29 11:46:55",
+  "successful_migrations": [
+    "C:\\1WebProjects\\MAGA_Ops\\backups\\migrated_data_files\\legislators-social-media.yaml",
+    "C:\\1WebProjects\\MAGA_Ops\\backups\\old_databases\\politicians.db",
+    "C:\\1WebProjects\\MAGA_Ops\\backups\\old_databases\\influencers.db"
+  ],
+  "failed_migrations": [
+    "C:\\1WebProjects\\MAGA_Ops\\backups\\migrated_data_files\\legislators-current.yaml",
+    "C:\\1WebProjects\\MAGA_Ops\\legislators-historical.yaml",
+    "C:\\1WebProjects\\MAGA_Ops\\backups\\migrated_data_files\\influencers_export_20250428_152510.json"
+  ],
+  "success_count": 3,
+  "failure_count": 3
+}

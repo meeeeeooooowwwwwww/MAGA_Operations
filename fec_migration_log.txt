@@ -1,0 +1,1530 @@
+2025-04-29 11:49:36,297 - fec_migration - INFO - Starting FEC ID migration
+2025-04-29 11:49:36,298 - fec_migration - INFO - Migrating FEC IDs from C:\1WebProjects\MAGA_Ops\backups\migrated_data_files\legislators-current.yaml
+2025-04-29 11:49:41,270 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C000127 to S8WA00194
+2025-04-29 11:49:41,271 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: K000367 to S6MN00267
+2025-04-29 11:49:41,271 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S000033 to H8VT01016
+2025-04-29 11:49:41,272 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: W000802 to S6RI00221
+2025-04-29 11:49:41,272 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B001261 to S6WY00068
+2025-04-29 11:49:41,272 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: W000437 to H4MS01078
+2025-04-29 11:49:41,273 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001035 to S6ME00159
+2025-04-29 11:49:41,273 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001056 to S2TX00106
+2025-04-29 11:49:41,274 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: D000563 to S6IL00151
+2025-04-29 11:49:41,274 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: G000359 to S0SC00149
+2025-04-29 11:49:41,274 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M000355 to S2KY00012
+2025-04-29 11:49:41,275 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001176 to S8OR00207
+2025-04-29 11:49:41,275 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: R000122 to S6RI00163
+2025-04-29 11:49:41,275 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: R000584 to S8ID00092
+2025-04-29 11:49:41,276 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001181 to S0NH00219
+2025-04-29 11:49:41,276 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: W000805 to S6VA00093
+2025-04-29 11:49:41,277 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: G000555 to H6NY20167
+2025-04-29 11:49:41,277 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001088 to S0DE00092
+2025-04-29 11:49:41,278 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: A000055 to H6AL04098
+2025-04-29 11:49:41,279 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B001230 to H8WI00018
+2025-04-29 11:49:41,279 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B001267 to S0CO00211
+2025-04-29 11:49:41,280 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B001257 to H6FL09070
+2025-04-29 11:49:41,280 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B000490 to H2GA02031
+2025-04-29 11:49:41,280 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B001243 to H2TN06030
+2025-04-29 11:49:41,281 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B001277 to S0CT00177
+2025-04-29 11:49:41,281 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B001236 to H2AR03176
+2025-04-29 11:49:41,282 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B001260 to H6FL13148
+2025-04-29 11:49:41,282 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C000059 to H2CA37023
+2025-04-29 11:49:41,283 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001047 to H0WV02138
+2025-04-29 11:49:41,283 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001072 to H8IN07184
+2025-04-29 11:49:41,283 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001051 to H2TX31044
+2025-04-29 11:49:41,284 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001075 to H8LA00017
+2025-04-29 11:49:41,284 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001066 to H6FL11126
+2025-04-29 11:49:41,284 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001080 to H0CA32101
+2025-04-29 11:49:41,285 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001067 to H4NY11138
+2025-04-29 11:49:41,285 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001061 to H4MO05234
+2025-04-29 11:49:41,285 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C000537 to H2SC02042
+2025-04-29 11:49:41,286 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001068 to H6TN09068
+2025-04-29 11:49:41,286 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001053 to H2OK04055
+2025-04-29 11:49:41,287 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001078 to H8VA11062
+2025-04-29 11:49:41,287 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001059 to H4CA20082
+2025-04-29 11:49:41,288 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001069 to H2CT02112
+2025-04-29 11:49:41,289 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C000880 to S8ID00027
+2025-04-29 11:49:41,289 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001087 to H0AR01083
+2025-04-29 11:49:41,290 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001063 to H2TX23082
+2025-04-29 11:49:41,290 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: D000096 to H4IL07037
+2025-04-29 11:49:41,290 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: D000197 to H6CO01141
+2025-04-29 11:49:41,291 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: D000216 to H0CT03072
+2025-04-29 11:49:41,291 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: D000616 to H0TN04195
+2025-04-29 11:49:41,292 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: D000600 to H2FL25018
+2025-04-29 11:49:41,292 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: D000399 to H4TX10028
+2025-04-29 11:49:41,293 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: F000459 to H0TN03254
+2025-04-29 11:49:41,293 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: F000450 to H4NC05146
+2025-04-29 11:49:41,294 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: G000559 to H0CA10149
+2025-04-29 11:49:41,295 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: G000565 to H0AZ01259
+2025-04-29 11:49:41,295 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: G000386 to S0IA00028
+2025-04-29 11:49:41,296 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: G000546 to H0MO06073
+2025-04-29 11:49:41,296 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: G000553 to H4TX09095
+2025-04-29 11:49:41,297 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: G000568 to H0VA09055
+2025-04-29 11:49:41,297 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: G000558 to H8KY02031
+2025-04-29 11:49:41,298 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: H001052 to H8MD01094
+2025-04-29 11:49:41,298 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: H001046 to H8NM01224
+2025-04-29 11:49:41,298 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: H001047 to H8CT04172
+2025-04-29 11:49:41,299 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: H001042 to H6HI02251
+2025-04-29 11:49:41,299 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: H001061 to S0ND00093
+2025-04-29 11:49:41,300 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: H000874 to H2MD05155
+2025-04-29 11:49:41,300 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: H001058 to H0MI02094
+2025-04-29 11:49:41,301 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: J000288 to H6GA04129
+2025-04-29 11:49:41,301 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: J000293 to S0WI00197
+2025-04-29 11:49:41,302 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: J000289 to H6OH04082
+2025-04-29 11:49:41,302 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: K000009 to H2OH09031
+2025-04-29 11:49:41,303 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: K000375 to H0MA10082
+2025-04-29 11:49:41,303 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: K000376 to H0PA03271
+2025-04-29 11:49:41,304 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: L000575 to H0OK05114
+2025-04-29 11:49:41,304 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: L000560 to H0WA02080
+2025-04-29 11:49:41,304 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: L000557 to H8CT01046
+2025-04-29 11:49:41,305 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: L000566 to H8OH05036
+2025-04-29 11:49:41,305 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: L000577 to S0UT00165
+2025-04-29 11:49:41,305 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: L000397 to H4CA16049
+2025-04-29 11:49:41,306 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: L000491 to H4OK06056
+2025-04-29 11:49:41,306 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: L000570 to H8NM03196
+2025-04-29 11:49:41,307 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: L000562 to H2MA09072
+2025-04-29 11:49:41,307 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M000133 to H6MA07101
+2025-04-29 11:49:41,307 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001163 to H6CA05195
+2025-04-29 11:49:41,308 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001157 to H4TX10093
+2025-04-29 11:49:41,308 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001177 to H8CA04152
+2025-04-29 11:49:41,309 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001143 to H0MN04049
+2025-04-29 11:49:41,309 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M000312 to H4MA03022
+2025-04-29 11:49:41,310 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001137 to H8NY06048
+2025-04-29 11:49:41,310 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001160 to H4WI04183
+2025-04-29 11:49:41,311 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M000934 to H6KS01096
+2025-04-29 11:49:41,311 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001153 to S4AK00099
+2025-04-29 11:49:41,311 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001169 to H6CT05124
+2025-04-29 11:49:41,311 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001111 to S2WA00189
+2025-04-29 11:49:41,312 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: N000002 to H2NY17071
+2025-04-29 11:49:41,312 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: N000015 to H8MA02041
+2025-04-29 11:49:41,313 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: N000147 to H0DC00058
+2025-04-29 11:49:41,313 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: P000034 to H8NJ03073
+2025-04-29 11:49:41,313 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: P000603 to S0KY00156
+2025-04-29 11:49:41,314 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: P000197 to H8CA05035
+2025-04-29 11:49:41,314 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: P000595 to H8MI09068
+2025-04-29 11:49:41,315 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: P000597 to H8ME01120
+2025-04-29 11:49:41,315 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: Q000023 to H0IL05096
+2025-04-29 11:49:41,315 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: R000395 to H0KY05015
+2025-04-29 11:49:41,316 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: R000575 to H2AL03032
+2025-04-29 11:49:41,316 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001176 to H0LA01087
+2025-04-29 11:49:41,316 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001145 to H8IL09067
+2025-04-29 11:49:41,317 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001150 to H0CA27085
+2025-04-29 11:49:41,317 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S000148 to S8NY00082
+2025-04-29 11:49:41,318 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001183 to H4AZ06045
+2025-04-29 11:49:41,318 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001189 to H0GA08099
+2025-04-29 11:49:41,318 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001157 to H2GA13012
+2025-04-29 11:49:41,319 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S000185 to H6VA01117
+2025-04-29 11:49:41,319 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001184 to H0SC01279
+2025-04-29 11:49:41,320 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001185 to H0AL07086
+2025-04-29 11:49:41,320 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S000344 to H6CA24113
+2025-04-29 11:49:41,320 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001148 to H8ID02064
+2025-04-29 11:49:41,321 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S000510 to H6WA09025
+2025-04-29 11:49:41,321 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001172 to H6NE03115
+2025-04-29 11:49:41,322 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S000522 to H8NJ04014
+2025-04-29 11:49:41,323 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001156 to H2CA39078
+2025-04-29 11:49:41,323 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: T000193 to H4MS02068
+2025-04-29 11:49:41,324 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: T000460 to H8CA01109
+2025-04-29 11:49:41,324 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: T000467 to H8PA05071
+2025-04-29 11:49:41,325 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: T000250 to S2SD00068
+2025-04-29 11:49:41,325 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: T000469 to H8NY21203
+2025-04-29 11:49:41,326 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: T000463 to H2OH03067
+2025-04-29 11:49:41,326 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: V000128 to H2MD08126
+2025-04-29 11:49:41,327 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: V000081 to H2NY00010
+2025-04-29 11:49:41,327 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: W000798 to H4MI07103
+2025-04-29 11:49:41,328 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: W000797 to H4FL20023
+2025-04-29 11:49:41,328 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: W000187 to H4CA23011
+2025-04-29 11:49:41,329 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: W000806 to H0FL08208
+2025-04-29 11:49:41,329 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: W000800 to H6VT00160
+2025-04-29 11:49:41,329 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: W000795 to H2SC02059
+2025-04-29 11:49:41,330 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: W000808 to H0FL17068
+2025-04-29 11:49:41,330 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: W000804 to H8VA01147
+2025-04-29 11:49:41,331 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: W000809 to H0AR03055
+2025-04-29 11:49:41,331 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: W000779 to S6OR00110
+2025-04-29 11:49:41,332 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: Y000064 to H0IN09070
+2025-04-29 11:49:41,332 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: A000369 to H2NV02395
+2025-04-29 11:49:41,332 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B001278 to H2OR01133
+2025-04-29 11:49:41,333 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: D000617 to H0WA08046
+2025-04-29 11:49:41,333 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001184 to H2KY04121
+2025-04-29 11:49:41,333 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001194 to S4HI00136
+2025-04-29 11:49:41,334 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: F000454 to H8IL14067
+2025-04-29 11:49:41,334 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: T000468 to H8NV03036
+2025-04-29 11:49:41,335 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001095 to H2AR04083
+2025-04-29 11:49:41,335 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: L000578 to H2CA02142
+2025-04-29 11:49:41,335 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: H001068 to H2CA06259
+2025-04-29 11:49:41,336 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B001287 to H0CA03078
+2025-04-29 11:49:41,337 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001193 to H2CA15094
+2025-04-29 11:49:41,337 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B001285 to H2CA00120
+2025-04-29 11:49:41,337 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: R000599 to H2CA36439
+2025-04-29 11:49:41,338 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: T000472 to H2CA43245
+2025-04-29 11:49:41,339 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: V000130 to H2CA50026
+2025-04-29 11:49:41,339 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: P000608 to H2CA52089
+2025-04-29 11:49:41,339 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: F000462 to H2FL14053
+2025-04-29 11:49:41,340 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: D000622 to H6IL06141
+2025-04-29 11:49:41,340 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B001282 to H0KY06104
+2025-04-29 11:49:41,341 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: W000817 to S2MA00170
+2025-04-29 11:49:41,341 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: K000383 to S2ME00109
+2025-04-29 11:49:41,342 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: W000812 to H2MO02102
+2025-04-29 11:49:41,343 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: D000618 to H2MT01060
+2025-04-29 11:49:41,344 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: H001067 to H2NC08185
+2025-04-29 11:49:41,345 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001096 to H0ND01026
+2025-04-29 11:49:41,345 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: F000463 to S2NE00094
+2025-04-29 11:49:41,346 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001188 to H2NY06116
+2025-04-29 11:49:41,347 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: J000294 to H2NY10092
+2025-04-29 11:49:41,347 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B001281 to H2OH03125
+2025-04-29 11:49:41,348 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: J000295 to H2OH14064
+2025-04-29 11:49:41,356 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001190 to H2OK02083
+2025-04-29 11:49:41,381 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: P000605 to H2PA04135
+2025-04-29 11:49:41,385 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001098 to S2TX00312
+2025-04-29 11:49:41,386 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: W000814 to H2TX14149
+2025-04-29 11:49:41,387 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001091 to H2TX35011
+2025-04-29 11:49:41,387 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: W000816 to H2TX33040
+2025-04-29 11:49:41,387 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: V000131 to H2TX33073
+2025-04-29 11:49:41,388 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: K000384 to S2VA00142
+2025-04-29 11:49:41,388 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: P000607 to H2WI02124
+2025-04-29 11:49:41,389 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: K000385 to H2IL02172
+2025-04-29 11:49:41,389 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001195 to H4MO08162
+2025-04-29 11:49:41,390 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B001288 to S4NJ00185
+2025-04-29 11:49:41,390 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001101 to H4MA05084
+2025-04-29 11:49:41,391 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: N000188 to H4NJ01084
+2025-04-29 11:49:41,391 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: A000370 to H4NC12100
+2025-04-29 11:49:41,391 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: P000609 to H4AL06098
+2025-04-29 11:49:41,392 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: H001072 to H4AR02141
+2025-04-29 11:49:41,392 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: W000821 to H4AR04048
+2025-04-29 11:49:41,393 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: G000574 to H4AZ07043
+2025-04-29 11:49:41,394 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: D000623 to H0CA10073
+2025-04-29 11:49:41,395 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: A000371 to H2CA31125
+2025-04-29 11:49:41,395 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: L000582 to H4CA33119
+2025-04-29 11:49:41,396 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: T000474 to H4CA35031
+2025-04-29 11:49:41,396 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001103 to H4GA01039
+2025-04-29 11:49:41,396 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: L000583 to H4GA11061
+2025-04-29 11:49:41,397 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: A000372 to H2GA12121
+2025-04-29 11:49:41,397 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B001295 to H4IL12060
+2025-04-29 11:49:41,397 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001196 to H4MA06090
+2025-04-29 11:49:41,398 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001194 to H4MI04126
+2025-04-29 11:49:41,398 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: D000624 to H4MI12079
+2025-04-29 11:49:41,399 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: E000294 to H4MN06087
+2025-04-29 11:49:41,399 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: R000603 to H2NC07096
+2025-04-29 11:49:41,399 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: W000822 to H4NJ12149
+2025-04-29 11:49:41,400 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001196 to H4NY21079
+2025-04-29 11:49:41,400 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B001296 to H4PA13199
+2025-04-29 11:49:41,401 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B001291 to H6TX02079
+2025-04-29 11:49:41,401 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B001292 to H4VA08224
+2025-04-29 11:49:41,401 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: P000610 to H2VI00082
+2025-04-29 11:49:41,402 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: N000189 to H4WA04104
+2025-04-29 11:49:41,402 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: G000576 to H4WI06048
+2025-04-29 11:49:41,402 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: R000600 to H4AS00036
+2025-04-29 11:49:41,403 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001198 to S4AK00214
+2025-04-29 11:49:41,403 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: E000295 to S4IA00129
+2025-04-29 11:49:41,403 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: T000476 to S4NC00162
+2025-04-29 11:49:41,404 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: R000605 to S4SD00049
+2025-04-29 11:49:41,404 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: K000388 to H6MS01131
+2025-04-29 11:49:41,405 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: L000585 to H6IL18088
+2025-04-29 11:49:41,405 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: D000626 to H6OH08315
+2025-04-29 11:49:41,406 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001108 to H6KY01110
+2025-04-29 11:49:41,406 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: E000296 to H6PA02171
+2025-04-29 11:49:41,407 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: K000393 to S4LA00065
+2025-04-29 11:49:41,407 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: H001076 to S6NH00091
+2025-04-29 11:49:41,407 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001113 to S6NV00200
+2025-04-29 11:49:41,408 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001190 to H2IL10068
+2025-04-29 11:49:41,408 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B001302 to H6AZ05083
+2025-04-29 11:49:41,408 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: K000389 to H4CA12055
+2025-04-29 11:49:41,409 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: P000613 to H6CA20152
+2025-04-29 11:49:41,409 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001112 to H6CA24303
+2025-04-29 11:49:41,410 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B001300 to H6CA44103
+2025-04-29 11:49:41,410 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001110 to H6CA46116
+2025-04-29 11:49:41,411 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B001303 to H6DE00206
+2025-04-29 11:49:41,411 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: D000628 to H6FL02208
+2025-04-29 11:49:41,412 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: R000609 to H6FL04105
+2025-04-29 11:49:41,412 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001200 to H6FL09179
+2025-04-29 11:49:41,413 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001199 to H6FL18097
+2025-04-29 11:49:41,413 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: K000391 to H6IL08147
+2025-04-29 11:49:41,413 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B001299 to H6IN03229
+2025-04-29 11:49:41,414 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001198 to H6KS01179
+2025-04-29 11:49:41,414 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: H001077 to H6LA03148
+2025-04-29 11:49:41,414 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: J000299 to H6LA04138
+2025-04-29 11:49:41,415 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: R000606 to H6MD08457
+2025-04-29 11:49:41,415 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B001301 to H6MI01226
+2025-04-29 11:49:41,416 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B001305 to H6NC13129
+2025-04-29 11:49:41,416 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B001298 to H6NE02125
+2025-04-29 11:49:41,416 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: G000583 to H6NJ05171
+2025-04-29 11:49:41,417 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: R000608 to H6NV03139
+2025-04-29 11:49:41,417 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: E000297 to H2NY13096
+2025-04-29 11:49:41,417 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: F000466 to H6PA08277
+2025-04-29 11:49:41,418 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001199 to H6PA16320
+2025-04-29 11:49:41,418 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: K000392 to H2TN07103
+2025-04-29 11:49:41,419 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: G000581 to H6TX15162
+2025-04-29 11:49:41,419 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: A000375 to H6TX19099
+2025-04-29 11:49:41,419 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: J000298 to H6WA07458
+2025-04-29 11:49:41,420 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: E000298 to H8KS04112
+2025-04-29 11:49:41,420 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: N000190 to H8SC05158
+2025-04-29 11:49:41,420 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: G000585 to H8CA34266
+2025-04-29 11:49:41,421 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001114 to H8UT03238
+2025-04-29 11:49:41,421 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001203 to S8MN00578
+2025-04-29 11:49:41,422 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: H001079 to S8MS00261
+2025-04-29 11:49:41,422 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001115 to H8TX27049
+2025-04-29 11:49:41,422 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B001306 to H8OH12180
+2025-04-29 11:49:41,423 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: H001082 to H8OK01157
+2025-04-29 11:49:41,423 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001206 to H8NY25105
+2025-04-29 11:49:41,424 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001205 to H8PA07200
+2025-04-29 11:49:41,424 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001055 to H2HI02128
+2025-04-29 11:49:41,425 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: H001066 to H2NV04011
+2025-04-29 11:49:41,425 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001211 to H8AZ09040
+2025-04-29 11:49:41,425 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: H001090 to H8CA10126
+2025-04-29 11:49:41,426 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: L000593 to H8CA49058
+2025-04-29 11:49:41,427 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: N000191 to H8CO02160
+2025-04-29 11:49:41,427 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001121 to H8CO06229
+2025-04-29 11:49:41,428 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: H001081 to H8CT05245
+2025-04-29 11:49:41,428 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001214 to H8FL17053
+2025-04-29 11:49:41,429 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001208 to H8GA06393
+2025-04-29 11:49:41,429 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: F000469 to H8ID01124
+2025-04-29 11:49:41,429 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: G000586 to H8IL04134
+2025-04-29 11:49:41,430 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001117 to H8IL06139
+2025-04-29 11:49:41,430 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: U000040 to H8IL14174
+2025-04-29 11:49:41,430 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B001307 to H8IN04199
+2025-04-29 11:49:41,431 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: D000629 to H8KS03155
+2025-04-29 11:49:41,431 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: T000482 to H8MA03106
+2025-04-29 11:49:41,432 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: P000617 to H8MA07032
+2025-04-29 11:49:41,432 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001208 to H8MI08102
+2025-04-29 11:49:41,432 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001215 to H8MI11254
+2025-04-29 11:49:41,433 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: T000481 to H8MI13250
+2025-04-29 11:49:41,433 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001119 to H6MN02131
+2025-04-29 11:49:41,433 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: O000173 to H8MN05239
+2025-04-29 11:49:41,434 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001212 to H8MN08043
+2025-04-29 11:49:41,434 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: G000591 to H8MS03125
+2025-04-29 11:49:41,434 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: P000614 to H8NH01210
+2025-04-29 11:49:41,435 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: V000133 to H8NJ02166
+2025-04-29 11:49:41,435 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: K000394 to H8NJ03206
+2025-04-29 11:49:41,436 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001207 to H8NJ11142
+2025-04-29 11:49:41,436 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: L000590 to H6NV04020
+2025-04-29 11:49:41,437 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: O000172 to H8NY15148
+2025-04-29 11:49:41,437 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: D000631 to H8PA04116
+2025-04-29 11:49:41,437 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: H001085 to H8PA06087
+2025-04-29 11:49:41,438 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001204 to H8PA10147
+2025-04-29 11:49:41,438 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: J000302 to H8PA13125
+2025-04-29 11:49:41,438 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: R000610 to H8PA18199
+2025-04-29 11:49:41,439 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: T000480 to H8SC04250
+2025-04-29 11:49:41,439 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: J000301 to H8SD01055
+2025-04-29 11:49:41,439 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B001309 to H8TN02119
+2025-04-29 11:49:41,440 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: R000612 to H8TN06094
+2025-04-29 11:49:41,440 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: G000590 to H8TN07076
+2025-04-29 11:49:41,441 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001120 to H8TX02166
+2025-04-29 11:49:41,441 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: G000589 to H8TX05144
+2025-04-29 11:49:41,441 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: F000468 to H8TX07140
+2025-04-29 11:49:41,442 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: E000299 to H8TX16109
+2025-04-29 11:49:41,442 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: R000614 to H8TX21307
+2025-04-29 11:49:41,443 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: G000587 to H8TX29052
+2025-04-29 11:49:41,443 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001118 to H8VA06104
+2025-04-29 11:49:41,444 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001216 to H8WA08189
+2025-04-29 11:49:41,444 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001213 to H8WI01156
+2025-04-29 11:49:41,445 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001205 to H8WV03097
+2025-04-29 11:49:41,445 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001217 to S8FL00273
+2025-04-29 11:49:41,446 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: H001089 to S8MO00160
+2025-04-29 11:49:41,446 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: G000592 to H8ME02185
+2025-04-29 11:49:41,446 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001210 to H0NC03172
+2025-04-29 11:49:41,447 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M000687 to S6MD03185
+2025-04-29 11:49:41,447 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: T000165 to H0WI07101
+2025-04-29 11:49:41,448 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: K000377 to S0AZ00350
+2025-04-29 11:49:41,448 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: L000571 to H8WY00148
+2025-04-29 11:49:41,448 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: I000056 to H0CA48024
+2025-04-29 11:49:41,449 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S000250 to H2TX03126
+2025-04-29 11:49:41,449 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: V000129 to H2CA20094
+2025-04-29 11:49:41,450 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: T000278 to S0AL00230
+2025-04-29 11:49:41,450 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: H000273 to S0CO00575
+2025-04-29 11:49:41,450 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: H000601 to S0TN00169
+2025-04-29 11:49:41,451 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001212 to H8AL02171
+2025-04-29 11:49:41,451 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: O000019 to H0CA08135
+2025-04-29 11:49:41,452 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: K000397 to H8CA39240
+2025-04-29 11:49:41,452 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: J000305 to H8CA49074
+2025-04-29 11:49:41,453 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B000825 to H0CO03165
+2025-04-29 11:49:41,453 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001039 to H0FL03175
+2025-04-29 11:49:41,454 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: F000472 to H0FL15104
+2025-04-29 11:49:41,454 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: D000032 to H2FL14186
+2025-04-29 11:49:41,455 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: G000593 to H0FL26036
+2025-04-29 11:49:41,455 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S000168 to H8FL27185
+2025-04-29 11:49:41,456 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: W000788 to H0GA05301
+2025-04-29 11:49:41,456 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001116 to H0GA09246
+2025-04-29 11:49:41,457 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: G000596 to H0GA06192
+2025-04-29 11:49:41,457 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: H001091 to H0IA01174
+2025-04-29 11:49:41,457 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001215 to H8IA02043
+2025-04-29 11:49:41,458 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: F000446 to H0IA04145
+2025-04-29 11:49:41,458 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001211 to H0IL15129
+2025-04-29 11:49:41,458 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001214 to H0IN01150
+2025-04-29 11:49:41,459 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S000929 to H0IN05326
+2025-04-29 11:49:41,459 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M000871 to H0KS01123
+2025-04-29 11:49:41,460 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: A000148 to H0MA04192
+2025-04-29 11:49:41,461 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001136 to H0MI10287
+2025-04-29 11:49:41,461 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: F000470 to H0MN07091
+2025-04-29 11:49:41,462 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: R000305 to H0NC02125
+2025-04-29 11:49:41,463 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: L000273 to H0NM03102
+2025-04-29 11:49:41,463 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: G000597 to H0NY02234
+2025-04-29 11:49:41,463 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M000317 to H0NY11078
+2025-04-29 11:49:41,464 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: T000486 to H0NY15160
+2025-04-29 11:49:41,464 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B000740 to H0OK05205
+2025-04-29 11:49:41,465 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B000668 to H0OR02127
+2025-04-29 11:49:41,465 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M000194 to H0SC01394
+2025-04-29 11:49:41,466 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: H001086 to H0TN01118
+2025-04-29 11:49:41,466 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: F000246 to H0TX04219
+2025-04-29 11:49:41,466 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: P000048 to H0TX11230
+2025-04-29 11:49:41,467 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: J000304 to H0TX13228
+2025-04-29 11:49:41,467 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: N000026 to H0TX22302
+2025-04-29 11:49:41,467 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: G000594 to H0TX35015
+2025-04-29 11:49:41,468 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: V000134 to H0TX24209
+2025-04-29 11:49:41,468 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001213 to H0UT01205
+2025-04-29 11:49:41,469 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: O000086 to H0UT04076
+2025-04-29 11:49:41,469 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001159 to H0WA10034
+2025-04-29 11:49:41,469 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: F000471 to H0WI05113
+2025-04-29 11:49:41,470 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: P000145 to S2CA00955
+2025-04-29 11:49:41,470 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: O000174 to H8GA06195
+2025-04-29 11:49:41,471 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: W000790 to S0GA00559
+2025-04-29 11:49:41,471 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: T000478 to H4NY22051
+2025-04-29 11:49:41,471 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: L000595 to H2LA05126
+2025-04-29 11:49:41,472 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001125 to H2LA02149
+2025-04-29 11:49:41,472 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001218 to H2NM01144
+2025-04-29 11:49:41,472 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: E000071 to H8TX06266
+2025-04-29 11:49:41,473 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B001313 to H2OH11169
+2025-04-29 11:49:41,473 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001126 to H2OH15228
+2025-04-29 11:49:41,473 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001127 to H8FL20032
+2025-04-29 11:49:41,474 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: F000474 to H2NE01118
+2025-04-29 11:49:41,474 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: F000475 to H2MN01223
+2025-04-29 11:49:41,474 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: R000579 to H8NY19223
+2025-04-29 11:49:41,475 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: Y000067 to H2IN02295
+2025-04-29 11:49:41,475 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: Z000018 to H4MT01041
+2025-04-29 11:49:41,476 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B001319 to S2AL00145
+2025-04-29 11:49:41,476 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001227 to S2MO00544
+2025-04-29 11:49:41,477 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: F000479 to S6PA00274
+2025-04-29 11:49:41,477 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001220 to H2AL05102
+2025-04-29 11:49:41,477 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001132 to H2AZ01354
+2025-04-29 11:49:41,478 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001133 to H2AZ02360
+2025-04-29 11:49:41,478 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: K000401 to H2CA03157
+2025-04-29 11:49:41,479 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001225 to H2CA14162
+2025-04-29 11:49:41,479 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: K000400 to H2CA37304
+2025-04-29 11:49:41,479 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: G000598 to H2CA47188
+2025-04-29 11:49:41,480 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: P000620 to H8CO07045
+2025-04-29 11:49:41,480 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B001314 to H2FL04211
+2025-04-29 11:49:41,481 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001216 to H2FL07156
+2025-04-29 11:49:41,481 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: F000476 to H2FL10259
+2025-04-29 11:49:41,482 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: L000596 to H0FL13158
+2025-04-29 11:49:41,482 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: L000597 to H2FL15241
+2025-04-29 11:49:41,483 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001217 to H2FL22171
+2025-04-29 11:49:41,483 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001218 to H0GA07273
+2025-04-29 11:49:41,483 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001129 to H4GA10071
+2025-04-29 11:49:41,484 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001219 to H2GU01031
+2025-04-29 11:49:41,484 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: T000487 to H2HI02581
+2025-04-29 11:49:41,484 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: N000193 to H2IA03119
+2025-04-29 11:49:41,485 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: J000309 to H2IL01349
+2025-04-29 11:49:41,485 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: R000617 to H2IL03162
+2025-04-29 11:49:41,486 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B001315 to H2IL13153
+2025-04-29 11:49:41,486 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001225 to H2IL17147
+2025-04-29 11:49:41,486 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: H001093 to H6IN09143
+2025-04-29 11:49:41,487 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001220 to H2KY03206
+2025-04-29 11:49:41,487 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: I000058 to H2MD04315
+2025-04-29 11:49:41,487 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001221 to H0MI03316
+2025-04-29 11:49:41,488 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: J000307 to H2MI10150
+2025-04-29 11:49:41,488 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: T000488 to H2MI13204
+2025-04-29 11:49:41,488 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: A000379 to H2MO04207
+2025-04-29 11:49:41,489 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B001316 to H2MO07143
+2025-04-29 11:49:41,489 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: E000235 to H2MS04258
+2025-04-29 11:49:41,489 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: D000230 to H2NC02287
+2025-04-29 11:49:41,490 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: F000477 to H2NC06114
+2025-04-29 11:49:41,490 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: E000246 to H2NC14050
+2025-04-29 11:49:41,491 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: K000398 to H0NJ07261
+2025-04-29 11:49:41,491 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001226 to H2NJ08232
+2025-04-29 11:49:41,491 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: V000136 to H2NM02191
+2025-04-29 11:49:41,492 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: L000598 to H2NY01190
+2025-04-29 11:49:41,492 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: G000599 to H2NY10308
+2025-04-29 11:49:41,492 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: L000599 to H2NY17162
+2025-04-29 11:49:41,493 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: L000600 to H2NY23228
+2025-04-29 11:49:41,494 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: L000601 to H2OH01194
+2025-04-29 11:49:41,494 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001222 to H2OH16051
+2025-04-29 11:49:41,494 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001223 to H2OH13264
+2025-04-29 11:49:41,495 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B001317 to H2OK02315
+2025-04-29 11:49:41,495 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: H001094 to H2OR04095
+2025-04-29 11:49:41,496 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001226 to H2OR06066
+2025-04-29 11:49:41,496 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: L000602 to H2PA18200
+2025-04-29 11:49:41,497 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: D000530 to H2PA17103
+2025-04-29 11:49:41,497 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001223 to H2RI02184
+2025-04-29 11:49:41,498 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: F000478 to H2SC07280
+2025-04-29 11:49:41,498 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: O000175 to H2TN05446
+2025-04-29 11:49:41,499 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001224 to H2TX01112
+2025-04-29 11:49:41,499 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001224 to H2TX03290
+2025-04-29 11:49:41,499 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: L000603 to H2TX08182
+2025-04-29 11:49:41,500 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: D000594 to H0TX15124
+2025-04-29 11:49:41,500 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001130 to H2TX30178
+2025-04-29 11:49:41,500 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001131 to H2TX35144
+2025-04-29 11:49:41,501 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: H001095 to H0TX07170
+2025-04-29 11:49:41,501 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: K000399 to H2VA02064
+2025-04-29 11:49:41,502 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B001318 to H2VT01076
+2025-04-29 11:49:41,502 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: G000600 to H2WA03217
+2025-04-29 11:49:41,502 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: V000135 to H0WI03175
+2025-04-29 11:49:41,503 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: H001096 to H2WY00166
+2025-04-29 11:49:41,503 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: R000618 to S6NE00129
+2025-04-29 11:49:41,504 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001227 to H4VA04066
+2025-04-29 11:49:41,504 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: A000380 to H4RI01265
+2025-04-29 11:49:41,504 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001228 to H4UT02296
+2025-04-29 11:49:41,505 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001201 to H6NY03247
+2025-04-29 11:49:41,505 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: K000402 to H4NY26078
+2025-04-29 11:49:41,506 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: F000480 to H4CA20181
+2025-04-29 11:49:41,506 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: R000619 to H4OH06165
+2025-04-29 11:49:41,506 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001229 to H4NJ10176
+2025-04-29 11:49:41,507 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: W000829 to H4WI08119
+2025-04-29 11:49:41,507 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001188 to H0IN03198
+2025-04-29 11:49:41,507 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001123 to H8CA39174
+2025-04-29 11:49:41,508 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: A000382 to S4MD00327
+2025-04-29 11:49:41,508 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001232 to S4MT00183
+2025-04-29 11:49:41,509 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001242 to S4OH00192
+2025-04-29 11:49:41,509 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001243 to S2PA00661
+2025-04-29 11:49:41,509 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B001323 to H2AK01083
+2025-04-29 11:49:41,510 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: F000481 to H4AL02170
+2025-04-29 11:49:41,511 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: A000381 to H4AZ03109
+2025-04-29 11:49:41,511 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: H001098 to H4AZ08108
+2025-04-29 11:49:41,512 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001231 to H4CA12154
+2025-04-29 11:49:41,513 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: G000605 to H2CA13115
+2025-04-29 11:49:41,513 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: L000607 to H4CA16197
+2025-04-29 11:49:41,514 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: W000830 to H4CA27111
+2025-04-29 11:49:41,514 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: R000620 to H4CA29141
+2025-04-29 11:49:41,514 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: F000483 to H4CA30149
+2025-04-29 11:49:41,515 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: T000491 to H4CA45170
+2025-04-29 11:49:41,515 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001241 to H4CA47085
+2025-04-29 11:49:41,516 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: H001100 to H4CO03357
+2025-04-29 11:49:41,516 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001137 to H6CO05142
+2025-04-29 11:49:41,516 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: E000300 to H4CO08034
+2025-04-29 11:49:41,517 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001238 to H4DE00045
+2025-04-29 11:49:41,517 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: H001099 to H4FL08168
+2025-04-29 11:49:41,517 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: J000311 to H4GA03126
+2025-04-29 11:49:41,518 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001229 to H4IN06185
+2025-04-29 11:49:41,518 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001233 to H4IN08249
+2025-04-29 11:49:41,519 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001228 to H4KS02164
+2025-04-29 11:49:41,519 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: O000176 to H4MD02232
+2025-04-29 11:49:41,519 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: E000301 to H4MD03156
+2025-04-29 11:49:41,520 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001232 to H4MD06340
+2025-04-29 11:49:41,520 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B001321 to H2MI07123
+2025-04-29 11:49:41,521 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001237 to H4MI08218
+2025-04-29 11:49:41,521 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001234 to H4MN03118
+2025-04-29 11:49:41,522 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B001324 to H4MO01134
+2025-04-29 11:49:41,522 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: O000177 to H8MO09146
+2025-04-29 11:49:41,523 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: K000404 to H4MP01022
+2025-04-29 11:49:41,523 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: D000634 to H4MT02098
+2025-04-29 11:49:41,523 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001240 to H4NC06177
+2025-04-29 11:49:41,524 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: H001102 to H6NC09200
+2025-04-29 11:49:41,524 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: H001101 to H2NC13243
+2025-04-29 11:49:41,525 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: K000405 to H4NC13116
+2025-04-29 11:49:41,525 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001236 to H4NC14015
+2025-04-29 11:49:41,526 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: F000482 to H4ND00061
+2025-04-29 11:49:41,527 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: G000604 to H4NH02399
+2025-04-29 11:49:41,528 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: C001136 to H4NJ03080
+2025-04-29 11:49:41,528 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: P000621 to H4NJ09194
+2025-04-29 11:49:41,529 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: G000602 to H4NY04158
+2025-04-29 11:49:41,529 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: L000606 to H4NY16087
+2025-04-29 11:49:41,529 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: R000622 to H8NY22177
+2025-04-29 11:49:41,530 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001231 to H4NY22085
+2025-04-29 11:49:41,530 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: T000490 to H4OH02248
+2025-04-29 11:49:41,531 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: D000635 to H4OR03192
+2025-04-29 11:49:41,531 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B001326 to H4OR05304
+2025-04-29 11:49:41,531 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001230 to H8PA15195
+2025-04-29 11:49:41,532 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B001327 to H4PA08124
+2025-04-29 11:49:41,532 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: H001103 to H4PR01010
+2025-04-29 11:49:41,532 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B001325 to H4SC01313
+2025-04-29 11:49:41,533 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: G000601 to H4TX12065
+2025-04-29 11:49:41,533 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: G000603 to H4TX26149
+2025-04-29 11:49:41,533 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: J000310 to H4TX32089
+2025-04-29 11:49:41,534 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: K000403 to H4UT03260
+2025-04-29 11:49:41,534 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001239 to H4VA05071
+2025-04-29 11:49:41,535 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: V000138 to H4VA07234
+2025-04-29 11:49:41,535 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: S001230 to H4VA10279
+2025-04-29 11:49:41,535 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: B001322 to H4WA05234
+2025-04-29 11:49:41,536 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: R000621 to H4WA06117
+2025-04-29 11:49:41,536 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: M001235 to H4WV02205
+2025-04-29 11:49:41,536 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: J000312 to S4WV00332
+2025-04-29 11:49:41,537 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: P000622 to H6FL01390
+2025-04-29 11:49:41,537 - fec_migration - INFO - Updated FEC ID for politician with bioguide_id: F000484 to H6FL06258
+2025-04-29 11:49:41,541 - fec_migration - INFO - Successfully migrated FEC IDs from C:\1WebProjects\MAGA_Ops\backups\migrated_data_files\legislators-current.yaml
+2025-04-29 11:49:41,549 - fec_migration - INFO - Migrating FEC IDs from C:\1WebProjects\MAGA_Ops\legislators-historical.yaml
+2025-04-29 11:50:35,999 - fec_migration - WARNING - No politician found with bioguide_id: A000355
+2025-04-29 11:50:36,000 - fec_migration - WARNING - No politician found with bioguide_id: A000356
+2025-04-29 11:50:36,000 - fec_migration - WARNING - No politician found with bioguide_id: B000993
+2025-04-29 11:50:36,001 - fec_migration - WARNING - No politician found with bioguide_id: G000333
+2025-04-29 11:50:36,001 - fec_migration - WARNING - No politician found with bioguide_id: G000367
+2025-04-29 11:50:36,001 - fec_migration - WARNING - No politician found with bioguide_id: K000146
+2025-04-29 11:50:36,002 - fec_migration - WARNING - No politician found with bioguide_id: M000019
+2025-04-29 11:50:36,002 - fec_migration - WARNING - No politician found with bioguide_id: M001054
+2025-04-29 11:50:36,002 - fec_migration - WARNING - No politician found with bioguide_id: R000295
+2025-04-29 11:50:36,003 - fec_migration - WARNING - No politician found with bioguide_id: R000460
+2025-04-29 11:50:36,003 - fec_migration - WARNING - No politician found with bioguide_id: C001034
+2025-04-29 11:50:36,004 - fec_migration - WARNING - No politician found with bioguide_id: G000365
+2025-04-29 11:50:36,004 - fec_migration - WARNING - No politician found with bioguide_id: H000463
+2025-04-29 11:50:36,004 - fec_migration - WARNING - No politician found with bioguide_id: H001015
+2025-04-29 11:50:36,005 - fec_migration - WARNING - No politician found with bioguide_id: R000417
+2025-04-29 11:50:36,005 - fec_migration - WARNING - No politician found with bioguide_id: S000606
+2025-04-29 11:50:36,006 - fec_migration - WARNING - No politician found with bioguide_id: T000457
+2025-04-29 11:50:36,006 - fec_migration - WARNING - No politician found with bioguide_id: T000254
+2025-04-29 11:50:36,007 - fec_migration - WARNING - No politician found with bioguide_id: T000317
+2025-04-29 11:50:36,007 - fec_migration - WARNING - No politician found with bioguide_id: W000288
+2025-04-29 11:50:36,008 - fec_migration - WARNING - No politician found with bioguide_id: A000215
+2025-04-29 11:50:36,008 - fec_migration - WARNING - No politician found with bioguide_id: B000179
+2025-04-29 11:50:36,008 - fec_migration - WARNING - No politician found with bioguide_id: B000229
+2025-04-29 11:50:36,009 - fec_migration - WARNING - No politician found with bioguide_id: B000556
+2025-04-29 11:50:36,010 - fec_migration - WARNING - No politician found with bioguide_id: B000780
+2025-04-29 11:50:36,011 - fec_migration - WARNING - No politician found with bioguide_id: C000077
+2025-04-29 11:50:36,011 - fec_migration - WARNING - No politician found with bioguide_id: C000100
+2025-04-29 11:50:36,012 - fec_migration - WARNING - No politician found with bioguide_id: C000107
+2025-04-29 11:50:36,012 - fec_migration - WARNING - No politician found with bioguide_id: C000345
+2025-04-29 11:50:36,012 - fec_migration - WARNING - No politician found with bioguide_id: C000488
+2025-04-29 11:50:36,013 - fec_migration - WARNING - No politician found with bioguide_id: C000722
+2025-04-29 11:50:36,013 - fec_migration - WARNING - No politician found with bioguide_id: C000813
+2025-04-29 11:50:36,013 - fec_migration - WARNING - No politician found with bioguide_id: D000046
+2025-04-29 11:50:36,014 - fec_migration - WARNING - No politician found with bioguide_id: D000064
+2025-04-29 11:50:36,014 - fec_migration - WARNING - No politician found with bioguide_id: D000312
+2025-04-29 11:50:36,014 - fec_migration - WARNING - No politician found with bioguide_id: D000373
+2025-04-29 11:50:36,015 - fec_migration - WARNING - No politician found with bioguide_id: E000286
+2025-04-29 11:50:36,015 - fec_migration - WARNING - No politician found with bioguide_id: E000282
+2025-04-29 11:50:36,016 - fec_migration - WARNING - No politician found with bioguide_id: F000442
+2025-04-29 11:50:36,016 - fec_migration - WARNING - No politician found with bioguide_id: F000257
+2025-04-29 11:50:36,016 - fec_migration - WARNING - No politician found with bioguide_id: F000328
+2025-04-29 11:50:36,017 - fec_migration - WARNING - No politician found with bioguide_id: F000349
+2025-04-29 11:50:36,017 - fec_migration - WARNING - No politician found with bioguide_id: G000120
+2025-04-29 11:50:36,018 - fec_migration - WARNING - No politician found with bioguide_id: G000291
+2025-04-29 11:50:36,018 - fec_migration - WARNING - No politician found with bioguide_id: G000352
+2025-04-29 11:50:36,019 - fec_migration - WARNING - No politician found with bioguide_id: H000605
+2025-04-29 11:50:36,019 - fec_migration - WARNING - No politician found with bioguide_id: H000725
+2025-04-29 11:50:36,020 - fec_migration - WARNING - No politician found with bioguide_id: K000016
+2025-04-29 11:50:36,020 - fec_migration - WARNING - No politician found with bioguide_id: K000270
+2025-04-29 11:50:36,020 - fec_migration - WARNING - No politician found with bioguide_id: K000357
+2025-04-29 11:50:36,021 - fec_migration - WARNING - No politician found with bioguide_id: L000155
+2025-04-29 11:50:36,021 - fec_migration - WARNING - No politician found with bioguide_id: M000206
+2025-04-29 11:50:36,022 - fec_migration - WARNING - No politician found with bioguide_id: M000350
+2025-04-29 11:50:36,022 - fec_migration - WARNING - No politician found with bioguide_id: M000481
+2025-04-29 11:50:36,022 - fec_migration - WARNING - No politician found with bioguide_id: M000669
+2025-04-29 11:50:36,023 - fec_migration - WARNING - No politician found with bioguide_id: M000795
+2025-04-29 11:50:36,023 - fec_migration - WARNING - No politician found with bioguide_id: M001085
+2025-04-29 11:50:36,024 - fec_migration - WARNING - No politician found with bioguide_id: N000102
+2025-04-29 11:50:36,024 - fec_migration - WARNING - No politician found with bioguide_id: P000005
+2025-04-29 11:50:36,024 - fec_migration - WARNING - No politician found with bioguide_id: P000171
+2025-04-29 11:50:36,025 - fec_migration - WARNING - No politician found with bioguide_id: P000326
+2025-04-29 11:50:36,025 - fec_migration - WARNING - No politician found with bioguide_id: P000444
+2025-04-29 11:50:36,026 - fec_migration - WARNING - No politician found with bioguide_id: R000386
+2025-04-29 11:50:36,026 - fec_migration - WARNING - No politician found with bioguide_id: V000087
+2025-04-29 11:50:36,027 - fec_migration - WARNING - No politician found with bioguide_id: W000315
+2025-04-29 11:50:36,028 - fec_migration - WARNING - No politician found with bioguide_id: W000654
+2025-04-29 11:50:36,028 - fec_migration - WARNING - No politician found with bioguide_id: A000217
+2025-04-29 11:50:36,029 - fec_migration - WARNING - No politician found with bioguide_id: B000081
+2025-04-29 11:50:36,030 - fec_migration - WARNING - No politician found with bioguide_id: B000134
+2025-04-29 11:50:36,030 - fec_migration - WARNING - No politician found with bioguide_id: B000169
+2025-04-29 11:50:36,031 - fec_migration - WARNING - No politician found with bioguide_id: B000177
+2025-04-29 11:50:36,031 - fec_migration - WARNING - No politician found with bioguide_id: B000400
+2025-04-29 11:50:36,032 - fec_migration - WARNING - No politician found with bioguide_id: B000518
+2025-04-29 11:50:36,032 - fec_migration - WARNING - No politician found with bioguide_id: B000619
+2025-04-29 11:50:36,032 - fec_migration - WARNING - No politician found with bioguide_id: B000644
+2025-04-29 11:50:36,033 - fec_migration - WARNING - No politician found with bioguide_id: B000996
+2025-04-29 11:50:36,033 - fec_migration - WARNING - No politician found with bioguide_id: B001126
+2025-04-29 11:50:36,033 - fec_migration - WARNING - No politician found with bioguide_id: C000052
+2025-04-29 11:50:36,034 - fec_migration - WARNING - No politician found with bioguide_id: C001040
+2025-04-29 11:50:36,034 - fec_migration - WARNING - No politician found with bioguide_id: C000494
+2025-04-29 11:50:36,035 - fec_migration - WARNING - No politician found with bioguide_id: C000503
+2025-04-29 11:50:36,035 - fec_migration - WARNING - No politician found with bioguide_id: C000670
+2025-04-29 11:50:36,035 - fec_migration - WARNING - No politician found with bioguide_id: C000735
+2025-04-29 11:50:36,036 - fec_migration - WARNING - No politician found with bioguide_id: C000846
+2025-04-29 11:50:36,036 - fec_migration - WARNING - No politician found with bioguide_id: D000294
+2025-04-29 11:50:36,037 - fec_migration - WARNING - No politician found with bioguide_id: E000093
+2025-04-29 11:50:36,037 - fec_migration - WARNING - No politician found with bioguide_id: F000439
+2025-04-29 11:50:36,038 - fec_migration - WARNING - No politician found with bioguide_id: G000041
+2025-04-29 11:50:36,038 - fec_migration - WARNING - No politician found with bioguide_id: G000121
+2025-04-29 11:50:36,039 - fec_migration - WARNING - No politician found with bioguide_id: G000212
+2025-04-29 11:50:36,040 - fec_migration - WARNING - No politician found with bioguide_id: H000074
+2025-04-29 11:50:36,043 - fec_migration - WARNING - No politician found with bioguide_id: H000172
+2025-04-29 11:50:36,044 - fec_migration - WARNING - No politician found with bioguide_id: H000615
+2025-04-29 11:50:36,048 - fec_migration - WARNING - No politician found with bioguide_id: H000621
+2025-04-29 11:50:36,054 - fec_migration - WARNING - No politician found with bioguide_id: H000789
+2025-04-29 11:50:36,056 - fec_migration - WARNING - No politician found with bioguide_id: H001014
+2025-04-29 11:50:36,067 - fec_migration - WARNING - No politician found with bioguide_id: J000072
+2025-04-29 11:50:36,068 - fec_migration - WARNING - No politician found with bioguide_id: L000556
+2025-04-29 11:50:36,069 - fec_migration - WARNING - No politician found with bioguide_id: L000096
+2025-04-29 11:50:36,069 - fec_migration - WARNING - No politician found with bioguide_id: L000521
+2025-04-29 11:50:36,069 - fec_migration - WARNING - No politician found with bioguide_id: M000090
+2025-04-29 11:50:36,070 - fec_migration - WARNING - No politician found with bioguide_id: M000212
+2025-04-29 11:50:36,070 - fec_migration - WARNING - No politician found with bioguide_id: M000628
+2025-04-29 11:50:36,071 - fec_migration - WARNING - No politician found with bioguide_id: M000720
+2025-04-29 11:50:36,071 - fec_migration - WARNING - No politician found with bioguide_id: M000797
+2025-04-29 11:50:36,072 - fec_migration - WARNING - No politician found with bioguide_id: M000834
+2025-04-29 11:50:36,072 - fec_migration - WARNING - No politician found with bioguide_id: M000941
+2025-04-29 11:50:36,073 - fec_migration - WARNING - No politician found with bioguide_id: P000584
+2025-04-29 11:50:36,073 - fec_migration - WARNING - No politician found with bioguide_id: R000258
+2025-04-29 11:50:36,074 - fec_migration - WARNING - No politician found with bioguide_id: R000281
+2025-04-29 11:50:36,074 - fec_migration - WARNING - No politician found with bioguide_id: R000385
+2025-04-29 11:50:36,075 - fec_migration - WARNING - No politician found with bioguide_id: R000465
+2025-04-29 11:50:36,075 - fec_migration - WARNING - No politician found with bioguide_id: S000059
+2025-04-29 11:50:36,076 - fec_migration - WARNING - No politician found with bioguide_id: S000064
+2025-04-29 11:50:36,076 - fec_migration - WARNING - No politician found with bioguide_id: S000094
+2025-04-29 11:50:36,077 - fec_migration - WARNING - No politician found with bioguide_id: S000106
+2025-04-29 11:50:36,078 - fec_migration - WARNING - No politician found with bioguide_id: S000112
+2025-04-29 11:50:36,078 - fec_migration - WARNING - No politician found with bioguide_id: S001147
+2025-04-29 11:50:36,079 - fec_migration - WARNING - No politician found with bioguide_id: S000394
+2025-04-29 11:50:36,079 - fec_migration - WARNING - No politician found with bioguide_id: S000453
+2025-04-29 11:50:36,079 - fec_migration - WARNING - No politician found with bioguide_id: S000463
+2025-04-29 11:50:36,080 - fec_migration - WARNING - No politician found with bioguide_id: S000718
+2025-04-29 11:50:36,080 - fec_migration - WARNING - No politician found with bioguide_id: S001044
+2025-04-29 11:50:36,081 - fec_migration - WARNING - No politician found with bioguide_id: T000253
+2025-04-29 11:50:36,081 - fec_migration - WARNING - No politician found with bioguide_id: T000350
+2025-04-29 11:50:36,082 - fec_migration - WARNING - No politician found with bioguide_id: U000014
+2025-04-29 11:50:36,082 - fec_migration - WARNING - No politician found with bioguide_id: W000194
+2025-04-29 11:50:36,082 - fec_migration - WARNING - No politician found with bioguide_id: W000210
+2025-04-29 11:50:36,083 - fec_migration - WARNING - No politician found with bioguide_id: T000024
+2025-04-29 11:50:36,083 - fec_migration - WARNING - No politician found with bioguide_id: A000109
+2025-04-29 11:50:36,084 - fec_migration - WARNING - No politician found with bioguide_id: B000104
+2025-04-29 11:50:36,084 - fec_migration - WARNING - No politician found with bioguide_id: B000403
+2025-04-29 11:50:36,084 - fec_migration - WARNING - No politician found with bioguide_id: C001057
+2025-04-29 11:50:36,085 - fec_migration - WARNING - No politician found with bioguide_id: C000640
+2025-04-29 11:50:36,085 - fec_migration - WARNING - No politician found with bioguide_id: C000653
+2025-04-29 11:50:36,086 - fec_migration - WARNING - No politician found with bioguide_id: C000858
+2025-04-29 11:50:36,086 - fec_migration - WARNING - No politician found with bioguide_id: C000873
+2025-04-29 11:50:36,086 - fec_migration - WARNING - No politician found with bioguide_id: D000275
+2025-04-29 11:50:36,087 - fec_migration - WARNING - No politician found with bioguide_id: D000601
+2025-04-29 11:50:36,087 - fec_migration - WARNING - No politician found with bioguide_id: D000407
+2025-04-29 11:50:36,088 - fec_migration - WARNING - No politician found with bioguide_id: D000424
+2025-04-29 11:50:36,088 - fec_migration - WARNING - No politician found with bioguide_id: D000549
+2025-04-29 11:50:36,089 - fec_migration - WARNING - No politician found with bioguide_id: F000441
+2025-04-29 11:50:36,089 - fec_migration - WARNING - No politician found with bioguide_id: F000392
+2025-04-29 11:50:36,089 - fec_migration - WARNING - No politician found with bioguide_id: G000132
+2025-04-29 11:50:36,090 - fec_migration - WARNING - No politician found with bioguide_id: G000336
+2025-04-29 11:50:36,090 - fec_migration - WARNING - No politician found with bioguide_id: G000439
+2025-04-29 11:50:36,090 - fec_migration - WARNING - No politician found with bioguide_id: H001028
+2025-04-29 11:50:36,091 - fec_migration - WARNING - No politician found with bioguide_id: H001031
+2025-04-29 11:50:36,091 - fec_migration - WARNING - No politician found with bioguide_id: H000814
+2025-04-29 11:50:36,092 - fec_migration - WARNING - No politician found with bioguide_id: J000110
+2025-04-29 11:50:36,092 - fec_migration - WARNING - No politician found with bioguide_id: K000259
+2025-04-29 11:50:36,093 - fec_migration - WARNING - No politician found with bioguide_id: L000342
+2025-04-29 11:50:36,094 - fec_migration - WARNING - No politician found with bioguide_id: L000558
+2025-04-29 11:50:36,094 - fec_migration - WARNING - No politician found with bioguide_id: M000249
+2025-04-29 11:50:36,095 - fec_migration - WARNING - No politician found with bioguide_id: M000316
+2025-04-29 11:50:36,096 - fec_migration - WARNING - No politician found with bioguide_id: M000477
+2025-04-29 11:50:36,096 - fec_migration - WARNING - No politician found with bioguide_id: N000051
+2025-04-29 11:50:36,097 - fec_migration - WARNING - No politician found with bioguide_id: O000164
+2025-04-29 11:50:36,097 - fec_migration - WARNING - No politician found with bioguide_id: Q000016
+2025-04-29 11:50:36,098 - fec_migration - WARNING - No politician found with bioguide_id: S000044
+2025-04-29 11:50:36,098 - fec_migration - WARNING - No politician found with bioguide_id: S001142
+2025-04-29 11:50:36,099 - fec_migration - WARNING - No politician found with bioguide_id: S000597
+2025-04-29 11:50:36,099 - fec_migration - WARNING - No politician found with bioguide_id: S000851
+2025-04-29 11:50:36,100 - fec_migration - WARNING - No politician found with bioguide_id: S000888
+2025-04-29 11:50:36,100 - fec_migration - WARNING - No politician found with bioguide_id: S001078
+2025-04-29 11:50:36,101 - fec_migration - WARNING - No politician found with bioguide_id: T000058
+2025-04-29 11:50:36,101 - fec_migration - WARNING - No politician found with bioguide_id: T000424
+2025-04-29 11:50:36,102 - fec_migration - WARNING - No politician found with bioguide_id: W000154
+2025-04-29 11:50:36,102 - fec_migration - WARNING - No politician found with bioguide_id: B001233
+2025-04-29 11:50:36,103 - fec_migration - WARNING - No politician found with bioguide_id: B000382
+2025-04-29 11:50:36,103 - fec_migration - WARNING - No politician found with bioguide_id: B000463
+2025-04-29 11:50:36,104 - fec_migration - WARNING - No politician found with bioguide_id: B000586
+2025-04-29 11:50:36,104 - fec_migration - WARNING - No politician found with bioguide_id: B000611
+2025-04-29 11:50:36,104 - fec_migration - WARNING - No politician found with bioguide_id: B000617
+2025-04-29 11:50:36,105 - fec_migration - WARNING - No politician found with bioguide_id: B000953
+2025-04-29 11:50:36,105 - fec_migration - WARNING - No politician found with bioguide_id: B001066
+2025-04-29 11:50:36,105 - fec_migration - WARNING - No politician found with bioguide_id: C000830
+2025-04-29 11:50:36,106 - fec_migration - WARNING - No politician found with bioguide_id: C000994
+2025-04-29 11:50:36,106 - fec_migration - WARNING - No politician found with bioguide_id: D000114
+2025-04-29 11:50:36,107 - fec_migration - WARNING - No politician found with bioguide_id: D000217
+2025-04-29 11:50:36,107 - fec_migration - WARNING - No politician found with bioguide_id: D000388
+2025-04-29 11:50:36,107 - fec_migration - WARNING - No politician found with bioguide_id: D000432
+2025-04-29 11:50:36,108 - fec_migration - WARNING - No politician found with bioguide_id: E000250
+2025-04-29 11:50:36,108 - fec_migration - WARNING - No politician found with bioguide_id: F000061
+2025-04-29 11:50:36,109 - fec_migration - WARNING - No politician found with bioguide_id: F000238
+2025-04-29 11:50:36,109 - fec_migration - WARNING - No politician found with bioguide_id: F000262
+2025-04-29 11:50:36,110 - fec_migration - WARNING - No politician found with bioguide_id: G000152
+2025-04-29 11:50:36,110 - fec_migration - WARNING - No politician found with bioguide_id: G000545
+2025-04-29 11:50:36,111 - fec_migration - WARNING - No politician found with bioguide_id: G000445
+2025-04-29 11:50:36,111 - fec_migration - WARNING - No politician found with bioguide_id: G000536
+2025-04-29 11:50:36,112 - fec_migration - WARNING - No politician found with bioguide_id: H000413
+2025-04-29 11:50:36,112 - fec_migration - WARNING - No politician found with bioguide_id: H000444
+2025-04-29 11:50:36,113 - fec_migration - WARNING - No politician found with bioguide_id: H000807
+2025-04-29 11:50:36,113 - fec_migration - WARNING - No politician found with bioguide_id: H001022
+2025-04-29 11:50:36,114 - fec_migration - WARNING - No politician found with bioguide_id: I000047
+2025-04-29 11:50:36,114 - fec_migration - WARNING - No politician found with bioguide_id: J000082
+2025-04-29 11:50:36,114 - fec_migration - WARNING - No politician found with bioguide_id: J000163
+2025-04-29 11:50:36,115 - fec_migration - WARNING - No politician found with bioguide_id: K000078
+2025-04-29 11:50:36,115 - fec_migration - WARNING - No politician found with bioguide_id: K000306
+2025-04-29 11:50:36,116 - fec_migration - WARNING - No politician found with bioguide_id: L000169
+2025-04-29 11:50:36,116 - fec_migration - WARNING - No politician found with bioguide_id: L000035
+2025-04-29 11:50:36,117 - fec_migration - WARNING - No politician found with bioguide_id: M001162
+2025-04-29 11:50:36,117 - fec_migration - WARNING - No politician found with bioguide_id: M000523
+2025-04-29 11:50:36,118 - fec_migration - WARNING - No politician found with bioguide_id: N000081
+2025-04-29 11:50:36,118 - fec_migration - WARNING - No politician found with bioguide_id: N000143
+2025-04-29 11:50:36,118 - fec_migration - WARNING - No politician found with bioguide_id: N000172
+2025-04-29 11:50:36,119 - fec_migration - WARNING - No politician found with bioguide_id: O000159
+2025-04-29 11:50:36,119 - fec_migration - WARNING - No politician found with bioguide_id: O000163
+2025-04-29 11:50:36,120 - fec_migration - WARNING - No politician found with bioguide_id: P000419
+2025-04-29 11:50:36,120 - fec_migration - WARNING - No politician found with bioguide_id: R000566
+2025-04-29 11:50:36,120 - fec_migration - WARNING - No politician found with bioguide_id: S000005
+2025-04-29 11:50:36,121 - fec_migration - WARNING - No politician found with bioguide_id: S001163
+2025-04-29 11:50:36,121 - fec_migration - WARNING - No politician found with bioguide_id: S000303
+2025-04-29 11:50:36,122 - fec_migration - WARNING - No politician found with bioguide_id: S001146
+2025-04-29 11:50:36,122 - fec_migration - WARNING - No politician found with bioguide_id: S000709
+2025-04-29 11:50:36,123 - fec_migration - WARNING - No politician found with bioguide_id: S001004
+2025-04-29 11:50:36,123 - fec_migration - WARNING - No politician found with bioguide_id: S001149
+2025-04-29 11:50:36,123 - fec_migration - WARNING - No politician found with bioguide_id: T000067
+2025-04-29 11:50:36,124 - fec_migration - WARNING - No politician found with bioguide_id: T000188
+2025-04-29 11:50:36,124 - fec_migration - WARNING - No politician found with bioguide_id: V000126
+2025-04-29 11:50:36,125 - fec_migration - WARNING - No politician found with bioguide_id: W000268
+2025-04-29 11:50:36,125 - fec_migration - WARNING - No politician found with bioguide_id: A000357
+2025-04-29 11:50:36,126 - fec_migration - WARNING - No politician found with bioguide_id: B000072
+2025-04-29 11:50:36,126 - fec_migration - WARNING - No politician found with bioguide_id: B001258
+2025-04-29 11:50:36,127 - fec_migration - WARNING - No politician found with bioguide_id: B001210
+2025-04-29 11:50:36,127 - fec_migration - WARNING - No politician found with bioguide_id: C000116
+2025-04-29 11:50:36,128 - fec_migration - WARNING - No politician found with bioguide_id: C000191
+2025-04-29 11:50:36,128 - fec_migration - WARNING - No politician found with bioguide_id: C001041
+2025-04-29 11:50:36,129 - fec_migration - WARNING - No politician found with bioguide_id: C000868
+2025-04-29 11:50:36,129 - fec_migration - WARNING - No politician found with bioguide_id: C000962
+2025-04-29 11:50:36,130 - fec_migration - WARNING - No politician found with bioguide_id: D000606
+2025-04-29 11:50:36,130 - fec_migration - WARNING - No politician found with bioguide_id: D000597
+2025-04-29 11:50:36,130 - fec_migration - WARNING - No politician found with bioguide_id: D000136
+2025-04-29 11:50:36,131 - fec_migration - WARNING - No politician found with bioguide_id: D000429
+2025-04-29 11:50:36,131 - fec_migration - WARNING - No politician found with bioguide_id: D000605
+2025-04-29 11:50:36,132 - fec_migration - WARNING - No politician found with bioguide_id: E000287
+2025-04-29 11:50:36,132 - fec_migration - WARNING - No politician found with bioguide_id: E000187
+2025-04-29 11:50:36,132 - fec_migration - WARNING - No politician found with bioguide_id: E000194
+2025-04-29 11:50:36,133 - fec_migration - WARNING - No politician found with bioguide_id: E000268
+2025-04-29 11:50:36,133 - fec_migration - WARNING - No politician found with bioguide_id: F000447
+2025-04-29 11:50:36,134 - fec_migration - WARNING - No politician found with bioguide_id: F000443
+2025-04-29 11:50:36,134 - fec_migration - WARNING - No politician found with bioguide_id: F000452
+2025-04-29 11:50:36,135 - fec_migration - WARNING - No politician found with bioguide_id: F000440
+2025-04-29 11:50:36,135 - fec_migration - WARNING - No politician found with bioguide_id: G000180
+2025-04-29 11:50:36,136 - fec_migration - WARNING - No politician found with bioguide_id: G000210
+2025-04-29 11:50:36,136 - fec_migration - WARNING - No politician found with bioguide_id: G000280
+2025-04-29 11:50:36,137 - fec_migration - WARNING - No politician found with bioguide_id: H000323
+2025-04-29 11:50:36,137 - fec_migration - WARNING - No politician found with bioguide_id: H001029
+2025-04-29 11:50:36,138 - fec_migration - WARNING - No politician found with bioguide_id: H000666
+2025-04-29 11:50:36,138 - fec_migration - WARNING - No politician found with bioguide_id: H000762
+2025-04-29 11:50:36,139 - fec_migration - WARNING - No politician found with bioguide_id: H000948
+2025-04-29 11:50:36,139 - fec_migration - WARNING - No politician found with bioguide_id: H000981
+2025-04-29 11:50:36,140 - fec_migration - WARNING - No politician found with bioguide_id: J000070
+2025-04-29 11:50:36,140 - fec_migration - WARNING - No politician found with bioguide_id: J000287
+2025-04-29 11:50:36,141 - fec_migration - WARNING - No politician found with bioguide_id: J000284
+2025-04-29 11:50:36,141 - fec_migration - WARNING - No politician found with bioguide_id: K000361
+2025-04-29 11:50:36,141 - fec_migration - WARNING - No politician found with bioguide_id: K000105
+2025-04-29 11:50:36,142 - fec_migration - WARNING - No politician found with bioguide_id: K000288
+2025-04-29 11:50:36,143 - fec_migration - WARNING - No politician found with bioguide_id: K000364
+2025-04-29 11:50:36,143 - fec_migration - WARNING - No politician found with bioguide_id: L000552
+2025-04-29 11:50:36,144 - fec_migration - WARNING - No politician found with bioguide_id: L000043
+2025-04-29 11:50:36,144 - fec_migration - WARNING - No politician found with bioguide_id: L000090
+2025-04-29 11:50:36,145 - fec_migration - WARNING - No politician found with bioguide_id: L000293
+2025-04-29 11:50:36,145 - fec_migration - WARNING - No politician found with bioguide_id: L000447
+2025-04-29 11:50:36,146 - fec_migration - WARNING - No politician found with bioguide_id: M001164
+2025-04-29 11:50:36,146 - fec_migration - WARNING - No politician found with bioguide_id: M000388
+2025-04-29 11:50:36,147 - fec_migration - WARNING - No politician found with bioguide_id: M000590
+2025-04-29 11:50:36,147 - fec_migration - WARNING - No politician found with bioguide_id: M000627
+2025-04-29 11:50:36,148 - fec_migration - WARNING - No politician found with bioguide_id: M000714
+2025-04-29 11:50:36,149 - fec_migration - WARNING - No politician found with bioguide_id: M001152
+2025-04-29 11:50:36,150 - fec_migration - WARNING - No politician found with bioguide_id: N000159
+2025-04-29 11:50:36,150 - fec_migration - WARNING - No politician found with bioguide_id: P000263
+2025-04-29 11:50:36,150 - fec_migration - WARNING - No politician found with bioguide_id: P000323
+2025-04-29 11:50:36,151 - fec_migration - WARNING - No politician found with bioguide_id: P000589
+2025-04-29 11:50:36,151 - fec_migration - WARNING - No politician found with bioguide_id: P000555
+2025-04-29 11:50:36,152 - fec_migration - WARNING - No politician found with bioguide_id: R000033
+2025-04-29 11:50:36,152 - fec_migration - WARNING - No politician found with bioguide_id: R000141
+2025-04-29 11:50:36,153 - fec_migration - WARNING - No politician found with bioguide_id: R000574
+2025-04-29 11:50:36,153 - fec_migration - WARNING - No politician found with bioguide_id: R000569
+2025-04-29 11:50:36,154 - fec_migration - WARNING - No politician found with bioguide_id: S001167
+2025-04-29 11:50:36,154 - fec_migration - WARNING - No politician found with bioguide_id: S000097
+2025-04-29 11:50:36,155 - fec_migration - WARNING - No politician found with bioguide_id: S001144
+2025-04-29 11:50:36,155 - fec_migration - WARNING - No politician found with bioguide_id: T000458
+2025-04-29 11:50:36,156 - fec_migration - WARNING - No politician found with bioguide_id: T000162
+2025-04-29 11:50:36,156 - fec_migration - WARNING - No politician found with bioguide_id: W000099
+2025-04-29 11:50:36,157 - fec_migration - WARNING - No politician found with bioguide_id: W000267
+2025-04-29 11:50:36,157 - fec_migration - WARNING - No politician found with bioguide_id: W000273
+2025-04-29 11:50:36,158 - fec_migration - WARNING - No politician found with bioguide_id: W000789
+2025-04-29 11:50:36,158 - fec_migration - WARNING - No politician found with bioguide_id: W000784
+2025-04-29 11:50:36,158 - fec_migration - WARNING - No politician found with bioguide_id: C001073
+2025-04-29 11:50:36,159 - fec_migration - WARNING - No politician found with bioguide_id: A000014
+2025-04-29 11:50:36,159 - fec_migration - WARNING - No politician found with bioguide_id: A000364
+2025-04-29 11:50:36,160 - fec_migration - WARNING - No politician found with bioguide_id: A000363
+2025-04-29 11:50:36,161 - fec_migration - WARNING - No politician found with bioguide_id: B001229
+2025-04-29 11:50:36,161 - fec_migration - WARNING - No politician found with bioguide_id: B001239
+2025-04-29 11:50:36,162 - fec_migration - WARNING - No politician found with bioguide_id: B001253
+2025-04-29 11:50:36,162 - fec_migration - WARNING - No politician found with bioguide_id: B000420
+2025-04-29 11:50:36,163 - fec_migration - WARNING - No politician found with bioguide_id: B000444
+2025-04-29 11:50:36,163 - fec_migration - WARNING - No politician found with bioguide_id: B001263
+2025-04-29 11:50:36,164 - fec_migration - WARNING - No politician found with bioguide_id: B000657
+2025-04-29 11:50:36,164 - fec_migration - WARNING - No politician found with bioguide_id: B000716
+2025-04-29 11:50:36,164 - fec_migration - WARNING - No politician found with bioguide_id: B001264
+2025-04-29 11:50:36,165 - fec_migration - WARNING - No politician found with bioguide_id: B001235
+2025-04-29 11:50:36,165 - fec_migration - WARNING - No politician found with bioguide_id: B001247
+2025-04-29 11:50:36,166 - fec_migration - WARNING - No politician found with bioguide_id: B001203
+2025-04-29 11:50:36,166 - fec_migration - WARNING - No politician found with bioguide_id: C001079
+2025-04-29 11:50:36,167 - fec_migration - WARNING - No politician found with bioguide_id: C001065
+2025-04-29 11:50:36,167 - fec_migration - WARNING - No politician found with bioguide_id: C000243
+2025-04-29 11:50:36,167 - fec_migration - WARNING - No politician found with bioguide_id: C001074
+2025-04-29 11:50:36,168 - fec_migration - WARNING - No politician found with bioguide_id: D000608
+2025-04-29 11:50:36,168 - fec_migration - WARNING - No politician found with bioguide_id: D000602
+2025-04-29 11:50:36,168 - fec_migration - WARNING - No politician found with bioguide_id: D000599
+2025-04-29 11:50:36,169 - fec_migration - WARNING - No politician found with bioguide_id: D000168
+2025-04-29 11:50:36,169 - fec_migration - WARNING - No politician found with bioguide_id: D000210
+2025-04-29 11:50:36,169 - fec_migration - WARNING - No politician found with bioguide_id: D000299
+2025-04-29 11:50:36,170 - fec_migration - WARNING - No politician found with bioguide_id: D000609
+2025-04-29 11:50:36,170 - fec_migration - WARNING - No politician found with bioguide_id: E000063
+2025-04-29 11:50:36,170 - fec_migration - WARNING - No politician found with bioguide_id: E000092
+2025-04-29 11:50:36,171 - fec_migration - WARNING - No politician found with bioguide_id: E000289
+2025-04-29 11:50:36,171 - fec_migration - WARNING - No politician found with bioguide_id: E000226
+2025-04-29 11:50:36,171 - fec_migration - WARNING - No politician found with bioguide_id: F000453
+2025-04-29 11:50:36,172 - fec_migration - WARNING - No politician found with bioguide_id: G000309
+2025-04-29 11:50:36,172 - fec_migration - WARNING - No politician found with bioguide_id: G000557
+2025-04-29 11:50:36,173 - fec_migration - WARNING - No politician found with bioguide_id: H001039
+2025-04-29 11:50:36,173 - fec_migration - WARNING - No politician found with bioguide_id: H001044
+2025-04-29 11:50:36,174 - fec_migration - WARNING - No politician found with bioguide_id: H001040
+2025-04-29 11:50:36,174 - fec_migration - WARNING - No politician found with bioguide_id: H001037
+2025-04-29 11:50:36,174 - fec_migration - WARNING - No politician found with bioguide_id: H001030
+2025-04-29 11:50:36,175 - fec_migration - WARNING - No politician found with bioguide_id: H001043
+2025-04-29 11:50:36,175 - fec_migration - WARNING - No politician found with bioguide_id: H000676
+2025-04-29 11:50:36,175 - fec_migration - WARNING - No politician found with bioguide_id: I000023
+2025-04-29 11:50:36,176 - fec_migration - WARNING - No politician found with bioguide_id: K000365
+2025-04-29 11:50:36,176 - fec_migration - WARNING - No politician found with bioguide_id: K000008
+2025-04-29 11:50:36,177 - fec_migration - WARNING - No politician found with bioguide_id: K000113
+2025-04-29 11:50:36,178 - fec_migration - WARNING - No politician found with bioguide_id: K000180
+2025-04-29 11:50:36,178 - fec_migration - WARNING - No politician found with bioguide_id: K000372
+2025-04-29 11:50:36,179 - fec_migration - WARNING - No politician found with bioguide_id: K000366
+2025-04-29 11:50:36,179 - fec_migration - WARNING - No politician found with bioguide_id: K000370
+2025-04-29 11:50:36,180 - fec_migration - WARNING - No politician found with bioguide_id: K000371
+2025-04-29 11:50:36,180 - fec_migration - WARNING - No politician found with bioguide_id: L000321
+2025-04-29 11:50:36,181 - fec_migration - WARNING - No politician found with bioguide_id: M001172
+2025-04-29 11:50:36,181 - fec_migration - WARNING - No politician found with bioguide_id: M001146
+2025-04-29 11:50:36,181 - fec_migration - WARNING - No politician found with bioguide_id: M001173
+2025-04-29 11:50:36,182 - fec_migration - WARNING - No politician found with bioguide_id: M000472
+2025-04-29 11:50:36,182 - fec_migration - WARNING - No politician found with bioguide_id: M001174
+2025-04-29 11:50:36,183 - fec_migration - WARNING - No politician found with bioguide_id: M001148
+2025-04-29 11:50:36,183 - fec_migration - WARNING - No politician found with bioguide_id: M001161
+2025-04-29 11:50:36,184 - fec_migration - WARNING - No politician found with bioguide_id: M001175
+2025-04-29 11:50:36,184 - fec_migration - WARNING - No politician found with bioguide_id: M001167
+2025-04-29 11:50:36,185 - fec_migration - WARNING - No politician found with bioguide_id: M000844
+2025-04-29 11:50:36,185 - fec_migration - WARNING - No politician found with bioguide_id: M001140
+2025-04-29 11:50:36,186 - fec_migration - WARNING - No politician found with bioguide_id: M001168
+2025-04-29 11:50:36,186 - fec_migration - WARNING - No politician found with bioguide_id: M001120
+2025-04-29 11:50:36,186 - fec_migration - WARNING - No politician found with bioguide_id: N000183
+2025-04-29 11:50:36,187 - fec_migration - WARNING - No politician found with bioguide_id: O000006
+2025-04-29 11:50:36,187 - fec_migration - WARNING - No politician found with bioguide_id: O000007
+2025-04-29 11:50:36,188 - fec_migration - WARNING - No politician found with bioguide_id: O000107
+2025-04-29 11:50:36,188 - fec_migration - WARNING - No politician found with bioguide_id: P000600
+2025-04-29 11:50:36,189 - fec_migration - WARNING - No politician found with bioguide_id: P000422
+2025-04-29 11:50:36,189 - fec_migration - WARNING - No politician found with bioguide_id: P000586
+2025-04-29 11:50:36,190 - fec_migration - WARNING - No politician found with bioguide_id: R000004
+2025-04-29 11:50:36,190 - fec_migration - WARNING - No politician found with bioguide_id: R000568
+2025-04-29 11:50:36,191 - fec_migration - WARNING - No politician found with bioguide_id: S001158
+2025-04-29 11:50:36,191 - fec_migration - WARNING - No politician found with bioguide_id: S001178
+2025-04-29 11:50:36,192 - fec_migration - WARNING - No politician found with bioguide_id: S001169
+2025-04-29 11:50:36,192 - fec_migration - WARNING - No politician found with bioguide_id: S000275
+2025-04-29 11:50:36,192 - fec_migration - WARNING - No politician found with bioguide_id: S000465
+2025-04-29 11:50:36,193 - fec_migration - WARNING - No politician found with bioguide_id: S000672
+2025-04-29 11:50:36,193 - fec_migration - WARNING - No politician found with bioguide_id: S001153
+2025-04-29 11:50:36,194 - fec_migration - WARNING - No politician found with bioguide_id: S001143
+2025-04-29 11:50:36,194 - fec_migration - WARNING - No politician found with bioguide_id: S001173
+2025-04-29 11:50:36,195 - fec_migration - WARNING - No politician found with bioguide_id: S000749
+2025-04-29 11:50:36,195 - fec_migration - WARNING - No politician found with bioguide_id: S001045
+2025-04-29 11:50:36,196 - fec_migration - WARNING - No politician found with bioguide_id: T000038
+2025-04-29 11:50:36,196 - fec_migration - WARNING - No politician found with bioguide_id: T000057
+2025-04-29 11:50:36,197 - fec_migration - WARNING - No politician found with bioguide_id: T000074
+2025-04-29 11:50:36,197 - fec_migration - WARNING - No politician found with bioguide_id: T000466
+2025-04-29 11:50:36,197 - fec_migration - WARNING - No politician found with bioguide_id: T000260
+2025-04-29 11:50:36,198 - fec_migration - WARNING - No politician found with bioguide_id: W000119
+2025-04-29 11:50:36,198 - fec_migration - WARNING - No politician found with bioguide_id: W000794
+2025-04-29 11:50:36,199 - fec_migration - WARNING - No politician found with bioguide_id: W000314
+2025-04-29 11:50:36,199 - fec_migration - WARNING - No politician found with bioguide_id: W000801
+2025-04-29 11:50:36,199 - fec_migration - WARNING - No politician found with bioguide_id: B001266
+2025-04-29 11:50:36,200 - fec_migration - WARNING - No politician found with bioguide_id: M001178
+2025-04-29 11:50:36,200 - fec_migration - WARNING - No politician found with bioguide_id: L000572
+2025-04-29 11:50:36,201 - fec_migration - WARNING - No politician found with bioguide_id: D000611
+2025-04-29 11:50:36,201 - fec_migration - WARNING - No politician found with bioguide_id: C001050
+2025-04-29 11:50:36,202 - fec_migration - WARNING - No politician found with bioguide_id: D000603
+2025-04-29 11:50:36,202 - fec_migration - WARNING - No politician found with bioguide_id: G000554
+2025-04-29 11:50:36,203 - fec_migration - WARNING - No politician found with bioguide_id: H000213
+2025-04-29 11:50:36,203 - fec_migration - WARNING - No politician found with bioguide_id: I000026
+2025-04-29 11:50:36,203 - fec_migration - WARNING - No politician found with bioguide_id: L000568
+2025-04-29 11:50:36,204 - fec_migration - WARNING - No politician found with bioguide_id: M001147
+2025-04-29 11:50:36,204 - fec_migration - WARNING - No politician found with bioguide_id: P000149
+2025-04-29 11:50:36,205 - fec_migration - WARNING - No politician found with bioguide_id: W000792
+2025-04-29 11:50:36,205 - fec_migration - WARNING - No politician found with bioguide_id: W000793
+2025-04-29 11:50:36,205 - fec_migration - WARNING - No politician found with bioguide_id: J000283
+2025-04-29 11:50:36,206 - fec_migration - WARNING - No politician found with bioguide_id: F000116
+2025-04-29 11:50:36,206 - fec_migration - WARNING - No politician found with bioguide_id: O000167
+2025-04-29 11:50:36,207 - fec_migration - WARNING - No politician found with bioguide_id: I000025
+2025-04-29 11:50:36,207 - fec_migration - WARNING - No politician found with bioguide_id: A000069
+2025-04-29 11:50:36,207 - fec_migration - WARNING - No politician found with bioguide_id: B000468
+2025-04-29 11:50:36,208 - fec_migration - WARNING - No politician found with bioguide_id: C000705
+2025-04-29 11:50:36,208 - fec_migration - WARNING - No politician found with bioguide_id: H001016
+2025-04-29 11:50:36,209 - fec_migration - WARNING - No politician found with bioguide_id: K000305
+2025-04-29 11:50:36,209 - fec_migration - WARNING - No politician found with bioguide_id: L000304
+2025-04-29 11:50:36,210 - fec_migration - WARNING - No politician found with bioguide_id: L000504
+2025-04-29 11:50:36,211 - fec_migration - WARNING - No politician found with bioguide_id: N000180
+2025-04-29 11:50:36,211 - fec_migration - WARNING - No politician found with bioguide_id: S000663
+2025-04-29 11:50:36,212 - fec_migration - WARNING - No politician found with bioguide_id: W000803
+2025-04-29 11:50:36,212 - fec_migration - WARNING - No politician found with bioguide_id: B001268
+2025-04-29 11:50:36,213 - fec_migration - WARNING - No politician found with bioguide_id: A000022
+2025-04-29 11:50:36,213 - fec_migration - WARNING - No politician found with bioguide_id: A000366
+2025-04-29 11:50:36,214 - fec_migration - WARNING - No politician found with bioguide_id: A000358
+2025-04-29 11:50:36,214 - fec_migration - WARNING - No politician found with bioguide_id: A000362
+2025-04-29 11:50:36,214 - fec_migration - WARNING - No politician found with bioguide_id: A000365
+2025-04-29 11:50:36,215 - fec_migration - WARNING - No politician found with bioguide_id: B001234
+2025-04-29 11:50:36,215 - fec_migration - WARNING - No politician found with bioguide_id: B000208
+2025-04-29 11:50:36,216 - fec_migration - WARNING - No politician found with bioguide_id: B000220
+2025-04-29 11:50:36,216 - fec_migration - WARNING - No politician found with bioguide_id: B001272
+2025-04-29 11:50:36,216 - fec_migration - WARNING - No politician found with bioguide_id: B001231
+2025-04-29 11:50:36,217 - fec_migration - WARNING - No politician found with bioguide_id: B000410
+2025-04-29 11:50:36,217 - fec_migration - WARNING - No politician found with bioguide_id: B001232
+2025-04-29 11:50:36,218 - fec_migration - WARNING - No politician found with bioguide_id: B000461
+2025-04-29 11:50:36,218 - fec_migration - WARNING - No politician found with bioguide_id: B001228
+2025-04-29 11:50:36,218 - fec_migration - WARNING - No politician found with bioguide_id: B001254
+2025-04-29 11:50:36,219 - fec_migration - WARNING - No politician found with bioguide_id: B000652
+2025-04-29 11:50:36,219 - fec_migration - WARNING - No politician found with bioguide_id: B001276
+2025-04-29 11:50:36,220 - fec_migration - WARNING - No politician found with bioguide_id: B001149
+2025-04-29 11:50:36,220 - fec_migration - WARNING - No politician found with bioguide_id: C001082
+2025-04-29 11:50:36,221 - fec_migration - WARNING - No politician found with bioguide_id: C001060
+2025-04-29 11:50:36,221 - fec_migration - WARNING - No politician found with bioguide_id: C001058
+2025-04-29 11:50:36,221 - fec_migration - WARNING - No politician found with bioguide_id: C001085
+2025-04-29 11:50:36,222 - fec_migration - WARNING - No politician found with bioguide_id: C000794
+2025-04-29 11:50:36,222 - fec_migration - WARNING - No politician found with bioguide_id: C001086
+2025-04-29 11:50:36,223 - fec_migration - WARNING - No politician found with bioguide_id: C001081
+2025-04-29 11:50:36,223 - fec_migration - WARNING - No politician found with bioguide_id: D000327
+2025-04-29 11:50:36,224 - fec_migration - WARNING - No politician found with bioguide_id: D000492
+2025-04-29 11:50:36,224 - fec_migration - WARNING - No politician found with bioguide_id: F000339
+2025-04-29 11:50:36,224 - fec_migration - WARNING - No politician found with bioguide_id: G000021
+2025-04-29 11:50:36,225 - fec_migration - WARNING - No politician found with bioguide_id: G000544
+2025-04-29 11:50:36,225 - fec_migration - WARNING - No politician found with bioguide_id: H001054
+2025-04-29 11:50:36,225 - fec_migration - WARNING - No politician found with bioguide_id: H000528
+2025-04-29 11:50:36,226 - fec_migration - WARNING - No politician found with bioguide_id: H000627
+2025-04-29 11:50:36,226 - fec_migration - WARNING - No politician found with bioguide_id: H000712
+2025-04-29 11:50:36,227 - fec_migration - WARNING - No politician found with bioguide_id: J000285
+2025-04-29 11:50:36,227 - fec_migration - WARNING - No politician found with bioguide_id: K000172
+2025-04-29 11:50:36,228 - fec_migration - WARNING - No politician found with bioguide_id: K000369
+2025-04-29 11:50:36,228 - fec_migration - WARNING - No politician found with bioguide_id: K000336
+2025-04-29 11:50:36,229 - fec_migration - WARNING - No politician found with bioguide_id: L000553
+2025-04-29 11:50:36,229 - fec_migration - WARNING - No politician found with bioguide_id: L000574
+2025-04-29 11:50:36,230 - fec_migration - WARNING - No politician found with bioguide_id: L000274
+2025-04-29 11:50:36,230 - fec_migration - WARNING - No politician found with bioguide_id: L000517
+2025-04-29 11:50:36,231 - fec_migration - WARNING - No politician found with bioguide_id: M001155
+2025-04-29 11:50:36,231 - fec_migration - WARNING - No politician found with bioguide_id: M001138
+2025-04-29 11:50:36,231 - fec_migration - WARNING - No politician found with bioguide_id: M001154
+2025-04-29 11:50:36,232 - fec_migration - WARNING - No politician found with bioguide_id: M001134
+2025-04-29 11:50:36,232 - fec_migration - WARNING - No politician found with bioguide_id: O000085
+2025-04-29 11:50:36,233 - fec_migration - WARNING - No politician found with bioguide_id: P000583
+2025-04-29 11:50:36,233 - fec_migration - WARNING - No politician found with bioguide_id: P000587
+2025-04-29 11:50:36,234 - fec_migration - WARNING - No politician found with bioguide_id: P000585
+2025-04-29 11:50:36,234 - fec_migration - WARNING - No politician found with bioguide_id: Q000024
+2025-04-29 11:50:36,234 - fec_migration - WARNING - No politician found with bioguide_id: R000571
+2025-04-29 11:50:36,235 - fec_migration - WARNING - No politician found with bioguide_id: R000170
+2025-04-29 11:50:36,235 - fec_migration - WARNING - No politician found with bioguide_id: R000581
+2025-04-29 11:50:36,235 - fec_migration - WARNING - No politician found with bioguide_id: R000590
+2025-04-29 11:50:36,235 - fec_migration - WARNING - No politician found with bioguide_id: R000573
+2025-04-29 11:50:36,236 - fec_migration - WARNING - No politician found with bioguide_id: R000462
+2025-04-29 11:50:36,236 - fec_migration - WARNING - No politician found with bioguide_id: S001182
+2025-04-29 11:50:36,236 - fec_migration - WARNING - No politician found with bioguide_id: S001164
+2025-04-29 11:50:36,237 - fec_migration - WARNING - No politician found with bioguide_id: S001171
+2025-04-29 11:50:36,237 - fec_migration - WARNING - No politician found with bioguide_id: S000810
+2025-04-29 11:50:36,238 - fec_migration - WARNING - No politician found with bioguide_id: S000822
+2025-04-29 11:50:36,238 - fec_migration - WARNING - No politician found with bioguide_id: S001155
+2025-04-29 11:50:36,238 - fec_migration - WARNING - No politician found with bioguide_id: S001174
+2025-04-29 11:50:36,239 - fec_migration - WARNING - No politician found with bioguide_id: T000326
+2025-04-29 11:50:36,239 - fec_migration - WARNING - No politician found with bioguide_id: W000811
+2025-04-29 11:50:36,239 - fec_migration - WARNING - No politician found with bioguide_id: W000807
+2025-04-29 11:50:36,240 - fec_migration - WARNING - No politician found with bioguide_id: W000738
+2025-04-29 11:50:36,240 - fec_migration - WARNING - No politician found with bioguide_id: H001062
+2025-04-29 11:50:36,240 - fec_migration - WARNING - No politician found with bioguide_id: T000471
+2025-04-29 11:50:36,241 - fec_migration - WARNING - No politician found with bioguide_id: C001089
+2025-04-29 11:50:36,241 - fec_migration - WARNING - No politician found with bioguide_id: D000595
+2025-04-29 11:50:36,241 - fec_migration - WARNING - No politician found with bioguide_id: E000172
+2025-04-29 11:50:36,242 - fec_migration - WARNING - No politician found with bioguide_id: K000148
+2025-04-29 11:50:36,242 - fec_migration - WARNING - No politician found with bioguide_id: L000123
+2025-04-29 11:50:36,243 - fec_migration - WARNING - No politician found with bioguide_id: B001244
+2025-04-29 11:50:36,243 - fec_migration - WARNING - No politician found with bioguide_id: A000361
+2025-04-29 11:50:36,244 - fec_migration - WARNING - No politician found with bioguide_id: Y000031
+2025-04-29 11:50:36,245 - fec_migration - WARNING - No politician found with bioguide_id: W000207
+2025-04-29 11:50:36,245 - fec_migration - WARNING - No politician found with bioguide_id: R000596
+2025-04-29 11:50:36,245 - fec_migration - WARNING - No politician found with bioguide_id: B000243
+2025-04-29 11:50:36,246 - fec_migration - WARNING - No politician found with bioguide_id: A000210
+2025-04-29 11:50:36,246 - fec_migration - WARNING - No politician found with bioguide_id: C001046
+2025-04-29 11:50:36,247 - fec_migration - WARNING - No politician found with bioguide_id: B001265
+2025-04-29 11:50:36,247 - fec_migration - WARNING - No politician found with bioguide_id: C000286
+2025-04-29 11:50:36,248 - fec_migration - WARNING - No politician found with bioguide_id: H001049
+2025-04-29 11:50:36,248 - fec_migration - WARNING - No politician found with bioguide_id: H000206
+2025-04-29 11:50:36,248 - fec_migration - WARNING - No politician found with bioguide_id: J000177
+2025-04-29 11:50:36,249 - fec_migration - WARNING - No politician found with bioguide_id: L000550
+2025-04-29 11:50:36,249 - fec_migration - WARNING - No politician found with bioguide_id: L000261
+2025-04-29 11:50:36,249 - fec_migration - WARNING - No politician found with bioguide_id: P000590
+2025-04-29 11:50:36,250 - fec_migration - WARNING - No politician found with bioguide_id: R000361
+2025-04-29 11:50:36,250 - fec_migration - WARNING - No politician found with bioguide_id: U000038
+2025-04-29 11:50:36,250 - fec_migration - WARNING - No politician found with bioguide_id: B001256
+2025-04-29 11:50:36,251 - fec_migration - WARNING - No politician found with bioguide_id: B000013
+2025-04-29 11:50:36,251 - fec_migration - WARNING - No politician found with bioguide_id: B001252
+2025-04-29 11:50:36,251 - fec_migration - WARNING - No politician found with bioguide_id: B001242
+2025-04-29 11:50:36,252 - fec_migration - WARNING - No politician found with bioguide_id: B001259
+2025-04-29 11:50:36,252 - fec_migration - WARNING - No politician found with bioguide_id: B001262
+2025-04-29 11:50:36,253 - fec_migration - WARNING - No politician found with bioguide_id: C000071
+2025-04-29 11:50:36,253 - fec_migration - WARNING - No politician found with bioguide_id: C001064
+2025-04-29 11:50:36,254 - fec_migration - WARNING - No politician found with bioguide_id: C000380
+2025-04-29 11:50:36,254 - fec_migration - WARNING - No politician found with bioguide_id: C000560
+2025-04-29 11:50:36,254 - fec_migration - WARNING - No politician found with bioguide_id: D000355
+2025-04-29 11:50:36,255 - fec_migration - WARNING - No politician found with bioguide_id: F000010
+2025-04-29 11:50:36,255 - fec_migration - WARNING - No politician found with bioguide_id: G000549
+2025-04-29 11:50:36,255 - fec_migration - WARNING - No politician found with bioguide_id: G000550
+2025-04-29 11:50:36,255 - fec_migration - WARNING - No politician found with bioguide_id: G000567
+2025-04-29 11:50:36,256 - fec_migration - WARNING - No politician found with bioguide_id: H000067
+2025-04-29 11:50:36,256 - fec_migration - WARNING - No politician found with bioguide_id: H000329
+2025-04-29 11:50:36,257 - fec_migration - WARNING - No politician found with bioguide_id: H001032
+2025-04-29 11:50:36,257 - fec_migration - WARNING - No politician found with bioguide_id: K000220
+2025-04-29 11:50:36,257 - fec_migration - WARNING - No politician found with bioguide_id: L000111
+2025-04-29 11:50:36,258 - fec_migration - WARNING - No politician found with bioguide_id: M001142
+2025-04-29 11:50:36,258 - fec_migration - WARNING - No politician found with bioguide_id: M000309
+2025-04-29 11:50:36,258 - fec_migration - WARNING - No politician found with bioguide_id: M000485
+2025-04-29 11:50:36,259 - fec_migration - WARNING - No politician found with bioguide_id: M000508
+2025-04-29 11:50:36,259 - fec_migration - WARNING - No politician found with bioguide_id: M001149
+2025-04-29 11:50:36,259 - fec_migration - WARNING - No politician found with bioguide_id: M001139
+2025-04-29 11:50:36,260 - fec_migration - WARNING - No politician found with bioguide_id: M000725
+2025-04-29 11:50:36,261 - fec_migration - WARNING - No politician found with bioguide_id: M000933
+2025-04-29 11:50:36,261 - fec_migration - WARNING - No politician found with bioguide_id: O000169
+2025-04-29 11:50:36,262 - fec_migration - WARNING - No politician found with bioguide_id: P000099
+2025-04-29 11:50:36,262 - fec_migration - WARNING - No politician found with bioguide_id: P000265
+2025-04-29 11:50:36,263 - fec_migration - WARNING - No politician found with bioguide_id: R000011
+2025-04-29 11:50:36,263 - fec_migration - WARNING - No politician found with bioguide_id: R000572
+2025-04-29 11:50:36,264 - fec_migration - WARNING - No politician found with bioguide_id: R000594
+2025-04-29 11:50:36,264 - fec_migration - WARNING - No politician found with bioguide_id: S001162
+2025-04-29 11:50:36,264 - fec_migration - WARNING - No politician found with bioguide_id: S001186
+2025-04-29 11:50:36,265 - fec_migration - WARNING - No politician found with bioguide_id: T000459
+2025-04-29 11:50:36,265 - fec_migration - WARNING - No politician found with bioguide_id: T000266
+2025-04-29 11:50:36,266 - fec_migration - WARNING - No politician found with bioguide_id: W000215
+2025-04-29 11:50:36,266 - fec_migration - WARNING - No politician found with bioguide_id: W000672
+2025-04-29 11:50:36,266 - fec_migration - WARNING - No politician found with bioguide_id: B001279
+2025-04-29 11:50:36,267 - fec_migration - WARNING - No politician found with bioguide_id: S000937
+2025-04-29 11:50:36,267 - fec_migration - WARNING - No politician found with bioguide_id: M001171
+2025-04-29 11:50:36,268 - fec_migration - WARNING - No politician found with bioguide_id: N000187
+2025-04-29 11:50:36,268 - fec_migration - WARNING - No politician found with bioguide_id: G000573
+2025-04-29 11:50:36,269 - fec_migration - WARNING - No politician found with bioguide_id: E000292
+2025-04-29 11:50:36,269 - fec_migration - WARNING - No politician found with bioguide_id: B001280
+2025-04-29 11:50:36,269 - fec_migration - WARNING - No politician found with bioguide_id: G000572
+2025-04-29 11:50:36,270 - fec_migration - WARNING - No politician found with bioguide_id: M001192
+2025-04-29 11:50:36,270 - fec_migration - WARNING - No politician found with bioguide_id: W000818
+2025-04-29 11:50:36,270 - fec_migration - WARNING - No politician found with bioguide_id: G000569
+2025-04-29 11:50:36,271 - fec_migration - WARNING - No politician found with bioguide_id: C000556
+2025-04-29 11:50:36,271 - fec_migration - WARNING - No politician found with bioguide_id: J000291
+2025-04-29 11:50:36,271 - fec_migration - WARNING - No politician found with bioguide_id: N000186
+2025-04-29 11:50:36,272 - fec_migration - WARNING - No politician found with bioguide_id: S001179
+2025-04-29 11:50:36,272 - fec_migration - WARNING - No politician found with bioguide_id: B000589
+2025-04-29 11:50:36,273 - fec_migration - WARNING - No politician found with bioguide_id: F000043
+2025-04-29 11:50:36,273 - fec_migration - WARNING - No politician found with bioguide_id: W000413
+2025-04-29 11:50:36,274 - fec_migration - WARNING - No politician found with bioguide_id: T000473
+2025-04-29 11:50:36,274 - fec_migration - WARNING - No politician found with bioguide_id: H001063
+2025-04-29 11:50:36,274 - fec_migration - WARNING - No politician found with bioguide_id: M001150
+2025-04-29 11:50:36,275 - fec_migration - WARNING - No politician found with bioguide_id: A000368
+2025-04-29 11:50:36,275 - fec_migration - WARNING - No politician found with bioguide_id: B000711
+2025-04-29 11:50:36,275 - fec_migration - WARNING - No politician found with bioguide_id: C000542
+2025-04-29 11:50:36,276 - fec_migration - WARNING - No politician found with bioguide_id: K000360
+2025-04-29 11:50:36,276 - fec_migration - WARNING - No politician found with bioguide_id: M000702
+2025-04-29 11:50:36,277 - fec_migration - WARNING - No politician found with bioguide_id: R000146
+2025-04-29 11:50:36,277 - fec_migration - WARNING - No politician found with bioguide_id: V000127
+2025-04-29 11:50:36,278 - fec_migration - WARNING - No politician found with bioguide_id: B001271
+2025-04-29 11:50:36,278 - fec_migration - WARNING - No politician found with bioguide_id: B001255
+2025-04-29 11:50:36,278 - fec_migration - WARNING - No politician found with bioguide_id: B000911
+2025-04-29 11:50:36,279 - fec_migration - WARNING - No politician found with bioguide_id: C001036
+2025-04-29 11:50:36,279 - fec_migration - WARNING - No politician found with bioguide_id: C001083
+2025-04-29 11:50:36,280 - fec_migration - WARNING - No politician found with bioguide_id: C001045
+2025-04-29 11:50:36,280 - fec_migration - WARNING - No politician found with bioguide_id: E000290
+2025-04-29 11:50:36,281 - fec_migration - WARNING - No politician found with bioguide_id: E000291
+2025-04-29 11:50:36,281 - fec_migration - WARNING - No politician found with bioguide_id: F000030
+2025-04-29 11:50:36,281 - fec_migration - WARNING - No politician found with bioguide_id: F000458
+2025-04-29 11:50:36,282 - fec_migration - WARNING - No politician found with bioguide_id: F000451
+2025-04-29 11:50:36,282 - fec_migration - WARNING - No politician found with bioguide_id: F000456
+2025-04-29 11:50:36,283 - fec_migration - WARNING - No politician found with bioguide_id: F000445
+2025-04-29 11:50:36,283 - fec_migration - WARNING - No politician found with bioguide_id: G000548
+2025-04-29 11:50:36,283 - fec_migration - WARNING - No politician found with bioguide_id: G000564
+2025-04-29 11:50:36,284 - fec_migration - WARNING - No politician found with bioguide_id: H001051
+2025-04-29 11:50:36,284 - fec_migration - WARNING - No politician found with bioguide_id: H001055
+2025-04-29 11:50:36,284 - fec_migration - WARNING - No politician found with bioguide_id: H000636
+2025-04-29 11:50:36,285 - fec_migration - WARNING - No politician found with bioguide_id: H001034
+2025-04-29 11:50:36,285 - fec_migration - WARNING - No politician found with bioguide_id: H001057
+2025-04-29 11:50:36,285 - fec_migration - WARNING - No politician found with bioguide_id: H001060
+2025-04-29 11:50:36,286 - fec_migration - WARNING - No politician found with bioguide_id: I000057
+2025-04-29 11:50:36,286 - fec_migration - WARNING - No politician found with bioguide_id: K000363
+2025-04-29 11:50:36,287 - fec_migration - WARNING - No politician found with bioguide_id: M000404
+2025-04-29 11:50:36,287 - fec_migration - WARNING - No politician found with bioguide_id: M000689
+2025-04-29 11:50:36,287 - fec_migration - WARNING - No politician found with bioguide_id: M001144
+2025-04-29 11:50:36,288 - fec_migration - WARNING - No politician found with bioguide_id: N000182
+2025-04-29 11:50:36,288 - fec_migration - WARNING - No politician found with bioguide_id: N000185
+2025-04-29 11:50:36,288 - fec_migration - WARNING - No politician found with bioguide_id: P000596
+2025-04-29 11:50:36,289 - fec_migration - WARNING - No politician found with bioguide_id: P000373
+2025-04-29 11:50:36,289 - fec_migration - WARNING - No politician found with bioguide_id: R000053
+2025-04-29 11:50:36,289 - fec_migration - WARNING - No politician found with bioguide_id: R000587
+2025-04-29 11:50:36,290 - fec_migration - WARNING - No politician found with bioguide_id: R000589
+2025-04-29 11:50:36,290 - fec_migration - WARNING - No politician found with bioguide_id: S000030
+2025-04-29 11:50:36,290 - fec_migration - WARNING - No politician found with bioguide_id: W000796
+2025-04-29 11:50:36,291 - fec_migration - WARNING - No politician found with bioguide_id: S000018
+2025-04-29 11:50:36,316 - fec_migration - WARNING - No politician found with bioguide_id: G000556
+2025-04-29 11:50:36,316 - fec_migration - WARNING - No politician found with bioguide_id: M001191
+2025-04-29 11:50:36,317 - fec_migration - WARNING - No politician found with bioguide_id: J000296
+2025-04-29 11:50:36,317 - fec_migration - WARNING - No politician found with bioguide_id: C001102
+2025-04-29 11:50:36,318 - fec_migration - WARNING - No politician found with bioguide_id: D000613
+2025-04-29 11:50:36,318 - fec_migration - WARNING - No politician found with bioguide_id: G000570
+2025-04-29 11:50:36,319 - fec_migration - WARNING - No politician found with bioguide_id: G000575
+2025-04-29 11:50:36,319 - fec_migration - WARNING - No politician found with bioguide_id: A000373
+2025-04-29 11:50:36,319 - fec_migration - WARNING - No politician found with bioguide_id: H001070
+2025-04-29 11:50:36,320 - fec_migration - WARNING - No politician found with bioguide_id: P000602
+2025-04-29 11:50:36,320 - fec_migration - WARNING - No politician found with bioguide_id: B000287
+2025-04-29 11:50:36,320 - fec_migration - WARNING - No politician found with bioguide_id: S001141
+2025-04-29 11:50:36,321 - fec_migration - WARNING - No politician found with bioguide_id: P000591
+2025-04-29 11:50:36,321 - fec_migration - WARNING - No politician found with bioguide_id: M001182
+2025-04-29 11:50:36,322 - fec_migration - WARNING - No politician found with bioguide_id: C001076
+2025-04-29 11:50:36,322 - fec_migration - WARNING - No politician found with bioguide_id: M001151
+2025-04-29 11:50:36,323 - fec_migration - WARNING - No politician found with bioguide_id: C000714
+2025-04-29 11:50:36,323 - fec_migration - WARNING - No politician found with bioguide_id: F000448
+2025-04-29 11:50:36,324 - fec_migration - WARNING - No politician found with bioguide_id: F000457
+2025-04-29 11:50:36,324 - fec_migration - WARNING - No politician found with bioguide_id: S001202
+2025-04-29 11:50:36,325 - fec_migration - WARNING - No politician found with bioguide_id: T000462
+2025-04-29 11:50:36,325 - fec_migration - WARNING - No politician found with bioguide_id: S000480
+2025-04-29 11:50:36,325 - fec_migration - WARNING - No politician found with bioguide_id: C000567
+2025-04-29 11:50:36,326 - fec_migration - WARNING - No politician found with bioguide_id: F000460
+2025-04-29 11:50:36,326 - fec_migration - WARNING - No politician found with bioguide_id: M001181
+2025-04-29 11:50:36,327 - fec_migration - WARNING - No politician found with bioguide_id: B001283
+2025-04-29 11:50:36,328 - fec_migration - WARNING - No politician found with bioguide_id: D000604
+2025-04-29 11:50:36,328 - fec_migration - WARNING - No politician found with bioguide_id: M000303
+2025-04-29 11:50:36,329 - fec_migration - WARNING - No politician found with bioguide_id: D000621
+2025-04-29 11:50:36,329 - fec_migration - WARNING - No politician found with bioguide_id: J000297
+2025-04-29 11:50:36,329 - fec_migration - WARNING - No politician found with bioguide_id: K000352
+2025-04-29 11:50:36,330 - fec_migration - WARNING - No politician found with bioguide_id: L000580
+2025-04-29 11:50:36,330 - fec_migration - WARNING - No politician found with bioguide_id: C001071
+2025-04-29 11:50:36,331 - fec_migration - WARNING - No politician found with bioguide_id: H000338
+2025-04-29 11:50:36,331 - fec_migration - WARNING - No politician found with bioguide_id: M001170
+2025-04-29 11:50:36,331 - fec_migration - WARNING - No politician found with bioguide_id: N000032
+2025-04-29 11:50:36,332 - fec_migration - WARNING - No politician found with bioguide_id: B001269
+2025-04-29 11:50:36,332 - fec_migration - WARNING - No politician found with bioguide_id: B000213
+2025-04-29 11:50:36,333 - fec_migration - WARNING - No politician found with bioguide_id: B001273
+2025-04-29 11:50:36,333 - fec_migration - WARNING - No politician found with bioguide_id: B001245
+2025-04-29 11:50:36,333 - fec_migration - WARNING - No politician found with bioguide_id: B001227
+2025-04-29 11:50:36,334 - fec_migration - WARNING - No politician found with bioguide_id: C001037
+2025-04-29 11:50:36,334 - fec_migration - WARNING - No politician found with bioguide_id: C001077
+2025-04-29 11:50:36,335 - fec_migration - WARNING - No politician found with bioguide_id: C001038
+2025-04-29 11:50:36,335 - fec_migration - WARNING - No politician found with bioguide_id: C001048
+2025-04-29 11:50:36,335 - fec_migration - WARNING - No politician found with bioguide_id: D000612
+2025-04-29 11:50:36,336 - fec_migration - WARNING - No politician found with bioguide_id: D000607
+2025-04-29 11:50:36,336 - fec_migration - WARNING - No politician found with bioguide_id: D000533
+2025-04-29 11:50:36,337 - fec_migration - WARNING - No politician found with bioguide_id: E000288
+2025-04-29 11:50:36,337 - fec_migration - WARNING - No politician found with bioguide_id: F000444
+2025-04-29 11:50:36,337 - fec_migration - WARNING - No politician found with bioguide_id: F000372
+2025-04-29 11:50:36,338 - fec_migration - WARNING - No politician found with bioguide_id: G000289
+2025-04-29 11:50:36,338 - fec_migration - WARNING - No politician found with bioguide_id: G000566
+2025-04-29 11:50:36,339 - fec_migration - WARNING - No politician found with bioguide_id: G000410
+2025-04-29 11:50:36,339 - fec_migration - WARNING - No politician found with bioguide_id: G000535
+2025-04-29 11:50:36,340 - fec_migration - WARNING - No politician found with bioguide_id: H001045
+2025-04-29 11:50:36,340 - fec_migration - WARNING - No politician found with bioguide_id: H001036
+2025-04-29 11:50:36,340 - fec_migration - WARNING - No politician found with bioguide_id: H001059
+2025-04-29 11:50:36,341 - fec_migration - WARNING - No politician found with bioguide_id: J000290
+2025-04-29 11:50:36,341 - fec_migration - WARNING - No politician found with bioguide_id: J000174
+2025-04-29 11:50:36,342 - fec_migration - WARNING - No politician found with bioguide_id: L000573
+2025-04-29 11:50:36,342 - fec_migration - WARNING - No politician found with bioguide_id: L000567
+2025-04-29 11:50:36,343 - fec_migration - WARNING - No politician found with bioguide_id: L000263
+2025-04-29 11:50:36,344 - fec_migration - WARNING - No politician found with bioguide_id: L000554
+2025-04-29 11:50:36,344 - fec_migration - WARNING - No politician found with bioguide_id: N000184
+2025-04-29 11:50:36,345 - fec_migration - WARNING - No politician found with bioguide_id: P000594
+2025-04-29 11:50:36,345 - fec_migration - WARNING - No politician found with bioguide_id: P000588
+2025-04-29 11:50:36,346 - fec_migration - WARNING - No politician found with bioguide_id: P000592
+2025-04-29 11:50:36,346 - fec_migration - WARNING - No politician found with bioguide_id: P000598
+2025-04-29 11:50:36,347 - fec_migration - WARNING - No politician found with bioguide_id: R000578
+2025-04-29 11:50:36,347 - fec_migration - WARNING - No politician found with bioguide_id: R000586
+2025-04-29 11:50:36,348 - fec_migration - WARNING - No politician found with bioguide_id: R000409
+2025-04-29 11:50:36,348 - fec_migration - WARNING - No politician found with bioguide_id: R000592
+2025-04-29 11:50:36,349 - fec_migration - WARNING - No politician found with bioguide_id: R000583
+2025-04-29 11:50:36,349 - fec_migration - WARNING - No politician found with bioguide_id: R000435
+2025-04-29 11:50:36,350 - fec_migration - WARNING - No politician found with bioguide_id: R000580
+2025-04-29 11:50:36,350 - fec_migration - WARNING - No politician found with bioguide_id: R000593
+2025-04-29 11:50:36,351 - fec_migration - WARNING - No politician found with bioguide_id: R000487
+2025-04-29 11:50:36,351 - fec_migration - WARNING - No politician found with bioguide_id: R000570
+2025-04-29 11:50:36,352 - fec_migration - WARNING - No politician found with bioguide_id: S001154
+2025-04-29 11:50:36,352 - fec_migration - WARNING - No politician found with bioguide_id: S000583
+2025-04-29 11:50:36,353 - fec_migration - WARNING - No politician found with bioguide_id: T000465
+2025-04-29 11:50:36,353 - fec_migration - WARNING - No politician found with bioguide_id: W000799
+2025-04-29 11:50:36,353 - fec_migration - WARNING - No politician found with bioguide_id: Y000063
+2025-04-29 11:50:36,354 - fec_migration - WARNING - No politician found with bioguide_id: H001041
+2025-04-29 11:50:36,354 - fec_migration - WARNING - No politician found with bioguide_id: E000293
+2025-04-29 11:50:36,354 - fec_migration - WARNING - No politician found with bioguide_id: M001189
+2025-04-29 11:50:36,355 - fec_migration - WARNING - No politician found with bioguide_id: D000620
+2025-04-29 11:50:36,355 - fec_migration - WARNING - No politician found with bioguide_id: N000127
+2025-04-29 11:50:36,356 - fec_migration - WARNING - No politician found with bioguide_id: P000606
+2025-04-29 11:50:36,356 - fec_migration - WARNING - No politician found with bioguide_id: H001069
+2025-04-29 11:50:36,357 - fec_migration - WARNING - No politician found with bioguide_id: R000598
+2025-04-29 11:50:36,357 - fec_migration - WARNING - No politician found with bioguide_id: O000170
+2025-04-29 11:50:36,357 - fec_migration - WARNING - No politician found with bioguide_id: S000051
+2025-04-29 11:50:36,358 - fec_migration - WARNING - No politician found with bioguide_id: B001290
+2025-04-29 11:50:36,358 - fec_migration - WARNING - No politician found with bioguide_id: K000387
+2025-04-29 11:50:36,359 - fec_migration - WARNING - No politician found with bioguide_id: W000820
+2025-04-29 11:50:36,359 - fec_migration - WARNING - No politician found with bioguide_id: C001107
+2025-04-29 11:50:36,360 - fec_migration - WARNING - No politician found with bioguide_id: B001294
+2025-04-29 11:50:36,361 - fec_migration - WARNING - No politician found with bioguide_id: Y000066
+2025-04-29 11:50:36,361 - fec_migration - WARNING - No politician found with bioguide_id: P000611
+2025-04-29 11:50:36,362 - fec_migration - WARNING - No politician found with bioguide_id: B001293
+2025-04-29 11:50:36,362 - fec_migration - WARNING - No politician found with bioguide_id: T000475
+2025-04-29 11:50:36,363 - fec_migration - WARNING - No politician found with bioguide_id: M001193
+2025-04-29 11:50:36,363 - fec_migration - WARNING - No politician found with bioguide_id: R000604
+2025-04-29 11:50:36,364 - fec_migration - WARNING - No politician found with bioguide_id: C001106
+2025-04-29 11:50:36,364 - fec_migration - WARNING - No politician found with bioguide_id: L000584
+2025-04-29 11:50:36,365 - fec_migration - WARNING - No politician found with bioguide_id: C001105
+2025-04-29 11:50:36,365 - fec_migration - WARNING - No politician found with bioguide_id: D000625
+2025-04-29 11:50:36,365 - fec_migration - WARNING - No politician found with bioguide_id: H001050
+2025-04-29 11:50:36,366 - fec_migration - WARNING - No politician found with bioguide_id: S001170
+2025-04-29 11:50:36,366 - fec_migration - WARNING - No politician found with bioguide_id: L000587
+2025-04-29 11:50:36,367 - fec_migration - WARNING - No politician found with bioguide_id: K000390
+2025-04-29 11:50:36,367 - fec_migration - WARNING - No politician found with bioguide_id: F000464
+2025-04-29 11:50:36,367 - fec_migration - WARNING - No politician found with bioguide_id: T000477
+2025-04-29 11:50:36,368 - fec_migration - WARNING - No politician found with bioguide_id: G000580
+2025-04-29 11:50:36,368 - fec_migration - WARNING - No politician found with bioguide_id: H001078
+2025-04-29 11:50:36,369 - fec_migration - WARNING - No politician found with bioguide_id: J000303
+2025-04-29 11:50:36,369 - fec_migration - WARNING - No politician found with bioguide_id: M001179
+2025-04-29 11:50:36,369 - fec_migration - WARNING - No politician found with bioguide_id: J000255
+2025-04-29 11:50:36,370 - fec_migration - WARNING - No politician found with bioguide_id: D000614
+2025-04-29 11:50:36,370 - fec_migration - WARNING - No politician found with bioguide_id: C001092
+2025-04-29 11:50:36,371 - fec_migration - WARNING - No politician found with bioguide_id: C000984
+2025-04-29 11:50:36,371 - fec_migration - WARNING - No politician found with bioguide_id: H001087
+2025-04-29 11:50:36,372 - fec_migration - WARNING - No politician found with bioguide_id: I000055
+2025-04-29 11:50:36,372 - fec_migration - WARNING - No politician found with bioguide_id: H001048
+2025-04-29 11:50:36,372 - fec_migration - WARNING - No politician found with bioguide_id: M001187
+2025-04-29 11:50:36,373 - fec_migration - WARNING - No politician found with bioguide_id: R000601
+2025-04-29 11:50:36,373 - fec_migration - WARNING - No politician found with bioguide_id: L000287
+2025-04-29 11:50:36,374 - fec_migration - WARNING - No politician found with bioguide_id: G000560
+2025-04-29 11:50:36,374 - fec_migration - WARNING - No politician found with bioguide_id: M001197
+2025-04-29 11:50:36,374 - fec_migration - WARNING - No politician found with bioguide_id: C001094
+2025-04-29 11:50:36,375 - fec_migration - WARNING - No politician found with bioguide_id: A000360
+2025-04-29 11:50:36,375 - fec_migration - WARNING - No politician found with bioguide_id: E000285
+2025-04-29 11:50:36,375 - fec_migration - WARNING - No politician found with bioguide_id: R000307
+2025-04-29 11:50:36,376 - fec_migration - WARNING - No politician found with bioguide_id: U000039
+2025-04-29 11:50:36,376 - fec_migration - WARNING - No politician found with bioguide_id: A000367
+2025-04-29 11:50:36,377 - fec_migration - WARNING - No politician found with bioguide_id: B001250
+2025-04-29 11:50:36,378 - fec_migration - WARNING - No politician found with bioguide_id: C001049
+2025-04-29 11:50:36,378 - fec_migration - WARNING - No politician found with bioguide_id: C001062
+2025-04-29 11:50:36,379 - fec_migration - WARNING - No politician found with bioguide_id: D000598
+2025-04-29 11:50:36,379 - fec_migration - WARNING - No politician found with bioguide_id: E000179
+2025-04-29 11:50:36,380 - fec_migration - WARNING - No politician found with bioguide_id: F000461
+2025-04-29 11:50:36,380 - fec_migration - WARNING - No politician found with bioguide_id: G000562
+2025-04-29 11:50:36,381 - fec_migration - WARNING - No politician found with bioguide_id: K000210
+2025-04-29 11:50:36,381 - fec_migration - WARNING - No politician found with bioguide_id: K000362
+2025-04-29 11:50:36,382 - fec_migration - WARNING - No politician found with bioguide_id: L000563
+2025-04-29 11:50:36,382 - fec_migration - WARNING - No politician found with bioguide_id: L000565
+2025-04-29 11:50:36,382 - fec_migration - WARNING - No politician found with bioguide_id: L000480
+2025-04-29 11:50:36,383 - fec_migration - WARNING - No politician found with bioguide_id: M001158
+2025-04-29 11:50:36,383 - fec_migration - WARNING - No politician found with bioguide_id: O000168
+2025-04-29 11:50:36,384 - fec_migration - WARNING - No politician found with bioguide_id: P000258
+2025-04-29 11:50:36,384 - fec_migration - WARNING - No politician found with bioguide_id: R000591
+2025-04-29 11:50:36,385 - fec_migration - WARNING - No politician found with bioguide_id: R000582
+2025-04-29 11:50:36,385 - fec_migration - WARNING - No politician found with bioguide_id: S000244
+2025-04-29 11:50:36,385 - fec_migration - WARNING - No politician found with bioguide_id: S000248
+2025-04-29 11:50:36,386 - fec_migration - WARNING - No politician found with bioguide_id: S000364
+2025-04-29 11:50:36,386 - fec_migration - WARNING - No politician found with bioguide_id: T000238
+2025-04-29 11:50:36,386 - fec_migration - WARNING - No politician found with bioguide_id: T000470
+2025-04-29 11:50:36,387 - fec_migration - WARNING - No politician found with bioguide_id: V000108
+2025-04-29 11:50:36,387 - fec_migration - WARNING - No politician found with bioguide_id: W000791
+2025-04-29 11:50:36,387 - fec_migration - WARNING - No politician found with bioguide_id: W000810
+2025-04-29 11:50:36,388 - fec_migration - WARNING - No politician found with bioguide_id: Y000065
+2025-04-29 11:50:36,388 - fec_migration - WARNING - No politician found with bioguide_id: C001093
+2025-04-29 11:50:36,389 - fec_migration - WARNING - No politician found with bioguide_id: G000571
+2025-04-29 11:50:36,389 - fec_migration - WARNING - No politician found with bioguide_id: B001284
+2025-04-29 11:50:36,389 - fec_migration - WARNING - No politician found with bioguide_id: K000379
+2025-04-29 11:50:36,390 - fec_migration - WARNING - No politician found with bioguide_id: H001065
+2025-04-29 11:50:36,390 - fec_migration - WARNING - No politician found with bioguide_id: H001064
+2025-04-29 11:50:36,390 - fec_migration - WARNING - No politician found with bioguide_id: B001289
+2025-04-29 11:50:36,391 - fec_migration - WARNING - No politician found with bioguide_id: A000374
+2025-04-29 11:50:36,391 - fec_migration - WARNING - No politician found with bioguide_id: H001073
+2025-04-29 11:50:36,391 - fec_migration - WARNING - No politician found with bioguide_id: P000612
+2025-04-29 11:50:36,392 - fec_migration - WARNING - No politician found with bioguide_id: W000819
+2025-04-29 11:50:36,392 - fec_migration - WARNING - No politician found with bioguide_id: R000607
+2025-04-29 11:50:36,393 - fec_migration - WARNING - No politician found with bioguide_id: M001201
+2025-04-29 11:50:36,393 - fec_migration - WARNING - No politician found with bioguide_id: G000584
+2025-04-29 11:50:36,394 - fec_migration - WARNING - No politician found with bioguide_id: J000300
+2025-04-29 11:50:36,394 - fec_migration - WARNING - No politician found with bioguide_id: C001124
+2025-04-29 11:50:36,395 - fec_migration - WARNING - No politician found with bioguide_id: R000616
+2025-04-29 11:50:36,395 - fec_migration - WARNING - No politician found with bioguide_id: S001210
+2025-04-29 11:50:36,396 - fec_migration - WARNING - No politician found with bioguide_id: M001207
+2025-04-29 11:50:36,396 - fec_migration - WARNING - No politician found with bioguide_id: S001206
+2025-04-29 11:50:36,397 - fec_migration - WARNING - No politician found with bioguide_id: F000467
+2025-04-29 11:50:36,397 - fec_migration - WARNING - No politician found with bioguide_id: W000824
+2025-04-29 11:50:36,397 - fec_migration - WARNING - No politician found with bioguide_id: T000484
+2025-04-29 11:50:36,398 - fec_migration - WARNING - No politician found with bioguide_id: R000613
+2025-04-29 11:50:36,398 - fec_migration - WARNING - No politician found with bioguide_id: B001308
+2025-04-29 11:50:36,399 - fec_migration - WARNING - No politician found with bioguide_id: H001083
+2025-04-29 11:50:36,399 - fec_migration - WARNING - No politician found with bioguide_id: C001122
+2025-04-29 11:50:36,399 - fec_migration - WARNING - No politician found with bioguide_id: M001209
+2025-04-29 11:50:36,400 - fec_migration - WARNING - No politician found with bioguide_id: R000611
+2025-04-29 11:50:36,400 - fec_migration - WARNING - No politician found with bioguide_id: H001092
+2025-04-29 11:50:36,400 - fec_migration - WARNING - No politician found with bioguide_id: R000588
+2025-04-29 11:50:36,400 - fec_migration - WARNING - No politician found with bioguide_id: H001075
+2025-04-29 11:50:36,401 - fec_migration - WARNING - No politician found with bioguide_id: L000594
+2025-04-29 11:50:36,401 - fec_migration - WARNING - No politician found with bioguide_id: W000827
+2025-04-29 11:50:36,401 - fec_migration - WARNING - No politician found with bioguide_id: F000455
+2025-04-29 11:50:36,402 - fec_migration - WARNING - No politician found with bioguide_id: H001080
+2025-04-29 11:50:36,402 - fec_migration - WARNING - No politician found with bioguide_id: H000324
+2025-04-29 11:50:36,403 - fec_migration - WARNING - No politician found with bioguide_id: S001187
+2025-04-29 11:50:36,403 - fec_migration - WARNING - No politician found with bioguide_id: N000181
+2025-04-29 11:50:36,404 - fec_migration - WARNING - No politician found with bioguide_id: H001088
+2025-04-29 11:50:36,404 - fec_migration - WARNING - No politician found with bioguide_id: Y000033
+2025-04-29 11:50:36,404 - fec_migration - WARNING - No politician found with bioguide_id: F000449
+2025-04-29 11:50:36,405 - fec_migration - WARNING - No politician found with bioguide_id: V000132
+2025-04-29 11:50:36,405 - fec_migration - WARNING - No politician found with bioguide_id: R000585
+2025-04-29 11:50:36,405 - fec_migration - WARNING - No politician found with bioguide_id: D000630
+2025-04-29 11:50:36,406 - fec_migration - WARNING - No politician found with bioguide_id: W000813
+2025-04-29 11:50:36,406 - fec_migration - WARNING - No politician found with bioguide_id: C001111
+2025-04-29 11:50:36,406 - fec_migration - WARNING - No politician found with bioguide_id: D000610
+2025-04-29 11:50:36,407 - fec_migration - WARNING - No politician found with bioguide_id: M001200
+2025-04-29 11:50:36,407 - fec_migration - WARNING - No politician found with bioguide_id: B001270
+2025-04-29 11:50:36,407 - fec_migration - WARNING - No politician found with bioguide_id: B000575
+2025-04-29 11:50:36,408 - fec_migration - WARNING - No politician found with bioguide_id: B000755
+2025-04-29 11:50:36,408 - fec_migration - WARNING - No politician found with bioguide_id: B001274
+2025-04-29 11:50:36,408 - fec_migration - WARNING - No politician found with bioguide_id: B001135
+2025-04-29 11:50:36,409 - fec_migration - WARNING - No politician found with bioguide_id: B001251
+2025-04-29 11:50:36,409 - fec_migration - WARNING - No politician found with bioguide_id: C000266
+2025-04-29 11:50:36,410 - fec_migration - WARNING - No politician found with bioguide_id: C000754
+2025-04-29 11:50:36,410 - fec_migration - WARNING - No politician found with bioguide_id: D000191
+2025-04-29 11:50:36,411 - fec_migration - WARNING - No politician found with bioguide_id: D000482
+2025-04-29 11:50:36,411 - fec_migration - WARNING - No politician found with bioguide_id: G000563
+2025-04-29 11:50:36,412 - fec_migration - WARNING - No politician found with bioguide_id: G000552
+2025-04-29 11:50:36,412 - fec_migration - WARNING - No politician found with bioguide_id: H001053
+2025-04-29 11:50:36,413 - fec_migration - WARNING - No politician found with bioguide_id: H001056
+2025-04-29 11:50:36,413 - fec_migration - WARNING - No politician found with bioguide_id: J000126
+2025-04-29 11:50:36,414 - fec_migration - WARNING - No politician found with bioguide_id: K000188
+2025-04-29 11:50:36,414 - fec_migration - WARNING - No politician found with bioguide_id: K000378
+2025-04-29 11:50:36,414 - fec_migration - WARNING - No politician found with bioguide_id: L000559
+2025-04-29 11:50:36,415 - fec_migration - WARNING - No politician found with bioguide_id: L000174
+2025-04-29 11:50:36,415 - fec_migration - WARNING - No politician found with bioguide_id: L000576
+2025-04-29 11:50:36,415 - fec_migration - WARNING - No politician found with bioguide_id: M000087
+2025-04-29 11:50:36,416 - fec_migration - WARNING - No politician found with bioguide_id: M001180
+2025-04-29 11:50:36,416 - fec_migration - WARNING - No politician found with bioguide_id: M001166
+2025-04-29 11:50:36,416 - fec_migration - WARNING - No politician found with bioguide_id: P000601
+2025-04-29 11:50:36,417 - fec_migration - WARNING - No politician found with bioguide_id: P000593
+2025-04-29 11:50:36,417 - fec_migration - WARNING - No politician found with bioguide_id: P000449
+2025-04-29 11:50:36,418 - fec_migration - WARNING - No politician found with bioguide_id: P000523
+2025-04-29 11:50:36,418 - fec_migration - WARNING - No politician found with bioguide_id: R000486
+2025-04-29 11:50:36,418 - fec_migration - WARNING - No politician found with bioguide_id: R000515
+2025-04-29 11:50:36,419 - fec_migration - WARNING - No politician found with bioguide_id: R000577
+2025-04-29 11:50:36,419 - fec_migration - WARNING - No politician found with bioguide_id: S001180
+2025-04-29 11:50:36,419 - fec_migration - WARNING - No politician found with bioguide_id: S000320
+2025-04-29 11:50:36,420 - fec_migration - WARNING - No politician found with bioguide_id: S001165
+2025-04-29 11:50:36,420 - fec_migration - WARNING - No politician found with bioguide_id: S001175
+2025-04-29 11:50:36,420 - fec_migration - WARNING - No politician found with bioguide_id: T000461
+2025-04-29 11:50:36,421 - fec_migration - WARNING - No politician found with bioguide_id: U000031
+2025-04-29 11:50:36,421 - fec_migration - WARNING - No politician found with bioguide_id: Y000062
+2025-04-29 11:50:36,421 - fec_migration - WARNING - No politician found with bioguide_id: L000579
+2025-04-29 11:50:36,422 - fec_migration - WARNING - No politician found with bioguide_id: D000619
+2025-04-29 11:50:36,422 - fec_migration - WARNING - No politician found with bioguide_id: B001286
+2025-04-29 11:50:36,422 - fec_migration - WARNING - No politician found with bioguide_id: M001185
+2025-04-29 11:50:36,423 - fec_migration - WARNING - No politician found with bioguide_id: R000597
+2025-04-29 11:50:36,423 - fec_migration - WARNING - No politician found with bioguide_id: H001071
+2025-04-29 11:50:36,423 - fec_migration - WARNING - No politician found with bioguide_id: L000581
+2025-04-29 11:50:36,424 - fec_migration - WARNING - No politician found with bioguide_id: Z000017
+2025-04-29 11:50:36,424 - fec_migration - WARNING - No politician found with bioguide_id: R000602
+2025-04-29 11:50:36,425 - fec_migration - WARNING - No politician found with bioguide_id: K000386
+2025-04-29 11:50:36,425 - fec_migration - WARNING - No politician found with bioguide_id: O000171
+2025-04-29 11:50:36,425 - fec_migration - WARNING - No politician found with bioguide_id: L000586
+2025-04-29 11:50:36,426 - fec_migration - WARNING - No politician found with bioguide_id: M001202
+2025-04-29 11:50:36,426 - fec_migration - WARNING - No politician found with bioguide_id: D000627
+2025-04-29 11:50:36,427 - fec_migration - WARNING - No politician found with bioguide_id: H001074
+2025-04-29 11:50:36,427 - fec_migration - WARNING - No politician found with bioguide_id: B001304
+2025-04-29 11:50:36,428 - fec_migration - WARNING - No politician found with bioguide_id: C001109
+2025-04-29 11:50:36,429 - fec_migration - WARNING - No politician found with bioguide_id: L000588
+2025-04-29 11:50:36,429 - fec_migration - WARNING - No politician found with bioguide_id: K000368
+2025-04-29 11:50:36,429 - fec_migration - WARNING - No politician found with bioguide_id: S001204
+2025-04-29 11:50:36,430 - fec_migration - WARNING - No politician found with bioguide_id: A000378
+2025-04-29 11:50:36,430 - fec_migration - WARNING - No politician found with bioguide_id: L000592
+2025-04-29 11:50:36,431 - fec_migration - WARNING - No politician found with bioguide_id: M001203
+2025-04-29 11:50:36,431 - fec_migration - WARNING - No politician found with bioguide_id: G000588
+2025-04-29 11:50:36,432 - fec_migration - WARNING - No politician found with bioguide_id: T000479
+2025-04-29 11:50:36,432 - fec_migration - WARNING - No politician found with bioguide_id: L000591
+2025-04-29 11:50:36,433 - fec_migration - WARNING - No politician found with bioguide_id: K000395
+2025-04-29 11:50:36,433 - fec_migration - WARNING - No politician found with bioguide_id: J000020
+2025-04-29 11:50:36,433 - fec_migration - WARNING - No politician found with bioguide_id: B001312
+2025-04-29 11:50:36,434 - fec_migration - WARNING - No politician found with bioguide_id: K000396
+2025-04-29 11:50:36,434 - fec_migration - WARNING - No politician found with bioguide_id: N000192
+2025-04-29 11:50:36,434 - fec_migration - WARNING - No politician found with bioguide_id: M001186
+2025-04-29 11:50:36,435 - fec_migration - WARNING - No politician found with bioguide_id: C001104
+2025-04-29 11:50:36,435 - fec_migration - WARNING - No politician found with bioguide_id: H001084
+2025-04-29 11:50:36,435 - fec_migration - WARNING - No politician found with bioguide_id: J000306
+2025-04-29 11:50:36,436 - fec_migration - WARNING - No politician found with bioguide_id: C001128
+2025-04-29 11:50:36,436 - fec_migration - WARNING - No politician found with bioguide_id: F000473
+2025-04-29 11:50:36,436 - fec_migration - WARNING - No politician found with bioguide_id: S001219
+2025-04-29 11:50:36,437 - fec_migration - WARNING - No politician found with bioguide_id: I000024
+2025-04-29 11:50:36,437 - fec_migration - WARNING - No politician found with bioguide_id: S001197
+2025-04-29 11:50:36,438 - fec_migration - WARNING - No politician found with bioguide_id: F000062
+2025-04-29 11:50:36,438 - fec_migration - WARNING - No politician found with bioguide_id: C001084
+2025-04-29 11:50:36,438 - fec_migration - WARNING - No politician found with bioguide_id: S001192
+2025-04-29 11:50:36,439 - fec_migration - WARNING - No politician found with bioguide_id: S001222
+2025-04-29 11:50:36,439 - fec_migration - WARNING - No politician found with bioguide_id: M001165
+2025-04-29 11:50:36,439 - fec_migration - WARNING - No politician found with bioguide_id: J000292
+2025-04-29 11:50:36,440 - fec_migration - WARNING - No politician found with bioguide_id: H001038
+2025-04-29 11:50:36,440 - fec_migration - WARNING - No politician found with bioguide_id: P000604
+2025-04-29 11:50:36,440 - fec_migration - WARNING - No politician found with bioguide_id: B001297
+2025-04-29 11:50:36,441 - fec_migration - WARNING - No politician found with bioguide_id: G000579
+2025-04-29 11:50:36,441 - fec_migration - WARNING - No politician found with bioguide_id: J000032
+2025-04-29 11:50:36,441 - fec_migration - WARNING - No politician found with bioguide_id: P000096
+2025-04-29 11:50:36,442 - fec_migration - WARNING - No politician found with bioguide_id: M000639
+2025-04-29 11:50:36,442 - fec_migration - WARNING - No politician found with bioguide_id: G000578
+2025-04-29 11:50:36,443 - fec_migration - WARNING - No politician found with bioguide_id: A000377
+2025-04-29 11:50:36,443 - fec_migration - WARNING - No politician found with bioguide_id: B000944
+2025-04-29 11:50:36,444 - fec_migration - WARNING - No politician found with bioguide_id: C000141
+2025-04-29 11:50:36,444 - fec_migration - WARNING - No politician found with bioguide_id: C000174
+2025-04-29 11:50:36,445 - fec_migration - WARNING - No politician found with bioguide_id: C001070
+2025-04-29 11:50:36,445 - fec_migration - WARNING - No politician found with bioguide_id: S000770
+2025-04-29 11:50:36,446 - fec_migration - WARNING - No politician found with bioguide_id: T000464
+2025-04-29 11:50:36,446 - fec_migration - WARNING - No politician found with bioguide_id: M001183
+2025-04-29 11:50:36,447 - fec_migration - WARNING - No politician found with bioguide_id: B000574
+2025-04-29 11:50:36,447 - fec_migration - WARNING - No politician found with bioguide_id: B001275
+2025-04-29 11:50:36,448 - fec_migration - WARNING - No politician found with bioguide_id: B001248
+2025-04-29 11:50:36,448 - fec_migration - WARNING - No politician found with bioguide_id: D000615
+2025-04-29 11:50:36,448 - fec_migration - WARNING - No politician found with bioguide_id: E000215
+2025-04-29 11:50:36,449 - fec_migration - WARNING - No politician found with bioguide_id: G000377
+2025-04-29 11:50:36,449 - fec_migration - WARNING - No politician found with bioguide_id: L000564
+2025-04-29 11:50:36,449 - fec_migration - WARNING - No politician found with bioguide_id: L000551
+2025-04-29 11:50:36,450 - fec_migration - WARNING - No politician found with bioguide_id: L000569
+2025-04-29 11:50:36,450 - fec_migration - WARNING - No politician found with bioguide_id: M001156
+2025-04-29 11:50:36,450 - fec_migration - WARNING - No politician found with bioguide_id: M001159
+2025-04-29 11:50:36,451 - fec_migration - WARNING - No politician found with bioguide_id: N000179
+2025-04-29 11:50:36,451 - fec_migration - WARNING - No politician found with bioguide_id: P000599
+2025-04-29 11:50:36,451 - fec_migration - WARNING - No politician found with bioguide_id: R000576
+2025-04-29 11:50:36,452 - fec_migration - WARNING - No politician found with bioguide_id: S001177
+2025-04-29 11:50:36,452 - fec_migration - WARNING - No politician found with bioguide_id: S001168
+2025-04-29 11:50:36,452 - fec_migration - WARNING - No politician found with bioguide_id: S001191
+2025-04-29 11:50:36,453 - fec_migration - WARNING - No politician found with bioguide_id: C001097
+2025-04-29 11:50:36,453 - fec_migration - WARNING - No politician found with bioguide_id: K000380
+2025-04-29 11:50:36,454 - fec_migration - WARNING - No politician found with bioguide_id: K000382
+2025-04-29 11:50:36,454 - fec_migration - WARNING - No politician found with bioguide_id: W000815
+2025-04-29 11:50:36,454 - fec_migration - WARNING - No politician found with bioguide_id: C001090
+2025-04-29 11:50:36,455 - fec_migration - WARNING - No politician found with bioguide_id: K000381
+2025-04-29 11:50:36,455 - fec_migration - WARNING - No politician found with bioguide_id: G000577
+2025-04-29 11:50:36,455 - fec_migration - WARNING - No politician found with bioguide_id: M001195
+2025-04-29 11:50:36,456 - fec_migration - WARNING - No politician found with bioguide_id: F000465
+2025-04-29 11:50:36,456 - fec_migration - WARNING - No politician found with bioguide_id: G000582
+2025-04-29 11:50:36,456 - fec_migration - WARNING - No politician found with bioguide_id: L000589
+2025-04-29 11:50:36,457 - fec_migration - WARNING - No politician found with bioguide_id: W000826
+2025-04-29 11:50:36,457 - fec_migration - WARNING - No politician found with bioguide_id: P000618
+2025-04-29 11:50:36,458 - fec_migration - WARNING - No politician found with bioguide_id: P000615
+2025-04-29 11:50:36,458 - fec_migration - WARNING - No politician found with bioguide_id: T000483
+2025-04-29 11:50:36,458 - fec_migration - WARNING - No politician found with bioguide_id: P000616
+2025-04-29 11:50:36,459 - fec_migration - WARNING - No politician found with bioguide_id: A000376
+2025-04-29 11:50:36,459 - fec_migration - WARNING - No politician found with bioguide_id: S001209
+2025-04-29 11:50:36,459 - fec_migration - WARNING - No politician found with bioguide_id: W000825
+2025-04-29 11:50:36,460 - fec_migration - WARNING - No politician found with bioguide_id: B001310
+2025-04-29 11:50:36,461 - fec_migration - WARNING - No politician found with bioguide_id: R000615
+2025-04-29 11:50:36,461 - fec_migration - WARNING - No politician found with bioguide_id: B001311
+2025-04-29 11:50:36,461 - fec_migration - WARNING - No politician found with bioguide_id: G000061
+2025-04-29 11:50:36,462 - fec_migration - WARNING - No politician found with bioguide_id: C001054
+2025-04-29 11:50:36,462 - fec_migration - WARNING - No politician found with bioguide_id: S001135
+2025-04-29 11:50:36,463 - fec_migration - WARNING - No politician found with bioguide_id: L000266
+2025-04-29 11:50:36,463 - fec_migration - WARNING - No politician found with bioguide_id: B001224
+2025-04-29 11:50:36,463 - fec_migration - WARNING - No politician found with bioguide_id: R000103
+2025-04-29 11:50:36,464 - fec_migration - WARNING - No politician found with bioguide_id: M001135
+2025-04-29 11:50:36,464 - fec_migration - WARNING - No politician found with bioguide_id: B001223
+2025-04-29 11:50:36,464 - fec_migration - WARNING - No politician found with bioguide_id: G000595
+2025-04-29 11:50:36,465 - fec_migration - WARNING - No politician found with bioguide_id: P000619
+2025-04-29 11:50:36,465 - fec_migration - WARNING - No politician found with bioguide_id: D000633
+2025-04-29 11:50:36,466 - fec_migration - WARNING - No politician found with bioguide_id: C001134
+2025-04-29 11:50:36,466 - fec_migration - WARNING - No politician found with bioguide_id: N000194
+2025-04-29 11:50:36,466 - fec_migration - WARNING - No politician found with bioguide_id: J000308
+2025-04-29 11:50:36,467 - fec_migration - WARNING - No politician found with bioguide_id: D000632
+2025-04-29 11:50:36,467 - fec_migration - WARNING - No politician found with bioguide_id: M001221
+2025-04-29 11:50:36,467 - fec_migration - WARNING - No politician found with bioguide_id: W000828
+2025-04-29 11:50:36,468 - fec_migration - WARNING - No politician found with bioguide_id: C001135
+2025-04-29 11:50:36,468 - fec_migration - WARNING - No politician found with bioguide_id: L000604
+2025-04-29 11:50:36,468 - fec_migration - WARNING - No politician found with bioguide_id: L000605
+2025-04-29 11:50:36,469 - fec_migration - WARNING - No politician found with bioguide_id: V000137
+2025-04-29 11:50:36,469 - fec_migration - WARNING - No politician found with bioguide_id: R000595
+2025-04-29 11:50:36,469 - fec_migration - WARNING - No politician found with bioguide_id: W000823
+2025-04-29 11:50:36,470 - fec_migration - WARNING - No politician found with bioguide_id: T000489
+2025-04-29 11:50:36,470 - fec_migration - WARNING - No politician found with bioguide_id: G000551
+2025-04-29 11:50:36,470 - fec_migration - INFO - Successfully migrated FEC IDs from C:\1WebProjects\MAGA_Ops\legislators-historical.yaml
+2025-04-29 11:50:36,579 - fec_migration - INFO - === FEC ID MIGRATION SUMMARY ===
+2025-04-29 11:50:36,579 - fec_migration - INFO - Total records processed: 12759
+2025-04-29 11:50:36,580 - fec_migration - INFO - Records updated: 536
+2025-04-29 11:50:36,580 - fec_migration - INFO - Records missing or not found: 12223
+2025-04-29 11:50:36,581 - fec_migration - INFO - FEC ID migration complete
