@@ -77,46 +77,29 @@
                      <!-- Close button removed, use back button -->
                  </div>
 
+                 <!-- Profile Summary: Image, Bio, Contact, and Actions -->
+                 <div class="profile-summary">
+                     <div class="profile-image-container">
+                         <img id="entity-image" src="" alt="Profile Image" class="profile-image" />
+                     </div>
+                     <div class="profile-summary-details">
+                         <p id="entity-bio-header">Loading biography...</p>
+                         <div class="contact-grid" id="contact-info">Loading contact information...</div>
+                         <div class="header-actions">
+                             <button id="header-analyze-btn" class="btn btn-primary btn-sm" style="display:none; margin-top:10px;">
+                                 <i class="fas fa-magic"></i> Evaluate with AI
+                             </button>
+                         </div>
+                     </div>
+                 </div>
+
                  <div class="card-tabs" id="entity-tabs">
-                     <!-- Common Tabs (JS adds more based on type) -->
-                     <div class="card-tab active" data-tab="info">Information</div>
-                     <div class="card-tab" data-tab="connections">Connections</div>
-                     <div class="card-tab" data-tab="social">Social Media</div>
-                     <!-- Politician specific tabs added by JS -->
-                     <!-- Influencer specific tabs added by JS -->
+                     <!-- Tabs will be created dynamically in JavaScript -->
                  </div>
 
                  <div class="card-content">
-                     <!-- Common Tab Content -->
-                     <div class="tab-content active" id="info-tab-content">
-                         <div class="info-section">
-                             <h3 class="section-title"><i class="fas fa-id-card"></i> Contact Information</h3>
-                             <div class="contact-grid" id="contact-info">Loading...</div>
-                         </div>
-                         <div class="info-section">
-                             <h3 class="section-title"><i class="fas fa-star"></i> Biography/Description</h3>
-                             <p class="bio-text" id="entity-bio">Loading...</p>
-                         </div>
-                         <!-- Add other common info sections if applicable -->
-                     </div>
-
-                     <div class="tab-content" id="connections-tab-content">
-                          <div class="info-section">
-                             <h3 class="section-title"><i class="fas fa-link"></i> Associated Entities</h3>
-                             <p>Politicians, Influencers, Organizations, or PACs linked to this entity.</p>
-                             <ul class="connection-list" id="associated-entities-list">
-                                 <li>Loading connections...</li>
-                             </ul>
-                         </div>
-                         <div class="info-section">
-                             <h3 class="section-title"><i class="fas fa-hand-holding-usd"></i> Key Funding/Affiliations</h3>
-                             <p>Notable donors, PACs, affiliations, or funding sources.</p>
-                             <ul class="connection-list" id="key-funding-list">
-                                 <li>Loading funding info...</li>
-                             </ul>
-                         </div>
-                     </div>
-
+                     <!-- Tab content will be created dynamically in JavaScript -->
+                     <!-- Default social media tab content -->
                      <div class="tab-content" id="social-tab-content">
                          <h3 class="section-title"><i class="fab fa-twitter"></i> Recent Social Media Activity</h3>
                          <div class="social-media-section" id="twitter-section" style="display: none;"> <!-- Hide initially -->
@@ -146,47 +129,6 @@
                          <div id="other-social-placeholder">
                              <p>Other social media activity (e.g., YouTube) could be displayed here.</p>
                          </div>
-                     </div>
-
-                     <!-- Placeholder for Politician Specific Content -->
-                     <div class="tab-content" id="politician-specific-content" style="display: none;">
-                         <!-- Voting Record Tab Content -->
-                         <div id="voting-tab-content">
-                            <h3 class="section-title"><i class="fas fa-check-double"></i> Voting Record</h3>
-                            <p>Voting record details will appear here.</p>
-                            <ul id="voting-record-list"><li>Loading voting record...</li></ul>
-                         </div>
-                         <!-- Committee Tab Content -->
-                          <div id="committees-tab-content">
-                            <h3 class="section-title"><i class="fas fa-users"></i> Committee Assignments</h3>
-                            <p>Committee details will appear here.</p>
-                            <ul id="committee-list"><li>Loading committees...</li></ul>
-                         </div>
-                     </div>
-
-                     <!-- Placeholder for Influencer Specific Content -->
-                     <div class="tab-content" id="influencer-specific-content" style="display: none;">
-                         <h3 class="section-title"><i class="fas fa-chart-line"></i> Key Metrics</h3>
-                         <p>Influencer-specific metrics (e.g., reach, engagement score) could appear here.</p>
-                         <ul id="influencer-metrics-list"><li>Loading metrics...</li></ul>
-
-                         <h3 class="section-title"><i class="fas fa-bullseye"></i> Stances & Narratives</h3>
-                         <p>Key topics, common narratives, and stated stances.</p>
-                         <ul id="influencer-stances-list"><li>Loading stances...</li></ul>
-                     </div>
-
-                      <!-- Placeholder for Reports Tab -->
-                     <div class="tab-content" id="reports-tab-content" style="display: none;">
-                          <h3 class="section-title"><i class="fas fa-file-alt"></i> Analysis & Reports</h3>
-                          <div id="analysis-actions">
-                                <button class="btn btn-secondary report-btn" data-report-type="summary_brief">Generate Summary Brief</button>
-                                <button class="btn btn-secondary report-btn" data-report-type="connection_map">Generate Connection Map</button>
-                                <!-- Add more report buttons -->
-                            </div>
-                            <div class="report-output-area" id="report-output-area" style="display: none; margin-top: 15px;">
-                                <pre id="report-output-content">Report output...</pre>
-                                <button class="btn btn-sm close-report-btn" id="close-report-btn"><i class="fas fa-times"></i> Close Report</button>
-                            </div>
                      </div>
                  </div>
              </div>

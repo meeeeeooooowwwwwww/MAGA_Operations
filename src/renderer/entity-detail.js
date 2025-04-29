@@ -5,58 +5,129 @@ console.log('[entity-detail.js] Script loaded');
 document.addEventListener('DOMContentLoaded', () => {
     console.log('[entity-detail.js] DOMContentLoaded event fired');
 
-    // --- Global State --- //
-    let currentEntityType = null;
+    // Global element references for entity details view 
     let currentEntityId = null;
+    let currentEntityType = null;
     let currentEntityData = null;
-    // Add flags to track if type-specific data has been loaded
+    let errorTimeout = null;
+    let latestTweetAnalysisData = null; // Store the last tweet analysis data
+
+    // UI Flags
     let votingRecordLoaded = false;
     let committeesLoaded = false;
     let metricsLoaded = false;
     let stancesLoaded = false;
-    // Add state for latest tweet analysis results
-    let latestTweetAnalysisData = null;
 
-    // --- DOM Elements --- //
-    const entityNameEl = document.getElementById('entity-name');
-    const entityMetaEl = document.getElementById('entity-meta');
-    const entityBioEl = document.getElementById('entity-bio');
-    const contactInfoEl = document.getElementById('contact-info');
-    // ... (add other common elements: connections, funding lists etc.)
-    const backButton = document.getElementById('back-button');
-    const tabsContainer = document.getElementById('entity-tabs');
-    const tabContentsContainer = document.querySelector('.card-content'); // Parent for tab contents
+    // DOM element references
+    let entityNameEl;
+    let entityBioEl;
+    let entityMetaEl;
+    let contactInfoEl;
+    let backButton;
+    let tabsContainer;
+    let tabContentsContainer; // Container for all tab content
+    let politicianSpecificContent;
+    let influencerSpecificContent;
+    let reportsTabContent;
+    let twitterSection;
+    let latestTweetEl;
+    let analyzeTweetBtn;
+    let tweetAnalysisSection;
+    let analysisListEl;
+    let entitySpecificActions;
+    let entityActionButtons;
+    let errorDisplayArea;
 
-    // Social Tab Specific
-    const twitterSection = document.getElementById('twitter-section');
-    const latestTweetEl = document.getElementById('latest-tweet');
-    const analyzeTweetBtn = document.getElementById('analyze-tweet-btn');
-    const tweetAnalysisSection = document.getElementById('tweet-analysis-section');
-    const analysisListEl = document.getElementById('analysis-list');
+    // Modal Elements
+    let generationModalOverlay;
+    let generationModalContent;
+    let generationModalTitle;
+    let generationModalTextarea;
+    let generationModalCloseBtn;
+    let generationModalCloseBtnFooter;
+    let generationModalCopyBtn;
 
-    // Placeholders for Type-Specific Content
-    const politicianSpecificContent = document.getElementById('politician-specific-content');
-    const influencerSpecificContent = document.getElementById('influencer-specific-content');
-    const reportsTabContent = document.getElementById('reports-tab-content'); // Assuming reports are common
-
-    // Sidebar Actions Area
-    const entitySpecificActions = document.getElementById('entity-specific-actions');
-    const entityActionButtons = document.getElementById('entity-action-buttons');
-
-    // NEW: Modal Elements
-    const generationModalOverlay = document.getElementById('generation-modal-overlay');
-    const generationModalTitle = document.getElementById('generation-modal-title');
-    const generationModalTextarea = document.getElementById('generation-modal-textarea');
-    const generationModalCloseBtn = document.getElementById('generation-modal-close-btn');
-    const generationModalCloseBtnFooter = document.getElementById('generation-modal-close-btn-footer');
-    const generationModalCopyBtn = document.getElementById('generation-modal-copy-btn');
-    // NEW: Error Display Element
-    const errorDisplayArea = document.getElementById('error-display-area');
-    let errorTimeout = null; // Variable to hold the timeout ID
-
-    // --- Initialization --- //
-    initializeView();
+    // Get DOM element references
+    entityNameEl = document.getElementById('entity-name');
+    entityBioEl = document.getElementById('entity-bio-header');
+    entityMetaEl = document.getElementById('entity-meta');
+    contactInfoEl = document.getElementById('contact-info');
+    tabsContainer = document.getElementById('entity-tabs');
+    tabContentsContainer = document.querySelector('.card-content');
+    politicianSpecificContent = document.createElement('div');
+    politicianSpecificContent.id = 'politician-specific-content';
+    tabContentsContainer.appendChild(politicianSpecificContent);
+    influencerSpecificContent = document.createElement('div');
+    influencerSpecificContent.id = 'influencer-specific-content';
+    tabContentsContainer.appendChild(influencerSpecificContent);
+    
+    // Create tab content containers for common tabs
+    const infoTabContent = document.createElement('div');
+    infoTabContent.id = 'info-tab-content';
+    infoTabContent.className = 'tab-content';
+    infoTabContent.innerHTML = `
+        <div class="info-section">
+            <h3 class="section-title"><i class="fas fa-info-circle"></i> Basic Information</h3>
+            <div id="basic-info">Loading basic information...</div>
+        </div>
+        <div class="info-section">
+            <h3 class="section-title"><i class="fas fa-users"></i> Associated Entities</h3>
+            <ul class="connection-list" id="associated-entities-list">
+                <li>Loading connections...</li>
+            </ul>
+        </div>
+        <div class="info-section">
+            <h3 class="section-title"><i class="fas fa-dollar-sign"></i> Key Funding</h3>
+            <ul class="connection-list" id="key-funding-list">
+                <li>Loading funding information...</li>
+            </ul>
+        </div>
+    `;
+    tabContentsContainer.appendChild(infoTabContent);
+    
+    // Create reports tab content
+    reportsTabContent = document.createElement('div');
+    reportsTabContent.id = 'reports-tab-content';
+    reportsTabContent.className = 'tab-content';
+    reportsTabContent.innerHTML = `
+        <div class="info-section">
+            <h3 class="section-title"><i class="fas fa-chart-bar"></i> AI Analysis Reports</h3>
+            <p>This section will contain AI-generated reports for this entity.</p>
+        </div>
+    `;
+    tabContentsContainer.appendChild(reportsTabContent);
+    
+    // Add the fixed tabs (these are always there regardless of entity type)
+    addTab('info', 'Basic Info');
+    addTab('social', 'Social Media');
+    
+    // Get references to specific sections after dynamic creation
+    twitterSection = document.getElementById('twitter-section') || document.createElement('div');
+    latestTweetEl = document.getElementById('latest-tweet') || document.createElement('div');
+    analyzeTweetBtn = document.getElementById('analyze-tweet-btn');
+    tweetAnalysisSection = document.getElementById('tweet-analysis-section');
+    analysisListEl = document.getElementById('analysis-list');
+    
+    // Sidebar specific elements
+    backButton = document.getElementById('back-button');
+    entitySpecificActions = document.getElementById('entity-specific-actions');
+    entityActionButtons = document.getElementById('entity-action-buttons');
+    errorDisplayArea = document.getElementById('error-display-area');
+    
+    // Modal elements
+    generationModalOverlay = document.getElementById('generation-modal-overlay');
+    generationModalContent = document.getElementById('generation-modal-content');
+    generationModalTitle = document.getElementById('generation-modal-title');
+    generationModalTextarea = document.getElementById('generation-modal-textarea');
+    generationModalCloseBtn = document.getElementById('generation-modal-close-btn');
+    generationModalCloseBtnFooter = document.getElementById('generation-modal-close-btn-footer');
+    generationModalCopyBtn = document.getElementById('generation-modal-copy-btn');
+    
+    // Set up event listeners
     setupEventListeners();
+    
+    // Initialize the view
+    initializeView();
 
     // --- Functions --- //
 
@@ -187,21 +258,62 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function setupEntityTypeSpecificUI(data) {
         console.log(`Setting up UI for type: ${currentEntityType}`);
+        
         // Hide all specific content first
-        politicianSpecificContent.style.display = 'none';
-        influencerSpecificContent.style.display = 'none';
-        reportsTabContent.style.display = 'none'; // Hide reports initially
+        if (politicianSpecificContent) {
+            politicianSpecificContent.style.display = 'none';
+            politicianSpecificContent.innerHTML = ''; // Clear previous content
+        }
+        if (influencerSpecificContent) {
+            influencerSpecificContent.style.display = 'none';
+            influencerSpecificContent.innerHTML = ''; // Clear previous content
+        }
 
         // Remove existing type-specific tabs
         tabsContainer.querySelectorAll('.type-specific-tab').forEach(tab => tab.remove());
 
         // Show entity-specific sidebar actions container
-        entitySpecificActions.style.display = 'block';
-        entityActionButtons.innerHTML = ''; // Clear old buttons
+        if (entitySpecificActions) {
+            entitySpecificActions.style.display = 'block';
+        }
+        if (entityActionButtons) {
+            entityActionButtons.innerHTML = ''; // Clear old buttons
+        }
 
         // --- Politician Specific --- //
         if (currentEntityType === 'politician') {
-            politicianSpecificContent.style.display = 'block'; // Show the container
+            // Create tab content containers for politician-specific tabs
+            const votingTabContent = document.createElement('div');
+            votingTabContent.id = 'voting-tab-content';
+            votingTabContent.className = 'tab-content';
+            votingTabContent.innerHTML = `
+                <div class="info-section">
+                    <h3 class="section-title"><i class="fas fa-check-double"></i> Voting Record</h3>
+                    <ul class="connection-list" id="voting-record-list">
+                        <li>Loading voting record...</li>
+                    </ul>
+                </div>
+            `;
+            politicianSpecificContent.appendChild(votingTabContent);
+            
+            const committeesTabContent = document.createElement('div');
+            committeesTabContent.id = 'committees-tab-content';
+            committeesTabContent.className = 'tab-content';
+            committeesTabContent.innerHTML = `
+                <div class="info-section">
+                    <h3 class="section-title"><i class="fas fa-users"></i> Committee Assignments</h3>
+                    <ul class="connection-list" id="committee-list">
+                        <li>Loading committees...</li>
+                    </ul>
+                </div>
+                <div class="info-section">
+                    <h3 class="section-title"><i class="fas fa-building"></i> District Offices</h3>
+                    <ul class="connection-list" id="office-info-list">
+                        <li>Loading office information...</li>
+                    </ul>
+                </div>
+            `;
+            politicianSpecificContent.appendChild(committeesTabContent);
 
             // Add Tabs
             addTab('voting', 'Voting Record', true);
@@ -211,40 +323,61 @@ document.addEventListener('DOMContentLoaded', () => {
             // Add Sidebar Actions
             addSidebarAction('view-voting-record', 'fas fa-check-double', 'View Voting Record');
             if (data.twitter_handle) {
-                 addSidebarAction('analyze-tweet-sidebar-btn', 'fas fa-magic', 'Evaluate Tweet', handleAnalyzeTweetClick);
+                addSidebarAction('analyze-tweet-sidebar-btn', 'fas fa-magic', 'Evaluate Tweet', handleAnalyzeTweetClick);
             }
 
             // --- Fetch Static Politician Data (Voting, Committees) ---
-            // Request this data once when the view loads, relying on backend cache/db
             fetchAndPopulateList('voting_record', document.getElementById('voting-record-list'), 'No voting record available in database.');
             fetchAndPopulateList('committees', document.getElementById('committee-list'), 'No committee assignments available in database.');
-
+            fetchAndPopulateList('district_offices', document.getElementById('office-info-list'), 'No district offices on record.');
         } 
         // --- Influencer Specific --- //
         else if (currentEntityType === 'influencer') {
-            influencerSpecificContent.style.display = 'block';
+            // Create tab content containers for influencer-specific tabs
+            const metricsTabContent = document.createElement('div');
+            metricsTabContent.id = 'metrics-tab-content';
+            metricsTabContent.className = 'tab-content';
+            metricsTabContent.innerHTML = `
+                <div class="info-section">
+                    <h3 class="section-title"><i class="fas fa-chart-line"></i> Influence Metrics</h3>
+                    <ul class="connection-list" id="influencer-metrics-list">
+                        <li>Loading metrics...</li>
+                    </ul>
+                </div>
+            `;
+            influencerSpecificContent.appendChild(metricsTabContent);
+            
+            const stancesTabContent = document.createElement('div');
+            stancesTabContent.id = 'stances-tab-content';
+            stancesTabContent.className = 'tab-content';
+            stancesTabContent.innerHTML = `
+                <div class="info-section">
+                    <h3 class="section-title"><i class="fas fa-bullhorn"></i> Key Stances & Narratives</h3>
+                    <ul class="connection-list" id="influencer-stances-list">
+                        <li>Loading stances...</li>
+                    </ul>
+                </div>
+            `;
+            influencerSpecificContent.appendChild(stancesTabContent);
 
             // Add Tabs
             addTab('metrics', 'Key Metrics', true);
             addTab('stances', 'Stances & Narratives', true);
-             addTab('reports', 'Analysis & Reports', true); // Add reports for influencers too
+            addTab('reports', 'Analysis & Reports', true);
 
             // Add Sidebar Actions
             addSidebarAction('view-influencer-metrics', 'fas fa-chart-line', 'View Metrics');
-            if (data.twitter_handle) { // Add evaluate button for influencers too?
-                 addSidebarAction('analyze-tweet-sidebar-btn', 'fas fa-magic', 'Evaluate Tweet', handleAnalyzeTweetClick);
+            if (data.twitter_handle) {
+                addSidebarAction('analyze-tweet-sidebar-btn', 'fas fa-magic', 'Evaluate Tweet', handleAnalyzeTweetClick);
             }
 
-             // Initiate fetching type-specific data (will be done when tab is clicked or later)
-            // fetchAndDisplayMetrics(); // Example: Call functions later or on tab click
-            // fetchAndDisplayStances();
             // Clear lists initially
             populateList(document.getElementById('influencer-metrics-list'), [], 'Loading metrics...');
             populateList(document.getElementById('influencer-stances-list'), [], 'Loading stances...');
         }
 
         // Activate the first tab by default
-        showTab('info'); 
+        showTab('info');
     }
 
     function addTab(tabId, tabLabel, isTypeSpecific = false) {
@@ -272,16 +405,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function showTab(tabId) {
         console.log(`[entity-detail.js] Showing tab: ${tabId}`);
+        
         // Deactivate all tabs
         tabsContainer.querySelectorAll('.card-tab').forEach(tab => tab.classList.remove('active'));
+        
         // Hide all tab content panels
-        // Refined: Select only direct children '.tab-content' to avoid nested issues
-        tabContentsContainer.querySelectorAll(':scope > .tab-content, :scope > #politician-specific-content > .tab-content, :scope > #influencer-specific-content > .tab-content').forEach(content => {
-             if (content) content.style.display = 'none';
-         });
-         // Also hide the wrapper divs initially
-         politicianSpecificContent.style.display = 'none';
-         influencerSpecificContent.style.display = 'none';
+        document.querySelectorAll('.tab-content').forEach(content => {
+            content.style.display = 'none';
+        });
+        
+        // Hide special containers
+        if (politicianSpecificContent) {
+            politicianSpecificContent.style.display = 'none';
+        }
+        if (influencerSpecificContent) {
+            influencerSpecificContent.style.display = 'none';
+        }
 
         // Activate the selected tab
         const activeTab = tabsContainer.querySelector(`.card-tab[data-tab="${tabId}"]`);
@@ -297,58 +436,70 @@ document.addEventListener('DOMContentLoaded', () => {
         let loadedFlag = true; // Assume loaded unless it's a fetchable tab
 
         if (currentEntityType === 'politician') {
-             politicianSpecificContent.style.display = 'block'; // Show the container for politician tabs
             if (tabId === 'voting') {
                 contentPanel = document.getElementById('voting-tab-content');
+                if (politicianSpecificContent) {
+                    politicianSpecificContent.style.display = 'block';
+                }
                 loadedFlag = votingRecordLoaded;
                 if (!loadedFlag) fetchFunction = fetchAndDisplayVotingRecord;
             } else if (tabId === 'committees') {
                 contentPanel = document.getElementById('committees-tab-content');
+                if (politicianSpecificContent) {
+                    politicianSpecificContent.style.display = 'block';
+                }
                 loadedFlag = committeesLoaded;
                 if (!loadedFlag) fetchFunction = fetchAndDisplayCommittees;
             }
         } else if (currentEntityType === 'influencer') {
-             influencerSpecificContent.style.display = 'block'; // Show the container for influencer tabs
-             if (tabId === 'metrics') {
-                 contentPanel = document.getElementById('metrics-tab-content');
-                 loadedFlag = metricsLoaded;
-                 if (!loadedFlag) fetchFunction = fetchAndDisplayMetrics;
-             } else if (tabId === 'stances') {
-                 contentPanel = document.getElementById('stances-tab-content');
-                 loadedFlag = stancesLoaded;
-                 if (!loadedFlag) fetchFunction = fetchAndDisplayStances;
-             }
+            if (tabId === 'metrics') {
+                contentPanel = document.getElementById('metrics-tab-content');
+                if (influencerSpecificContent) {
+                    influencerSpecificContent.style.display = 'block';
+                }
+                loadedFlag = metricsLoaded;
+                if (!loadedFlag) fetchFunction = fetchAndDisplayMetrics;
+            } else if (tabId === 'stances') {
+                contentPanel = document.getElementById('stances-tab-content');
+                if (influencerSpecificContent) {
+                    influencerSpecificContent.style.display = 'block';
+                }
+                loadedFlag = stancesLoaded;
+                if (!loadedFlag) fetchFunction = fetchAndDisplayStances;
+            }
         }
 
-        // Handle common tabs ('info', 'reports', potentially others)
+        // Handle common tabs ('info', 'social', 'reports', potentially others)
         if (!contentPanel) {
-            if (tabId === 'info') {
-                contentPanel = document.getElementById('info-tab-content');
-            } else if (tabId === 'reports') {
+            if (tabId === 'reports') {
                 contentPanel = document.getElementById('reports-tab-content');
-                // Ensure the correct parent container is visible if needed (e.g., if reports are nested)
-                 if (currentEntityType === 'politician') politicianSpecificContent.style.display = 'block';
-                 else if (currentEntityType === 'influencer') influencerSpecificContent.style.display = 'block';
-                // TODO: Add logic to fetch reports if needed, similar to other tabs
+                // Show appropriate container based on entity type
+                if (currentEntityType === 'politician' && politicianSpecificContent) {
+                    politicianSpecificContent.style.display = 'block';
+                } else if (currentEntityType === 'influencer' && influencerSpecificContent) {
+                    influencerSpecificContent.style.display = 'block';
+                }
             }
         }
 
         if (contentPanel) {
             contentPanel.style.display = 'block';
-             // Fetch data if needed and not already loaded
-             if (fetchFunction && !loadedFlag) {
-                 console.log(`[entity-detail.js] Fetching data for tab: ${tabId}`);
-                 fetchFunction(); // Call the specific fetch function
-             }
+            // Fetch data if needed and not already loaded
+            if (fetchFunction && !loadedFlag) {
+                console.log(`[entity-detail.js] Fetching data for tab: ${tabId}`);
+                fetchFunction(); // Call the specific fetch function
+            }
         } else {
             console.warn(`Content panel not found for tab: ${tabId}. Defaulting to 'info'.`);
             // Show the 'info' tab as a fallback
-            document.getElementById('info-tab-content').style.display = 'block';
+            const infoTabContent = document.getElementById('info-tab-content');
+            if (infoTabContent) {
+                infoTabContent.style.display = 'block';
+            }
             const infoTab = tabsContainer.querySelector('.card-tab[data-tab="info"]');
-            if (infoTab) infoTab.classList.add('active');
-            // Ensure type-specific containers are hidden if we default to 'info'
-            politicianSpecificContent.style.display = 'none';
-            influencerSpecificContent.style.display = 'none';
+            if (infoTab) {
+                infoTab.classList.add('active');
+            }
         }
     }
 

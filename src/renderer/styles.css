@@ -656,6 +656,40 @@
     padding-bottom: 2px;
 }
 
+/* Card Tabs (Entity Detail Page) */
+.card-tabs {
+    display: flex;
+    border-bottom: 1px solid var(--border-color-light);
+    margin-top: 20px;
+    background: var(--white);
+}
+
+.card-tab {
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    color: var(--dark-gray);
+    transition: all 0.2s ease;
+}
+
+.card-tab:hover {
+    color: var(--maga-red);
+    background-color: var(--light-pink);
+}
+
+.card-tab.active {
+    color: var(--maga-red);
+    border-bottom-color: var(--maga-red);
+    background-color: var(--light-pink);
+}
+
+.card-content {
+    padding: 20px 10px;
+    background: var(--white);
+}
+
 .tab-button {
     background: none;
     border: none;
@@ -1042,4 +1076,33 @@
     padding: 20px;
     max-width: 800px;
     margin: 0 auto;
+}
+
+/* Profile Summary Header */
+.profile-summary {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.profile-image-container {
+    flex: 0 0 auto;
+}
+.profile-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--border-color-light);
+}
+.profile-summary-details {
+    flex: 1 1 auto;
+}
+#entity-bio-header {
+    margin: 0 0 10px 0;
+    font-size: 0.9rem;
+    color: var(--dark-gray);
+}
+.header-actions {
+    margin-top: 10px;
 }
